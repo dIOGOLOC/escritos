@@ -1,0 +1,4 @@
+For special characters (not english), edit cisbgf.sty and change utf8 (Brazillian Portuguese) for the proper option
+
+To prepare a PDF file USE 
+pdflatex example.tex

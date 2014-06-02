@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Example.aux
+The style file: seg.bst
+Illegal, another \bibstyle command---line 36 of file Example.aux
+ : \bibstyle
+ :          {seg}
+I'm skipping whatever remains of this command
+Database file #1: relatorioref.bib
+You've used 10 entries,
+            2639 wiz_defined-function locations,
+            779 strings with 8539 characters,
+and the built_in function-call counts, 4276 in all, are:
+= -- 475
+> -- 173
+< -- 7
++ -- 61
+- -- 58
+* -- 391
+:= -- 739
+add.period$ -- 12
+call.type$ -- 10
+change.case$ -- 80
+chr.to.int$ -- 9
+cite$ -- 10
+duplicate$ -- 137
+empty$ -- 291
+format.name$ -- 78
+if$ -- 859
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 9
+newline$ -- 36
+num.names$ -- 30
+pop$ -- 52
+preamble$ -- 1
+purify$ -- 79
+quote$ -- 0
+skip$ -- 100
+stack$ -- 0
+substring$ -- 353
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 60
+warning$ -- 0
+while$ -- 38
+width$ -- 0
+write$ -- 117
+(There was 1 error message)
