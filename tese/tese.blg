@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: tese.aux
+A level-1 auxiliary file: tese_capa.aux
+A level-1 auxiliary file: tese_folhaderosto.aux
+A level-1 auxiliary file: tese_dedicatoria.aux
+A level-1 auxiliary file: tese_agradecimentos.aux
+A level-1 auxiliary file: tese_resumo.aux
+A level-1 auxiliary file: tese_abstract.aux
+A level-1 auxiliary file: tese_contextogeologico.aux
+A level-1 auxiliary file: tese_metodologia.aux
+A level-1 auxiliary file: tese_resultados.aux
+A level-1 auxiliary file: tese_conclusao.aux
+The style file: seg.bst
+A level-1 auxiliary file: tese_anexo_tabela1.aux
+Database file #1: tese_ref.bib
+Warning--empty journal in gibbons_identification_2006
+Warning--empty journal in kennet_iaspei_1991
+You've used 4 entries,
+            2639 wiz_defined-function locations,
+            736 strings with 6914 characters,
+and the built_in function-call counts, 1533 in all, are:
+= -- 165
+> -- 34
+< -- 4
++ -- 12
+- -- 10
+* -- 133
+:= -- 262
+add.period$ -- 4
+call.type$ -- 4
+change.case$ -- 25
+chr.to.int$ -- 4
+cite$ -- 6
+duplicate$ -- 56
+empty$ -- 125
+format.name$ -- 16
+if$ -- 312
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 16
+num.names$ -- 12
+pop$ -- 15
+preamble$ -- 1
+purify$ -- 25
+quote$ -- 0
+skip$ -- 44
+stack$ -- 0
+substring$ -- 154
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 24
+warning$ -- 2
+while$ -- 14
+width$ -- 0
+write$ -- 45
+(There were 2 warnings)

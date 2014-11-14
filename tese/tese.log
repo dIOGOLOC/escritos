@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.21)  11 NOV 2014 19:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.21)  14 NOV 2014 21:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -227,12 +227,16 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count108
 \@thisrulewidth=\dimen127
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks25
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks25
+\KV@toks@=\toks26
 )
 \Gin@req@height=\dimen128
 \Gin@req@width=\dimen129
@@ -275,7 +279,7 @@ Package ifvtex Info: VTeX not detected.
 \Gm@layoutheight=\dimen137
 \Gm@layouthoffset=\dimen138
 \Gm@layoutvoffset=\dimen139
-\Gm@dimlist=\toks26
+\Gm@dimlist=\toks27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
@@ -434,7 +438,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box28
-\AM@toc@title=\toks27
+\AM@toc@title=\toks28
 \c@AM@survey=\count130
 \AM@templatesizebox=\box29
 )
@@ -443,26 +447,33 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 
 
 Writing index file tese.idx
-(./tese.aux (./tese_capa.aux) (./tese_folhaderosto.aux) (./tese_dedicatoria.aux
-) (./tese_agradecimentos.aux) (./tese_resumo.aux) (./tese_abstract.aux)
-(./tese_contextogeologico.aux) (./tese_metodologia.aux) (./tese_resultados.aux)
-(./tese_conclusao.aux))
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (./tese.aux (./tese_capa.aux) (./tese_folhaderosto.aux)
+(./tese_dedicatoria.aux) (./tese_agradecimentos.aux) (./tese_resumo.aux)
+(./tese_abstract.aux) (./tese_contextogeologico.aux) (./tese_metodologia.aux)
+(./tese_resultados.aux) (./tese_conclusao.aux) (./tese_anexo_tabela1.aux))
 \openout1 = `tese.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -474,12 +485,12 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 \scratchbox=\box30
 \nofMPsegments=\count132
 \nofMParguments=\count133
-\everyMPshowfont=\toks28
+\everyMPshowfont=\toks29
 \MPscratchCnt=\count134
 \MPscratchDim=\dimen147
 \MPnumerator=\count135
 \makeMPintoPDFobject=\count136
-\everyMPtoPDFconversion=\toks29
+\everyMPtoPDFconversion=\toks30
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -495,15 +506,15 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \celsius on input line 24.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 24.
+LaTeX Info: Redefining \celsius on input line 25.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 25.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 24.
-Package gensymb Info: Using \Omega for \ohm on input line 24.
+LaTeX Info: Redefining \ohm on input line 25.
+Package gensymb Info: Using \Omega for \ohm on input line 25.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -542,7 +553,7 @@ Package gensymb Warning: Not defining \micro.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 25.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -551,9 +562,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count137
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
 
 (./tese.out) (./tese.out)
 \@outlinefile=\write4
@@ -565,19 +576,19 @@ LaTeX Info: Redefining \nameref on input line 24.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4.
 
-<mcti.png, id=8, 92.9874pt x 28.6671pt>
+<mcti.png, id=24, 92.9874pt x 28.6671pt>
 File: mcti.png Graphic file (type png)
  <use mcti.png>
 Package pdftex.def Info: mcti.png used on input line 7.
 (pdftex.def)             Requested size: 113.81335pt x 28.45354pt.
 
-<dppg.png, id=10, 268.48305pt x 111.65715pt>
+<dppg.png, id=26, 268.48305pt x 111.65715pt>
 File: dppg.png Graphic file (type png)
  <use dppg.png>
 Package pdftex.def Info: dppg.png used on input line 8.
 (pdftex.def)             Requested size: 85.35916pt x 28.45259pt.
 
-<logo_on.jpg, id=11, 401.5pt x 342.27875pt>
+<logo_on.jpg, id=27, 401.5pt x 342.27875pt>
 File: logo_on.jpg Graphic file (type jpg)
  <use logo_on.jpg>
 Package pdftex.def Info: logo_on.jpg used on input line 12.
@@ -587,9 +598,9 @@ Package pdftex.def Info: logo_on.jpg used on input line 12.
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 ))
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 26.
  [1
 
 
@@ -623,35 +634,44 @@ l.39 \end{titlepage}
                      [1
 
 
-]) (./tese.lof)
+])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 29.
+ (./tese.lof)
 \tf@lof=\write5
 \openout5 = `tese.lof'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 30.
  [1
 
 
-] (./tese.lot)
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 30.
+ (./tese.lot)
 \tf@lot=\write6
 \openout6 = `tese.lot'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
  [2
 
-] (./tese.toc)
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 31.
+ (./tese.toc)
 \tf@toc=\write7
 \openout7 = `tese.toc'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 32.
 
 [3
 
@@ -660,9 +680,9 @@ Package babel Info: Redefining portuges shorthand "|
 
  (./tese_dedicatoria.tex)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 32.
  [4
 
 
@@ -671,9 +691,9 @@ Package babel Info: Redefining portuges shorthand "|
 
  (./tese_agradecimentos.tex)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 33.
  [5
 
 
@@ -684,9 +704,9 @@ Package babel Info: Redefining portuges shorthand "|
 
 (./tese_resumo.tex)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 35.
  [1
 
 
@@ -696,9 +716,9 @@ Package babel Info: Redefining portuges shorthand "|
 
  (./tese_abstract.tex)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 36.
  [2
 
 
@@ -708,9 +728,9 @@ Package babel Info: Redefining portuges shorthand "|
 
  (./tese_contextogeologico.tex)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 37.
  [3
 
 
@@ -722,14 +742,15 @@ Package babel Info: Redefining portuges shorthand "|
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-30.def
 File: uni-30.def 2013/05/13 UCS: Unicode data U+1E00..U+1EFF
 )
-<mapa_das_estacoes_simosgraficas_instaladas.png, id=80, 500.634pt x 353.7945pt>
+<mapa_das_estacoes_simosgraficas_instaladas.png, id=116, 1224.2538pt x 865.0719
+pt>
 File: mapa_das_estacoes_simosgraficas_instaladas.png Graphic file (type png)
-<use mapa_das_estacoes_simosgraficas_instaladas.png>
+ <use mapa_das_estacoes_simosgraficas_instaladas.png>
 Package pdftex.def Info: mapa_das_estacoes_simosgraficas_instaladas.png used on
  input line 10.
-(pdftex.def)             Requested size: 500.63277pt x 353.79362pt.
+(pdftex.def)             Requested size: 489.69284pt x 346.02263pt.
 
-Overfull \hbox (45.38866pt too wide) in paragraph at lines 10--11
+Overfull \hbox (34.44873pt too wide) in paragraph at lines 10--11
  [][] 
  []
 
@@ -742,37 +763,90 @@ Package babel Info: Redefining portuges shorthand "|
 
 
  <./mapa_das_estacoes_simosgraficas_instaladas.png>]
-<sismograma.png, id=89, 729.927pt x 312.2064pt>
+<sismograma.png, id=126, 729.927pt x 312.2064pt>
 File: sismograma.png Graphic file (type png)
  <use sismograma.png>
-Package pdftex.def Info: sismograma.png used on input line 58.
+Package pdftex.def Info: sismograma.png used on input line 21.
 (pdftex.def)             Requested size: 437.95958pt x 187.32529pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 89.
- [5]
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+(babel)             in language  on input line 40.
+ [5 <./sismograma.png>] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-3
+2.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
+<mcnamura_buland.png, id=146, 605.26125pt x 455.7025pt>
+File: mcnamura_buland.png Graphic file (type png)
+
+<use mcnamura_buland.png>
+Package pdftex.def Info: mcnamura_buland.png used on input line 55.
+(pdftex.def)             Requested size: 484.20964pt x 364.56248pt.
+
+Overfull \hbox (28.96553pt too wide) in paragraph at lines 55--56
+ [][] 
+ []
+
+
+Overfull \hbox (1.22993pt too wide) in paragraph at lines 62--63
+[]\T1/cmr/m/n/12 Nesste tra-ba-lho uti-li-za-mos uma me-to-do-lo-gia se-me-lhan
+te a de []Gib-bons[] ([]2006[]). Utilizou-
+ []
+
+<correlacao_tempo_de_chegada.png, id=158, 772.8875pt x 607.26875pt>
+File: correlacao_tempo_de_chegada.png Graphic file (type png)
+
+<use correlacao_tempo_de_chegada.png>
+Package pdftex.def Info: correlacao_tempo_de_chegada.png used on input line 66.
+
+(pdftex.def)             Requested size: 463.73607pt x 364.36406pt.
+
+Overfull \hbox (8.49196pt too wide) in paragraph at lines 66--67
+ [][] 
+ []
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 118.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 118.
- [6 <./sismograma.png>])
+(babel)             in language  on input line 69.
+[6] <mapa_de_eventos.png, id=174, 782.6841pt x 377.9721pt>
+File: mapa_de_eventos.png Graphic file (type png)
+
+<use mapa_de_eventos.png>
+Package pdftex.def Info: mapa_de_eventos.png used on input line 75.
+(pdftex.def)             Requested size: 469.61409pt x 226.785pt.
+
+Overfull \hbox (14.36998pt too wide) in paragraph at lines 75--76
+ [][] 
+ []
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 37.
- [7]
+(babel)             in language  on input line 89.
+[7 <./mcnamura_buland.png>]
+
+LaTeX Warning: Text page 8 contains only floats.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 89.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 89.
+[8 <./correlacao_tempo_de_chegada.png> <./mapa_de_eventos.png>])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 38.
+ [9]
 \openout2 = `tese_resultados.aux'.
 
- (./tese_resultados.tex)
+
+(./tese_resultados.tex)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 38.
- [8
+(babel)             in language  on input line 39.
+ [10
 
 
 
@@ -781,46 +855,74 @@ Package babel Info: Redefining portuges shorthand "|
 
  (./tese_conclusao.tex)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 39.
- [9
+(babel)             in language  on input line 40.
+ [11
 
+
+
+] (./tese.bbl
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 44.
+ [12
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
- (./tese.aux
-(./tese_capa.aux) (./tese_folhaderosto.aux) (./tese_dedicatoria.aux)
-(./tese_agradecimentos.aux) (./tese_resumo.aux) (./tese_abstract.aux)
-(./tese_contextogeologico.aux) (./tese_metodologia.aux) (./tese_resultados.aux)
-(./tese_conclusao.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
+\openout2 = `tese_anexo_tabela1.aux'.
+
+
+(./tese_anexo_tabela1.tex)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 44.
+ [13
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
+ (./tese.aux (./tese_capa.aux)
+(./tese_folhaderosto.aux) (./tese_dedicatoria.aux) (./tese_agradecimentos.aux)
+(./tese_resumo.aux) (./tese_abstract.aux) (./tese_contextogeologico.aux)
+(./tese_metodologia.aux) (./tese_resultados.aux) (./tese_conclusao.aux)
+(./tese_anexo_tabela1.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `tese.out' has not changed.
-(rerunfilecheck)             Checksum: 9E35B20644F77D18519D14F4ADCCC6C4;38.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
+(rerunfilecheck)             Checksum: 29EF403FA324A4537E0B7B4B1DFF5EF5;257.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 10564 strings out of 494963
- 145924 string characters out of 6179647
- 253991 words of memory out of 5000000
- 13487 multiletter control sequences out of 15000+600000
- 15233 words of font info for 41 fonts, out of 8000000 for 9000
+ 10728 strings out of 494963
+ 148601 string characters out of 6179647
+ 252348 words of memory out of 5000000
+ 13614 multiletter control sequences out of 15000+600000
+ 16693 words of font info for 43 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 37i,9n,39p,969b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/d
-iogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/diogo/.texmf
--var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/diogo/.texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm1728.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/
-ecbx1728.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.60
-0pk>
-Output written on tese.pdf (16 pages, 580687 bytes).
+ 37i,9n,39p,1339b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/d
+iogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/diogo/.texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/diogo/.texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecrm1440.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecbx1440.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.60
+0pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home
+/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on tese.pdf (20 pages, 1658562 bytes).
 PDF statistics:
- 435 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 34 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 631 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

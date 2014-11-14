@@ -11,6 +11,7 @@
 \usepackage{gensymb}
 \usepackage{pdflscape}
 \usepackage{booktabs} 
+\usepackage{enumerate}
 \usepackage[pdftex]{graphicx}
 \usepackage{subfigure}
 \usepackage{geometry}
@@ -19,7 +20,7 @@
 \usepackage[pdftex]{hyperref} %Inserindo Links
 \usepackage{pdfpages} %Inserindo PDFs
 \makeindex
-%\usepackage{tocbibind}
+\usepackage{tocbibind}
 
 \begin{document}
 \include{tese_capa}
@@ -37,6 +38,11 @@
 \include{tese_metodologia}
 \include{tese_resultados}
 \include{tese_conclusao}
+%\addcontentsline{toc}{chapter}{Referências Bibliográficas}
+\bibliographystyle{seg}  
+\bibliography{tese_ref}
+\include{tese_anexo_tabela1}
+
 %\appendix
 %\addcontentsline{toc}{chapter}{Apêndice}
 %\includepdf[pages={-}]{artigo_sbgf.pdf}$

@@ -1,0 +1,92 @@
+@phdthesis{Riccomini_1989,
+	title = {O Rift continental do sudeste do Brasil. São Paulo: Instituto de Geociências Universidade de São Paulo.},
+	school = {Instituto de Geociências Universidade de São Paulo.},
+	Type = {{PhD} in Geolgy},
+	author = {Riccomini, C.},
+	year = {1989},
+}
+
+@article{Hasui_Sadowski_1976,
+	title = {Evolução geológica do Pré-Cambriano na região sudeste do Estado de São Paulo.},
+	volume = {6},
+	number = {3},
+	journal = {Revista Brasileira de Geociências},
+	author = {Hasui, Y. and Sadowski, G.R.},
+	year = {1976},
+	pages = {182-200},
+}
+
+@article{Almeida_Carneiro_1998,
+	title = {Origem e evolução da Serra do Mar.},
+	volume = {28},
+	number = {2},
+	urldate = {2014-03-09},
+	journal = {Revista Brasileira de Geociências},
+	author = {Almeida, F.F.M. and Carneiro, C.D.R.},
+	year = {1998},
+	pages = {135--150}
+}
+
+@article{Zhu_Kanamori_2000,
+	title = {Moho depth variation in southern California from teleseismic receiver functions},
+	volume = {105},
+	number = {B2},
+	journal = {Journal of Geophysical Research},
+	author = {Zhu, L. and Kanamori, H.},
+	year = {2000},
+	pages = {2969--2980},
+}
+
+@article{Langston_1977,
+	title = {The effect of planar dipping structure on source and receiver responses for constant ray parameter},
+	volume = {67},
+	number = {4},
+	journal = {Bulletin of the Seismological Society of America},
+	author = {Langston, C. A.},
+	year = {1977},
+	pages = {1029-1050},
+}
+
+@article{McNamara_Buland_2004,
+	title = {Ambient Noise Levels in the Continental United States},
+	volume = {94},
+	number = {4},
+	journal = {Bulletin of the Seismological Society of America},
+	author = {McNamara, D. E. and Buland, R.P.},
+	year = {2004},
+	pages = {1517-1527},
+}
+
+@article{Assumpcao_Brazil_2013,
+	title = {Crustal thickness map of Brazil: Data compilation and main features},
+	volume = {43},
+	journal = {Journal of South American Earth Sciences},
+	author = {Assumpção,M. and Bianchi, M.  and Julià, J. and Dias,F.L. and França, G.S. and Nascimento,R. and Drouet, S. and Pavão,C.G.  and Albuquerque,  D.F. and Lopes,A.E.V.},
+	year = {2013},
+	pages = {74-85},
+}
+
+@article{Assumpcao_America_2013,
+	title = {Models of crustal thickness for South America from seismic refraction, receiver functions and surface wave tomography},
+	volume = {609},
+	journal = {Tectonophysics},
+	author = {Assumpção, M. and Feng, M. and Tassara, A. and Julià, J.},
+	year = {2013},
+	pages = {82–96},
+}
+
+@article{kennet_iaspei_1991,
+	title = {Iaspei 1991 Seismological Tables},
+	volume = {3},
+	issn = {1365-3121},
+	url = {http://onlinelibrary.wiley.com/doi/10.1111/j.1365-3121.1991.tb00863.x/abstract},
+	doi = {10.1111/j.1365-3121.1991.tb00863.x},
+	pages = {122--122},
+	number = {2},
+	journaltitle = {Terra Nova},
+	author = {Kennet, B. L. N.},
+	urldate = {2014-11-12},
+	date = {1991-03-01},
+	langid = {english},
+	file = {Snapshot:/home/diogo/.mozilla/firefox/na391oov.default/zotero/storage/9P6GX2MD/abstract.html:text/html}
+}
