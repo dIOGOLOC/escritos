@@ -27,6 +27,25 @@
 	pages = {135--150}
 }
 
+@article{gibbons_identification_2006,
+	title = {On the Identification and Documentation of Timing Errors: An Example at the {KBS} Station, Spitsbergen},
+	volume = {77},
+	issn = {0895-0695, 1938-2057},
+	url = {http://srl.geoscienceworld.org/content/77/5/559},
+	doi = {10.1785/gssrl.77.5.559},
+	shorttitle = {On the Identification and Documentation of Timing Errors},
+	pages = {559--571},
+	number = {5},
+	journaltitle = {Seismological Research Letters},
+	shortjournal = {Seismological Research Letters},
+	author = {Gibbons, Steven J.},
+	urldate = {2014-11-14},
+	date = {2006-09-01},
+	year = {2006},
+	langid = {english},
+	file = {Full Text PDF:/home/diogo/.mozilla/firefox/na391oov.default/zotero/storage/UTJTKBUH/Gibbons - 2006 - On the Identification and Documentation of Timing .pdf:application/pdf;Snapshot:/home/diogo/.mozilla/firefox/na391oov.default/zotero/storage/EIS8Q9CJ/559.html:text/html}
+}
+
 @article{Zhu_Kanamori_2000,
 	title = {Moho depth variation in southern California from teleseismic receiver functions},
 	volume = {105},
@@ -85,8 +104,25 @@
 	number = {2},
 	journaltitle = {Terra Nova},
 	author = {Kennet, B. L. N.},
+	year = {1991},
 	urldate = {2014-11-12},
 	date = {1991-03-01},
 	langid = {english},
-	file = {Snapshot:/home/diogo/.mozilla/firefox/na391oov.default/zotero/storage/9P6GX2MD/abstract.html:text/html}
+}
+
+@article{ammon_isolation_1991,
+	title = {The isolation of receiver effects from teleseismic P waveforms},
+	volume = {81},
+	issn = {0037-1106, 1943-3573},
+	url = {http://www.bssaonline.org/content/81/6/2504},
+	pages = {2504--2510},
+	number = {6},
+	journaltitle = {Bulletin of the Seismological Society of America},
+	shortjournal = {Bulletin of the Seismological Society of America},
+	author = {Ammon, Charles J.},
+	urldate = {2014-04-10},
+	date = {1991-12-01},
+	year = {1991},
+	langid = {english},
+	file = {Snapshot:/home/diogo/.mozilla/firefox/na391oov.default/zotero/storage/QRX6S4RJ/2504.html:text/html}
 }

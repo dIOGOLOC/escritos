@@ -14,47 +14,48 @@ A level-1 auxiliary file: tese_conclusao.aux
 The style file: seg.bst
 A level-1 auxiliary file: tese_anexo_tabela1.aux
 Database file #1: tese_ref.bib
+Warning--empty journal in ammon_isolation_1991
 Warning--empty journal in gibbons_identification_2006
 Warning--empty journal in kennet_iaspei_1991
-You've used 4 entries,
+You've used 5 entries,
             2639 wiz_defined-function locations,
-            736 strings with 6914 characters,
-and the built_in function-call counts, 1533 in all, are:
-= -- 165
-> -- 34
-< -- 4
-+ -- 12
-- -- 10
-* -- 133
-:= -- 262
-add.period$ -- 4
-call.type$ -- 4
-change.case$ -- 25
-chr.to.int$ -- 4
-cite$ -- 6
-duplicate$ -- 56
-empty$ -- 125
-format.name$ -- 16
-if$ -- 312
+            743 strings with 7069 characters,
+and the built_in function-call counts, 1918 in all, are:
+= -- 207
+> -- 41
+< -- 5
++ -- 16
+- -- 12
+* -- 167
+:= -- 325
+add.period$ -- 5
+call.type$ -- 5
+change.case$ -- 31
+chr.to.int$ -- 5
+cite$ -- 8
+duplicate$ -- 70
+empty$ -- 157
+format.name$ -- 19
+if$ -- 389
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 4
-newline$ -- 16
-num.names$ -- 12
-pop$ -- 15
+missing$ -- 5
+newline$ -- 19
+num.names$ -- 15
+pop$ -- 19
 preamble$ -- 1
-purify$ -- 25
+purify$ -- 31
 quote$ -- 0
-skip$ -- 44
+skip$ -- 55
 stack$ -- 0
-substring$ -- 154
-swap$ -- 4
+substring$ -- 199
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
-warning$ -- 2
-while$ -- 14
+type$ -- 30
+warning$ -- 3
+while$ -- 18
 width$ -- 0
-write$ -- 45
-(There were 2 warnings)
+write$ -- 55
+(There were 3 warnings)
