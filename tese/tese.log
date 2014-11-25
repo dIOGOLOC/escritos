@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.21)  19 NOV 2014 21:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.21)  25 NOV 2014 19:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -742,7 +742,7 @@ Package babel Info: Redefining portuges shorthand "|
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-30.def
 File: uni-30.def 2013/05/13 UCS: Unicode data U+1E00..U+1EFF
 )
-<mapa_das_estacoes_simosgraficas_instaladas.png, id=118, 1224.2538pt x 865.0719
+<mapa_das_estacoes_simosgraficas_instaladas.png, id=128, 1224.2538pt x 865.0719
 pt>
 File: mapa_das_estacoes_simosgraficas_instaladas.png Graphic file (type png)
  <use mapa_das_estacoes_simosgraficas_instaladas.png>
@@ -763,7 +763,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 
  <./mapa_das_estacoes_simosgraficas_instaladas.png>]
-<sismograma.png, id=128, 729.927pt x 312.2064pt>
+<sismograma.png, id=138, 729.927pt x 312.2064pt>
 File: sismograma.png Graphic file (type png)
  <use sismograma.png>
 Package pdftex.def Info: sismograma.png used on input line 21.
@@ -772,7 +772,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 40.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 40.
- [5 <./sismograma.png>] <mapa_de_eventos.png, id=141, 782.6841pt x 377.9721pt>
+ [5 <./sismograma.png>] <mapa_de_eventos.png, id=151, 782.6841pt x 377.9721pt>
 File: mapa_de_eventos.png Graphic file (type png)
 
 <use mapa_de_eventos.png>
@@ -790,7 +790,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 59.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 59.
- [6 <./mapa_de_eventos.png>] <mcnamura_buland.png, id=159, 605.26125pt x 455.70
+ [6 <./mapa_de_eventos.png>] <mcnamura_buland.png, id=169, 605.26125pt x 455.70
 25pt>
 File: mcnamura_buland.png Graphic file (type png)
 
@@ -813,7 +813,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 71.
 [7 <./mcnamura_buland.png>]
-<correlacao_tempo_de_chegada.png, id=177, 772.8875pt x 607.26875pt>
+<correlacao_tempo_de_chegada.png, id=187, 772.8875pt x 607.26875pt>
 File: correlacao_tempo_de_chegada.png Graphic file (type png)
 
 <use correlacao_tempo_de_chegada.png>
@@ -830,7 +830,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 85.
 [8 <./correlacao_tempo_de_chegada.png>]
-<Componente_Radial_Transversal.png, id=191, 735.74875pt x 192.72pt>
+<Componente_Radial_Transversal.png, id=201, 735.74875pt x 192.72pt>
 File: Componente_Radial_Transversal.png Graphic file (type png)
 
 <use Componente_Radial_Transversal.png>
@@ -838,20 +838,28 @@ Package pdftex.def Info: Componente_Radial_Transversal.png used on input line 9
 2.
 (pdftex.def)             Requested size: 441.45265pt x 115.63287pt.
 
+<funcoes_sinteticas.png, id=205, 381.425pt x 605.26125pt>
+File: funcoes_sinteticas.png Graphic file (type png)
 
-Package natbib Warning: Citation `Zhu_Kanamori_2000' on page 9 undefined on inp
-ut line 103.
-
+<use funcoes_sinteticas.png>
+Package pdftex.def Info: funcoes_sinteticas.png used on input line 101.
+(pdftex.def)             Requested size: 305.1404pt x 484.20964pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 112.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 106.
-[9 <./Componente_Radial_Transversal.png>])
+(babel)             in language  on input line 112.
+ [9 <./Componente_Radial_Transversal.png>])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 38.
- [10]
+
+[10 <./funcoes_sinteticas.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 38.
+ [11]
 \openout2 = `tese_resultados.aux'.
 
  (./tese_resultados.tex)
@@ -859,20 +867,20 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 39.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 39.
-
-[11
+ [12
 
 
 
 ]
 \openout2 = `tese_conclusao.aux'.
 
- (./tese_conclusao.tex)
+
+(./tese_conclusao.tex)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 40.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 40.
- [12
+ [13
 
 
 
@@ -884,7 +892,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
- [13
+ [14
 
 
 ]
@@ -896,19 +904,16 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
 
-[14
+[15
 
 
 ]
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
-(./tese.aux (./tese_capa.aux) (./tese_folhaderosto.aux) (./tese_dedicatoria.aux
-) (./tese_agradecimentos.aux) (./tese_resumo.aux) (./tese_abstract.aux)
-(./tese_contextogeologico.aux) (./tese_metodologia.aux) (./tese_resultados.aux)
-(./tese_conclusao.aux) (./tese_anexo_tabela1.aux))
+ (./tese.aux (./tese_capa.aux) (./tese_folhaderosto.aux)
+(./tese_dedicatoria.aux) (./tese_agradecimentos.aux) (./tese_resumo.aux)
+(./tese_abstract.aux) (./tese_contextogeologico.aux) (./tese_metodologia.aux)
+(./tese_resultados.aux) (./tese_conclusao.aux) (./tese_anexo_tabela1.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `tese.out' has not changed.
@@ -916,10 +921,10 @@ Package rerunfilecheck Info: File `tese.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 10741 strings out of 494963
- 148952 string characters out of 6179647
- 251452 words of memory out of 5000000
- 13623 multiletter control sequences out of 15000+600000
+ 10760 strings out of 494963
+ 149418 string characters out of 6179647
+ 252948 words of memory out of 5000000
+ 13636 multiletter control sequences out of 15000+600000
  16693 words of font info for 43 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  37i,9n,39p,1345b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -935,10 +940,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on tese.pdf (21 pages, 1694368 bytes).
+Output written on tese.pdf (22 pages, 1751045 bytes).
 PDF statistics:
- 651 PDF objects out of 1000 (max. 8388607)
- 242 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 688 PDF objects out of 1000 (max. 8388607)
+ 271 compressed objects within 3 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

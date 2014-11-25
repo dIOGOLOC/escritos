@@ -90,17 +90,28 @@ O resultado dessa rotação discrimina claramente a contribuição de cada compo
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.6]{Componente_Radial_Transversal.png}
-\caption{Sismograma mostrando as componentes Radial e Transversal}
+\caption{Sismograma mostrando as componentes Radial e Transversal.}
 \label{sismo_radial}
 \end{figure}
 
-Para o cálculo a espessura crustal na região utilizou-se o método da Função do Receptor, que foi desenvolvido por \cite{Langston_1977}. O programa SAC (\textit{Seismic Analysis Code}) foi usado para fazer o processamento e o cálculo das Funções Receptores. Tal método faz uso do sinal de tele-sismos, geradores de ondas planas de incidência quase-vertical embaixo de uma dada estação. A onda P incide na discontinuidade de Mohorovicic e se decompõe em uma onda P transmitida e uma onda S convertida. A diferença do tempo de chegada das duas ondas, onda S tem velocidade inferior a onda P, e de outras reflexões permite inferir a profundidade da discontinuidade de Mohorovicic, também chamada de Moho.
+Para o cálculo a espessura crustal na região utilizou-se o método da Função do Receptor, que foi desenvolvido por \cite{Langston_1977}. O programa SAC (\textit{Seismic Analysis Code}) foi usado para fazer o processamento e o cálculo das Funções Receptores. Tal método faz uso do sinal de tele-sismos, geradores de ondas planas de incidência quase-vertical embaixo de uma dada estação. A onda P incide na discontinuidade de Mohorovicic e se decompõe em uma onda P transmitida e uma onda S convertida. A diferença do tempo de chegada das duas ondas, onda S tem velocidade inferior a onda P, e de outras reflexões permite inferir a profundidade da discontinuidade de Mohorovicic, também chamada de Moho, como mostrado na Figura \ref{funcoes_sinteticas} .
 
-Para uma estimativa precisa das funções do Receptor é essencial que o tempo de chegada da onda P seja determinado com exatidão. Então os dados foram examinados visualmente para registrar o tempo de chegada da onda P direta. 
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.8]{funcoes_sinteticas.png}
+\caption{Funções do Receptor em função do parâmetro do raio para o Modelo de Velocidade Padrão do Sul da Califórnia, em \cite{Zhu_Kanamori_2000}. A fase Ps convertida em Moho e suas múltiplas  PpPs, PpSs, e PsPs e seus traços são ilustrados no topo da imagem. Outras reflexões não-rotuladas são as conversões P-S em 5.5 km e 16 km, discontinuidades intracrustais no modelo.}
+\label{funcoes_sinteticas}
+\end{figure}
 
-As Funções do Receptor são calculadas com uma deconvolução no domínio do tempo da componente radial pela componente vertical, como é mostrado por \citep{Langston_1977} e \citep{ammon_isolation_1991}. Essa operação remove efetivamente a resposta instrumental, a assinatura da fonte e a propagação da fonte até Moho. E o sinaol resultante é a assinatura da propagação próxima à estação. Então a Função do Receptor é sensível na delimitação da estruturação superficial da crosta embaixo da estação.
+Para uma estimativa precisa das Funções do Receptor é essencial que o tempo de chegada da onda P seja determinado com exatidão. Então os dados foram examinados visualmente para registrar o tempo de chegada da onda P direta. 
 
-Um método robusto de análise das Funções do Receptor é o método de \citep{Zhu_Kanamori_2000}. Usando as velocidades medianas na crosta, as diferenças de tempo entre a P direta e a P convertida em S podem ser calculadas, bem como os tempos das múltiplas. Usando uma dada velocidade v p , os tempos de chegada podem ser calculados usando a profundidade de Moho (H), a razão v p /v s e o parâmetro do raio, este é dependente da localização do evento e da profundidade. Ao invés de tentar ajustar toda a função, o método faz uma pesquisa, grid search, da espessura crustal e da razão v p /v s para calcular o tempo de chegada teórico das ondas P convertidas em S e das múltiplas para cada registro. A melhor combinação da espessura crustal e da razão v p /v s é aquela que maximiza o valor das amplitudes reais das funções receptor. Para obter uma imagem das discontinuidades, como por exemplo Moho, as Funções do Receptor empilhadas são mapeadas em relação a posição da estação no perfil. 
+As Funções do Receptor são calculadas com uma deconvolução componente radial (R) pela componente vertical (Z), como é mostrado por \cite{clayton_source_1976}, \cite{Langston_1977}, \cite{ammon_isolation_1991}, \cite{cassidy_numerical_1992}, \cite{Zhu_Kanamori_2000}. Essa operação remove efetivamente a resposta instrumental, a assinatura da fonte e a propagação da fonte até Moho. E o sinal resultante é a assinatura da propagação próxima à estação. Então a Função do Receptor é sensível na delimitação da estruturação superficial da crosta embaixo da estação.
+
+A deconvolução da componente radial (R) pela componente vertical (Z) pode ser feita no domínio do te
+
+
+
+Um método robusto de análise das Funções do Receptor é o método de \cite{Zhu_Kanamori_2000}. Usando as velocidades medianas na crosta, as diferenças de tempo entre a P direta e a P convertida em S podem ser calculadas, bem como os tempos das múltiplas. Usando uma dada velocidade v p , os tempos de chegada podem ser calculados usando a profundidade de Moho (H), a razão v p /v s e o parâmetro do raio, este é dependente da localização do evento e da profundidade. Ao invés de tentar ajustar toda a função, o método faz uma pesquisa, grid search, da espessura crustal e da razão v p /v s para calcular o tempo de chegada teórico das ondas P convertidas em S e das múltiplas para cada registro. A melhor combinação da espessura crustal e da razão v p /v s é aquela que maximiza o valor das amplitudes reais das funções receptor. Para obter uma imagem das discontinuidades, como por exemplo Moho, as Funções do Receptor empilhadas são mapeadas em relação a posição da estação no perfil. 
 
 Os dados são separados em 4 grupos, segundo o azimute entre o sismo e a estação. A maioria do eventos ocorrem na região noroeste e sudoeste, nota-se a escassez de eventos na região do Oceano Atlântico. O objetivo dessa separação é avaliar se existem variações laterais de estrutura.
 
