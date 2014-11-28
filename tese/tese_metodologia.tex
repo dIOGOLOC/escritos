@@ -103,12 +103,11 @@ Para o cálculo a espessura crustal na região utilizou-se o método da Função
 \label{funcoes_sinteticas}
 \end{figure}
 
-Para uma estimativa precisa das Funções do Receptor é essencial que o tempo de chegada da onda P seja determinado com exatidão. Então os dados foram examinados visualmente para registrar o tempo de chegada da onda P direta. 
+Para uma estimativa precisa das Funções do Receptor é essencial que o tempo de chegada da onda P seja determinado com baixa incerteza. Então os dados foram examinados visualmente para registrar o tempo de chegada da onda P direta. 
 
 As Funções do Receptor são calculadas com uma deconvolução componente radial (R) pela componente vertical (Z), como é mostrado por \cite{clayton_source_1976}, \cite{Langston_1977}, \cite{ammon_isolation_1991}, \cite{cassidy_numerical_1992}, \cite{Zhu_Kanamori_2000}. Essa operação remove efetivamente a resposta instrumental, a assinatura da fonte e a propagação da fonte até Moho. E o sinal resultante é a assinatura da propagação próxima à estação. Então a Função do Receptor é sensível na delimitação da estruturação superficial da crosta embaixo da estação.
 
-A deconvolução da componente radial (R) pela componente vertical (Z) pode ser feita no domínio do te
-
+Computar as Funções do Receptor é um problema de deconvolução, \cite{ligorria_iterative_1999}. \cite{langston_structure_1979} 
 
 
 Um método robusto de análise das Funções do Receptor é o método de \cite{Zhu_Kanamori_2000}. Usando as velocidades medianas na crosta, as diferenças de tempo entre a P direta e a P convertida em S podem ser calculadas, bem como os tempos das múltiplas. Usando uma dada velocidade v p , os tempos de chegada podem ser calculados usando a profundidade de Moho (H), a razão v p /v s e o parâmetro do raio, este é dependente da localização do evento e da profundidade. Ao invés de tentar ajustar toda a função, o método faz uma pesquisa, grid search, da espessura crustal e da razão v p /v s para calcular o tempo de chegada teórico das ondas P convertidas em S e das múltiplas para cada registro. A melhor combinação da espessura crustal e da razão v p /v s é aquela que maximiza o valor das amplitudes reais das funções receptor. Para obter uma imagem das discontinuidades, como por exemplo Moho, as Funções do Receptor empilhadas são mapeadas em relação a posição da estação no perfil. 

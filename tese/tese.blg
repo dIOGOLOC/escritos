@@ -19,45 +19,46 @@ Warning--empty journal in cassidy_numerical_1992
 Warning--empty journal in clayton_source_1976
 Warning--empty journal in gibbons_identification_2006
 Warning--empty journal in kennet_iaspei_1991
-You've used 8 entries,
+Warning--empty journal in ligorria_iterative_1999
+You've used 9 entries,
             2639 wiz_defined-function locations,
-            766 strings with 7597 characters,
-and the built_in function-call counts, 3128 in all, are:
-= -- 342
-> -- 74
-< -- 8
-+ -- 26
-- -- 22
-* -- 279
-:= -- 525
-add.period$ -- 8
-call.type$ -- 8
-change.case$ -- 51
-chr.to.int$ -- 8
-cite$ -- 13
-duplicate$ -- 112
-empty$ -- 251
-format.name$ -- 36
-if$ -- 635
+            773 strings with 7778 characters,
+and the built_in function-call counts, 3552 in all, are:
+= -- 389
+> -- 87
+< -- 9
++ -- 30
+- -- 26
+* -- 320
+:= -- 594
+add.period$ -- 9
+call.type$ -- 9
+change.case$ -- 58
+chr.to.int$ -- 9
+cite$ -- 15
+duplicate$ -- 126
+empty$ -- 283
+format.name$ -- 43
+if$ -- 721
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 8
-newline$ -- 28
-num.names$ -- 24
-pop$ -- 32
+missing$ -- 9
+newline$ -- 31
+num.names$ -- 27
+pop$ -- 37
 preamble$ -- 1
-purify$ -- 51
+purify$ -- 58
 quote$ -- 0
-skip$ -- 86
+skip$ -- 96
 stack$ -- 0
-substring$ -- 322
-swap$ -- 8
+substring$ -- 365
+swap$ -- 9
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 48
-warning$ -- 5
-while$ -- 30
+type$ -- 54
+warning$ -- 6
+while$ -- 34
 width$ -- 0
-write$ -- 86
-(There were 5 warnings)
+write$ -- 96
+(There were 6 warnings)
