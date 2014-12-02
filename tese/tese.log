@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.21)  28 NOV 2014 18:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.21)  2 DEC 2014 21:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -830,7 +830,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 85.
 [8 <./correlacao_tempo_de_chegada.png>]
-<Componente_Radial_Transversal.png, id=201, 735.74875pt x 192.72pt>
+<Componente_Radial_Transversal.png, id=202, 735.74875pt x 192.72pt>
 File: Componente_Radial_Transversal.png Graphic file (type png)
 
 <use Componente_Radial_Transversal.png>
@@ -838,23 +838,26 @@ Package pdftex.def Info: Componente_Radial_Transversal.png used on input line 9
 2.
 (pdftex.def)             Requested size: 441.45265pt x 115.63287pt.
 
-<funcoes_sinteticas.png, id=205, 381.425pt x 605.26125pt>
+<funcoes_sinteticas.png, id=206, 381.425pt x 605.26125pt>
 File: funcoes_sinteticas.png Graphic file (type png)
 
 <use funcoes_sinteticas.png>
 Package pdftex.def Info: funcoes_sinteticas.png used on input line 101.
 (pdftex.def)             Requested size: 305.1404pt x 484.20964pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 114.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 114.
- [9 <./Componente_Radial_Transversal.png>])
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 38.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 38.
 
-[10 <./funcoes_sinteticas.png>]
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
+File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 123.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 123.
+ [9 <./Componente_Radial_Transversal.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 131.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 131.
+ [10 <./funcoes_sinteticas.png>])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining portuges shorthand "|
@@ -862,7 +865,8 @@ Package babel Info: Redefining portuges shorthand "|
  [11]
 \openout2 = `tese_resultados.aux'.
 
- (./tese_resultados.tex)
+
+(./tese_resultados.tex)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 39.
 Package babel Info: Redefining portuges shorthand "|
@@ -874,8 +878,7 @@ Package babel Info: Redefining portuges shorthand "|
 ]
 \openout2 = `tese_conclusao.aux'.
 
-
-(./tese_conclusao.tex)
+ (./tese_conclusao.tex)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 40.
 Package babel Info: Redefining portuges shorthand "|
@@ -898,22 +901,23 @@ Package babel Info: Redefining portuges shorthand "|
 ]
 \openout2 = `tese_anexo_tabela1.aux'.
 
- (./tese_anexo_tabela1.tex)
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 44.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 44.
 
-[15
+(./tese_anexo_tabela1.tex)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 44.
+ [15
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
- (./tese.aux (./tese_capa.aux) (./tese_folhaderosto.aux)
-(./tese_dedicatoria.aux) (./tese_agradecimentos.aux) (./tese_resumo.aux)
-(./tese_abstract.aux) (./tese_contextogeologico.aux) (./tese_metodologia.aux)
-(./tese_resultados.aux) (./tese_conclusao.aux) (./tese_anexo_tabela1.aux))
+ (./tese.aux (./tese_capa.aux)
+(./tese_folhaderosto.aux) (./tese_dedicatoria.aux) (./tese_agradecimentos.aux)
+(./tese_resumo.aux) (./tese_abstract.aux) (./tese_contextogeologico.aux)
+(./tese_metodologia.aux) (./tese_resultados.aux) (./tese_conclusao.aux)
+(./tese_anexo_tabela1.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `tese.out' has not changed.
@@ -921,13 +925,13 @@ Package rerunfilecheck Info: File `tese.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 10764 strings out of 494963
- 149539 string characters out of 6179647
- 252989 words of memory out of 5000000
- 13639 multiletter control sequences out of 15000+600000
+ 11381 strings out of 494963
+ 155905 string characters out of 6179647
+ 254184 words of memory out of 5000000
+ 14248 multiletter control sequences out of 15000+600000
  16693 words of font info for 43 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 37i,9n,39p,1345b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,39p,1345b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/d
 iogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/diogo/.texmf
 -var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/diogo/.texmf-var/fonts/
@@ -938,12 +942,13 @@ ecbx1440.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.60
 /diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on tese.pdf (22 pages, 1751343 bytes).
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb>
+Output written on tese.pdf (22 pages, 1764893 bytes).
 PDF statistics:
- 691 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
+ 714 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
+ 67 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -79,13 +79,13 @@ Nesste trabalho utilizamos uma metodologia semelhante a de \cite{gibbons_identif
 No ínicio desse trabalho somente os dados de eventos incluídos no catálogo do IRIS (\textit{Incorporated Research Institutions for Seismology}) com magnitude maior que 5,5 entre maio de 2011 e maio de 2012 foram utilizados. Porém agora utiliza-se dados coletados na rede Sismográfica, mostrada na \ref{map_loc}, até o fim do segundo semestre de 2013. A Figura \ref{mapa_eventos} mostra eventos sísmicos registrados na estação STA08 mostrando a delimitação dos eventos pela distância epicentral, além de mostrar sismos com magnitude maior que 5.5 mb.
 
 O sismômetro registra pequenas variações horizontais e verticais de amplitude das partículas do terreno na escala microscópica ao longo das direções Vertical (Z), Norte-Sul (N) e Leste-Oeste (E), chamado sistema ZNE, como observado na Figura \ref{simograma}. No entanto, o sinal bruto nas direções ZNE não está alinhado aos eixos de propagação das ondas geradas pelo sismo, logo a resposta em cada componente mostra uma sobreposição de vários tipos de ondas. Com a finalidade de isolar a contribuição de cada onda registrada nos dados, o sistema de coordenadas dos registros são rotacionadas, através do SAC (\textit{Seismic Analysis Code}), para se alinharem com os eixos de propagação das ondas através da seguinte matriz de rotação:
-\
-\[
-\left[ \begin{array}{c} R \\ T \\ Z \end{array} \right] = \begin{bmatrix} \cos \theta & \sin \theta & 0 \\ - \sin \theta & \cos \theta & 0 \\ 0 & 0 & 1 \end{bmatrix} \left[ \begin{array}{c} E \\ N \\ Z \end{array} \right]
-\]
-\
 
-O resultado dessa rotação discrimina claramente a contribuição de cada componente  no sismograma. A componente N (norte-sul) transforma-se na componente T (transversal) e guarda os registro da componente horizontal da onda S, chamada de onda SH. A resposta da onda SV é resgistrada na componente radial do sismograma, chamada R, como pode ser visualizada na Figura \ref{sismo_radial}.   
+\begin{eqnarray} \label{rotação}
+\left[ \begin{array}{c} R \\ T \\ Z \end{array} \right] = \begin{bmatrix} \cos \theta & \sin \theta & 0 \\ - \sin \theta & \cos \theta & 0 \\ 0 & 0 & 1 \end{bmatrix} \left[ \begin{array}{c} E \\ N \\ Z \end{array} \right]
+\end{eqnarray}
+
+
+O resultado da equação \ref{rotação} discrimina claramente a contribuição de cada componente  no sismograma. A componente N (norte-sul) transforma-se na componente T (transversal) e guarda os registro da componente horizontal da onda S, chamada de onda SH. A resposta da onda SV é resgistrada na componente radial do sismograma, chamada R, como pode ser visualizada na Figura \ref{sismo_radial}.   
 
 \begin{figure}[!ht]
 \centering
@@ -107,8 +107,35 @@ Para uma estimativa precisa das Funções do Receptor é essencial que o tempo d
 
 As Funções do Receptor são calculadas com uma deconvolução componente radial (R) pela componente vertical (Z), como é mostrado por \cite{clayton_source_1976}, \cite{Langston_1977}, \cite{ammon_isolation_1991}, \cite{cassidy_numerical_1992}, \cite{Zhu_Kanamori_2000}. Essa operação remove efetivamente a resposta instrumental, a assinatura da fonte e a propagação da fonte até Moho. E o sinal resultante é a assinatura da propagação próxima à estação. Então a Função do Receptor é sensível na delimitação da estruturação superficial da crosta embaixo da estação.
 
-Computar as Funções do Receptor é um problema de deconvolução, \cite{ligorria_iterative_1999}. \cite{langston_structure_1979} 
+Computar as Funções do Receptor é um problema de deconvolução,  \cite{ligorria_iterative_1999}. \cite{langston_structure_1979} descreve a resposta do deslocamento teórico para uma onda plana P incidindo sobre uma empilhamento de interfaces horizontais ou inclinadas no domínio do tempo pode ser dada por:
 
+\begin{eqnarray} \label{lang_equacao}
+D_{V}(t) = I(t) * S(t) * E_{V}(t)
+\nonumber
+\\
+D_{R}(t) = I(t) * S(t) * E_{R}(t)
+\\
+\nonumber
+D_{T}(t) = I(t) * S(t) * E_{T}(t)
+\end{eqnarray}
+
+Onde $S(t)$ é a resposta efetiva da fonte em função do tempo de uma onda incidente, $I(t)$ é a resposta do impulso instrumental e $E_{V}(t)$, $E_{R}(t)$ e $E_{T}(t)$ são as respostas do impulso da estruturua vertical, radial e tangencial, respectivamente. A componente $S(t)$ pode ser muito complicada de ser computada, pois ela é relacionada a história do deslocamento no tempo e reverberações na aŕea da fonte.
+
+\cite{langston_structure_1979} assume que eventos profundos observados em dados telessísmicos, na componente vertical do movimento do terreno ($D_{V}(t)$), se comportam como um pulso em função do tempo convoluído com a resposta instrumental e com chegadas tardias menores. Cálculos teóricos para estruturas crustais mostram que reverberações crustais e fases convertidas na componente vertical de ondas P são menores. Então se aproxima:
+
+\begin{eqnarray} \label{lang_suposicao}
+I(t) * S(t) \simeq D_{V}(t)
+\end{eqnarray}
+
+\cite{langston_structure_1979} faz uma suposição implícita que $D_{V}(t)$ comporta-se como uma função delta de Dirac, como pode ser observado na equação \ref{lang_suposicao}. Assumindo que a resposta instrumental é compensada entre as componentes, $E_{R}(t)$ e $E_{T}(t)$ podem ser encontrados passando para o domínio da frequência a equação \ref{lang_equacao} e fazendo as seguintes deconvoluções:
+
+\begin{eqnarray} \label{lang_resposta}
+E_{R}(\omega) =  \frac{D_{R}(\omega)}{I(\omega)S(\omega)} \simeq \frac{D_{R}(\omega)}{D_{V}(\omega)}
+\\ \nonumber
+E_{T}(\omega) =  \frac{D_{T}(\omega)}{I(\omega)S(\omega)} \simeq \frac{D_{T}(\omega)}{D_{V}(\omega)}
+\end{eqnarray}
+
+$E_{R}(t)$ e $E_{T}(t)$ são retransformadas para o domínio do tempo, importante lembrar que nessa técnica a informação da fase é conservada. \cite{langston_structure_1979} resalta que o resultado da série temporal pode ser interpretado diretamente com um sismograma, permitindo que tempo e amplitude de chegadas possam ser examinadas de uma maneira inequívoca.
 
 Um método robusto de análise das Funções do Receptor é o método de \cite{Zhu_Kanamori_2000}. Usando as velocidades medianas na crosta, as diferenças de tempo entre a P direta e a P convertida em S podem ser calculadas, bem como os tempos das múltiplas. Usando uma dada velocidade v p , os tempos de chegada podem ser calculados usando a profundidade de Moho (H), a razão v p /v s e o parâmetro do raio, este é dependente da localização do evento e da profundidade. Ao invés de tentar ajustar toda a função, o método faz uma pesquisa, grid search, da espessura crustal e da razão v p /v s para calcular o tempo de chegada teórico das ondas P convertidas em S e das múltiplas para cada registro. A melhor combinação da espessura crustal e da razão v p /v s é aquela que maximiza o valor das amplitudes reais das funções receptor. Para obter uma imagem das discontinuidades, como por exemplo Moho, as Funções do Receptor empilhadas são mapeadas em relação a posição da estação no perfil. 
 
