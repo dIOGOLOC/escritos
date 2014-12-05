@@ -14,53 +14,56 @@ A level-1 auxiliary file: tese_conclusao.aux
 The style file: seg.bst
 A level-1 auxiliary file: tese_anexo_tabela1.aux
 Database file #1: tese_ref.bib
+Warning--entry type for "Ammon_waterlevel_1997" isn't style-file defined
+--line 258 of file tese_ref.bib
 Warning--empty journal in ammon_isolation_1991
 Warning--empty journal in cassidy_numerical_1992
 Warning--empty journal in clayton_source_1976
 Warning--empty journal in gibbons_identification_2006
+Warning--empty journal in julia_deep_2008
 Warning--empty journal in kennet_iaspei_1991
 Warning--empty journal in kikuchi_inversion_1982
 Warning--empty journal in langston_structure_1979
 Warning--empty journal in ligorria_iterative_1999
-You've used 11 entries,
+You've used 13 entries,
             2639 wiz_defined-function locations,
-            789 strings with 8154 characters,
-and the built_in function-call counts, 4323 in all, are:
-= -- 475
-> -- 104
-< -- 11
-+ -- 35
-- -- 31
-* -- 394
-:= -- 716
-add.period$ -- 11
-call.type$ -- 11
-change.case$ -- 71
-chr.to.int$ -- 11
-cite$ -- 19
-duplicate$ -- 154
-empty$ -- 346
-format.name$ -- 52
-if$ -- 879
+            802 strings with 8552 characters,
+and the built_in function-call counts, 4905 in all, are:
+= -- 539
+> -- 126
+< -- 12
++ -- 42
+- -- 38
+* -- 444
+:= -- 821
+add.period$ -- 13
+call.type$ -- 13
+change.case$ -- 85
+chr.to.int$ -- 13
+cite$ -- 22
+duplicate$ -- 177
+empty$ -- 384
+format.name$ -- 61
+if$ -- 995
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 11
-newline$ -- 37
-num.names$ -- 32
-pop$ -- 46
+missing$ -- 12
+newline$ -- 43
+num.names$ -- 37
+pop$ -- 56
 preamble$ -- 1
-purify$ -- 71
+purify$ -- 85
 quote$ -- 0
-skip$ -- 117
+skip$ -- 137
 stack$ -- 0
-substring$ -- 445
-swap$ -- 11
+substring$ -- 469
+swap$ -- 12
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 66
-warning$ -- 8
-while$ -- 41
+type$ -- 78
+warning$ -- 9
+while$ -- 44
 width$ -- 0
-write$ -- 116
-(There were 8 warnings)
+write$ -- 136
+(There were 10 warnings)

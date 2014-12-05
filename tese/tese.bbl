@@ -5,6 +5,9 @@
 Ammon, C.~J.,  1991, The isolation of receiver effects from teleseismic p
   waveforms: {\bf 81}, 2504--2510.
 
+\bibitem[Ammon, 1997]{Ammon_waterlevel_1997}
+--------, 1997, Receiver function source equalization: Website.
+
 \bibitem[Cassidy, 1992]{cassidy_numerical_1992}
 Cassidy, J.~F.,  1992, Numerical experiments in broadband receiver function
   analysis: {\bf 82}, 1453--1474.
@@ -16,6 +19,11 @@ Clayton, R.~W., and R.~A. Wiggins,  1976, Source shape estimation and
 \bibitem[Gibbons, 2006]{gibbons_identification_2006}
 Gibbons, S.~J.,  2006, On the identification and documentation of timing
   errors: An example at the {KBS} station, spitsbergen: {\bf 77}, 559--571.
+
+\bibitem[Julia et~al., 2008]{julia_deep_2008}
+Julia, J., M. Assumpcao, and M.~P. Rocha,  2008, Deep crustal structure of the
+  parana basin from receiver functions and rayleigh-wave dispersion: Evidence
+  for a fragmented cratonic root: {\bf 113}, no. B8.
 
 \bibitem[Kennet, 1991]{kennet_iaspei_1991}
 Kennet, B. L.~N.,  1991, Iaspei 1991 seismological tables: {\bf 3}, 122--122.

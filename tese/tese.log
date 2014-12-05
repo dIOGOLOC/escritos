@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.21)  3 DEC 2014 20:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.21)  5 DEC 2014 20:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -742,7 +742,7 @@ Package babel Info: Redefining portuges shorthand "|
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-30.def
 File: uni-30.def 2013/05/13 UCS: Unicode data U+1E00..U+1EFF
 )
-<mapa_das_estacoes_simosgraficas_instaladas.png, id=128, 1224.2538pt x 865.0719
+<mapa_das_estacoes_simosgraficas_instaladas.png, id=159, 1224.2538pt x 865.0719
 pt>
 File: mapa_das_estacoes_simosgraficas_instaladas.png Graphic file (type png)
  <use mapa_das_estacoes_simosgraficas_instaladas.png>
@@ -763,7 +763,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 
  <./mapa_das_estacoes_simosgraficas_instaladas.png>]
-<sismograma.png, id=138, 729.927pt x 312.2064pt>
+<sismograma.png, id=169, 729.927pt x 312.2064pt>
 File: sismograma.png Graphic file (type png)
  <use sismograma.png>
 Package pdftex.def Info: sismograma.png used on input line 21.
@@ -772,7 +772,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 40.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 40.
- [5 <./sismograma.png>] <mapa_de_eventos.png, id=151, 782.6841pt x 377.9721pt>
+ [5 <./sismograma.png>] <mapa_de_eventos.png, id=181, 782.6841pt x 377.9721pt>
 File: mapa_de_eventos.png Graphic file (type png)
 
 <use mapa_de_eventos.png>
@@ -790,7 +790,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 59.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 59.
- [6 <./mapa_de_eventos.png>] <mcnamura_buland.png, id=169, 605.26125pt x 455.70
+ [6 <./mapa_de_eventos.png>] <mcnamura_buland.png, id=198, 605.26125pt x 455.70
 25pt>
 File: mcnamura_buland.png Graphic file (type png)
 
@@ -813,7 +813,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 71.
 [7 <./mcnamura_buland.png>]
-<correlacao_tempo_de_chegada.png, id=187, 772.8875pt x 607.26875pt>
+<correlacao_tempo_de_chegada.png, id=216, 772.8875pt x 607.26875pt>
 File: correlacao_tempo_de_chegada.png Graphic file (type png)
 
 <use correlacao_tempo_de_chegada.png>
@@ -830,7 +830,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 85.
 [8 <./correlacao_tempo_de_chegada.png>]
-<Componente_Radial_Transversal.png, id=202, 735.74875pt x 192.72pt>
+<Componente_Radial_Transversal.png, id=231, 735.74875pt x 192.72pt>
 File: Componente_Radial_Transversal.png Graphic file (type png)
 
 <use Componente_Radial_Transversal.png>
@@ -838,7 +838,7 @@ Package pdftex.def Info: Componente_Radial_Transversal.png used on input line 9
 2.
 (pdftex.def)             Requested size: 441.45265pt x 115.63287pt.
 
-<funcoes_sinteticas.png, id=206, 381.425pt x 605.26125pt>
+<funcoes_sinteticas.png, id=235, 381.425pt x 605.26125pt>
 File: funcoes_sinteticas.png Graphic file (type png)
 
 <use funcoes_sinteticas.png>
@@ -857,21 +857,54 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 131.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 131.
- [10 <./funcoes_sinteticas.png>])
+ [10 <./funcoes_sinteticas.png>]
+<water_level.png, id=294, 475.7775pt x 204.765pt>
+File: water_level.png Graphic file (type png)
+ <use water_level.png>
+Package pdftex.def Info: water_level.png used on input line 144.
+(pdftex.def)             Requested size: 380.6225pt x 163.8122pt.
+
+<deconvolucao_interativa.png, id=303, 806.01125pt x 706.64pt>
+File: deconvolucao_interativa.png Graphic file (type png)
+
+<use deconvolucao_interativa.png>
+Package pdftex.def Info: deconvolucao_interativa.png used on input line 153.
+(pdftex.def)             Requested size: 403.00464pt x 353.31914pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 161.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 161.
+ [11 <./water_level.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 170.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 170.
+ [12 <./deconvolucao_interativa.png>] <grid_search.png, id=336, 695.59875pt x 6
+93.59125pt>
+File: grid_search.png Graphic file (type png)
+
+<use grid_search.png>
+Package pdftex.def Info: grid_search.png used on input line 208.
+(pdftex.def)             Requested size: 347.79852pt x 346.79477pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 215.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 215.
+ [13])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 38.
- [11]
+ [14 <./grid_search.png>]
 \openout2 = `tese_resultados.aux'.
 
+ (./tese_resultados.tex)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 39.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 39.
 
-(./tese_resultados.tex)
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 39.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 39.
- [12
+[15
 
 
 
@@ -883,7 +916,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 40.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 40.
- [13
+ [16
 
 
 
@@ -895,40 +928,39 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
- [14
+ [17
 
 
 ]
 \openout2 = `tese_anexo_tabela1.aux'.
 
+ (./tese_anexo_tabela1.tex)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 44.
 
-(./tese_anexo_tabela1.tex)
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 44.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 44.
- [15
+[18
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
- (./tese.aux (./tese_capa.aux)
-(./tese_folhaderosto.aux) (./tese_dedicatoria.aux) (./tese_agradecimentos.aux)
-(./tese_resumo.aux) (./tese_abstract.aux) (./tese_contextogeologico.aux)
-(./tese_metodologia.aux) (./tese_resultados.aux) (./tese_conclusao.aux)
-(./tese_anexo_tabela1.aux))
+ (./tese.aux (./tese_capa.aux) (./tese_folhaderosto.aux)
+(./tese_dedicatoria.aux) (./tese_agradecimentos.aux) (./tese_resumo.aux)
+(./tese_abstract.aux) (./tese_contextogeologico.aux) (./tese_metodologia.aux)
+(./tese_resultados.aux) (./tese_conclusao.aux) (./tese_anexo_tabela1.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `tese.out' has not changed.
-(rerunfilecheck)             Checksum: 29EF403FA324A4537E0B7B4B1DFF5EF5;257.
+(rerunfilecheck)             Checksum: F4272A2447D8AF7BCBFE75635A1A53C2;257.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 11385 strings out of 494963
- 156022 string characters out of 6179647
- 254224 words of memory out of 5000000
- 14251 multiletter control sequences out of 15000+600000
+ 11436 strings out of 494963
+ 156925 string characters out of 6179647
+ 261279 words of memory out of 5000000
+ 14282 multiletter control sequences out of 15000+600000
  16693 words of font info for 43 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  37i,12n,39p,1345b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -942,13 +974,16 @@ ecbx1440.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.60
 /diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb>
-Output written on tese.pdf (22 pages, 1766757 bytes).
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb>
+Output written on tese.pdf (25 pages, 2034536 bytes).
 PDF statistics:
- 731 PDF objects out of 1000 (max. 8388607)
- 309 compressed objects within 4 object streams
- 68 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 832 PDF objects out of 1000 (max. 8388607)
+ 390 compressed objects within 4 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

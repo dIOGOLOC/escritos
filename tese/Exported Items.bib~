@@ -1,18 +1,9 @@
 
-@article{ligorria_iterative_1999,
-	title = {Iterative deconvolution and receiver-function estimation},
-	volume = {89},
-	issn = {0037-1106, 1943-3573},
-	url = {http://www.bssaonline.org/content/89/5/1395},
-	abstract = {We describe and apply an iterative, time-domain deconvolution approach to receiver-function estimation and illustrate the reliability and advantages of the technique using synthetic- and observation-based examples. The iterative technique is commonly used in earthquake time-function studies and offers several advantages in receiver-function analysis such as intuitively stripping the largest receiver-function arrivals from the observed seismograms first and then the details; long-period stability by a priori constructing the deconvolution as a sum of Gaussian pulses; and easy generalization to allow multiwaveform deconvolution for a single receiver-function estimate.},
-	pages = {1395--1400},
-	number = {5},
-	journaltitle = {Bulletin of the Seismological Society of America},
-	shortjournal = {Bulletin of the Seismological Society of America},
-	author = {Ligorría, Juan Pablo and Ammon, Charles J.},
-	urldate = {2014-11-25},
-	date = {1999-10-01},
-	year = {1999},
-	langid = {english},
-	file = {Snapshot:/home/diogo/.mozilla/firefox/na391oov.default/zotero/storage/89MZVF4C/1395.html:text/html}
+@online{_receiver_2014,
+	title = {"Receiver Function Source Equalization"},
+	url = {http://eqseis.geosc.psu.edu/~cammon/HTML/RftnDocs/seq01.html},
+	urldate = {2014-12-04},
+	author= {Charles J. Ammon}
+	year = {2006}
+	file = {"Receiver Function Source Equalization":/home/diogo/.mozilla/firefox/na391oov.default/zotero/storage/FH4TD5T5/seq01.html:text/html}
 }
