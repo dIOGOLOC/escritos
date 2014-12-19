@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.21)  5 DEC 2014 20:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.21)  19 DEC 2014 14:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -455,9 +455,11 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
 ) (./tese.aux (./tese_capa.aux) (./tese_folhaderosto.aux)
-(./tese_dedicatoria.aux) (./tese_agradecimentos.aux) (./tese_resumo.aux)
-(./tese_abstract.aux) (./tese_contextogeologico.aux) (./tese_metodologia.aux)
-(./tese_resultados.aux) (./tese_conclusao.aux) (./tese_anexo_tabela1.aux))
+(./tese_dedicatoria.aux) (./tese_agradecimentos.aux) (./tese_epigrafe.aux)
+(./tese_resumo.aux) (./tese_abstract.aux) (./tese_introducao.aux)
+(./tese_contextogeologico.aux) (./tese_dados.aux) (./tese_FR.aux)
+(./tese_correlacao.aux) (./tese_resultados.aux) (./tese_conclusao.aux)
+(./tese_anexo_tabela1.aux))
 \openout1 = `tese.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -576,19 +578,19 @@ LaTeX Info: Redefining \nameref on input line 25.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4.
 
-<mcti.png, id=24, 92.9874pt x 28.6671pt>
+<mcti.png, id=80, 92.9874pt x 28.6671pt>
 File: mcti.png Graphic file (type png)
  <use mcti.png>
 Package pdftex.def Info: mcti.png used on input line 7.
 (pdftex.def)             Requested size: 113.81335pt x 28.45354pt.
 
-<dppg.png, id=26, 268.48305pt x 111.65715pt>
+<dppg.png, id=82, 268.48305pt x 111.65715pt>
 File: dppg.png Graphic file (type png)
  <use dppg.png>
 Package pdftex.def Info: dppg.png used on input line 8.
 (pdftex.def)             Requested size: 85.35916pt x 28.45259pt.
 
-<logo_on.jpg, id=27, 401.5pt x 342.27875pt>
+<logo_on.jpg, id=83, 401.5pt x 342.27875pt>
 File: logo_on.jpg Graphic file (type jpg)
  <use logo_on.jpg>
 Package pdftex.def Info: logo_on.jpg used on input line 12.
@@ -635,292 +637,357 @@ l.39 \end{titlepage}
 
 
 ])
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 29.
- (./tese.lof)
-\tf@lof=\write5
-\openout5 = `tese.lof'.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 30.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 30.
- [1
-
-
-]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 30.
- (./tese.lot)
-\tf@lot=\write6
-\openout6 = `tese.lot'.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 31.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 31.
- [2
-
-]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 31.
- (./tese.toc)
-\tf@toc=\write7
-\openout7 = `tese.toc'.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 32.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 32.
-
-[3
-
-]
 \openout2 = `tese_dedicatoria.aux'.
 
  (./tese_dedicatoria.tex)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 29.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 32.
- [4
+(babel)             in language  on input line 29.
+ [1
+
 
 
 ]
 \openout2 = `tese_agradecimentos.aux'.
 
- (./tese_agradecimentos.tex)
+
+(./tese_agradecimentos.tex)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 33.
- [5
+(babel)             in language  on input line 30.
+ [2
 
 
 
 ]
+\openout2 = `tese_epigrafe.aux'.
+
+
+No file tese_epigrafe.tex.
 \openout2 = `tese_resumo.aux'.
 
+(./tese_resumo.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 32.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 32.
+ [3
 
-(./tese_resumo.tex)
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 35.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 35.
- [1
+
 
 
 
 ]
 \openout2 = `tese_abstract.aux'.
 
- (./tese_abstract.tex)
+ (./tese_abstract.tex
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 2.
+)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 36.
- [2
+(babel)             in language  on input line 33.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 33.
+ [4
 
+
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 34.
+ (./tese.lof)
+\tf@lof=\write5
+\openout5 = `tese.lof'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 35.
+ [5
+
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 35.
+ (./tese.lot)
+\tf@lot=\write6
+\openout6 = `tese.lot'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 36.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 36.
+[6
+
+] (./tese.toc)
+\tf@toc=\write7
+\openout7 = `tese.toc'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 38.
+ [1
+
+]
+\openout2 = `tese_introducao.aux'.
+
+ (./tese_introducao.tex
+Cap\'{\i }tulo 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 38.
+ [2
 
 
 ]
 \openout2 = `tese_contextogeologico.aux'.
 
- (./tese_contextogeologico.tex)
+ (./tese_contextogeologico.tex
+Cap\'{\i }tulo 2.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 1.
+)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 39.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 39.
  [3
 
 
 
 ]
-\openout2 = `tese_metodologia.aux'.
+\openout2 = `tese_dados.aux'.
 
- (./tese_metodologia.tex
+ (./tese_dados.tex
+Cap\'{\i }tulo 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-30.def
 File: uni-30.def 2013/05/13 UCS: Unicode data U+1E00..U+1EFF
 )
-<mapa_das_estacoes_simosgraficas_instaladas.png, id=159, 1224.2538pt x 865.0719
+<mapa_das_estacoes_simosgraficas_instaladas.png, id=231, 1224.2538pt x 865.0719
 pt>
 File: mapa_das_estacoes_simosgraficas_instaladas.png Graphic file (type png)
  <use mapa_das_estacoes_simosgraficas_instaladas.png>
 Package pdftex.def Info: mapa_das_estacoes_simosgraficas_instaladas.png used on
- input line 10.
+ input line 9.
 (pdftex.def)             Requested size: 489.69284pt x 346.02263pt.
 
-Overfull \hbox (34.44873pt too wide) in paragraph at lines 10--11
+Overfull \hbox (34.44873pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 16.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 16.
-[4
-
-
-
- <./mapa_das_estacoes_simosgraficas_instaladas.png>]
-<sismograma.png, id=169, 729.927pt x 312.2064pt>
+<sismograma.png, id=233, 729.927pt x 312.2064pt>
 File: sismograma.png Graphic file (type png)
  <use sismograma.png>
-Package pdftex.def Info: sismograma.png used on input line 21.
+Package pdftex.def Info: sismograma.png used on input line 20.
 (pdftex.def)             Requested size: 437.95958pt x 187.32529pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 29.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 40.
- [5 <./sismograma.png>] <mapa_de_eventos.png, id=181, 782.6841pt x 377.9721pt>
+(babel)             in language  on input line 31.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 34.
+ [4
+
+
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 37.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 37.
+
+[5 <./mapa_das_estacoes_simosgraficas_instaladas.png> <./sismograma.png>]
+<mapa_de_eventos.png, id=248, 782.6841pt x 377.9721pt>
 File: mapa_de_eventos.png Graphic file (type png)
 
 <use mapa_de_eventos.png>
-Package pdftex.def Info: mapa_de_eventos.png used on input line 43.
+Package pdftex.def Info: mapa_de_eventos.png used on input line 44.
 (pdftex.def)             Requested size: 469.61409pt x 226.785pt.
 
-Overfull \hbox (14.36998pt too wide) in paragraph at lines 43--44
+Overfull \hbox (14.36998pt too wide) in paragraph at lines 44--45
  [][] 
  []
 
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 54.
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 40.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 40.
+ [6 <./mapa_de_eventos.png>]
+\openout2 = `tese_FR.aux'.
+
+ (./tese_FR.tex
+Cap\'{\i }tulo 4.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 59.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 59.
- [6 <./mapa_de_eventos.png>] <mcnamura_buland.png, id=198, 605.26125pt x 455.70
-25pt>
+<mcnamura_buland.png, id=265, 605.26125pt x 455.7025pt>
 File: mcnamura_buland.png Graphic file (type png)
 
 <use mcnamura_buland.png>
-Package pdftex.def Info: mcnamura_buland.png used on input line 63.
+Package pdftex.def Info: mcnamura_buland.png used on input line 13.
 (pdftex.def)             Requested size: 484.20964pt x 364.56248pt.
 
-Overfull \hbox (28.96553pt too wide) in paragraph at lines 63--64
+Overfull \hbox (28.96553pt too wide) in paragraph at lines 13--14
  [][] 
  []
 
 
-Overfull \hbox (1.22993pt too wide) in paragraph at lines 70--71
+Overfull \hbox (1.22993pt too wide) in paragraph at lines 20--21
 []\T1/cmr/m/n/12 Nesste tra-ba-lho uti-li-za-mos uma me-to-do-lo-gia se-me-lhan
 te a de []Gib-bons[] ([]2006[]). Utilizou-
  []
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 71.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 71.
-[7 <./mcnamura_buland.png>]
-<correlacao_tempo_de_chegada.png, id=216, 772.8875pt x 607.26875pt>
+<correlacao_tempo_de_chegada.png, id=277, 772.8875pt x 607.26875pt>
 File: correlacao_tempo_de_chegada.png Graphic file (type png)
 
 <use correlacao_tempo_de_chegada.png>
-Package pdftex.def Info: correlacao_tempo_de_chegada.png used on input line 74.
+Package pdftex.def Info: correlacao_tempo_de_chegada.png used on input line 24.
 
 (pdftex.def)             Requested size: 463.73607pt x 364.36406pt.
 
-Overfull \hbox (8.49196pt too wide) in paragraph at lines 74--75
+Overfull \hbox (8.49196pt too wide) in paragraph at lines 24--25
  [][] 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 85.
-[8 <./correlacao_tempo_de_chegada.png>]
-<Componente_Radial_Transversal.png, id=231, 735.74875pt x 192.72pt>
+(babel)             in language  on input line 30.
+[7
+
+
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 39.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 39.
+ [8 <./mcnamura_buland.png>]
+<Componente_Radial_Transversal.png, id=300, 735.74875pt x 192.72pt>
 File: Componente_Radial_Transversal.png Graphic file (type png)
 
 <use Componente_Radial_Transversal.png>
-Package pdftex.def Info: Componente_Radial_Transversal.png used on input line 9
+Package pdftex.def Info: Componente_Radial_Transversal.png used on input line 4
 2.
 (pdftex.def)             Requested size: 441.45265pt x 115.63287pt.
-
-<funcoes_sinteticas.png, id=235, 381.425pt x 605.26125pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+ [9 <./correlacao_tempo_de_chegada.png> <./Componente_Radial_Transversal.png>]
+<funcoes_sinteticas.png, id=311, 381.425pt x 605.26125pt>
 File: funcoes_sinteticas.png Graphic file (type png)
 
 <use funcoes_sinteticas.png>
-Package pdftex.def Info: funcoes_sinteticas.png used on input line 101.
+Package pdftex.def Info: funcoes_sinteticas.png used on input line 51.
 (pdftex.def)             Requested size: 305.1404pt x 484.20964pt.
-
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 60.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 60.
+ [10 <./funcoes_sinteticas.png>]
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 )
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 123.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 123.
- [9 <./Componente_Radial_Transversal.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 131.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 131.
- [10 <./funcoes_sinteticas.png>]
-<water_level.png, id=294, 475.7775pt x 204.765pt>
+<water_level.png, id=358, 475.7775pt x 204.765pt>
 File: water_level.png Graphic file (type png)
  <use water_level.png>
-Package pdftex.def Info: water_level.png used on input line 144.
+Package pdftex.def Info: water_level.png used on input line 94.
 (pdftex.def)             Requested size: 380.6225pt x 163.8122pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 100.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 100.
 
-<deconvolucao_interativa.png, id=303, 806.01125pt x 706.64pt>
+[11] <deconvolucao_interativa.png, id=379, 806.01125pt x 706.64pt>
 File: deconvolucao_interativa.png Graphic file (type png)
 
 <use deconvolucao_interativa.png>
-Package pdftex.def Info: deconvolucao_interativa.png used on input line 153.
+Package pdftex.def Info: deconvolucao_interativa.png used on input line 103.
 (pdftex.def)             Requested size: 403.00464pt x 353.31914pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 132.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 161.
- [11 <./water_level.png>]
+(babel)             in language  on input line 132.
+ [12 <./water_level.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 146.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 170.
- [12 <./deconvolucao_interativa.png>] <grid_search.png, id=336, 695.59875pt x 6
+(babel)             in language  on input line 146.
+ [13 <./deconvolucao_interativa.png>] <grid_search.png, id=417, 695.59875pt x 6
 93.59125pt>
 File: grid_search.png Graphic file (type png)
 
 <use grid_search.png>
-Package pdftex.def Info: grid_search.png used on input line 208.
+Package pdftex.def Info: grid_search.png used on input line 158.
 (pdftex.def)             Requested size: 347.79852pt x 346.79477pt.
+)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 215.
- [13])
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 38.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 41.
  [14 <./grid_search.png>]
+\openout2 = `tese_correlacao.aux'.
+
+ (./tese_correlacao.tex
+Cap\'{\i }tulo 5.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 42.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 42.
+ [15
+
+
+
+]
 \openout2 = `tese_resultados.aux'.
 
- (./tese_resultados.tex)
+ (./tese_resultados.tex
+Cap\'{\i }tulo 6.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 1.
+)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 39.
-
-[15
+(babel)             in language  on input line 43.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 43.
+ [16
 
 
 
 ]
 \openout2 = `tese_conclusao.aux'.
 
- (./tese_conclusao.tex)
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 40.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 40.
- [16
-
-
-
-] (./tese.bbl
+ (./tese_conclusao.tex
+Cap\'{\i }tulo 7.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 )
@@ -931,39 +998,52 @@ Package babel Info: Redefining portuges shorthand "|
  [17
 
 
+
+] (./tese.bbl
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+ [18
+
+
 ]
 \openout2 = `tese_anexo_tabela1.aux'.
 
  (./tese_anexo_tabela1.tex)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 44.
-
-[18
+(babel)             in language  on input line 48.
+ [19
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
- (./tese.aux (./tese_capa.aux) (./tese_folhaderosto.aux)
-(./tese_dedicatoria.aux) (./tese_agradecimentos.aux) (./tese_resumo.aux)
-(./tese_abstract.aux) (./tese_contextogeologico.aux) (./tese_metodologia.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+ (./tese.aux
+(./tese_capa.aux) (./tese_folhaderosto.aux) (./tese_dedicatoria.aux)
+(./tese_agradecimentos.aux) (./tese_epigrafe.aux) (./tese_resumo.aux)
+(./tese_abstract.aux) (./tese_introducao.aux) (./tese_contextogeologico.aux)
+(./tese_dados.aux) (./tese_FR.aux) (./tese_correlacao.aux)
 (./tese_resultados.aux) (./tese_conclusao.aux) (./tese_anexo_tabela1.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `tese.out' has not changed.
-(rerunfilecheck)             Checksum: F4272A2447D8AF7BCBFE75635A1A53C2;257.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
+(rerunfilecheck)             Checksum: C02446F3E73014A8CAF951CFAA460C6D;1169.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 11436 strings out of 494963
- 156925 string characters out of 6179647
- 261279 words of memory out of 5000000
- 14282 multiletter control sequences out of 15000+600000
+ 11482 strings out of 494963
+ 157558 string characters out of 6179647
+ 260706 words of memory out of 5000000
+ 14300 multiletter control sequences out of 15000+600000
  16693 words of font info for 43 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 37i,12n,39p,1345b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,39p,1336b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/d
 iogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/diogo/.texmf
 -var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/diogo/.texmf-var/fonts/
@@ -980,10 +1060,10 @@ ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb>
-Output written on tese.pdf (25 pages, 2034536 bytes).
+Output written on tese.pdf (27 pages, 2049251 bytes).
 PDF statistics:
- 832 PDF objects out of 1000 (max. 8388607)
- 390 compressed objects within 4 object streams
- 85 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 930 PDF objects out of 1000 (max. 8388607)
+ 452 compressed objects within 5 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 

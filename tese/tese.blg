@@ -5,10 +5,14 @@ A level-1 auxiliary file: tese_capa.aux
 A level-1 auxiliary file: tese_folhaderosto.aux
 A level-1 auxiliary file: tese_dedicatoria.aux
 A level-1 auxiliary file: tese_agradecimentos.aux
+A level-1 auxiliary file: tese_epigrafe.aux
 A level-1 auxiliary file: tese_resumo.aux
 A level-1 auxiliary file: tese_abstract.aux
+A level-1 auxiliary file: tese_introducao.aux
 A level-1 auxiliary file: tese_contextogeologico.aux
-A level-1 auxiliary file: tese_metodologia.aux
+A level-1 auxiliary file: tese_dados.aux
+A level-1 auxiliary file: tese_FR.aux
+A level-1 auxiliary file: tese_correlacao.aux
 A level-1 auxiliary file: tese_resultados.aux
 A level-1 auxiliary file: tese_conclusao.aux
 The style file: seg.bst
@@ -27,7 +31,7 @@ Warning--empty journal in langston_structure_1979
 Warning--empty journal in ligorria_iterative_1999
 You've used 13 entries,
             2639 wiz_defined-function locations,
-            802 strings with 8552 characters,
+            806 strings with 8612 characters,
 and the built_in function-call counts, 4905 in all, are:
 = -- 539
 > -- 126

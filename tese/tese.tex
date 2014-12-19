@@ -20,22 +20,26 @@
 \usepackage[pdftex]{hyperref} %Inserindo Links
 \usepackage{pdfpages} %Inserindo PDFs
 \makeindex
-\usepackage{tocbibind}
+\usepackage[nottoc]{tocbibind}
 
 \begin{document}
 \include{tese_capa}
 \include{tese_folhaderosto}
 \pagenumbering{Roman}
+\include{tese_dedicatoria}
+\include{tese_agradecimentos}
+\include{tese_epigrafe}
+\include{tese_resumo}
+\include{tese_abstract}
 \listoffigures
 \listoftables
 \tableofcontents
-\include{tese_dedicatoria}
-\include{tese_agradecimentos}
 \pagenumbering{arabic}
-\include{tese_resumo}
-\include{tese_abstract}
+\include{tese_introducao}
 \include{tese_contextogeologico}
-\include{tese_metodologia}
+\include{tese_dados}
+\include{tese_FR}
+\include{tese_correlacao}
 \include{tese_resultados}
 \include{tese_conclusao}
 %\addcontentsline{toc}{chapter}{Referências Bibliográficas}
