@@ -1,12 +1,31 @@
 \begin{thebibliography}{}
 \itemsep0pt
 
+\bibitem[Aki, 1957]{aki_space_1957}
+Aki, K.,  1957, Space and time spectra of stationary stochastic waves, with
+  special reference to microtremors.
+
 \bibitem[Ammon, 1991]{ammon_isolation_1991}
 Ammon, C.~J.,  1991, The isolation of receiver effects from teleseismic p
   waveforms: {\bf 81}, 2504--2510.
 
 \bibitem[Ammon, 1997]{Ammon_waterlevel_1997}
 --------, 1997, Receiver function source equalization: Website.
+
+\bibitem[Bensen et~al., 2007]{bensen_processing_2007}
+Bensen, G.~D., M.~H. Ritzwoller, M.~P. Barmin, A.~L. Levshin, F. Lin, M.~P.
+  Moschetti, N.~M. Shapiro, and Y. Yang,  2007, Processing seismic ambient
+  noise data to obtain reliable broad-band surface wave dispersion
+  measurements: {\bf 169}, 1239--1260.
+
+\bibitem[Boschi et~al., 2013]{boschi_measuring_2013}
+Boschi, L., C. Weemstra, J. Verbeke, G. Ekstrom, A. Zunino, and D. Giardini,
+  2013, On measuring surface wave phase velocity from station-station
+  cross-correlation of ambient signal: {\bf 192}, 346--358.
+
+\bibitem[Campillo and Paul, 2003]{campillo_long-range_2003}
+Campillo, M., and A. Paul,  2003, Long-range correlations in the diffuse
+  seismic coda: {\bf 299}, 547--549.
 
 \bibitem[Cassidy, 1992]{cassidy_numerical_1992}
 Cassidy, J.~F.,  1992, Numerical experiments in broadband receiver function
@@ -49,6 +68,20 @@ Ligorría, J.~P., and C.~J. Ammon,  1999, Iterative deconvolution and
 McNamara, D.~E., and R. Buland,  2004, Ambient noise levels in the continental
   united states: Bulletin of the Seismological Society of America, {\bf 94},
   1517--1527.
+
+\bibitem[Shapiro and Campillo, 2004]{shapiro_emergence_2004}
+Shapiro, N.~M., and M. Campillo,  2004, Emergence of broadband rayleigh waves
+  from correlations of the ambient seismic noise: {\bf 31}, L07614.
+
+\bibitem[Wapenaar, 2004]{wapenaar_retrieving_2004}
+Wapenaar, K.,  2004, Retrieving the elastodynamic green's function of an
+  arbitrary inhomogeneous medium by cross correlation: {\bf 93}, 254301.
+
+\bibitem[Yanovskaya et~al., 2013]{keilis-borok_seismic_2013}
+Yanovskaya, T., E.~N. Its, A.~V. Lander, B.~G. Bukchin, M.~P. Barmin, L.~I.
+  Ratnikova, and A.~L. Levshin,  2013, Seismic surface waves in a laterally
+  inhomogeneous earth, softcover reprint of the original 1st ed. 1989 edition
+  ed.: Springer.
 
 \bibitem[Zhu and Kanamori, 2000]{Zhu_Kanamori_2000}
 Zhu, L., and H. Kanamori,  2000, Moho depth variation in southern california

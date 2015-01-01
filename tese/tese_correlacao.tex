@@ -1,3 +1,47 @@
 \chapter{Dispersão de Ondas de Superfície}
 
-\section{Fundamentos Teóricos}
+\section{Fundamentos do Método}
+
+Os métodos para determinar a estrutura sísmica da Terra, em particular os métodos tomográficos, baseiam-se num princípio simples: a determinação das velocidades de propagação das ondas sísmicas e a procura de um modelo que melhor se ajuste às velocidades encontradas. A resolução dos modelos obtidos depende do tipo de onda utilizado e da geometria espacial das estações sismigráficas segundo à fonte do sinal. \cite{aki_space_1957} propôs a utilização do ruído sísmico ambiental para medir a dispersão das ondas Rayleigh e Love nas camadas mais superficiais. Somente \cite{campillo_long-range_2003}  e \cite{shapiro_emergence_2004} mostraram, pela primeira vez, a  presença de ondas superficiais nas correlações cruzadas entre pares de estações.
+
+\cite{campillo_long-range_2003}, \cite{shapiro_emergence_2004} e, principalmente, \cite{wapenaar_retrieving_2004} mostram que pode-se recuperar a resposta elástica da Terra a partir da correlação cruzada entre dois pontos em  um campo de ondas difuso ou aleatório. Essa resposta é aproximada como a Função de Green, como é mostrada na equação \ref{crosscorrelation}. 
+
+\cite{boschi_measuring_2013} define a correlação cruzada ($C_{xy}(t,\omega)$) como: 
+\begin{eqnarray}
+\label{crosscorrelation}
+C_{xy}(t,\omega) = \frac{1}{2\pi}\int_{-T}^{T}u(x,t,\omega)u(y,t+\tau,\omega) d\tau
+\end{eqnarray}
+
+onde $u$ são sinais registrados em duas estações nas posições $x$ e $y$, $t$ é o tempo, $\omega$ é a frequência, $\tau$ é o atraso e o parâmetro T define o tamanho da janela que a correlação cruzada será computada.
+\\
+
+Por possuir inúmeras vantagens em relação aos métodos de análise tradicionais, o número de artigos analisando a dispersão de ondas de superfície cresceu bastante. \cite{shapiro_emergence_2004} lista as seguintes vantagens: as medidas podem ser realizadas em qualquer direção de propagação e não estão limitadas à geometria fonte-receptor; não dependem da localização da fonte; a zona de sensibilidade destas medições situa-se na região que fica entre as duas estações; pode-se analisar pequenos períodos se existirem estações relativamente próximas umas das outras.
+
+
+\cite{shapiro_emergence_2004} testaram se as funções de Green podem ser extraídas do ruído sísmico ambiental. Neste teste eles selecionaram um
+período relativamente calmo no nível de atividade sísmica mundial, onde não ocorreram sismos com magnitude menor que 7. Com esses registos contínuos da componente vertical das estações ANMO e CCM, vistas na Figura \ref{shapiro}-a). Com isso calcularam a correlação cruzada para diferentes bandas de período, mostrado na Figura \ref{shapiro}-b), e aplicaram a análise tempo/frequência para calcular a velocidade de grupo das ondas de superfície segundo \cite{keilis-borok_seismic_2013}. \cite{shapiro_emergence_2004}  compararam as características de dispersão do sinal emergente com mapas preditos para o mesmo trajeto.  Nesta comparação, verificaram que os resultados obtidos para os dois casos são semelhantes.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.7]{shapiro2004.png}
+\caption{(a) Mapa mostrando a localização das estações. (b) Correlações cruzadas da componente vertical dos registros com diferentes filtros de passa-banda, indicados na parte esquerda superior. Linha pontilhada dá 
+ênfase na dispersão do sinal emergente. Extraído de \cite{shapiro_emergence_2004}.}
+\label{shapiro}
+\end{figure} 
+
+\section{Processamento}
+
+Para o processamento dos dados utilizou-se o código escrito pelo Professor Bruno Goutorbe. Tal código engloba a preparação dos dados, o cálculo da correlação, a análise Tempo/frequência e também a inversão tomográfica.  O código está disponível no GitHub no seguinte repositório: https://github.com/bgoutorbe/seismic-noise-tomography.
+
+Todo o fluxo de preparação e processamento dos dados  baseia-se no trabalho de  \cite{bensen_processing_2007}. Porém há alterações na filtragem espectral utilizada neste trabalho, devido a utilização de média a baixa frequência no processamento.
+
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.7]{fluxograma_bensen2007.png}
+\caption{Schematic representation of the data processing scheme. Phase 1 (described in Section 2 of the paper) shows the steps involved in preparing
+single-station data prior to cross-correlation. Phase 2 (Section 3) outlines the cross-correlation procedure and stacking, Phase 3 (Section 4) includes dispersion measurement and Phase 4 (Section 5) is the error analysis and data selection process.. Adaptado de \cite{bensen_processing_2007}.}
+\label{fluxograma_bensen2007}
+\end{figure} 
+
+

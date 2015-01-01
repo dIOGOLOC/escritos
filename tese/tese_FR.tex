@@ -1,6 +1,6 @@
 \chapter{Função do Receptor}
 
-\section{Fundamentos Teóricos}
+\section{Fundamentos do Método}
 
 No ínicio desse trabalho somente os dados de eventos incluídos no catálogo do IRIS (\textit{Incorporated Research Institutions for Seismology}) com magnitude maior que 5,5 entre maio de 2011 e maio de 2012 foram utilizados. Porém agora utiliza-se dados coletados na rede Sismográfica, mostrada na \ref{map_loc}, até o fim do segundo semestre de 2013. A Figura \ref{mapa_eventos} mostra eventos sísmicos registrados na estação STA08 mostrando a delimitação dos eventos pela distância epicentral, além de mostrar sismos com magnitude maior que 5.5 mb.
 
@@ -19,6 +19,8 @@ O resultado da equação \ref{rotação} discrimina claramente a contribuição 
 \caption{Sismograma mostrando as componentes Radial e Transversal.}
 \label{sismo_radial}
 \end{figure}
+
+\section{Processamento}
 
 Para o cálculo a espessura crustal na região utilizou-se o método da Função do Receptor, que foi desenvolvido por \cite{Langston_1977}. O programa SAC (\textit{Seismic Analysis Code}) foi usado para fazer o processamento e o cálculo das Funções Receptores. Tal método faz uso do sinal de tele-sismos, geradores de ondas planas de incidência quase-vertical embaixo de uma dada estação. A onda P incide na discontinuidade de Mohorovicic e se decompõe em uma onda P transmitida e uma onda S convertida. A diferença do tempo de chegada das duas ondas, onda S tem velocidade inferior a onda P, e de outras reflexões permite inferir a profundidade da discontinuidade de Mohorovicic, também chamada de Moho, como mostrado na Figura \ref{funcoes_sinteticas} .
 
@@ -81,7 +83,7 @@ No processamento dos dados a deconvolução no domínio do tempo feita é de aco
 \label{deconvolucao_interativa}
 \end{figure}
 
-\section*{Pós-processamento}
+\section{Pós-processamento}
 
 Após gerar sismogramas pela deconvolução Interativa, as séries temporais passaram por um processo de triagem para qualificar as que obtveram melhor resultado. Tal seleção foi feita sob um critério visual observando as funções do receptor que respeitam o formato determinado por \citep{langston_structure_1979}.
 
