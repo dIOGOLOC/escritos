@@ -33,15 +33,29 @@ período relativamente calmo no nível de atividade sísmica mundial, onde não 
 
 Para o processamento dos dados utilizou-se o código escrito pelo Professor Bruno Goutorbe. Tal código engloba a preparação dos dados, o cálculo da correlação, a análise Tempo/frequência e também a inversão tomográfica.  O código está disponível no GitHub no seguinte repositório: https://github.com/bgoutorbe/seismic-noise-tomography.
 
-Todo o fluxo de preparação e processamento dos dados  baseia-se no trabalho de  \cite{bensen_processing_2007}. Porém há alterações na filtragem espectral utilizada neste trabalho, devido a utilização de média a baixa frequência no processamento.
+Todo o fluxo de preparação e processamento dos dados  baseia-se no trabalho de \cite{bensen_processing_2007}. Porém há alterações na filtragem espectral utilizada neste trabalho, devido a utilização de média a baixa frequência no processamento.
 
 
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.7]{fluxograma_bensen2007.png}
-\caption{Schematic representation of the data processing scheme. Phase 1 (described in Section 2 of the paper) shows the steps involved in preparing
-single-station data prior to cross-correlation. Phase 2 (Section 3) outlines the cross-correlation procedure and stacking, Phase 3 (Section 4) includes dispersion measurement and Phase 4 (Section 5) is the error analysis and data selection process.. Adaptado de \cite{bensen_processing_2007}.}
+\caption{Representação esquemática do esquema do processamento. Fase 1 mostra as etapas que involvem a preparação dos dados antes da correlação. Fase 2 outlines the cross-correlation procedure and stacking, Phase 3 (Section 4) includes dispersion measurement and Phase 4 (Section 5) is the error analysis and data selection process.. Adaptado de \cite{bensen_processing_2007}.}
 \label{fluxograma_bensen2007}
 \end{figure} 
 
+\subsection{Preparação dos dados para cada estações}
 
+\cite{bensen_processing_2007} cita que a primeira fase do processamento  é feita para preparar os dados da forma da onda de cada estação individualmente, faz-se isso para acentuar o ruído ambiental de banda larga tentando remover os sinais de terremoto e de irregularidades instrumental que tendem a ocultar o ruído ambiental.
+
+Segundo \cite{bensen_processing_2007}, séries temporáis diárias com menos que 80\% do registro devem ser rejeitadas, mas isso varia de acordo com a discretização do usuário. No caso desse trabalho foram utilizados séries  temporáis diárias com 99\% do registro com o propósito de usar a interpolação o míńimo possível.
+
+Um passo importante na preparação dos dados é a "normalização temporal" ou "normalização no domínio do tempo", \cite{bensen_processing_2007}. Isto é feito para reduzir na correlação cruzada os efeitos de terremotos, irregularidades instrumentais e fontes de ruído não-estacionários próximos á estação. \cite{bensen_processing_2007} compara cinco métodos diferente para a normalização temporal, como observado na Figura \ref{temporal_norma}.
+
+Terremotos geram grandes impecílios na automatização do processamento, pois eles ocorrem irregularmente e apenas grandes terremotos são encontrados nos catálogos globais. Então a remoção dos sinais dos terremotos tem que ser adaptativa aos dados. Muitos estudos aplicam a técnica da "normalização 1-bit", como observado na Figura \ref{temporal_norma}-b, em que somente o sinal do sinal é retido (+1 ou -1) e a amplitude é completamente ignorada. Neste trabalho foi aplicado a "normalização corrida", esta produz uma razão sinal-ruído maior que a normalização 1-bit no conjunto de dados utilizados, estando de acordo com estudos de \cite{seats_improved_2012}.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.5]{temporal_norma.png}
+\caption{Formas de onda mostrando exemplos de cinco tipos de normalização no dominio do tempo testadas por \cite{bensen_processing_2007}. Os exemplos estão com o filtro passa-banda entre 20 e 100 segundos e mostram a contaminação por sinais de terremoto. (a)  Dado bruto mostrando 3 horas de dados janelados em torno de um grande terremoto (M = 7.2, Afeganistão) registrado na estação ANMO. (b) Normalização 1-bit.(c) Forma de onda cortada, onde o limiar de recorte é igual ao rms da amplitude do sinal de um dado dia. (d) Evento detectado e removido automaticamente. (e) Normalização média absoluta corrida. (f) Normalização ‘\textit{Water level}’ . Retirado de \cite{bensen_processing_2007}.}
+\label{temporal_norma}
+\end{figure} 

@@ -17,6 +17,7 @@
 \contentsline {chapter}{\numberline {5}Dispers\IeC {\~a}o de Ondas de Superf\IeC {\'\i }cie}{19}{chapter.5}
 \contentsline {section}{\numberline {5.1}Fundamentos do M\IeC {\'e}todo}{19}{section.5.1}
 \contentsline {section}{\numberline {5.2}Processamento}{21}{section.5.2}
-\contentsline {chapter}{\numberline {6}Resultados e Discuss\IeC {\~o}es}{22}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclus\IeC {\~o}es}{23}{chapter.7}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{24}{chapter*.8}
+\contentsline {subsection}{\numberline {5.2.1}Prepara\IeC {\c c}\IeC {\~a}o dos dados para cada esta\IeC {\c c}\IeC {\~o}es}{21}{subsection.5.2.1}
+\contentsline {chapter}{\numberline {6}Resultados e Discuss\IeC {\~o}es}{23}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclus\IeC {\~o}es}{24}{chapter.7}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{25}{chapter*.8}
