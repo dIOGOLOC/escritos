@@ -5,6 +5,10 @@
 Aki, K.,  1957, Space and time spectra of stationary stochastic waves, with
   special reference to microtremors.
 
+\bibitem[Almeida and Carneiro, 1998]{Almeida_Carneiro_1998}
+Almeida, F., and C. Carneiro,  1998, Origem e evolução da serra do mar.:
+  Revista Brasileira de Geociências, {\bf 28}, 135--150.
+
 \bibitem[Ammon, 1991]{ammon_isolation_1991}
 Ammon, C.~J.,  1991, The isolation of receiver effects from teleseismic p
   waveforms: {\bf 81}, 2504--2510.
@@ -39,6 +43,18 @@ Clayton, R.~W., and R.~A. Wiggins,  1976, Source shape estimation and
 Gibbons, S.~J.,  2006, On the identification and documentation of timing
   errors: An example at the {KBS} station, spitsbergen: {\bf 77}, 559--571.
 
+\bibitem[Hasui and Sadowski, 1976]{Hasui_Sadowski_1976}
+Hasui, Y., and G. Sadowski,  1976, Evolução geológica do pré-cambriano na
+  região sudeste do estado de são paulo.: Revista Brasileira de Geociências,
+  {\bf 6}, 182--200.
+
+\bibitem[Heilbron et~al., 2010]{heilbron_evolution_2010}
+Heilbron, M., B.~P. Duarte, C.~d.~M. Valeriano, A. Simonetti, N. Machado, and
+  J.~R. Nogueira,  2010, Evolution of reworked paleoproterozoic basement rocks
+  within the ribeira belt (neoproterozoic), {SE}-brazil, based on u–pb
+  geochronology: Implications for paleogeographic reconstructions of the são
+  francisco-congo paleocontinent: {\bf 178}, 136--148.
+
 \bibitem[Julia et~al., 2008]{julia_deep_2008}
 Julia, J., M. Assumpcao, and M.~P. Rocha,  2008, Deep crustal structure of the
   parana basin from receiver functions and rayleigh-wave dispersion: Evidence
@@ -51,6 +67,11 @@ Kennet, B. L.~N.,  1991, Iaspei 1991 seismological tables: {\bf 3}, 122--122.
 Kikuchi, M., and H. Kanamori,  1982, Inversion of complex body waves: {\bf 72},
   491--506.
 
+\bibitem[Kühn et~al., 2004]{kuhn_metamorphic_2004}
+Kühn, A., K. Stüwe, and R.~a.~J. Trouw,  2004, Metamorphic evolution of the
+  ribeira belt: Evidence from outcrops in the rio de janeiro area, brazil: {\bf
+  45}, 2303--2323.
+
 \bibitem[Langston, 1977]{Langston_1977}
 Langston, C.~A.,  1977, The effect of planar dipping structure on source and
   receiver responses for constant ray parameter: Bulletin of the Seismological
@@ -59,6 +80,12 @@ Langston, C.~A.,  1977, The effect of planar dipping structure on source and
 \bibitem[Langston, 1979]{langston_structure_1979}
 --------, 1979, Structure under mount rainier, washington, inferred from
   teleseismic body waves: {\bf 84}, no. B9, 4749--4762.
+
+\bibitem[Levshin and Ritzwoller, 2001]{levshin_automated_2001}
+Levshin, A.~L., and M.~H. Ritzwoller,  2001, Automated detection, extraction,
+  and measurement of regional surface waves, {\it in} Monitoring the
+  Comprehensive Nuclear-Test-Ban Treaty: Surface Waves: Birkhäuser Basel,
+  Pageoph Topical Volumes,  1531--1545.
 
 \bibitem[Ligorría and Ammon, 1999]{ligorria_iterative_1999}
 Ligorría, J.~P., and C.~J. Ammon,  1999, Iterative deconvolution and
@@ -69,6 +96,11 @@ McNamara, D.~E., and R. Buland,  2004, Ambient noise levels in the continental
   united states: Bulletin of the Seismological Society of America, {\bf 94},
   1517--1527.
 
+\bibitem[Riccomini, 1989]{Riccomini_1989}
+Riccomini, C.,  1989, O rift continental do sudeste do brasil. são paulo:
+  Instituto de geociências universidade de são paulo.: {PhD} in geolgy,
+  Instituto de Geociências Universidade de São Paulo.
+
 \bibitem[Seats et~al., 2012]{seats_improved_2012}
 Seats, K.~J., J.~F. Lawrence, and G.~A. Prieto,  2012, Improved ambient noise
   correlation functions using welch's method: {\bf 188}, 513--523.
@@ -77,15 +109,16 @@ Seats, K.~J., J.~F. Lawrence, and G.~A. Prieto,  2012, Improved ambient noise
 Shapiro, N.~M., and M. Campillo,  2004, Emergence of broadband rayleigh waves
   from correlations of the ambient seismic noise: {\bf 31}, L07614.
 
+\bibitem[Valeriano et~al., 2011]{valeriano_u_pb_2011}
+Valeriano, C. d.~M., M. Tupinambá, A. Simonetti, M. Heilbron, J.~C.~H.
+  de~Almeida, and L.~G. do~Eirado,  2011, U-pb la-mc-icpms geochronology of
+  cambro-ordovician post-collisional granites of the ribeira belt, southeast
+  brazil: Terminal brasiliano magmatism in central gondwana supercontinent:
+  {\bf 32}, 416--428.
+
 \bibitem[Wapenaar, 2004]{wapenaar_retrieving_2004}
 Wapenaar, K.,  2004, Retrieving the elastodynamic green's function of an
   arbitrary inhomogeneous medium by cross correlation: {\bf 93}, 254301.
-
-\bibitem[Yanovskaya et~al., 2013]{keilis-borok_seismic_2013}
-Yanovskaya, T., E.~N. Its, A.~V. Lander, B.~G. Bukchin, M.~P. Barmin, L.~I.
-  Ratnikova, and A.~L. Levshin,  2013, Seismic surface waves in a laterally
-  inhomogeneous earth, softcover reprint of the original 1st ed. 1989 edition
-  ed.: Springer.
 
 \bibitem[Zhu and Kanamori, 2000]{Zhu_Kanamori_2000}
 Zhu, L., and H. Kanamori,  2000, Moho depth variation in southern california

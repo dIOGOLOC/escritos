@@ -18,8 +18,6 @@ A level-1 auxiliary file: tese_conclusao.aux
 The style file: seg.bst
 A level-1 auxiliary file: tese_anexo_tabela1.aux
 Database file #1: tese_ref.bib
-Warning--entry type for "Ammon_waterlevel_1997" isn't style-file defined
---line 258 of file tese_ref.bib
 Warning--empty journal in aki_space_1957
 Warning--empty journal in ammon_isolation_1991
 Warning--empty journal in bensen_processing_2007
@@ -28,54 +26,56 @@ Warning--empty journal in campillo_long-range_2003
 Warning--empty journal in cassidy_numerical_1992
 Warning--empty journal in clayton_source_1976
 Warning--empty journal in gibbons_identification_2006
+Warning--empty journal in heilbron_evolution_2010
 Warning--empty journal in julia_deep_2008
 Warning--empty journal in kennet_iaspei_1991
 Warning--empty journal in kikuchi_inversion_1982
+Warning--empty journal in kuhn_metamorphic_2004
 Warning--empty journal in langston_structure_1979
 Warning--empty journal in ligorria_iterative_1999
 Warning--empty journal in seats_improved_2012
 Warning--empty journal in shapiro_emergence_2004
+Warning--empty journal in valeriano_u_pb_2011
 Warning--empty journal in wapenaar_retrieving_2004
-Warning--can't use both author and editor fields in keilis-borok_seismic_2013
-You've used 21 entries,
+You've used 27 entries,
             2639 wiz_defined-function locations,
-            865 strings with 10691 characters,
-and the built_in function-call counts, 8378 in all, are:
-= -- 901
-> -- 298
-< -- 16
-+ -- 102
-- -- 98
-* -- 777
-:= -- 1420
-add.period$ -- 21
-call.type$ -- 21
-change.case$ -- 156
-chr.to.int$ -- 21
-cite$ -- 38
-duplicate$ -- 287
-empty$ -- 610
-format.name$ -- 133
-if$ -- 1684
+            914 strings with 12610 characters,
+and the built_in function-call counts, 11023 in all, are:
+= -- 1194
+> -- 390
+< -- 21
++ -- 132
+- -- 128
+* -- 1011
+:= -- 1855
+add.period$ -- 27
+call.type$ -- 27
+change.case$ -- 201
+chr.to.int$ -- 27
+cite$ -- 46
+duplicate$ -- 383
+empty$ -- 802
+format.name$ -- 175
+if$ -- 2235
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 21
-newline$ -- 67
-num.names$ -- 61
-pop$ -- 119
+missing$ -- 25
+newline$ -- 85
+num.names$ -- 79
+pop$ -- 153
 preamble$ -- 1
-purify$ -- 155
+purify$ -- 200
 quote$ -- 0
-skip$ -- 217
+skip$ -- 293
 stack$ -- 0
-substring$ -- 707
-swap$ -- 19
-text.length$ -- 0
+substring$ -- 942
+swap$ -- 34
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 124
-warning$ -- 17
-while$ -- 70
+type$ -- 162
+warning$ -- 19
+while$ -- 93
 width$ -- 0
-write$ -- 216
-(There were 18 warnings)
+write$ -- 281
+(There were 19 warnings)

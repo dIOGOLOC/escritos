@@ -17,8 +17,10 @@
 \contentsline {chapter}{\numberline {5}Dispers\IeC {\~a}o de Ondas de Superf\IeC {\'\i }cie}{19}{chapter.5}
 \contentsline {section}{\numberline {5.1}Fundamentos do M\IeC {\'e}todo}{19}{section.5.1}
 \contentsline {section}{\numberline {5.2}Processamento}{21}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Prepara\IeC {\c c}\IeC {\~a}o dos dados para cada esta\IeC {\c c}\IeC {\~o}es}{21}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Prepara\IeC {\c c}\IeC {\~a}o dos dados para cada esta\IeC {\c c}\IeC {\~o}es}{22}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Normaliza\IeC {\c c}\IeC {\~a}o espectral ou braqueamento}{23}{subsection.5.2.2}
-\contentsline {chapter}{\numberline {6}Resultados e Discuss\IeC {\~o}es}{24}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclus\IeC {\~o}es}{25}{chapter.7}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{26}{chapter*.8}
+\contentsline {subsection}{\numberline {5.2.3}Correla\IeC {\c c}\IeC {\~a}o Cruzada, Empilhamento e Sinal emergente}{23}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Medidas da Dispers\IeC {\~a}o}{23}{subsection.5.2.4}
+\contentsline {chapter}{\numberline {6}Resultados e Discuss\IeC {\~o}es}{27}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclus\IeC {\~o}es}{28}{chapter.7}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{29}{chapter*.8}
