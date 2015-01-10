@@ -33,49 +33,52 @@ Warning--empty journal in kikuchi_inversion_1982
 Warning--empty journal in kuhn_metamorphic_2004
 Warning--empty journal in langston_structure_1979
 Warning--empty journal in ligorria_iterative_1999
+Warning--empty journal in pimentel_tectonic_2011
+Warning--empty journal in reno_situ_2012
 Warning--empty journal in seats_improved_2012
 Warning--empty journal in shapiro_emergence_2004
+Warning--empty journal in trouw_new_2013
 Warning--empty journal in valeriano_u_pb_2011
 Warning--empty journal in wapenaar_retrieving_2004
-You've used 27 entries,
+You've used 30 entries,
             2639 wiz_defined-function locations,
-            914 strings with 12610 characters,
-and the built_in function-call counts, 11023 in all, are:
-= -- 1194
-> -- 390
+            934 strings with 13843 characters,
+and the built_in function-call counts, 12633 in all, are:
+= -- 1362
+> -- 494
 < -- 21
-+ -- 132
-- -- 128
-* -- 1011
-:= -- 1855
-add.period$ -- 27
-call.type$ -- 27
-change.case$ -- 201
-chr.to.int$ -- 27
-cite$ -- 46
-duplicate$ -- 383
-empty$ -- 802
-format.name$ -- 175
-if$ -- 2235
++ -- 174
+- -- 166
+* -- 1174
+:= -- 2131
+add.period$ -- 30
+call.type$ -- 30
+change.case$ -- 235
+chr.to.int$ -- 30
+cite$ -- 52
+duplicate$ -- 425
+empty$ -- 889
+format.name$ -- 216
+if$ -- 2547
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 25
-newline$ -- 85
-num.names$ -- 79
-pop$ -- 153
+missing$ -- 28
+newline$ -- 94
+num.names$ -- 88
+pop$ -- 184
 preamble$ -- 1
-purify$ -- 200
+purify$ -- 234
 quote$ -- 0
-skip$ -- 293
+skip$ -- 323
 stack$ -- 0
-substring$ -- 942
-swap$ -- 34
+substring$ -- 1048
+swap$ -- 37
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
-warning$ -- 19
-while$ -- 93
+type$ -- 180
+warning$ -- 22
+while$ -- 105
 width$ -- 0
-write$ -- 281
-(There were 19 warnings)
+write$ -- 311
+(There were 22 warnings)
