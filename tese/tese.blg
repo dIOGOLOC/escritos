@@ -18,6 +18,11 @@ A level-1 auxiliary file: tese_conclusao.aux
 The style file: seg.bst
 A level-1 auxiliary file: tese_anexo_tabela1.aux
 Database file #1: tese_ref.bib
+Warning--I didn't find a database entry for "mcnamara_ambient_2004"
+Warning--I didn't find a database entry for "assumpcao_crustal_2013"
+Warning--I didn't find a database entry for "assumpcao_models_2013"
+Warning--I didn't find a database entry for "van_der_meijde_gravity_2013"
+Warning--I didn't find a database entry for "efron_statistical_1991"
 Warning--empty journal in aki_space_1957
 Warning--empty journal in ammon_isolation_1991
 Warning--empty journal in bensen_processing_2007
@@ -42,7 +47,7 @@ Warning--empty journal in valeriano_u_pb_2011
 Warning--empty journal in wapenaar_retrieving_2004
 You've used 30 entries,
             2639 wiz_defined-function locations,
-            934 strings with 13843 characters,
+            939 strings with 13956 characters,
 and the built_in function-call counts, 12633 in all, are:
 = -- 1362
 > -- 494
@@ -81,4 +86,4 @@ warning$ -- 22
 while$ -- 105
 width$ -- 0
 write$ -- 311
-(There were 22 warnings)
+(There were 27 warnings)
