@@ -18,9 +18,8 @@ A level-1 auxiliary file: tese_conclusao.aux
 The style file: seg.bst
 A level-1 auxiliary file: tese_anexo_tabela1.aux
 Database file #1: tese_ref.bib
-Warning--I didn't find a database entry for "assumpcao_models_2013"
-Warning--I didn't find a database entry for "assumpcao_crustal_2013"
 Warning--I didn't find a database entry for "van_der_meijde_gravity_2013"
+Warning--I didn't find a database entry for "assumpcao_crustal_2013"
 Warning--I didn't find a database entry for "efron_statistical_1991"
 Warning--empty journal in aki_space_1957
 Warning--empty journal in ammon_isolation_1991
@@ -44,45 +43,45 @@ Warning--empty journal in shapiro_emergence_2004
 Warning--empty journal in trouw_new_2013
 Warning--empty journal in valeriano_u_pb_2011
 Warning--empty journal in wapenaar_retrieving_2004
-You've used 30 entries,
+You've used 32 entries,
             2639 wiz_defined-function locations,
-            938 strings with 13935 characters,
-and the built_in function-call counts, 12633 in all, are:
-= -- 1362
-> -- 494
+            950 strings with 14465 characters,
+and the built_in function-call counts, 13720 in all, are:
+= -- 1473
+> -- 570
 < -- 21
-+ -- 174
-- -- 166
-* -- 1174
-:= -- 2131
-add.period$ -- 30
-call.type$ -- 30
-change.case$ -- 235
-chr.to.int$ -- 30
-cite$ -- 52
-duplicate$ -- 425
-empty$ -- 889
-format.name$ -- 216
-if$ -- 2547
-int.to.chr$ -- 1
++ -- 203
+- -- 194
+* -- 1282
+:= -- 2323
+add.period$ -- 32
+call.type$ -- 32
+change.case$ -- 259
+chr.to.int$ -- 31
+cite$ -- 54
+duplicate$ -- 453
+empty$ -- 947
+format.name$ -- 246
+if$ -- 2763
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 28
-newline$ -- 94
-num.names$ -- 88
-pop$ -- 184
+missing$ -- 30
+newline$ -- 100
+num.names$ -- 94
+pop$ -- 204
 preamble$ -- 1
-purify$ -- 234
+purify$ -- 258
 quote$ -- 0
-skip$ -- 323
+skip$ -- 342
 stack$ -- 0
-substring$ -- 1048
-swap$ -- 37
+substring$ -- 1108
+swap$ -- 39
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 180
+type$ -- 192
 warning$ -- 22
-while$ -- 105
+while$ -- 111
 width$ -- 0
-write$ -- 311
-(There were 26 warnings)
+write$ -- 333
+(There were 25 warnings)
