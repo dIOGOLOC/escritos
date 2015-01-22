@@ -18,6 +18,10 @@ A level-1 auxiliary file: tese_conclusao.aux
 The style file: seg.bst
 A level-1 auxiliary file: tese_anexo_tabela1.aux
 Database file #1: tese_ref.bib
+Warning--entry type for "Silva_2014" isn't style-file defined
+--line 601 of file tese_ref.bib
+Warning--entry type for "Bassini_1986" isn't style-file defined
+--line 609 of file tese_ref.bib
 Warning--I didn't find a database entry for "assumpcao_crustal_2013"
 Warning--I didn't find a database entry for "efron_statistical_1991"
 Warning--empty journal in aki_space_1957
@@ -27,6 +31,7 @@ Warning--empty journal in boschi_measuring_2013
 Warning--empty journal in campillo_long-range_2003
 Warning--empty journal in cassidy_numerical_1992
 Warning--empty journal in clayton_source_1976
+Warning--empty booktitle in flora_solon_ancient_2013
 Warning--empty journal in gibbons_identification_2006
 Warning--empty journal in heilbron_evolution_2010
 Warning--empty journal in julia_deep_2008
@@ -37,50 +42,51 @@ Warning--empty journal in langston_structure_1979
 Warning--empty journal in ligorria_iterative_1999
 Warning--empty journal in pimentel_tectonic_2011
 Warning--empty journal in reno_situ_2012
+Warning--empty journal in sand_franca_crustal_2004
 Warning--empty journal in seats_improved_2012
 Warning--empty journal in shapiro_emergence_2004
 Warning--empty journal in trouw_new_2013
 Warning--empty journal in valeriano_u_pb_2011
 Warning--empty journal in wapenaar_retrieving_2004
-You've used 33 entries,
+You've used 37 entries,
             2639 wiz_defined-function locations,
-            956 strings with 14698 characters,
-and the built_in function-call counts, 14152 in all, are:
-= -- 1521
-> -- 588
-< -- 21
-+ -- 209
-- -- 200
-* -- 1322
-:= -- 2397
-add.period$ -- 33
-call.type$ -- 33
-change.case$ -- 267
-chr.to.int$ -- 32
-cite$ -- 55
-duplicate$ -- 467
-empty$ -- 977
-format.name$ -- 253
-if$ -- 2850
+            982 strings with 15619 characters,
+and the built_in function-call counts, 15454 in all, are:
+= -- 1665
+> -- 622
+< -- 26
++ -- 219
+- -- 210
+* -- 1424
+:= -- 2621
+add.period$ -- 37
+call.type$ -- 37
+change.case$ -- 292
+chr.to.int$ -- 36
+cite$ -- 61
+duplicate$ -- 518
+empty$ -- 1074
+format.name$ -- 269
+if$ -- 3119
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 31
-newline$ -- 103
-num.names$ -- 97
-pop$ -- 210
+missing$ -- 33
+newline$ -- 115
+num.names$ -- 109
+pop$ -- 226
 preamble$ -- 1
-purify$ -- 266
+purify$ -- 291
 quote$ -- 0
-skip$ -- 352
+skip$ -- 399
 stack$ -- 0
-substring$ -- 1145
-swap$ -- 40
-text.length$ -- 1
+substring$ -- 1242
+swap$ -- 48
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 198
-warning$ -- 22
-while$ -- 115
+type$ -- 222
+warning$ -- 24
+while$ -- 128
 width$ -- 0
-write$ -- 344
-(There were 24 warnings)
+write$ -- 382
+(There were 28 warnings)

@@ -22,5 +22,5 @@
 \contentsline {subsection}{\numberline {5.2.3}Correla\IeC {\c c}\IeC {\~a}o Cruzada, Empilhamento e Sinal emergente}{25}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}Medidas da Dispers\IeC {\~a}o}{25}{subsection.5.2.4}
 \contentsline {chapter}{\numberline {6}Resultados e Discuss\IeC {\~o}es}{29}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclus\IeC {\~o}es}{35}{chapter.7}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{36}{chapter*.8}
+\contentsline {chapter}{\numberline {7}Conclus\IeC {\~o}es}{36}{chapter.7}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{37}{chapter*.8}

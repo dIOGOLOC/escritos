@@ -2,38 +2,40 @@
 
 A caracterização do arcabouço estrutural utilizando métodos sismológicos possui problemas de unicidade de solução, como outros métodos geofísicos.  Essa falta de informação direta do objeto em estudo proporciona uma gama de soluções, entretante há inúmeros meios de se contornar essa situação. A modelagem mostra-se uma boa opção, pois consegue comprovar se a técnica utilizada tem resolução para seu objetivo.
 
-Para delimitar as principais feições estruturais da área em estudo utilizou-se modelos simples, como visto na Figura \ref{modelagem}-a, apenas com camadas planas. Com esses modelos pretende-se mostrar que as estimativas da espessura crustal e razão $V_{p}/V_{s}$ são consistentes com os dados observados. Para a confecção e cálculo das Funções do Receptor Sintéticas aplicou-se a metodologia proposta por \cite{Ammon_waterlevel_1997}. 
-
-Nessa medotologia os programas utilizados para criar os modelos foram "\textit{icmod}" e "\textit{vplot[s]}". A preparação dos dados foi feita pelo programa "\textit{respknt}". O programa "\textit{pwaveqn}" calculou as Funções do Receptor no domínio da frequência para os modelos pré-estabelecidos. Os parâmetros utilizados para o cálculo das Funções do Receptor estão na Figura \ref{modelagem}. Toda a demonstração da modelagem e cálculo das Funções do Receptor está disponibilizada por \cite{Ammon_waterlevel_1997} em sua página na internet.
-
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.4]{modelagem_RF.png}
-\caption{}
+\caption{Funções do Receptor Sintéticas para área abrangida pelo projeto do SUBSAL segundo vários tipos de modelos de velocidade da onda P.}
 \label{modelagem}
 \end{figure}
 
-Os modelos de velocidade da onda P ($V_{p}$) são exemplos retirados da literatura sobre a região em estudo. 
+Para delimitar as principais feições estruturais da área em estudo utilizou-se modelos simples, como visto na Figura \ref{modelagem}, apenas com camadas planas. Com esses modelos pretende-se mostrar que as estimativas da espessura crustal e razão $V_{p}/V_{s}$ são consistentes com os dados observados. Para a confecção e cálculo das Funções do Receptor Sintéticas aplicou-se a metodologia proposta por \cite{Ammon_waterlevel_1997}. 
+
+Nessa medotologia os programas utilizados para criar os modelos foram "\textit{icmod}" e "\textit{vplot[s]}". A preparação dos dados foi feita pelo programa "\textit{respknt}". O programa "\textit{pwaveqn}" calculou as Funções do Receptor no domínio da frequência para os modelos pré-estabelecidos. Os parâmetros utilizados para o cálculo das Funções do Receptor estão na Figura \ref{modelagem}. Toda a demonstração da modelagem e cálculo das Funções do Receptor está disponibilizada por \cite{Ammon_waterlevel_1997} em sua página na internet.
+
+Os modelos de velocidade da onda P ($V_{p}$) são exemplos retirados da literatura sobre a região em estudo. \cite{Bassini_1986} foi o primeiro a estimar a estrutura crustual para a região da Faixa Riberia, então neste trabalho utilizou-se o modelo de velocidade sísmica para a região da Serra do Mar, como observado na Figura \ref{modelagem}. Mais tarde, \cite{sand_franca_crustal_2004} re-compilou os dados de \cite{Bassini_1986} e propôs um novo modelo de velocidade sísmica da região da Serra do Mar, como visto na Figura \ref{modelagem}. Recentemente \cite{flora_solon_ancient_2013} e \cite{Silva_2014} geraram resultados da estrutura crustal da região em estudo através dos métodos magnetométrico e gravimétrico, respectivamente. Baseando-se nesses resultados, organizou-se um modelo de velocidade sísmica para a região em estudo, como visto na Figura \ref{modelagem}. Uma opção de modelo sísmico levantada por \cite{sand_franca_crustal_2004} é o modelo Sintético, mostrado na Figura \ref{modelagem}. Neste modelo o autor considera que a variação das propriedades físicas da região aumenta progressivamente com a profundidade.
 
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.7]{tempo_teorico_modelo_tauptime.png}
-\caption{Tempos teóricos para a reflexão $Ps$ (gráficos à esquerda) e fases $PpPs$ segundo o IASPEI91. Os tempos estão classificados segundo o parâmetro do raio e as distâncias epicentrais.}
+\caption{Tempos teóricos para a reflexão $Ps$ (gráficos à esquerda) e fases $PpPs$ segundo o modelo de \cite{kennet_iaspei_1991}. Os tempos estão classificados segundo o parâmetro do raio e as distâncias epicentrais.}
 \label{tauptime}
 \end{figure}
 
 
-A Figura \ref{RF_perfil_NW} mostra uma seção de Funções do Receptor obtidas de vários eventos oriundos das região Noroeste. Estes sinais estão normalizados pela amplitude do primeiro pico. O primeiro pick é a chegada da onda P direta, já o segundos, por volta de 5 segundos, e a onda P convertida em onda S na discontinuidade de Moho.
+A Figura \ref{RF_SLP01} mostra as Funções do Receptor obtidas de vários eventos na estação SLP01. Estes sinais estão normalizados pela amplitude do primeiro pico. O primeiro pick é a chegada da onda P direta, já o segundos, por volta de 5 segundos, e a onda P convertida em onda S na discontinuidade de Moho. As multiplas $PpPs$ e $PpSs+PsPs$ tem uma amplitude menor que a onda P convertida em S($Ps$). 
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.15]{Perfil_RF_NWLS.png}
+\includegraphics[scale=0.35]{RF_SLP01.png}
 \caption{}
-\label{RF_perfil_NW}
+\label{RF_SLP01}
 \end{figure}
 
+%________________AJUSTAR________________________________
 
-As multiplas $PpPs$ e $PpSs+PsPs$ tem uma amplitude menor que a onda P convertida em S($Ps$). Nota-se na Figura \ref{RF_perfil_NW} que a discontinuidade de Moho estimada é maior no interior do continente do que na região costeira, corroborando com os dados de \cite{Assumpcao_America_2013}, \citep{Assumpcao_Brazil_2013} e \cite{van_der_meijde_gravity_2013} . Identfica-se sinais precursores a Moho, por volta de 2 a 4 segundos, que variam ao longo do perfil. Estes sinais podem ser relacionados com uma interface com um alto contraste de propriedade fisica. O pulso negativo antes de 5 segundos indica, segundo as modelagens propostas na Figura \ref{modelagem}, uma camada com baixa velocidade.
+
+Nota-se na Figura \ref{RF_SLP01} que a discontinuidade de Moho estimada é maior no interior do continente do que na região costeira, corroborando com os dados de \cite{Assumpcao_America_2013}, \citep{Assumpcao_Brazil_2013} e \cite{van_der_meijde_gravity_2013} . Identfica-se sinais precursores a Moho, por volta de 2 a 4 segundos, que variam ao longo do perfil. Estes sinais podem ser relacionados com uma interface com um alto contraste de propriedade fisica. O pulso negativo antes de 5 segundos indica, segundo as modelagens propostas na Figura \ref{modelagem}, uma camada com baixa velocidade.
 
 
 
