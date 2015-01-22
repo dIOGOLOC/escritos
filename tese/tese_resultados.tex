@@ -15,6 +15,14 @@ Nessa medotologia os programas utilizados para criar os modelos foram "\textit{i
 
 Os modelos de velocidade da onda P ($V_{p}$) são exemplos retirados da literatura sobre a região em estudo. 
 
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.7]{tempo_teorico_modelo_tauptime.png}
+\caption{Tempos teóricos para a reflexão $Ps$ (gráficos à esquerda) e fases $PpPs$ segundo o IASPEI91. Os tempos estão classificados segundo o parâmetro do raio e as distâncias epicentrais.}
+\label{tauptime}
+\end{figure}
+
+
 A Figura \ref{RF_perfil_NW} mostra uma seção de Funções do Receptor obtidas de vários eventos oriundos das região Noroeste. Estes sinais estão normalizados pela amplitude do primeiro pico. O primeiro pick é a chegada da onda P direta, já o segundos, por volta de 5 segundos, e a onda P convertida em onda S na discontinuidade de Moho.
 
 \begin{figure}[!ht]
@@ -29,17 +37,26 @@ As multiplas $PpPs$ e $PpSs+PsPs$ tem uma amplitude menor que a onda P convertid
 
 
 
-
-
 The uncertainties of data are linked to the quality and the quantity of the Receiver Functions. The estimated values of the Moho depth for each station were linearly interpolated to generate a regional map, shown in Figure. In order to improve the interpolation, we added data from \citep{assumpcao_crustal_2013}. In Figure \ref{figura7}, we can see the Moho thinning in direction to the east.
 
 The Figure \ref{figura5} shows a section of Receiver Functions obtained from several events and normalized by the amplitude of the first peak. The first peak is the direct P-wave arrival, the second highest, around 5 seconds, is the P wave converted to S wave in the Moho discontinuity. 
 
 
-
-
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.2]{Interpolacao_Linear.png}
+\caption{}
+\label{RF_perfil_NW}
+\end{figure}
 
 The uncertainty, shown in Table \ref{tabela} are linked to quality and quantity of the Receiver Functions. A important phase is the selection of the best Receiver Functions, because the data quality is preponderant over the quantity. The uncertainty associated a each one of obtained parameters by the method Hk and estimated generally by "bootstrap" method, developed for  \citep{efron_statistical_1991}. From the original set of Receiver Functions the program generates subsets containing traces randomly selected. These method is repeated for each subsets, resulting in a parameter set H and $v_{p}/v_{s}$ .Mean and standard deviation from the values provide us a mean value and an estimate of the uncertainty associated to determination. There is no rule for determining the number subsets that must be generated, the crucial is search a value that makes the estimative stabilize,  including uncertainties. In general we use a value between 100 and 200 subsets depending on the amount de traces available during the “bootstrap”.
 
 The calculated values of the Moho depth for each station were linearly interpolated to generate a regional map, shown in the Figure \ref{figura7}. To improve the interpolation, we added data from \citep{assumpcao_crustal_2013}. In the Figure \ref{figura7} we can see the Moho thinning in direction to east, reinforcing the proximity with the oceanic crust.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.5]{RF_azimute.png}
+\caption{}
+\label{RF_perfil_NW}
+\end{figure}
 

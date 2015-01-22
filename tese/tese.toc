@@ -2,7 +2,7 @@
 \contentsline {chapter}{Resumo}{III}{chapter*.3}
 \contentsline {chapter}{Abstract}{IV}{chapter*.4}
 \contentsline {chapter}{Lista de Figuras}{V}{chapter*.5}
-\contentsline {chapter}{Lista de Tabelas}{VII}{chapter*.6}
+\contentsline {chapter}{Lista de Tabelas}{VIII}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{2}{chapter.1}
 \contentsline {chapter}{\numberline {2}Contexto Geol\IeC {\'o}gico}{3}{chapter.2}
 \contentsline {chapter}{\numberline {3}Aquisi\IeC {\c c}\IeC {\~a}o e Tratamento dos Dados}{6}{chapter.3}
@@ -22,5 +22,5 @@
 \contentsline {subsection}{\numberline {5.2.3}Correla\IeC {\c c}\IeC {\~a}o Cruzada, Empilhamento e Sinal emergente}{25}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}Medidas da Dispers\IeC {\~a}o}{25}{subsection.5.2.4}
 \contentsline {chapter}{\numberline {6}Resultados e Discuss\IeC {\~o}es}{29}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclus\IeC {\~o}es}{33}{chapter.7}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{34}{chapter*.8}
+\contentsline {chapter}{\numberline {7}Conclus\IeC {\~o}es}{35}{chapter.7}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{36}{chapter*.8}
