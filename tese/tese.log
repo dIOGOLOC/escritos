@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.21)  22 JAN 2015 20:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.21)  26 JAN 2015 21:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -457,11 +457,8 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 (./tese_dedicatoria.aux) (./tese_agradecimentos.aux) (./tese_epigrafe.aux)
 (./tese_resumo.aux) (./tese_abstract.aux) (./tese_introducao.aux)
 (./tese_contextogeologico.aux) (./tese_dados.aux) (./tese_FR.aux)
-(./tese_correlacao.aux) (./tese_resultados.aux
-
-LaTeX Warning: Label `RF_perfil_NW' multiply defined.
-
-) (./tese_conclusao.aux) (./tese_anexo_tabela1.aux))
+(./tese_correlacao.aux) (./tese_resultados.aux) (./tese_conclusao.aux)
+(./tese_anexo_tabela1.aux))
 \openout1 = `tese.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -703,14 +700,22 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 35.
  (./tese.lof
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
+Overfull \hbox (29.71042pt too wide) in paragraph at lines 4--4
+ \T1/cmr/m/n/12 Plutons al-ca-li-nos Ce-no-zói-cos/Cretácios. (3^^U4), 3-\T1/cm
+r/m/it/12 Nappe \T1/cmr/m/n/12 Socorro(S)-Guaxupé(G); 
+ []
+
+
+Overfull \hbox (12.98363pt too wide) in paragraph at lines 4--4
+ \T1/cmr/m/n/12 (ro-chas me-ta-se-di-men-ta-res au-tóc-to-nes e pa-ra-au-tóc-to
+-nes.; Faixa Ri-beira (8^^U15): 
+ []
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 18.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 18.
- [5
+[5
 
 
 ]
@@ -729,8 +734,7 @@ Package babel Info: Redefining portuges shorthand "|
  [7]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 36.
-
-(./tese.lot)
+ (./tese.lot)
 \tf@lot=\write6
 \openout6 = `tese.lot'.
 
@@ -772,12 +776,16 @@ Package babel Info: Redefining portuges shorthand "|
 Cap\'{\i }tulo 2.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-<mapa_geologico.png, id=373, 429.64516pt x 308.23155pt>
+<mapa_geologico.png, id=380, 429.64516pt x 308.23155pt>
 File: mapa_geologico.png Graphic file (type png)
 
 <use mapa_geologico.png>
 Package pdftex.def Info: mapa_geologico.png used on input line 7.
 (pdftex.def)             Requested size: 386.67705pt x 277.40582pt.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 18.
 Package babel Info: Redefining portuges shorthand "|
@@ -791,8 +799,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 20.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 20.
- [4 <./mapa_geologico.png>]
-<mapa_estacoes_geologico.png, id=425, 844.8363pt x 597.6729pt>
+ [4 <./mapa_geologico.png>] <mapa_estacoes_geologico.png, id=432, 844.8363pt x 
+597.6729pt>
 File: mapa_estacoes_geologico.png Graphic file (type png)
 
 <use mapa_estacoes_geologico.png>
@@ -813,7 +821,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
-<instalacao.png, id=436, 915.42pt x 1034.6655pt>
+<instalacao.png, id=444, 915.42pt x 1034.6655pt>
 File: instalacao.png Graphic file (type png)
  <use instalacao.png>
 Package pdftex.def Info: instalacao.png used on input line 13.
@@ -826,7 +834,7 @@ Overfull \hbox (2.46477pt too wide) in paragraph at lines 13--14
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-30.def
 File: uni-30.def 2013/05/13 UCS: Unicode data U+1E00..U+1EFF
 )
-<mapa_das_estacoes_simosgraficas_instaladas.png, id=439, 1224.2538pt x 865.0719
+<mapa_das_estacoes_simosgraficas_instaladas.png, id=447, 1224.2538pt x 865.0719
 pt>
 File: mapa_das_estacoes_simosgraficas_instaladas.png Graphic file (type png)
  <use mapa_das_estacoes_simosgraficas_instaladas.png>
@@ -838,7 +846,7 @@ Overfull \hbox (34.44873pt too wide) in paragraph at lines 22--23
  [][] 
  []
 
-<sismograma.png, id=441, 729.927pt x 312.2064pt>
+<sismograma.png, id=449, 729.927pt x 312.2064pt>
 File: sismograma.png Graphic file (type png)
  <use sismograma.png>
 Package pdftex.def Info: sismograma.png used on input line 33.
@@ -865,13 +873,13 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 45.
  [8 <./mapa_das_estacoes_simosgraficas_instaladas.png> <./sismograma.png>] <mcn
-amura_buland.png, id=464, 605.26125pt x 455.7025pt>
+amura_buland.png, id=471, 605.26125pt x 455.7025pt>
 File: mcnamura_buland.png Graphic file (type png)
 
 <use mcnamura_buland.png>
 Package pdftex.def Info: mcnamura_buland.png used on input line 52.
 (pdftex.def)             Requested size: 363.15953pt x 273.4236pt.
- <pqlx_results.png, id=473, 1339.1631pt x 354.123pt>
+ <pqlx_results.png, id=480, 1339.1631pt x 354.123pt>
 File: pqlx_results.png Graphic file (type png)
 
 <use pqlx_results.png>
@@ -889,7 +897,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 69.
 [9 <./mcnamura_buland.png>]
-<mapa_de_eventos.png, id=488, 782.6841pt x 377.9721pt>
+<mapa_de_eventos.png, id=495, 782.6841pt x 377.9721pt>
 File: mapa_de_eventos.png Graphic file (type png)
 
 <use mapa_de_eventos.png>
@@ -907,7 +915,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 98.
 [10 <./pqlx_results.png>]
-<correlacao_tempo_de_chegada.png, id=504, 624.05145pt x 485.29305pt>
+<correlacao_tempo_de_chegada.png, id=511, 624.05145pt x 485.29305pt>
 File: correlacao_tempo_de_chegada.png Graphic file (type png)
 
 <use correlacao_tempo_de_chegada.png>
@@ -920,7 +928,7 @@ Overfull \hbox (1.22993pt too wide) in paragraph at lines 106--107
 te a de []Gib-bons[] ([]2006[]). Utilizou-
  []
 
-<correlacao_tempo_de_chegada_resultado.png, id=511, 1216.3041pt x 742.9356pt>
+<correlacao_tempo_de_chegada_resultado.png, id=518, 1216.3041pt x 742.9356pt>
 File: correlacao_tempo_de_chegada_resultado.png Graphic file (type png)
 
 <use correlacao_tempo_de_chegada_resultado.png>
@@ -957,7 +965,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
-<Componente_Radial_Transversal.png, id=537, 735.74875pt x 192.72pt>
+<Componente_Radial_Transversal.png, id=544, 735.74875pt x 192.72pt>
 File: Componente_Radial_Transversal.png Graphic file (type png)
 
 <use Componente_Radial_Transversal.png>
@@ -975,7 +983,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 ]
-<funcoes_sinteticas.png, id=548, 381.425pt x 605.26125pt>
+<funcoes_sinteticas.png, id=556, 381.425pt x 605.26125pt>
 File: funcoes_sinteticas.png Graphic file (type png)
 
 <use funcoes_sinteticas.png>
@@ -995,13 +1003,13 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 69.
  [16 <./funcoes_sinteticas.png>]
-<water_level.png, id=607, 475.7775pt x 204.765pt>
+<water_level.png, id=614, 475.7775pt x 204.765pt>
 File: water_level.png Graphic file (type png)
  <use water_level.png>
 Package pdftex.def Info: water_level.png used on input line 72.
 (pdftex.def)             Requested size: 380.6225pt x 163.8122pt.
 
-<deconvolucao_interativa.png, id=618, 806.01125pt x 706.64pt>
+<deconvolucao_interativa.png, id=625, 806.01125pt x 706.64pt>
 File: deconvolucao_interativa.png Graphic file (type png)
 
 <use deconvolucao_interativa.png>
@@ -1018,13 +1026,21 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 116.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 116.
- [18 <./deconvolucao_interativa.png>] <grid_search.png, id=653, 695.59875pt x 6
+ [18 <./deconvolucao_interativa.png>] <grid_search.png, id=660, 695.59875pt x 6
 93.59125pt>
 File: grid_search.png Graphic file (type png)
 
 <use grid_search.png>
 Package pdftex.def Info: grid_search.png used on input line 136.
 (pdftex.def)             Requested size: 347.79852pt x 346.79477pt.
+
+<tempo_teorico_modelo_tauptime.png, id=679, 626.5809pt x 437.9562pt>
+File: tempo_teorico_modelo_tauptime.png Graphic file (type png)
+
+<use tempo_teorico_modelo_tauptime.png>
+Package pdftex.def Info: tempo_teorico_modelo_tauptime.png used on input line 1
+49.
+(pdftex.def)             Requested size: 438.60364pt x 306.56725pt.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 43.
@@ -1036,6 +1052,11 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 43.
  [20 <./grid_search.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 43.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 43.
+ [21 <./tempo_teorico_modelo_tauptime.png>]
 \openout2 = `tese_correlacao.aux'.
 
  (./tese_correlacao.tex
@@ -1053,11 +1074,11 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 22.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 22.
-[21
+[22
 
 
 
-] <shapiro2004.png, id=715, 611.28375pt x 841.1425pt>
+] <shapiro2004.png, id=746, 611.28375pt x 841.1425pt>
 File: shapiro2004.png Graphic file (type png)
  <use shapiro2004.png>
 Package pdftex.def Info: shapiro2004.png used on input line 25.
@@ -1069,8 +1090,8 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 34.
 
-[22 <./shapiro2004.png>]
-<fluxograma_bensen2007.png, id=727, 602.25pt x 578.16pt>
+[23 <./shapiro2004.png>]
+<fluxograma_bensen2007.png, id=758, 602.25pt x 578.16pt>
 File: fluxograma_bensen2007.png Graphic file (type png)
 
 <use fluxograma_bensen2007.png>
@@ -1087,8 +1108,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 48.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 48.
-[23 <./fluxograma_bensen2007.png>]
-<temporal_norma.png, id=747, 864.22874pt x 642.4pt>
+[24 <./fluxograma_bensen2007.png>]
+<temporal_norma.png, id=778, 864.22874pt x 642.4pt>
 File: temporal_norma.png Graphic file (type png)
  <use temporal_norma.png>
 Package pdftex.def Info: temporal_norma.png used on input line 55.
@@ -1102,13 +1123,13 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 62.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 62.
-[24 <./temporal_norma.png>]
+[25 <./temporal_norma.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 63.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 72.
 
-<correlaca_cruzada.png, id=772, 4148.298pt x 2358.8928pt>
+<correlaca_cruzada.png, id=803, 4148.298pt x 2358.8928pt>
 File: correlaca_cruzada.png Graphic file (type png)
 
 <use correlaca_cruzada.png>
@@ -1124,7 +1145,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 91.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 91.
-[25] <correlacao_FTAN.png, id=799, 1621.05624pt x 507.8975pt>
+[26] <correlacao_FTAN.png, id=831, 1621.05624pt x 507.8975pt>
 File: correlacao_FTAN.png Graphic file (type png)
 
 <use correlacao_FTAN.png>
@@ -1140,17 +1161,17 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
- [26]
+ [27]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
- [27 <./correlaca_cruzada.png>]
+ [28 <./correlaca_cruzada.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
- [28 <./correlacao_FTAN.png>]
+ [29 <./correlacao_FTAN.png>]
 \openout2 = `tese_resultados.aux'.
 
 
@@ -1158,79 +1179,45 @@ Package babel Info: Redefining portuges shorthand "|
 Cap\'{\i }tulo 6.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-<modelagem_RF.png, id=818, 686.565pt x 1711.39375pt>
+<modelagem_RF.png, id=849, 549.252pt x 1368.7938pt>
 File: modelagem_RF.png Graphic file (type png)
  <use modelagem_RF.png>
 Package pdftex.def Info: modelagem_RF.png used on input line 7.
-(pdftex.def)             Requested size: 274.62112pt x 684.54538pt.
+(pdftex.def)             Requested size: 274.62532pt x 684.39523pt.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
 
-<tempo_teorico_modelo_tauptime.png, id=841, 626.5809pt x 437.9562pt>
-File: tempo_teorico_modelo_tauptime.png Graphic file (type png)
-
-<use tempo_teorico_modelo_tauptime.png>
-Package pdftex.def Info: tempo_teorico_modelo_tauptime.png used on input line 2
-0.
-(pdftex.def)             Requested size: 438.60364pt x 306.56725pt.
-
-<RF_SLP01.png, id=847, 722.7pt x 2168.1pt>
-File: RF_SLP01.png Graphic file (type png)
- <use RF_SLP01.png>
-Package pdftex.def Info: RF_SLP01.png used on input line 30.
-(pdftex.def)             Requested size: 252.94878pt x 758.84639pt.
-
-
-LaTeX Warning: Float too large for page by 40.21693pt on input line 33.
-
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 39.
-[29
+(babel)             in language  on input line 20.
+ [30
 
 
 
 ]
+<RF_STA08.png, id=888, 722.7pt x 722.7pt>
+File: RF_STA08.png Graphic file (type png)
+ <use RF_STA08.png>
+Package pdftex.def Info: RF_STA08.png used on input line 24.
+(pdftex.def)             Requested size: 433.62334pt x 433.62334pt.
 
-Package natbib Warning: Citation `assumpcao_crustal_2013' on page 30 undefined 
-on input line 42.
-
-
-LaTeX Warning: Reference `figura7' on page 30 undefined on input line 42.
-
-
-LaTeX Warning: Reference `figura5' on page 30 undefined on input line 44.
-
-<Interpolacao_Linear.png, id=869, 2007.5pt x 4015.0pt>
+<Interpolacao_Linear.png, id=906, 2007.5pt x 4015.0pt>
 File: Interpolacao_Linear.png Graphic file (type png)
 
 <use Interpolacao_Linear.png>
-Package pdftex.def Info: Interpolacao_Linear.png used on input line 49.
+Package pdftex.def Info: Interpolacao_Linear.png used on input line 33.
 (pdftex.def)             Requested size: 401.49289pt x 802.9858pt.
 
 
-LaTeX Warning: Float too large for page by 84.35634pt on input line 52.
+LaTeX Warning: Float too large for page by 98.85634pt on input line 36.
 
-
-LaTeX Warning: Reference `tabela' on page 30 undefined on input line 54.
-
-
-Package natbib Warning: Citation `efron_statistical_1991' on page 30 undefined 
-on input line 54.
-
-
-LaTeX Warning: Reference `figura7' on page 30 undefined on input line 56.
-
-
-Package natbib Warning: Citation `assumpcao_crustal_2013' on page 30 undefined 
-on input line 56.
-
-
-LaTeX Warning: Reference `figura7' on page 30 undefined on input line 56.
-
-<RF_azimute.png, id=870, 731.73375pt x 598.75694pt>
+<RF_azimute.png, id=912, 731.73375pt x 598.75694pt>
 File: RF_azimute.png Graphic file (type png)
  <use RF_azimute.png>
-Package pdftex.def Info: RF_azimute.png used on input line 60.
+Package pdftex.def Info: RF_azimute.png used on input line 44.
 (pdftex.def)             Requested size: 365.86598pt x 299.37773pt.
 )
 Package babel Info: Redefining portuges shorthand "|
@@ -1238,23 +1225,17 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 45.
 
-[30]
+[31]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 45.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 45.
- [31 <./modelagem_RF.png>]
+ [32 <./modelagem_RF.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 45.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 45.
- [32 <./tempo_teorico_modelo_tauptime.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 45.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 45.
-
-[33 <./RF_SLP01.png>]
+ [33 <./RF_STA08.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 45.
 Package babel Info: Redefining portuges shorthand "|
@@ -1267,8 +1248,7 @@ Package babel Info: Redefining portuges shorthand "|
  [35 <./RF_azimute.png>]
 \openout2 = `tese_conclusao.aux'.
 
-
-(./tese_conclusao.tex
+ (./tese_conclusao.tex
 Cap\'{\i }tulo 7.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -1285,9 +1265,9 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 91.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 91.
  [37
 
 
@@ -1308,13 +1288,11 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 ]
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
-(./tese.aux (./tese_capa.aux) (./tese_folhaderosto.aux) (./tese_dedicatoria.aux
-) (./tese_agradecimentos.aux) (./tese_epigrafe.aux) (./tese_resumo.aux)
+ (./tese.aux
+(./tese_capa.aux) (./tese_folhaderosto.aux) (./tese_dedicatoria.aux)
+(./tese_agradecimentos.aux) (./tese_epigrafe.aux) (./tese_resumo.aux)
 (./tese_abstract.aux) (./tese_introducao.aux) (./tese_contextogeologico.aux)
 (./tese_dados.aux) (./tese_FR.aux) (./tese_correlacao.aux)
 (./tese_resultados.aux) (./tese_conclusao.aux) (./tese_anexo_tabela1.aux))
@@ -1322,43 +1300,37 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `tese.out' has not changed.
 (rerunfilecheck)             Checksum: 29A1EB9E32FD3996C995D1E4524208D8;1748.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 11732 strings out of 494963
- 162959 string characters out of 6179647
- 278053 words of memory out of 5000000
- 14466 multiletter control sequences out of 15000+600000
- 16693 words of font info for 43 fonts, out of 8000000 for 9000
+ 11754 strings out of 494963
+ 163718 string characters out of 6179647
+ 280001 words of memory out of 5000000
+ 14482 multiletter control sequences out of 15000+600000
+ 17006 words of font info for 44 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 37i,12n,39p,1763b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/d
-iogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/diogo/.texmf
--var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/diogo/.texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm1440.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/
-ecbx1440.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.60
-0pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home
-/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on tese.pdf (49 pages, 16663466 bytes).
+ 37i,12n,39p,1700b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/d
+iogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/diogo/.texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/diogo/.texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecrm1200.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecrm1440.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.60
+0pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </home
+/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/diogo/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on tese.pdf (49 pages, 16881788 bytes).
 PDF statistics:
- 1441 PDF objects out of 1728 (max. 8388607)
- 863 compressed objects within 9 object streams
- 156 named destinations out of 1000 (max. 500000)
+ 1519 PDF objects out of 1728 (max. 8388607)
+ 909 compressed objects within 10 object streams
+ 158 named destinations out of 1000 (max. 500000)
  349 words of extra memory for PDF output out of 10000 (max. 10000000)
 

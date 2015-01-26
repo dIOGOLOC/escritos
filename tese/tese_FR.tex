@@ -138,5 +138,18 @@ Ao invés de tentar ajustar toda a função, o método faz uma pesquisa, \textit
 \label{grid_search}
 \end{figure}
 
-\cite{julia_deep_2008} mostra uma dependência azimutal das funções do receptor. Para isso ele mostra que separando as funções do receptor de acordo com o backazimute e o parâmetro do raio pode-se checar a variação lateral das estruturas. Os dados são separados em 4 grupos, segundo o azimute entre o sismo e a estação. 
+As incertezas na medidas, mostradas na Tabela \ref{tabela1}, estão diretamente ligadas a quantidade e qualidade das Funções do Receptor. A seleção das melhores Funções do Receptor é um fase importante, pois a qualidade da Função do Receptor é prepoderante sobre a quantidade. A imprecisão associada a cada um dos parâmetros obtidos pelo método de \cite{Zhu_Kanamori_2000} é estimada pelo método "\textit{bootstrap}", desenvolvido por \cite{efron_statistical_1991}.
+
+O método "\textit{bootstrap}" gera do conjunto de Funções do Receptor subconjuntos contendo traços selecionados aleatoriamente. Esse método é repetido para cada subconjunto, resultando num conjunto de parâmetros de $H$ (profundidade de Moho) e de razão $v_{p}/v_{s}$. A média e o desvio padrão dos valores provém um valor médio e uma estimativa da incerteza associada ao cálculo. Não existe uma regra para determinar o número de subconjuntos que precisam ser gerados, o crucial é a busca por um valor que faça a estimativa estabilizar, incluindo as incertezas. Em geral usa-se um valor entre 100 e 200 subconjuntos dependendo da quantidade de traços disponíveis durante o "\textit{bootstrap}".
+
+\cite{assumpcao_crustal_2002},\cite{sand_franca_crustal_2004} e \cite{julia_deep_2008} mostram a necessidade de um cuidado especial ao empilhar as Funções do Receptor, pois há uma dependência azimutal  e com isso um deslocamento das reflexões de Moho. Isso pode ser observado na Figura \ref{tauptime}. A solução desse problema foi a a separação das funções do receptor de acordo com o backazimute e parâmetro do raio. Com isso pode-se checar a variação lateral das estruturas em subsuperfície. 
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.7]{tempo_teorico_modelo_tauptime.png}
+\caption{Tempos teóricos para a reflexão $Ps$ (gráficos à esquerda) e fases $PpPs$ segundo o modelo de \cite{kennet_iaspei_1991}. Os tempos estão classificados segundo o parâmetro do raio e as distâncias epicentrais.}
+\label{tauptime}
+\end{figure}
+
+
 \pagebreak

@@ -14,13 +14,13 @@
 \contentsline {section}{\numberline {4.1}Fundamentos do M\IeC {\'e}todo}{14}{section.4.1}
 \contentsline {section}{\numberline {4.2}Processamento}{14}{section.4.2}
 \contentsline {section}{\numberline {4.3}P\IeC {\'o}s-processamento}{17}{section.4.3}
-\contentsline {chapter}{\numberline {5}Dispers\IeC {\~a}o de Ondas de Superf\IeC {\'\i }cie}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}Fundamentos do M\IeC {\'e}todo}{21}{section.5.1}
-\contentsline {section}{\numberline {5.2}Processamento}{23}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Prepara\IeC {\c c}\IeC {\~a}o dos dados para cada esta\IeC {\c c}\IeC {\~o}es}{24}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Normaliza\IeC {\c c}\IeC {\~a}o espectral ou braqueamento}{25}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Correla\IeC {\c c}\IeC {\~a}o Cruzada, Empilhamento e Sinal emergente}{25}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Medidas da Dispers\IeC {\~a}o}{25}{subsection.5.2.4}
-\contentsline {chapter}{\numberline {6}Resultados e Discuss\IeC {\~o}es}{29}{chapter.6}
+\contentsline {chapter}{\numberline {5}Dispers\IeC {\~a}o de Ondas de Superf\IeC {\'\i }cie}{22}{chapter.5}
+\contentsline {section}{\numberline {5.1}Fundamentos do M\IeC {\'e}todo}{22}{section.5.1}
+\contentsline {section}{\numberline {5.2}Processamento}{24}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Prepara\IeC {\c c}\IeC {\~a}o dos dados para cada esta\IeC {\c c}\IeC {\~o}es}{25}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Normaliza\IeC {\c c}\IeC {\~a}o espectral ou braqueamento}{26}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Correla\IeC {\c c}\IeC {\~a}o Cruzada, Empilhamento e Sinal emergente}{26}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Medidas da Dispers\IeC {\~a}o}{26}{subsection.5.2.4}
+\contentsline {chapter}{\numberline {6}Resultados e Discuss\IeC {\~o}es}{30}{chapter.6}
 \contentsline {chapter}{\numberline {7}Conclus\IeC {\~o}es}{36}{chapter.7}
 \contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{37}{chapter*.8}

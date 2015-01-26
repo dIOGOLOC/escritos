@@ -22,10 +22,9 @@ Warning--entry type for "Silva_2014" isn't style-file defined
 --line 601 of file tese_ref.bib
 Warning--entry type for "Bassini_1986" isn't style-file defined
 --line 609 of file tese_ref.bib
-Warning--I didn't find a database entry for "assumpcao_crustal_2013"
-Warning--I didn't find a database entry for "efron_statistical_1991"
 Warning--empty journal in aki_space_1957
 Warning--empty journal in ammon_isolation_1991
+Warning--empty journal in assumpcao_crustal_2002
 Warning--empty journal in bensen_processing_2007
 Warning--empty journal in boschi_measuring_2013
 Warning--empty journal in campillo_long-range_2003
@@ -48,45 +47,45 @@ Warning--empty journal in shapiro_emergence_2004
 Warning--empty journal in trouw_new_2013
 Warning--empty journal in valeriano_u_pb_2011
 Warning--empty journal in wapenaar_retrieving_2004
-You've used 37 entries,
+You've used 39 entries,
             2639 wiz_defined-function locations,
-            982 strings with 15619 characters,
-and the built_in function-call counts, 15454 in all, are:
-= -- 1665
-> -- 622
-< -- 26
-+ -- 219
-- -- 210
-* -- 1424
-:= -- 2621
-add.period$ -- 37
-call.type$ -- 37
-change.case$ -- 292
-chr.to.int$ -- 36
-cite$ -- 61
-duplicate$ -- 518
-empty$ -- 1074
-format.name$ -- 269
-if$ -- 3119
+            998 strings with 16107 characters,
+and the built_in function-call counts, 16153 in all, are:
+= -- 1742
+> -- 642
+< -- 28
++ -- 225
+- -- 216
+* -- 1487
+:= -- 2743
+add.period$ -- 40
+call.type$ -- 39
+change.case$ -- 305
+chr.to.int$ -- 38
+cite$ -- 64
+duplicate$ -- 545
+empty$ -- 1126
+format.name$ -- 279
+if$ -- 3260
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 33
-newline$ -- 115
-num.names$ -- 109
-pop$ -- 226
+missing$ -- 35
+newline$ -- 122
+num.names$ -- 115
+pop$ -- 233
 preamble$ -- 1
-purify$ -- 291
+purify$ -- 304
 quote$ -- 0
-skip$ -- 399
+skip$ -- 421
 stack$ -- 0
-substring$ -- 1242
-swap$ -- 48
+substring$ -- 1291
+swap$ -- 50
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 222
-warning$ -- 24
-while$ -- 128
+type$ -- 234
+warning$ -- 25
+while$ -- 134
 width$ -- 0
-write$ -- 382
-(There were 28 warnings)
+write$ -- 405
+(There were 27 warnings)
