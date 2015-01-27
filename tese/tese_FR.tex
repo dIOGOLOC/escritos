@@ -129,20 +129,20 @@ s(H,\kappa) = \omega_{1}r(t_{1}) + \omega_{2}r(t_{2}) + \omega_{3}r(t_{3})
 
 onde $r(t)$ é a função do receptor radial, $t_{1}$, $t_{2}$ e $t_{3}$ são os tempos de chegada preditos  $t_{s}$,  $t_{P_{p}P_{s}}$ e  $t_{P_{p}P_{s}+P_{s}P_{s}}$ correspondente a uma espessura crustal $H$ e a uma razão $V_{p}/V_{s}$ e $\omega_{i}$ são os pesos dos fatores, e $\sum \omega_{i} = 1$. 
 
-Ao invés de tentar ajustar toda a função, o método faz uma pesquisa, \textit{grid search}, da espessura crustal e da razão $v_{P}$/$v_{S}$ para calcular o tempo de chegada teórico das ondas P convertidas em S e das múltiplas para cada registro. A melhor combinação da espessura crustal e da razão $v_{P}$/$v_{S}$, $\kappa$, é aquela que maximiza o valor das amplitudes reais das funções receptor, como pode ser visualizado na Figura \ref{grid_search} .
-
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.5]{grid_search.png}
+\includegraphics[scale=0.3]{grid_search.png}
 \caption{(a) $s(H,\kappa)$ do empilhamento das funções do receptor utilizando a equação \ref{Hk_stack} . Ela encontra o ponto máximo quando se usa uma espessura crustal $H$ e uma razão $v_{P}$/$v_{S}$ coerentes. (b) Relações $H-\kappa$ para diferentes fases convertidas em Moho. Cada curva representa a contribuição dessa fase convertida ao empilhamento, segundo \cite{Zhu_Kanamori_2000}.}
 \label{grid_search}
 \end{figure}
+
+Ao invés de tentar ajustar toda a função, o método faz uma pesquisa, \textit{grid search}, da espessura crustal e da razão $v_{P}$/$v_{S}$ para calcular o tempo de chegada teórico das ondas P convertidas em S e das múltiplas para cada registro. A melhor combinação da espessura crustal e da razão $v_{P}$/$v_{S}$, $\kappa$, é aquela que maximiza o valor das amplitudes reais das funções receptor, como pode ser visualizado na Figura \ref{grid_search} .
 
 As incertezas na medidas, mostradas na Tabela \ref{tabela1}, estão diretamente ligadas a quantidade e qualidade das Funções do Receptor. A seleção das melhores Funções do Receptor é um fase importante, pois a qualidade da Função do Receptor é prepoderante sobre a quantidade. A imprecisão associada a cada um dos parâmetros obtidos pelo método de \cite{Zhu_Kanamori_2000} é estimada pelo método "\textit{bootstrap}", desenvolvido por \cite{efron_statistical_1991}.
 
 O método "\textit{bootstrap}" gera do conjunto de Funções do Receptor subconjuntos contendo traços selecionados aleatoriamente. Esse método é repetido para cada subconjunto, resultando num conjunto de parâmetros de $H$ (profundidade de Moho) e de razão $v_{p}/v_{s}$. A média e o desvio padrão dos valores provém um valor médio e uma estimativa da incerteza associada ao cálculo. Não existe uma regra para determinar o número de subconjuntos que precisam ser gerados, o crucial é a busca por um valor que faça a estimativa estabilizar, incluindo as incertezas. Em geral usa-se um valor entre 100 e 200 subconjuntos dependendo da quantidade de traços disponíveis durante o "\textit{bootstrap}".
 
-\cite{assumpcao_crustal_2002},\cite{sand_franca_crustal_2004} e \cite{julia_deep_2008} mostram a necessidade de um cuidado especial ao empilhar as Funções do Receptor, pois há uma dependência azimutal  e com isso um deslocamento das reflexões de Moho. Isso pode ser observado na Figura \ref{tauptime}. A solução desse problema foi a a separação das funções do receptor de acordo com o backazimute e parâmetro do raio. Com isso pode-se checar a variação lateral das estruturas em subsuperfície. 
+\cite{assumpcao_crustal_2002},\cite{sand_franca_crustal_2004} e \cite{julia_deep_2008} mostram a necessidade de um cuidado especial ao empilhar as Funções do Receptor, pois há uma dependência azimutal  e com isso um deslocamento das reflexões de Moho. Isso pode ser observado na Figura \ref{tauptime}. A solução foi a a separação das funções do receptor de acordo com o backazimute e parâmetro do raio. 
 
 \begin{figure}[!ht]
 \centering
@@ -151,5 +151,8 @@ O método "\textit{bootstrap}" gera do conjunto de Funções do Receptor subconj
 \label{tauptime}
 \end{figure}
 
+Para a separação azimutal levou-se em conta a sismicidade ao redor da região. Visto isso, fez-se uma separação em quatro quadrantes: NE, SE, SW e NW. Cada quadrante representa um agloramedo de eventos, estes aglomerados variam em magnitude e em quantidade, como pode ser observado na Figura \ref{map_loc}. 
+
+Os eventos oriundos da parte nordeste(NE) são escassos e as principais fontes são a Cadeia Meso-atlântica e a cordilheira Alpina na Europa. Já os sismos do sudeste(SE) são originários das Ilhas South Georgia e SouthSandwhich, localizadas no Atlântico Sul, e do Sul da África. A sudoeste é marcante a presença de eventos Andinos, provenientes do Chile e Argentina, e de eventos do Oceano Pacífico. Assim como a sudoeste, os eventos vindos a noroeste(NW) da área são Andinos, oriundo do norte do Chile e do Peru. Também é marcante eventos da América Central,México e Califórnia, estes são bem visíveis na Figura \ref{map_loc}.
 
 \pagebreak

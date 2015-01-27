@@ -62,9 +62,9 @@ Terremotos geram grandes impecílios na automatização do processamento, pois e
 
 \subsection{Normalização espectral ou braqueamento}
 
-\cite{bensen_processing_2007} cita que a normalização espectral atua para alargar a banda do sinal de ruído ambiental nas correlações cruzadas e também combate a degradação causada por fontes persistentes.
+O ruído sísmico ambiente não é branco no domínio da frequência, ou seja, tem frequências que se destacam. \cite{bensen_processing_2007} cita que a normalização espectral atua para alargar a banda do sinal de ruído ambiental nas correlações cruzadas e também combate a degradação causada por fontes persistentes.
 
-A janela temporal que \cite{bensen_processing_2007} utiliza em seu trabalho é de 7 a 150 segundos, porém quanda a distância entre as estações é pequena ($\simeq 20 km$) é necessário utilizar períodos mais curtos, como é o caso desse trabalho. A janela temporal utilizada é de 2 a 50 segundos, logo há inclusão de ruído de alta frequência.
+A janela temporal que \cite{bensen_processing_2007} utiliza em seu trabalho é de 7 a 150 segundos, porém quando a distância entre as estações é pequena ($\simeq 20 km$) é necessário utilizar períodos mais curtos, como é o caso desse trabalho. A janela temporal utilizada é de 2 a 50 segundos, logo há inclusão de ruído de alta frequência.
 
 Com a necessidade de preservar este ruído de alta frequência não foi aplicada a normalização espectral.
 
@@ -75,7 +75,7 @@ Após preparar as séries temporais diárias a próxima fase, como visto na Figu
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.17,angle=90]{correlaca_cruzada.png}
+\includegraphics[scale=0.11]{correlaca_cruzada.png}
 \caption{Correlações cruzadas de acordo com a distância entre as estações. Linhas indicam as velocidades de 2.5 e 3.5 $km/s$. Dados foram filtrados por um filtro passa-banda entre 3 e 50 segundos.}
 \label{correlacao_cruzada}
 \end{figure} 

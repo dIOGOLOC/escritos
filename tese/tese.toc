@@ -14,13 +14,14 @@
 \contentsline {section}{\numberline {4.1}Fundamentos do M\IeC {\'e}todo}{14}{section.4.1}
 \contentsline {section}{\numberline {4.2}Processamento}{14}{section.4.2}
 \contentsline {section}{\numberline {4.3}P\IeC {\'o}s-processamento}{17}{section.4.3}
-\contentsline {chapter}{\numberline {5}Dispers\IeC {\~a}o de Ondas de Superf\IeC {\'\i }cie}{22}{chapter.5}
-\contentsline {section}{\numberline {5.1}Fundamentos do M\IeC {\'e}todo}{22}{section.5.1}
-\contentsline {section}{\numberline {5.2}Processamento}{24}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Prepara\IeC {\c c}\IeC {\~a}o dos dados para cada esta\IeC {\c c}\IeC {\~o}es}{25}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Normaliza\IeC {\c c}\IeC {\~a}o espectral ou braqueamento}{26}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Correla\IeC {\c c}\IeC {\~a}o Cruzada, Empilhamento e Sinal emergente}{26}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Medidas da Dispers\IeC {\~a}o}{26}{subsection.5.2.4}
-\contentsline {chapter}{\numberline {6}Resultados e Discuss\IeC {\~o}es}{30}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclus\IeC {\~o}es}{36}{chapter.7}
+\contentsline {chapter}{\numberline {5}Modelagem das Fun\IeC {\c c}\IeC {\~o}es do Receptor}{22}{chapter.5}
+\contentsline {chapter}{\numberline {6}Dispers\IeC {\~a}o de Ondas de Superf\IeC {\'\i }cie}{25}{chapter.6}
+\contentsline {section}{\numberline {6.1}Fundamentos do M\IeC {\'e}todo}{25}{section.6.1}
+\contentsline {section}{\numberline {6.2}Processamento}{27}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Prepara\IeC {\c c}\IeC {\~a}o dos dados para cada esta\IeC {\c c}\IeC {\~o}es}{28}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Normaliza\IeC {\c c}\IeC {\~a}o espectral ou braqueamento}{29}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Correla\IeC {\c c}\IeC {\~a}o Cruzada, Empilhamento e Sinal emergente}{29}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Medidas da Dispers\IeC {\~a}o}{30}{subsection.6.2.4}
+\contentsline {chapter}{\numberline {7}Resultados e Discuss\IeC {\~o}es}{32}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclus\IeC {\~o}es}{36}{chapter.8}
 \contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{37}{chapter*.8}
