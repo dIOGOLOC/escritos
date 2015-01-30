@@ -23,8 +23,7 @@ período relativamente calmo no nível de atividade sísmica mundial, onde não 
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.7]{shapiro2004.png}
-\caption{(a) Mapa mostrando a localização das estações. (b) Correlações cruzadas da componente vertical dos registros com diferentes filtros de passa-banda, indicados na parte esquerda superior. Linha pontilhada dá 
-ênfase na dispersão do sinal emergente. Extraído de \cite{shapiro_emergence_2004}.}
+\caption{(a) Mapa mostrando a localização das estações. (b) Correlações cruzadas da componente vertical dos registros com diferentes filtros de passa-banda, indicados na parte esquerda superior. Linha pontilhada dá ênfase na dispersão do sinal emergente. Extraído de \cite{shapiro_emergence_2004}.}
 \label{shapiro}
 \end{figure} 
 
@@ -38,7 +37,7 @@ Todo o fluxo de preparação e processamento dos dados  baseia-se no trabalho de
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.8]{fluxograma_bensen2007.png}
-\caption{Representação esquemática do esquema do processamento. Fase 1 mostra as etapas que involvem a preparação dos dados antes da correlação. Fase 2 outlines the cross-correlation procedure and stacking, Phase 3 (Section 4) includes dispersion measurement and Phase 4 (Section 5) is the error analysis and data selection process.. Adaptado de \cite{bensen_processing_2007}.}
+\caption[Representação esquemática do processamento.]{Representação esquemática do processamento. Fase 1 - etapas que involvem a preparação dos dados antes da correlação. Fase 2 - esboços do processo de correlação cruzadae empilhamento. Fase 3 -Medidas de dispersão. Fase 4 - Análise do Erro e seleção de dados aceitáveis. Adaptado de \cite{bensen_processing_2007}.}
 \label{fluxograma_bensen2007}
 \end{figure} 
 
@@ -53,7 +52,7 @@ Um passo importante na preparação dos dados é a "normalização temporal" ou 
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.55]{temporal_norma.png}
-\caption{Formas de onda mostrando exemplos de cinco tipos de normalização no dominio do tempo testadas por \cite{bensen_processing_2007}. Os exemplos estão com o filtro passa-banda entre 20 e 100 segundos e mostram a contaminação por sinais de terremoto. (a)  Dado bruto mostrando 3 horas de dados janelados em torno de um grande terremoto (M = 7.2, Afeganistão) registrado na estação ANMO. (b) Normalização 1-bit.(c) Forma de onda cortada, onde o limiar de recorte é igual ao rms da amplitude do sinal de um dado dia. (d) Evento detectado e removido automaticamente. (e) Normalização da média absoluta móvel. (f) Normalização ‘\textit{Water level}’ . Retirado de \cite{bensen_processing_2007}.}
+\caption[Formas de onda mostrando exemplos de cinco tipos de normalização no dominio do tempo.]{Formas de onda mostrando exemplos de cinco tipos de normalização no dominio do tempo testadas por \cite{bensen_processing_2007}. Os exemplos estão com o filtro passa-banda entre 20 e 100 segundos e mostram a contaminação por sinais de terremoto. (a)  Dado bruto mostrando 3 horas de dados janelados em torno de um grande terremoto (M = 7.2, Afeganistão) registrado na estação ANMO. (b) Normalização 1-bit.(c) Forma de onda cortada, onde o limiar de recorte é igual ao rms da amplitude do sinal de um dado dia. (d) Evento detectado e removido automaticamente. (e) Normalização da média absoluta móvel. (f) Normalização ‘\textit{Water level}’ . Retirado de \cite{bensen_processing_2007}.}
 \label{temporal_norma}
 \end{figure} 
 
@@ -76,7 +75,7 @@ Após preparar as séries temporais diárias a próxima fase, como visto na Figu
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.11]{correlaca_cruzada.png}
-\caption{Correlações cruzadas de acordo com a distância entre as estações. Linhas indicam as velocidades de 2.5 e 3.5 $km/s$. Dados foram filtrados por um filtro passa-banda entre 3 e 50 segundos.}
+\caption[Correlações cruzadas de acordo com a distância entre as estações.]{Correlações cruzadas de acordo com a distância entre as estações. Linhas indicam as velocidades de 2.5 e 3.5 $km/s$. Dados foram filtrados por um filtro passa-banda entre 3 e 50 segundos.}
 \label{correlacao_cruzada}
 \end{figure} 
 
@@ -104,7 +103,7 @@ Finalmente, a variabilidade sazonal das medidas de dispersão é avaliada pelo F
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.3]{correlacao_FTAN.png}
-\caption{Exemplo de correlação cruzada e análise frequência-tempo (FTAN) no par de estações BL.BSCB-ON.PET01. (Esquerda) Correlação cruzada original simetrizada e filtrada com passa-banda. (Centro) Amplitude da FTAN bruta e filtrada, normalizada por cada valor de período e curvas de dispersão das velocidades de grupo. Os dados da forma de onda foram filtradas entre 3 e 50 segundos.(Direita) Mapa mostrando a localização do par de estações (estações, províncias tectônicas e divisas estaduais).}
+\caption[Exemplo de correlação cruzada e análise frequência-tempo (FTAN) no par de estações BL.BSCB-ON.PET01.]{Exemplo de correlação cruzada e análise frequência-tempo (FTAN) no par de estações BL.BSCB-ON.PET01. (Esquerda) Correlação cruzada original simetrizada e filtrada com passa-banda. (Centro) Amplitude da FTAN bruta e filtrada, normalizada por cada valor de período e curvas de dispersão das velocidades de grupo. Os dados da forma de onda foram filtradas entre 3 e 50 segundos.(Direita) Mapa mostrando a localização do par de estações (estações, províncias tectônicas e divisas estaduais).}
 \label{correlacao_FTAN}
 \end{figure} 
 
