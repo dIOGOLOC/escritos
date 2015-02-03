@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.21)  30 JAN 2015 19:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.21)  3 FEB 2015 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1072,13 +1072,13 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 
- <./modelagem_RF.png>] <perfil_RF_sintetico.png, id=671, 972.0315pt x 1688.9499
-pt>
+ <./modelagem_RF.png>] <perfil_RF_sintetico.png, id=671, 2206.44734pt x 1868.69
+571pt>
 File: perfil_RF_sintetico.png Graphic file (type png)
 
 <use perfil_RF_sintetico.png>
 Package pdftex.def Info: perfil_RF_sintetico.png used on input line 19.
-(pdftex.def)             Requested size: 243.00728pt x 422.23645pt.
+(pdftex.def)             Requested size: 397.14339pt x 336.35071pt.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
@@ -1205,35 +1205,35 @@ Package babel Info: Redefining portuges shorthand "|
 Cap\'{\i }tulo 7.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-<RF_SLP01_STA08.png, id=823, 2843.60327pt x 1491.12184pt>
+<RF_SLP01_STA08.png, id=825, 2843.60327pt x 1491.12184pt>
 File: RF_SLP01_STA08.png Graphic file (type png)
 
 <use RF_SLP01_STA08.png>
-Package pdftex.def Info: RF_SLP01_STA08.png used on input line 7.
+Package pdftex.def Info: RF_SLP01_STA08.png used on input line 13.
 (pdftex.def)             Requested size: 454.98582pt x 238.58437pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 13.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 13.
- [31
 
-
-
- <./RF_SLP01_STA08.png>]
-<Interpolacao_Linear.png, id=847, 2007.5pt x 4015.0pt>
+<Interpolacao_Linear.png, id=843, 2007.5pt x 4015.0pt>
 File: Interpolacao_Linear.png Graphic file (type png)
 
 <use Interpolacao_Linear.png>
-Package pdftex.def Info: Interpolacao_Linear.png used on input line 16.
-(pdftex.def)             Requested size: 441.65137pt x 883.30275pt.
+Package pdftex.def Info: Interpolacao_Linear.png used on input line 24.
+(pdftex.def)             Requested size: 401.49289pt x 802.9858pt.
 
 
-LaTeX Warning: Float too large for page by 179.1733pt on input line 19.
+LaTeX Warning: Float too large for page by 98.85634pt on input line 27.
 
-<RF_azimute.png, id=853, 731.73375pt x 598.75694pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 30.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 30.
+[31
+
+
+
+] <RF_azimute.png, id=858, 731.73375pt x 598.75694pt>
 File: RF_azimute.png Graphic file (type png)
  <use RF_azimute.png>
-Package pdftex.def Info: RF_azimute.png used on input line 27.
+Package pdftex.def Info: RF_azimute.png used on input line 33.
 (pdftex.def)             Requested size: 365.86598pt x 299.37773pt.
 )
 Package babel Info: Redefining portuges shorthand "|
@@ -1241,7 +1241,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 46.
 
-[32]
+[32 <./RF_SLP01_STA08.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 46.
 Package babel Info: Redefining portuges shorthand "|
@@ -1254,8 +1254,7 @@ Package babel Info: Redefining portuges shorthand "|
  [34 <./RF_azimute.png>]
 \openout2 = `tese_conclusao.aux'.
 
-
-(./tese_conclusao.tex
+ (./tese_conclusao.tex
 Cap\'{\i }tulo 8.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -1316,8 +1315,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  ) 
 Here is how much of TeX's memory you used:
  11768 strings out of 494963
- 164041 string characters out of 6179647
- 265661 words of memory out of 5000000
+ 164047 string characters out of 6179647
+ 265664 words of memory out of 5000000
  14488 multiletter control sequences out of 15000+600000
  17006 words of font info for 44 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
@@ -1339,10 +1338,10 @@ nts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on tese.pdf (47 pages, 17119432 bytes).
+Output written on tese.pdf (47 pages, 17098544 bytes).
 PDF statistics:
- 1451 PDF objects out of 1728 (max. 8388607)
- 838 compressed objects within 9 object streams
+ 1452 PDF objects out of 1728 (max. 8388607)
+ 839 compressed objects within 9 object streams
  158 named destinations out of 1000 (max. 500000)
  362 words of extra memory for PDF output out of 10000 (max. 10000000)
 
