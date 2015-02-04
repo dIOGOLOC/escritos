@@ -1,0 +1,386 @@
+\begin{thebibliography}{39}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem[\MakeUppercase{McNamara} e \MakeUppercase{Buland}(2004)McNamara e
+  Buland]{McNamara_Buland_2004}
+\MakeUppercase{McNamara, D.~E., Buland, R.}
+\newblock \enquote{Ambient Noise Levels in the Continental United States},
+  \emph{Bulletin of the Seismological Society of America}, v.~94, n.~4,
+  \penalty0 pp.~1517--1527, 2004.
+
+\bibitem[\MakeUppercase{Ammon}(1997)Ammon]{Ammon_waterlevel_1997}
+\MakeUppercase{Ammon, C.~J.}
+\newblock \enquote{Receiver Function Source Equalization}. Website, 1997.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://eqseis.geosc.psu.edu/~cammon/HTML/RftnDocs/seq01.html}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Kennet}(1991)Kennet]{kennet_iaspei_1991}
+\MakeUppercase{Kennet, B. L.~N.}
+\newblock \enquote{Iaspei 1991 Seismological Tables}, v.~3, n.~2, \penalty0
+  pp.~122--122, 1991.
+\newblock ISSN: 1365-3121.
+\newblock \doi{10.1111/j.1365-3121.1991.tb00863.x}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://onlinelibrary.wiley.com/doi/10.1111/j.1365-3121.1991.tb00863.x/abstract}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Shapiro} e \MakeUppercase{Campillo}(2004)Shapiro e
+  Campillo]{shapiro_emergence_2004}
+\MakeUppercase{Shapiro, N.~M., Campillo, M.}
+\newblock \enquote{Emergence of broadband Rayleigh waves from correlations of
+  the ambient seismic noise}, v.~31, n.~7, \penalty0 pp.~L07614, 2004.
+\newblock ISSN: 1944-8007.
+\newblock \doi{10.1029/2004GL019491}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://onlinelibrary.wiley.com/doi/10.1029/2004GL019491/abstract}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Riccomini}(1989)Riccomini]{Riccomini_1989}
+\MakeUppercase{Riccomini, C.}
+\newblock \emph{O Rift continental do sudeste do Brasil. São Paulo: Instituto
+  de Geociências Universidade de São Paulo.}
+\newblock {PhD} in geolgy, Instituto de Geociências Universidade de São
+  Paulo., 1989.
+
+\bibitem[\MakeUppercase{Almeida} e \MakeUppercase{Carneiro}(1998)Almeida e
+  Carneiro]{Almeida_Carneiro_1998}
+\MakeUppercase{Almeida, F., Carneiro, C.}
+\newblock \enquote{Origem e evolução da Serra do Mar.} \emph{Revista
+  Brasileira de Geociências}, v.~28, n.~2, \penalty0 pp.~135--150, 1998.
+
+\bibitem[\MakeUppercase{Hasui} e \MakeUppercase{Sadowski}(1976)Hasui e
+  Sadowski]{Hasui_Sadowski_1976}
+\MakeUppercase{Hasui, Y., Sadowski, G.}
+\newblock \enquote{Evolução geológica do Pré-Cambriano na região sudeste
+  do Estado de São Paulo.} \emph{Revista Brasileira de Geociências}, v.~6,
+  n.~3, \penalty0 pp.~182--200, 1976.
+
+\bibitem[\MakeUppercase{Trouw}\emph{ et~al.}(2013)Trouw, Peternel, Ribeiro,
+  Heilbron, Vinagre, Duffles, Trouw, Fontainha, e Kussama]{trouw_new_2013}
+\MakeUppercase{Trouw, R.~A., Peternel, R., Ribeiro, A., \MakeLowercase{et~al.}}
+\newblock \enquote{A new interpretation for the interference zone between the
+  southern Brasília belt and the central Ribeira belt, {SE} Brazil}, v.~48,
+  \penalty0 pp.~43--57, 2013.
+\newblock ISSN: 08959811.
+\newblock \doi{10.1016/j.jsames.2013.07.012}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{https://www.infona.pl/resource/bwmeta1.element.elsevier-dad74da7-48ad-3384-a03c-fcc1c1dbac7c}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Pimentel}\emph{ et~al.}(2011)Pimentel, Rodrigues,
+  {DellaGiustina}, Junges, Matteini, e Armstrong]{pimentel_tectonic_2011}
+\MakeUppercase{Pimentel, M.~M., Rodrigues, J.~B., {DellaGiustina}, M. E.~S.,
+  \MakeLowercase{et~al.}}
+\newblock \enquote{The tectonic evolution of the Neoproterozoic Brasília Belt,
+  central Brazil, based on {SHRIMP} and {LA}-{ICPMS} U–Pb sedimentary
+  provenance data: A review}, v.~31, n.~4, \penalty0 pp.~345--357, 2011.
+\newblock ISSN: 0895-9811.
+\newblock \doi{10.1016/j.jsames.2011.02.011}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/S0895981111000198}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Reno}\emph{ et~al.}(2012)Reno, Piccoli, Brown, e
+  Trouw]{reno_situ_2012}
+\MakeUppercase{Reno, B.~L., Piccoli, P.~M., Brown, M., \MakeLowercase{et~al.}}
+\newblock \enquote{In situ monazite (U–Th)–Pb ages from the Southern
+  Brasília Belt, Brazil: constraints on the high-temperature retrograde
+  evolution of {HP} granulites}, v.~30, n.~1, \penalty0 pp.~81--112, 2012.
+\newblock ISSN: 1525-1314.
+\newblock \doi{10.1111/j.1525-1314.2011.00957.x}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://onlinelibrary.wiley.com/doi/10.1111/j.1525-1314.2011.00957.x/abstract}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Kühn}\emph{ et~al.}(2004)Kühn, Stüwe, e
+  Trouw]{kuhn_metamorphic_2004}
+\MakeUppercase{Kühn, A., Stüwe, K., Trouw, R. a.~J.}
+\newblock \enquote{Metamorphic Evolution of the Ribeira Belt: Evidence from
+  Outcrops in the Rio de Janeiro Area, Brazil}, v.~45, n.~11, \penalty0
+  pp.~2303--2323, 2004.
+\newblock ISSN: 0022-3530, 1460-2415.
+\newblock \doi{10.1093/petrology/egh058}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://petrology.oxfordjournals.org/content/45/11/2303}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Heilbron}\emph{ et~al.}(2010)Heilbron, Duarte,
+  Valeriano, Simonetti, Machado, e Nogueira]{heilbron_evolution_2010}
+\MakeUppercase{Heilbron, M., Duarte, B.~P., Valeriano, C. d.~M.,
+  \MakeLowercase{et~al.}}
+\newblock \enquote{Evolution of reworked Paleoproterozoic basement rocks within
+  the Ribeira belt (Neoproterozoic), {SE}-Brazil, based on U–Pb
+  geochronology: Implications for paleogeographic reconstructions of the São
+  Francisco-Congo paleocontinent}, v.~178, n.~1, \penalty0 pp.~136--148, 2010.
+\newblock ISSN: 0301-9268.
+\newblock \doi{10.1016/j.precamres.2010.02.002}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/S0301926810000434}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Valeriano}\emph{ et~al.}(2011)Valeriano, Tupinambá,
+  Simonetti, Heilbron, de~Almeida, e do~Eirado]{valeriano_u_pb_2011}
+\MakeUppercase{Valeriano, C. d.~M., Tupinambá, M., Simonetti, A.,
+  \MakeLowercase{et~al.}}
+\newblock \enquote{U-Pb LA-MC-ICPMS geochronology of Cambro-Ordovician
+  post-collisional granites of the Ribeira belt, southeast Brazil: Terminal
+  Brasiliano magmatism in central Gondwana supercontinent}, v.~32, n.~4,
+  \penalty0 pp.~416--428, 2011.
+\newblock ISSN: 0895-9811.
+\newblock \doi{10.1016/j.jsames.2011.03.003}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/S0895981111000277}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Gibbons}(2006)Gibbons]{gibbons_identification_2006}
+\MakeUppercase{Gibbons, S.~J.}
+\newblock \enquote{On the Identification and Documentation of Timing Errors: An
+  Example at the {KBS} Station, Spitsbergen}, v.~77, n.~5, \penalty0
+  pp.~559--571, 2006.
+\newblock ISSN: 0895-0695, 1938-2057.
+\newblock \doi{10.1785/gssrl.77.5.559}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://srl.geoscienceworld.org/content/77/5/559}\textgreater .
+
+\bibitem[\MakeUppercase{Langston}(1977)Langston]{Langston_1977}
+\MakeUppercase{Langston, C.~A.}
+\newblock \enquote{The effect of planar dipping structure on source and
+  receiver responses for constant ray parameter}, \emph{Bulletin of the
+  Seismological Society of America}, v.~67, n.~4, \penalty0 pp.~1029--1050,
+  1977.
+
+\bibitem[\MakeUppercase{Zhu} e \MakeUppercase{Kanamori}(2000)Zhu e
+  Kanamori]{Zhu_Kanamori_2000}
+\MakeUppercase{Zhu, L., Kanamori, H.}
+\newblock \enquote{Moho depth variation in southern California from teleseismic
+  receiver functions}, \emph{Journal of Geophysical Research}, v.~105, n.~B2,
+  \penalty0 pp.~2969--2980, 2000.
+
+\bibitem[\MakeUppercase{Clayton} e \MakeUppercase{Wiggins}(1976)Clayton e
+  Wiggins]{clayton_source_1976}
+\MakeUppercase{Clayton, R.~W., Wiggins, R.~A.}
+\newblock \enquote{Source shape estimation and deconvolution of teleseismic
+  bodywaves}, v.~47, n.~1, \penalty0 pp.~151--177, 1976.
+\newblock ISSN: 0956-540X, 1365-246X.
+\newblock \doi{10.1111/j.1365-246X.1976.tb01267.x}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://gji.oxfordjournals.org/content/47/1/151}\textgreater .
+
+\bibitem[\MakeUppercase{Ammon}(1991)Ammon]{ammon_isolation_1991}
+\MakeUppercase{Ammon, C.~J.}
+\newblock \enquote{The isolation of receiver effects from teleseismic P
+  waveforms}, v.~81, n.~6, \penalty0 pp.~2504--2510, 1991.
+\newblock ISSN: 0037-1106, 1943-3573.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.bssaonline.org/content/81/6/2504}\textgreater .
+
+\bibitem[\MakeUppercase{Cassidy}(1992)Cassidy]{cassidy_numerical_1992}
+\MakeUppercase{Cassidy, J.~F.}
+\newblock \enquote{Numerical experiments in broadband receiver function
+  analysis}, v.~82, n.~3, \penalty0 pp.~1453--1474, 1992.
+\newblock ISSN: 0037-1106, 1943-3573.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.bssaonline.org/content/82/3/1453}\textgreater .
+
+\bibitem[\MakeUppercase{Ligorría} e \MakeUppercase{Ammon}(1999)Ligorría e
+  Ammon]{ligorria_iterative_1999}
+\MakeUppercase{Ligorría, J.~P., Ammon, C.~J.}
+\newblock \enquote{Iterative deconvolution and receiver-function estimation},
+  v.~89, n.~5, \penalty0 pp.~1395--1400, 1999.
+\newblock ISSN: 0037-1106, 1943-3573.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.bssaonline.org/content/89/5/1395}\textgreater .
+
+\bibitem[\MakeUppercase{Langston}(1979)Langston]{langston_structure_1979}
+\MakeUppercase{Langston, C.~A.}
+\newblock \enquote{Structure under Mount Rainier, Washington, inferred from
+  teleseismic body waves}, v.~84, \penalty0 pp.~4749--4762, 1979.
+\newblock ISSN: 2156-2202.
+\newblock \doi{10.1029/JB084iB09p04749}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://onlinelibrary.wiley.com/doi/10.1029/JB084iB09p04749/abstract}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Kikuchi} e \MakeUppercase{Kanamori}(1982)Kikuchi e
+  Kanamori]{kikuchi_inversion_1982}
+\MakeUppercase{Kikuchi, M., Kanamori, H.}
+\newblock \enquote{Inversion of complex body waves}, v.~72, n.~2, \penalty0
+  pp.~491--506, 1982.
+\newblock ISSN: 0037-1106, 1943-3573.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.bssaonline.org/content/72/2/491}\textgreater .
+
+\bibitem[\MakeUppercase{Efron} e \MakeUppercase{Tibshirani}(1991)Efron e
+  Tibshirani]{efron_statistical_1991}
+\MakeUppercase{Efron, B., Tibshirani, R.}
+\newblock \enquote{Statistical Data Analysis in the Computer Age},
+  \emph{Science}, v.~253, n. 5018, \penalty0 pp.~390--395, jul. 1991.
+\newblock ISSN: 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.253.5018.390}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencemag.org/content/253/5018/390}\textgreater .
+\newblock {PMID:} 17746394.
+
+\bibitem[\MakeUppercase{Assumpção}(2002)Assumpção]{assumpcao_crustal_2002}
+\MakeUppercase{Assumpção, M.}
+\newblock \enquote{Crustal thicknesses in {SE} Brazilian Shield by receiver
+  function analysis: Implications for isostatic compensation}, v.~107, 2002.
+\newblock ISSN: 0148-0227.
+\newblock \doi{10.1029/2001JB000422}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://libra.msra.cn/Publication/5115166/crustal-thicknesses-in-se-brazilian-shield-by-receiver-function-analysis-implications-for}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Sand~França} e
+  \MakeUppercase{Assumpção}(2004)Sand~França e
+  Assumpção]{sand_franca_crustal_2004}
+\MakeUppercase{Sand~França, G., Assumpção, M.}
+\newblock \enquote{Crustal structure of the Ribeira fold belt, {SE} Brazil,
+  derived from receiver functions}, v.~16, n.~8, \penalty0 pp.~743--758, 2004.
+\newblock ISSN: 08959811.
+\newblock \doi{10.1016/j.jsames.2003.12.002}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.iag.usp.br/pos/geofisica/portugues/artigo/crustal-structure-ribeira-fold-belt-se-brazil-derived-receiver-functions}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Julia}\emph{ et~al.}(2008)Julia, Assumpcao, e
+  Rocha]{julia_deep_2008}
+\MakeUppercase{Julia, J., Assumpcao, M., Rocha, M.~P.}
+\newblock \enquote{Deep crustal structure of the Parana Basin from receiver
+  functions and Rayleigh-wave dispersion: Evidence for a fragmented cratonic
+  root}, v.~113, 2008.
+\newblock ISSN: 0148-0227.
+\newblock \doi{10.1029/2007JB005374}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.producao.usp.br/handle/BDPI/27164}\textgreater .
+
+\bibitem[\MakeUppercase{Bassini}(1986)Bassini]{Bassini_1986}
+\MakeUppercase{Bassini, A.}
+\newblock \enquote{Levantamento sismográficos na região sudeste do Brasil.}
+  1986.
+
+\bibitem[\MakeUppercase{Flora~Solon}(2013)Flora~Solon]{flora_solon_ancient_2013}
+\MakeUppercase{Flora~Solon, E. F. L.~T.}
+\newblock \enquote{Ancient geological structures in the middle crust of
+  southeast brazilian portion identified by geoelectrical results with
+  Magnetotellurics geophysical methods.} pp. 29--33, 2013.
+\newblock \doi{10.1190/sbgf2013-007}.
+
+\bibitem[\MakeUppercase{Silva}(2014)Silva]{Silva_2014}
+\MakeUppercase{Silva, A.~R.}
+\newblock \enquote{Modelagem Gravimétrica de uma seção entre a margem
+  continental do sudeste do Brasil e a área emersa adjacente.} 2014.
+
+\bibitem[\MakeUppercase{Aki}(1957)Aki]{aki_space_1957}
+\MakeUppercase{Aki, K.}
+\newblock \enquote{Space and Time Spectra of Stationary Stochastic Waves, with
+  Special Reference to Microtremors}, 1957.
+\newblock ISSN: 00408972.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://repository.dl.itc.u-tokyo.ac.jp/dspace/handle/2261/11892}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Campillo} e \MakeUppercase{Paul}(2003)Campillo e
+  Paul]{campillo_long-range_2003}
+\MakeUppercase{Campillo, M., Paul, A.}
+\newblock \enquote{Long-Range Correlations in the Diffuse Seismic Coda},
+  v.~299, \penalty0 pp.~547--549, 2003.
+\newblock ISSN: 0036-8075.
+\newblock \doi{10.1126/science.1078551}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://adsabs.harvard.edu/abs/2003Sci...299..547C}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Wapenaar}(2004)Wapenaar]{wapenaar_retrieving_2004}
+\MakeUppercase{Wapenaar, K.}
+\newblock \enquote{Retrieving the Elastodynamic Green's Function of an
+  Arbitrary Inhomogeneous Medium by Cross Correlation}, v.~93, n.~25, \penalty0
+  pp.~254301, 2004.
+\newblock \doi{10.1103/PhysRevLett.93.254301}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://link.aps.org/doi/10.1103/PhysRevLett.93.254301}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Boschi}\emph{ et~al.}(2013)Boschi, Weemstra, Verbeke,
+  Ekstrom, Zunino, e Giardini]{boschi_measuring_2013}
+\MakeUppercase{Boschi, L., Weemstra, C., Verbeke, J., \MakeLowercase{et~al.}}
+\newblock \enquote{On measuring surface wave phase velocity from
+  station-station cross-correlation of ambient signal}, v.~192, n.~1, \penalty0
+  pp.~346--358, 2013.
+\newblock ISSN: 0956-540X, 1365-246X.
+\newblock \doi{10.1093/gji/ggs023}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://academiccommons.columbia.edu/catalog/ac%3A159032}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Levshin} e \MakeUppercase{Ritzwoller}(2001)Levshin e
+  Ritzwoller]{levshin_automated_2001}
+\MakeUppercase{Levshin, A.~L., Ritzwoller, M.~H.}
+\newblock \enquote{Automated Detection, Extraction, and Measurement of Regional
+  Surface Waves}. In: Levshin, A.~L., Ritzwoller, M.~H. (Eds.),
+  \emph{Monitoring the Comprehensive Nuclear-Test-Ban Treaty: Surface Waves},
+  Pageoph Topical Volumes, Birkhäuser Basel, pp. 1531--1545, 2001.
+\newblock ISBN: 978-3-7643-6551-6, 978-3-0348-8264-4.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://link.springer.com/chapter/10.1007/978-3-0348-8264-4_11}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Bensen}\emph{ et~al.}(2007)Bensen, Ritzwoller, Barmin,
+  Levshin, Lin, Moschetti, Shapiro, e Yang]{bensen_processing_2007}
+\MakeUppercase{Bensen, G.~D., Ritzwoller, M.~H., Barmin, M.~P.,
+  \MakeLowercase{et~al.}}
+\newblock \enquote{Processing seismic ambient noise data to obtain reliable
+  broad-band surface wave dispersion measurements}, v.~169, n.~3, \penalty0
+  pp.~1239--1260, 2007.
+\newblock ISSN: 1365-246X.
+\newblock \doi{10.1111/j.1365-246X.2007.03374.x}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.2007.03374.x/abstract}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Seats}\emph{ et~al.}(2012)Seats, Lawrence, e
+  Prieto]{seats_improved_2012}
+\MakeUppercase{Seats, K.~J., Lawrence, J.~F., Prieto, G.~A.}
+\newblock \enquote{Improved ambient noise correlation functions using Welch's
+  method}, v.~188, n.~2, \penalty0 pp.~513--523, 2012.
+\newblock ISSN: 1365-246X.
+\newblock \doi{10.1111/j.1365-246X.2011.05263.x}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.2011.05263.x/abstract}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Assumpção}\emph{
+  et~al.}(2013{\natexlab{a}})Assumpção, Bianchi, Julià, Dias, França,
+  Nascimento, Drouet, Pavão, Albuquerque, e Lopes]{Assumpcao_Brazil_2013}
+\MakeUppercase{Assumpção, M., Bianchi, M., Julià, J.,
+  \MakeLowercase{et~al.}}
+\newblock \enquote{Crustal thickness map of Brazil: Data compilation and main
+  features}, \emph{Journal of South American Earth Sciences}, v.~43, \penalty0
+  pp.~74--85, 2013{\natexlab{a}}.
+
+\bibitem[\MakeUppercase{Assumpção}\emph{
+  et~al.}(2013{\natexlab{b}})Assumpção, Feng, Tassara, e
+  Julià]{Assumpcao_America_2013}
+\MakeUppercase{Assumpção, M., Feng, M., Tassara, A., \MakeLowercase{et~al.}}
+\newblock \enquote{Models of crustal thickness for South America from seismic
+  refraction, receiver functions and surface wave tomography},
+  \emph{Tectonophysics}, v.~609, \penalty0 pp.~82–96, 2013{\natexlab{b}}.
+
+\bibitem[\MakeUppercase{Van~der Meijde}\emph{ et~al.}(2013)Van~der Meijde,
+  Julià, e Assumpção]{van_der_meijde_gravity_2013}
+\MakeUppercase{Van~der Meijde, M., Julià, J., Assumpção, M.}
+\newblock \enquote{Gravity derived Moho for South America},
+  \emph{Tectonophysics}, v.~609, \penalty0 pp.~456--467, dez. 2013.
+\newblock ISSN: 0040-1951.
+\newblock \doi{10.1016/j.tecto.2013.03.023}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/S0040195113001972}\textgreater
+  .
+
+\end{thebibliography}

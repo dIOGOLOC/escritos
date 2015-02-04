@@ -1,0 +1,158 @@
+\chapter{Função do Receptor}
+
+\section{Fundamentos do Método}
+
+No ínicio desse trabalho somente os dados de eventos incluídos no catálogo do IRIS (\textit{Incorporated Research Institutions for Seismology}) com magnitude maior que 5,5 entre maio de 2011 e maio de 2012 foram utilizados. Porém agora utiliza-se dados coletados na rede Sismográfica, mostrada na \ref{map_loc}, até o fim do segundo semestre de 2013. A Figura \ref{mapa_eventos} mostra eventos sísmicos registrados na estação STA08 mostrando a delimitação dos eventos pela distância epicentral, além de mostrar sismos com magnitude maior que 5.5 mb.
+
+O sismômetro registra pequenas variações horizontais e verticais de amplitude das partículas do terreno na escala microscópica ao longo das direções Vertical (Z), Norte-Sul (N) e Leste-Oeste (E), chamado sistema ZNE, como observado na Figura \ref{simograma}. No entanto, o sinal bruto nas direções ZNE não está alinhado aos eixos de propagação das ondas geradas pelo sismo, logo a resposta em cada componente mostra uma sobreposição de vários tipos de ondas. Com a finalidade de isolar a contribuição de cada onda registrada nos dados, o sistema de coordenadas dos registros são rotacionadas, através do SAC (\textit{Seismic Analysis Code}), para se alinharem com os eixos de propagação das ondas através da seguinte matriz de rotação:
+
+\begin{eqnarray}
+ & & \left[ \begin{array}{c} R \\ T \\ Z \end{array} \right] = \begin{bmatrix} \cos \theta & \sin \theta & 0 \\ - \sin \theta & \cos \theta & 0 \\ 0 & 0 & 1 \end{bmatrix} \left[ \begin{array}{c} E \\ N \\ Z \end{array} \right]
+\label{rotacao}
+\end{eqnarray}
+
+O resultado da equação \ref{rotacao} discrimina claramente a contribuição de cada componente  no sismograma. A componente N (norte-sul) transforma-se na componente T (transversal) e guarda os registro da componente horizontal da onda S, chamada de onda SH. A resposta da onda SV é resgistrada na componente radial do sismograma, chamada R, como pode ser visualizada na Figura \ref{sismo_radial}.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.6]{Figs/Componente_Radial_Transversal.png}
+\caption{Sismograma mostrando as componentes Radial e Transversal.}
+\label{sismo_radial}
+\end{figure}
+
+\section{Processamento}
+
+Para o cálculo a espessura crustal na região utilizou-se o método da Função do Receptor, que foi desenvolvido por \cite{Langston_1977}. O programa SAC (\textit{Seismic Analysis Code}) foi usado para fazer o processamento e o cálculo das Funções Receptores. Tal método faz uso do sinal de tele-sismos, geradores de ondas planas de incidência quase-vertical embaixo de uma dada estação. A onda P incide na discontinuidade de Mohorovicic e se decompõe em uma onda P transmitida e uma onda S convertida. A diferença do tempo de chegada das duas ondas, onda S tem velocidade inferior a onda P, e de outras reflexões permite inferir a profundidade da discontinuidade de Mohorovicic, também chamada de Moho, como mostrado na Figura \ref{funcoes_sinteticas} .
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.8]{Figs/funcoes_sinteticas.png}
+\caption[Funções do Receptor em função do parâmetro do raio para o Modelo de Velocidade Padrão do Sul da Califórnia.]{Funções do Receptor em função do parâmetro do raio para o Modelo de Velocidade Padrão do Sul da Califórnia, em \cite{Zhu_Kanamori_2000}. A fase Ps convertida em Moho e suas múltiplas  PpPs, PpSs, e PsPs e seus traços são ilustrados no topo da imagem. Outras reflexões não-rotuladas são as conversões P-S em 5.5 km e 16 km, discontinuidades intracrustais no modelo.}
+\label{funcoes_sinteticas}
+\end{figure}
+
+Para uma estimativa precisa das Funções do Receptor é essencial que o tempo de chegada da onda P seja determinado com baixa incerteza. Então os dados foram examinados visualmente para registrar o tempo de chegada da onda P direta. 
+
+As Funções do Receptor são calculadas com uma deconvolução componente radial (R) pela componente vertical (Z), como é mostrado por \cite{clayton_source_1976}, \cite{Langston_1977}, \cite{ammon_isolation_1991}, \cite{cassidy_numerical_1992}, \cite{Zhu_Kanamori_2000}. Essa operação remove efetivamente a resposta instrumental, a assinatura da fonte e a propagação da fonte até Moho. E o sinal resultante é a assinatura da propagação próxima à estação. Então a Função do Receptor é sensível na delimitação da estruturação superficial da crosta embaixo da estação.
+
+Computar as Funções do Receptor é um problema de deconvolução,  \cite{ligorria_iterative_1999}. \cite{langston_structure_1979} descreve a resposta do deslocamento teórico para uma onda plana P incidindo sobre uma empilhamento de interfaces horizontais ou inclinadas no domínio do tempo pode ser dada por:
+
+\begin{eqnarray} \label{lang_equacao}
+D_{V}(t) = I(t) * S(t) * E_{V}(t)
+\nonumber
+\\
+D_{R}(t) = I(t) * S(t) * E_{R}(t)
+\\
+\nonumber
+D_{T}(t) = I(t) * S(t) * E_{T}(t)
+\end{eqnarray}
+
+Onde $S(t)$ é a resposta efetiva da fonte em função do tempo de uma onda incidente, $I(t)$ é a resposta do impulso instrumental e $E_{V}(t)$, $E_{R}(t)$ e $E_{T}(t)$ são as respostas do impulso da estruturua vertical, radial e tangencial, respectivamente. A componente $S(t)$ pode ser muito complicada de ser computada, pois ela é relacionada a história do deslocamento no tempo e reverberações na aŕea da fonte.
+
+\cite{langston_structure_1979} assume que eventos profundos observados em dados telessísmicos, na componente vertical do movimento do terreno ($D_{V}(t)$), se comportam como um pulso em função do tempo convoluído com a resposta instrumental e com chegadas tardias menores. Cálculos teóricos para estruturas crustais mostram que reverberações crustais e fases convertidas na componente vertical de ondas P são menores. Então se aproxima:
+
+\begin{eqnarray} \label{lang_suposicao}
+I(t) * S(t) \simeq D_{V}(t)
+\end{eqnarray}
+
+\cite{langston_structure_1979} faz uma suposição implícita que $D_{V}(t)$ comporta-se como uma função delta de Dirac, como pode ser observado na equação \ref{lang_suposicao}. Assumindo que a resposta instrumental é compensada entre as componentes, $E_{R}(t)$ e $E_{T}(t)$ podem ser encontrados passando para o domínio da frequência a equação \ref{lang_equacao} e fazendo as seguintes deconvoluções:
+
+\begin{eqnarray} \label{lang_resposta}
+E_{R}(\omega) =  \frac{D_{R}(\omega)}{I(\omega)S(\omega)} \simeq \frac{D_{R}(\omega)}{D_{V}(\omega)}
+\\ \nonumber
+E_{T}(\omega) =  \frac{D_{T}(\omega)}{I(\omega)S(\omega)} \simeq \frac{D_{T}(\omega)}{D_{V}(\omega)}
+\end{eqnarray}
+
+$E_{R}(t)$ e $E_{T}(t)$ são retransformadas para o domínio do tempo, importante lembrar que nessa técnica a informação da fase é conservada. \cite{langston_structure_1979} resalta que o resultado da série temporal pode ser interpretado diretamente com um sismograma, permitindo que tempo e amplitude de chegadas possam ser examinadas de uma maneira inequívoca.
+
+\cite{clayton_source_1976}, \cite{langston_structure_1979}, \cite{ligorria_iterative_1999} mostram que o processo de deconvolução possui um instabilidade numérica devido a vários fatores, como o ruído aleatório contido nos dados e a limitação da banda de frequência. Para acabar com os problemas gerados na deconvolução, \cite{clayton_source_1976} introduz um nível de amplitude mínimo permitido da fonte, nomeado de \textit{water-level}, como pode ser visto na Figura Figura \ref{water_level}. Faz-se isso para reduzir componentes de ruídos espúrios e efeitos de pequenos erros na estimação da fonte. Na deconvolução \textit{water-level} a maneira de se evitar a divisão por números pequenos é substituir esses valores pequenos no denominador por uma fração do valor máximo do denominador (para todas as frequências), tal fração é chamada de parâmetro de \textit{water-level}, segundo \cite{Ammon_waterlevel_1997}. \textit{water-level} pode agir, em alguns casos, como um filtro "passa-baixa", "passa-alta" e "não-passa", como mostrado na Figura \ref{water_level} .
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.8]{Figs/water_level.png}
+\caption{Gráficos mostrando o funcionamento do \textit{water-level}, segundo \cite{Ammon_waterlevel_1997}.}
+\label{water_level}
+\end{figure}
+
+No processamento dos dados a deconvolução no domínio do tempo feita é de acordo com a teoria criada por \cite{ligorria_iterative_1999}, esta é nomeada de deconvolução interativa. Tal método segue a ideia de \cite{kikuchi_inversion_1982}, que é usado para estimar funções do tempo de fontes de grandes terremotos. A deconvolução interativa de  \cite{ligorria_iterative_1999} minimiza através do método dos mínimos quadrados a diferença entre o sismograma horizontal observado e um sinal predito pela convolução de um conjunto de picos atualizados interativamente com a componente vertical do sismograma.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.5]{Figs/deconvolucao_interativa.png}
+\caption[Estimando a Função do Receptor utilizando pequenos períodos.]{Estimando a Função do Receptor utilizando pequenos períodos. Os sinais originais são mostrados na parte superior esquerda, as funções do Receptor calculadas utilizando \textit{water-level} são comparadas com o método interativo no painel inferior. Os sinais horizontais preditos são comparados com os sinais horizontais observados no painel superior direito. \citep{ligorria_iterative_1999}.}
+\label{deconvolucao_interativa}
+\end{figure}
+
+\section{Pós-processamento}
+
+Após gerar sismogramas pela deconvolução Interativa, as séries temporais passaram por um processo de triagem para qualificar as que obtveram melhor resultado. Tal seleção foi feita sob um critério visual observando as funções do receptor que respeitam o formato determinado por \citep{langston_structure_1979}.
+
+Tendo como objetivo a análise da estrutura da crosta, buscou-se inicialmente o cálculo da profundidade de Moho, um importante parâmetro porque é relacionada à geologia e a evolução tectônica da região. \cite{Zhu_Kanamori_2000} propõe um método robusto utilizando a análise das Funções do Receptor para calcular a profundidade de Moho.
+
+Com um modelo da estrutura da Terra, neste caso o IASPEI 91 em \cite{kennet_iaspei_1991}, utiliza as velocidades medianas na crosta para calcular as diferenças de tempo teórica entre a onda P direta e a onda P convertida em S, bem como os tempos das outras reverberações na crosta. De posse de uma dada velocidade $v_{P}$, os tempos de chegada podem ser calculados usando a profundidade de Moho ($H$), a razão $v_{P}$/$v_{S}$ e o parâmetro do raio ($p$), dependente da localização do evento e da profundidade, do modelo.
+
+\cite{Zhu_Kanamori_2000} mostra que os tempos teóricos entre $P_{S}$ e P podem ser utilizados para estimar a espessura crustal, dado uma velocidade crustal média:
+
+\begin{eqnarray}
+H = {\frac{t_{P_{s}}}{{\sqrt{\frac{1}{V_{s}^{2}} - p^{2}}} - \sqrt{\frac{1}{V_{p}^{2}} - p^{2}}}}
+\end{eqnarray}
+
+E o erro pode ser dado por:
+
+\begin{eqnarray}
+\Delta H = \frac{\partial H}{\partial V_{p}} \Delta V_{p}
+\end{eqnarray}
+
+Porém a dependência de $t_{Ps}$ em relação a $V_{p}$ não é tão forte quanto a $V_{s}$, especificamente à razão $V_{p}/V_{s}$, $\kappa$. Logo o erro e quantificado:
+
+\begin{eqnarray}
+\Delta H = \frac{\partial H}{\partial \kappa } \Delta \kappa 
+\end{eqnarray}
+
+\cite{Zhu_Kanamori_2000} demonstra que uma variação de 0.1 na razão $v_{P}$/$v_{S}$ pode acarretar erros de aproximadamente 4 km na espessura crustal. Essa ambiguidade pode ser reduzida utilizando as outras fases, reverberações, da onda P. Tais fases provém informações adicionais, como mostrado nas equações abaixo:
+
+\begin{eqnarray}
+H = {\frac{t_{P_{p}P_{s}}}{{\sqrt{\frac{1}{V_{s}^{2}} - p^{2}}} + \sqrt{\frac{1}{V_{p}^{2}} - p^{2}}}}
+\end{eqnarray}
+
+\begin{eqnarray}
+H = \frac{t_{P_{p}P_{s}+P_{s}P_{s}}}{{2\sqrt{\frac{1}{V_{s}^{2}}- p^{2}}}}
+\end{eqnarray}
+
+Em situações reais, identificar a $P_{s}$ em Moho e as múltiplas e medir seus tempos de chegada em um único traço da função do receptor pode ser muito difícil devido ao ruído de fundo, espalhamento devido a heterogeneidades crustais e conversões P para S de outras discontinuidades de velocidades.
+
+Para aumentar a razão sinal/ruído empilha-se as funções do receptor de multiplos eventos. Esse empilhamento é feito no domínio do tempo para um aglomerado de eventos. \cite{Zhu_Kanamori_2000} define um empilhamento $H$-$\kappa$ como:
+
+\begin{eqnarray} \label{Hk_stack}
+s(H,\kappa) = \omega_{1}r(t_{1}) + \omega_{2}r(t_{2}) + \omega_{3}r(t_{3})
+\end{eqnarray}
+
+onde $r(t)$ é a função do receptor radial, $t_{1}$, $t_{2}$ e $t_{3}$ são os tempos de chegada preditos  $t_{s}$,  $t_{P_{p}P_{s}}$ e  $t_{P_{p}P_{s}+P_{s}P_{s}}$ correspondente a uma espessura crustal $H$ e a uma razão $V_{p}/V_{s}$ e $\omega_{i}$ são os pesos dos fatores, e $\sum \omega_{i} = 1$. 
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.3]{Figs/grid_search.png}
+\caption[a) $s(H,\kappa)$ do empilhamento das funções do receptor utilizando a equação \ref{Hk_stack}.(b) Relações $H-\kappa$ para diferentes fases convertidas em Moho.]{(a) $s(H,\kappa)$ do empilhamento das funções do receptor utilizando a equação \ref{Hk_stack} . Ela encontra o ponto máximo quando se usa uma espessura crustal $H$ e uma razão $v_{P}$/$v_{S}$ coerentes. (b) Relações $H-\kappa$ para diferentes fases convertidas em Moho. Cada curva representa a contribuição dessa fase convertida ao empilhamento, segundo \cite{Zhu_Kanamori_2000}.}
+\label{grid_search}
+\end{figure}
+
+Ao invés de tentar ajustar toda a função, o método faz uma pesquisa, \textit{grid search}, da espessura crustal e da razão $v_{P}$/$v_{S}$ para calcular o tempo de chegada teórico das ondas P convertidas em S e das múltiplas para cada registro. A melhor combinação da espessura crustal e da razão $v_{P}$/$v_{S}$, $\kappa$, é aquela que maximiza o valor das amplitudes reais das funções receptor, como pode ser visualizado na Figura \ref{grid_search} .
+
+As incertezas na medidas, mostradas na Tabela \ref{tabela1}, estão diretamente ligadas a quantidade e qualidade das Funções do Receptor. A seleção das melhores Funções do Receptor é um fase importante, pois a qualidade da Função do Receptor é prepoderante sobre a quantidade. A imprecisão associada a cada um dos parâmetros obtidos pelo método de \cite{Zhu_Kanamori_2000} é estimada pelo método "\textit{bootstrap}", desenvolvido por \cite{efron_statistical_1991}.
+
+O método "\textit{bootstrap}" gera do conjunto de Funções do Receptor subconjuntos contendo traços selecionados aleatoriamente. Esse método é repetido para cada subconjunto, resultando num conjunto de parâmetros de $H$ (profundidade de Moho) e de razão $v_{p}/v_{s}$. A média e o desvio padrão dos valores provém um valor médio e uma estimativa da incerteza associada ao cálculo. Não existe uma regra para determinar o número de subconjuntos que precisam ser gerados, o crucial é a busca por um valor que faça a estimativa estabilizar, incluindo as incertezas. Em geral usa-se um valor entre 100 e 200 subconjuntos dependendo da quantidade de traços disponíveis durante o "\textit{bootstrap}".
+
+\cite{assumpcao_crustal_2002},\cite{sand_franca_crustal_2004} e \cite{julia_deep_2008} mostram a necessidade de um cuidado especial ao empilhar as Funções do Receptor, pois há uma dependência azimutal  e com isso um deslocamento das reflexões de Moho. Isso pode ser observado na Figura \ref{tauptime}. A solução foi a a separação das funções do receptor de acordo com o backazimute e parâmetro do raio. 
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.7]{Figs/tempo_teorico_modelo_tauptime.png}
+\caption[Tempos teóricos para a reflexão $Ps$ (gráficos à esquerda) e fases $PpPs$ segundo o modelo de \cite{kennet_iaspei_1991}.]{Tempos teóricos para a reflexão $Ps$ (gráficos à esquerda) e fases $PpPs$ segundo o modelo de \cite{kennet_iaspei_1991}. Os tempos estão classificados segundo o parâmetro do raio e as distâncias epicentrais.}
+\label{tauptime}
+\end{figure}
+
+Para a separação azimutal levou-se em conta a sismicidade ao redor da região. Visto isso, fez-se uma separação em quatro quadrantes: NE, SE, SW e NW. Cada quadrante representa um agloramedo de eventos, estes aglomerados variam em magnitude e em quantidade, como pode ser observado na Figura \ref{map_loc}. 
+
+Os eventos oriundos da parte nordeste(NE) são escassos e as principais fontes são a Cadeia Meso-atlântica e a cordilheira Alpina na Europa. Já os sismos do sudeste(SE) são originários das Ilhas South Georgia e SouthSandwhich, localizadas no Atlântico Sul, e do Sul da África. A sudoeste é marcante a presença de eventos Andinos, provenientes do Chile e Argentina, e de eventos do Oceano Pacífico. Assim como a sudoeste, os eventos vindos a noroeste(NW) da área são Andinos, oriundo do norte do Chile e do Peru. Também é marcante eventos da América Central,México e Califórnia, estes são bem visíveis na Figura \ref{map_loc}.
+
+\pagebreak
