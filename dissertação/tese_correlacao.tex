@@ -120,6 +120,46 @@ para as medições. Dadas as condições de mudança, portanto, a repetibilidade
 
 \subsection{Inversão Tomográfica}
 
+A metodologia desenvolvida por  \cite{barmin_fast_2001} foi utilizada para produzir os mapas de velocidade de grupo das ondas Rayleigh. Assume-se que as ondas de superfície seguem os caminhos entre os pares de estações. Isto faz com que a inversão seja um problema linear em relação a vagarosidade. Então a relação entre um período $T$ qualquer é dada por:
+
+\begin{equation}
+d=Gm
+\end{equation} 
+
+O vetor $d$ contém o pertubações no tempo de viagem entre os pares de estações (deduzidos das velocidades de grupo medidas no período $T$), o vetor de parâmetro $m$ consite da pertubações na vagarosidade ao longo dos nós de um grade regular e a matriz sensibilidade $G$ realiza a integração entre a vagarosidade ao longo do caminho percorrido pelas ondas. As pertubações são relativas ao modelo de referência, definido como a vagarosidade média implícita por todos o tempos de propagação das ondas observados. A vagarosidade modelada é discretizada ao longo de uma grade regular de 1º x 1º. 
+
+A função de penalização é composta por três termos:
+
+\begin{eqnarray}
+(Gm-d)^{T}C^{-1}(Gm-d) + \alpha ^{2} \left \| F(m)  \right \| ^{2} + \beta ^{2 } \left \| H(m)  \right \| ^{2}
+\end{eqnarray}
+
+O primeiro termo é o desajuste, $C$ é a matriz de covariância dos erros observacionais. $C$ é uma matriz diagonal contendo a variância dos erros nos tempos de viagens observados, que são deduzidos do desvio padrão das velocidade de grupo, estas calculadas previamente. 
+
+O segundo termpo da função de penalização é a condição de suavidade espacial, que é dada por:
+
+\begin{eqnarray}
+F_{i}(m)=m_{i}-\sum_{j\neq i}S(r_{i},r_{j})m_{j}
+\end{eqnarray}
+
+com $r_{i}$ a posição do $i$-nt nós da grade e:
+
+\begin{eqnarray}
+S(r_{i},r_{j}) \propto exp(- \frac{\left \| r_{i}-r_{j}  \right \|^{2}}{2\sigma ^{2}}) \\
+\sum_{j\neq i} S(r_{i},r_{j}) = 1         \forall i 
+\end{eqnarray}
 
 
+O terceiro termo penaliza a norma ponderada no modelo, isos faz com que o modelo suavize regiões onde há pouca cobertura de dados:
 
+\begin{eqnarray}
+H_{i}(m) = exp(-\lambda \rho _{i})m_{i}
+\end{eqnarray}
+
+onde $\rho _{i}$ é o número de caminhos que cruza a célula 1º x 1º centrada no $i$-nt nó da grade. Os parâmetros foram ajustados através de otimizações feitas por tentativa e erro.
+
+Para identificar e remover caminhos discrepantes que podem ter passado pelo critério de seleção o procedimento passa-dois foi empregado. Inicialmente um mapa suave de velocidade é produzido através de uma inversão superamortecida. Nesta a maior parte da energia é afetada pela condição de suavidade espacial. Pares que possuem um tempo de viagem residual maior que três vezes o desvio padrão do resíduo, calculado pela diferença entre o tempo de viagem observado e predito,  são descartados. Após isso, uma segunda inversão é feita. O mapa de velocidade gerado por essa segunda inversão é o mapa de velocidade final. A porcentagem de medidas rejeitadas é menos que 2\% em todas as faixas de períodos.
+
+\subsection{Análise da Resolução dos Mapas Tomográficos}
+
+ Antes de interpretar os resultados é necessário fazer uma análise da resolução dos dados. Com isso pode-se avaliar as limitações dos mapas tomográficos gerados.

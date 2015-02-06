@@ -46,45 +46,48 @@ Warning--empty journal in boschi_measuring_2013
 Warning--empty address in levshin_automated_2001
 Warning--empty journal in bensen_processing_2007
 Warning--empty journal in seats_improved_2012
-You've used 39 entries,
+Warning--empty journal in barmin_fast_2001
+Warning--empty year in barmin_fast_2001
+Warning--empty year in barmin_fast_2001
+You've used 40 entries,
             2630 wiz_defined-function locations,
-            864 strings with 14340 characters,
-and the built_in function-call counts, 17478 in all, are:
-= -- 1582
-> -- 617
-< -- 52
-+ -- 276
-- -- 197
-* -- 1729
-:= -- 2591
-add.period$ -- 194
-call.type$ -- 39
-change.case$ -- 40
-chr.to.int$ -- 38
-cite$ -- 65
-duplicate$ -- 947
-empty$ -- 1693
-format.name$ -- 260
-if$ -- 3685
+            872 strings with 14566 characters,
+and the built_in function-call counts, 17989 in all, are:
+= -- 1629
+> -- 635
+< -- 53
++ -- 284
+- -- 203
+* -- 1787
+:= -- 2665
+add.period$ -- 200
+call.type$ -- 40
+change.case$ -- 41
+chr.to.int$ -- 39
+cite$ -- 69
+duplicate$ -- 972
+empty$ -- 1740
+format.name$ -- 267
+if$ -- 3789
 int.to.chr$ -- 2
-int.to.str$ -- 40
-missing$ -- 35
-newline$ -- 243
-num.names$ -- 119
-pop$ -- 285
+int.to.str$ -- 41
+missing$ -- 36
+newline$ -- 250
+num.names$ -- 122
+pop$ -- 295
 preamble$ -- 1
-purify$ -- 39
+purify$ -- 40
 quote$ -- 0
-skip$ -- 441
+skip$ -- 449
 stack$ -- 0
-substring$ -- 931
-swap$ -- 273
-text.length$ -- 26
+substring$ -- 965
+swap$ -- 280
+text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 273
-warning$ -- 26
-while$ -- 137
+type$ -- 280
+warning$ -- 29
+while$ -- 141
 width$ -- 0
-write$ -- 602
-(There were 28 warnings)
+write$ -- 618
+(There were 31 warnings)

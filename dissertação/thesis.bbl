@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{40}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -353,6 +353,17 @@
 \newblock \doi{10.1111/j.1365-246X.2011.05263.x}.
 \newblock Dispon{\' i}vel em:
   \textless\url{http://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.2011.05263.x/abstract}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Barmin}\emph{ et~al.}()Barmin, Ritzwoller, e
+  Levshin]{barmin_fast_2001}
+\MakeUppercase{Barmin, M.~P., Ritzwoller, M.~H., Levshin, A.~L.}
+\newblock \enquote{A Fast and Reliable Method for Surface Wave Tomography},
+  v.~158, n.~8, \penalty0 pp.~1351--1375.
+\newblock ISSN: 0033-4553, 1420-9136.
+\newblock \doi{10.1007/PL00001225}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://link.springer.com/article/10.1007/PL00001225}\textgreater
   .
 
 \bibitem[\MakeUppercase{Assumpção}\emph{
