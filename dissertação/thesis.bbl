@@ -1,10 +1,22 @@
-\begin{thebibliography}{40}
+\begin{thebibliography}{41}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 \newcommand{\enquote}[1]{``#1''}
+
+\bibitem[\MakeUppercase{Trouw}\emph{ et~al.}(2013)Trouw, Peternel, Ribeiro,
+  Heilbron, Vinagre, Duffles, Trouw, Fontainha, e Kussama]{trouw_new_2013}
+\MakeUppercase{Trouw, R.~A., Peternel, R., Ribeiro, A., \MakeLowercase{et~al.}}
+\newblock \enquote{A new interpretation for the interference zone between the
+  southern Brasília belt and the central Ribeira belt, {SE} Brazil}, v.~48,
+  \penalty0 pp.~43--57, 2013.
+\newblock ISSN: 08959811.
+\newblock \doi{10.1016/j.jsames.2013.07.012}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{https://www.infona.pl/resource/bwmeta1.element.elsevier-dad74da7-48ad-3384-a03c-fcc1c1dbac7c}\textgreater
+  .
 
 \bibitem[\MakeUppercase{McNamara} e \MakeUppercase{Buland}(2004)McNamara e
   Buland]{McNamara_Buland_2004}
@@ -60,18 +72,6 @@
 \newblock \enquote{Evolução geológica do Pré-Cambriano na região sudeste
   do Estado de São Paulo.} \emph{Revista Brasileira de Geociências}, v.~6,
   n.~3, \penalty0 pp.~182--200, 1976.
-
-\bibitem[\MakeUppercase{Trouw}\emph{ et~al.}(2013)Trouw, Peternel, Ribeiro,
-  Heilbron, Vinagre, Duffles, Trouw, Fontainha, e Kussama]{trouw_new_2013}
-\MakeUppercase{Trouw, R.~A., Peternel, R., Ribeiro, A., \MakeLowercase{et~al.}}
-\newblock \enquote{A new interpretation for the interference zone between the
-  southern Brasília belt and the central Ribeira belt, {SE} Brazil}, v.~48,
-  \penalty0 pp.~43--57, 2013.
-\newblock ISSN: 08959811.
-\newblock \doi{10.1016/j.jsames.2013.07.012}.
-\newblock Dispon{\' i}vel em:
-  \textless\url{https://www.infona.pl/resource/bwmeta1.element.elsevier-dad74da7-48ad-3384-a03c-fcc1c1dbac7c}\textgreater
-  .
 
 \bibitem[\MakeUppercase{Pimentel}\emph{ et~al.}(2011)Pimentel, Rodrigues,
   {DellaGiustina}, Junges, Matteini, e Armstrong]{pimentel_tectonic_2011}
@@ -136,6 +136,16 @@
 \newblock \doi{10.1016/j.jsames.2011.03.003}.
 \newblock Dispon{\' i}vel em:
   \textless\url{http://www.sciencedirect.com/science/article/pii/S0895981111000277}\textgreater
+  .
+
+\bibitem[\MakeUppercase{MOTA}(2012)MOTA]{MOTA_2012}
+\MakeUppercase{MOTA, C.~E.}
+\newblock \emph{Petrogênese e geocronologia das intrusões alcalinas de Morro
+  Redondo, Mendanha e Morro de São João: caracterização do magmatismo
+  alcalino no Estado do Rio de Janeiro e implicações geodinâmicas.}
+\newblock {PhD} in geolgy, Universidade do Estado do Rio de Janeiro, 2012.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.cprm.gov.br/publique/media/Tese_Carlos_Mota.pdf}\textgreater
   .
 
 \bibitem[\MakeUppercase{Gibbons}(2006)Gibbons]{gibbons_identification_2006}

@@ -20,9 +20,9 @@ Warning--entry type for "Silva_2014" isn't style-file defined
 --line 601 of file tese_ref.bib
 Warning--entry type for "Bassini_1986" isn't style-file defined
 --line 609 of file tese_ref.bib
+Warning--empty journal in trouw_new_2013
 Warning--empty journal in kennet_iaspei_1991
 Warning--empty journal in shapiro_emergence_2004
-Warning--empty journal in trouw_new_2013
 Warning--empty journal in pimentel_tectonic_2011
 Warning--empty journal in reno_situ_2012
 Warning--empty journal in kuhn_metamorphic_2004
@@ -49,45 +49,45 @@ Warning--empty journal in seats_improved_2012
 Warning--empty journal in barmin_fast_2001
 Warning--empty year in barmin_fast_2001
 Warning--empty year in barmin_fast_2001
-You've used 40 entries,
+You've used 41 entries,
             2630 wiz_defined-function locations,
-            872 strings with 14566 characters,
-and the built_in function-call counts, 17989 in all, are:
-= -- 1629
-> -- 635
-< -- 53
-+ -- 284
-- -- 203
-* -- 1787
-:= -- 2665
-add.period$ -- 200
-call.type$ -- 40
-change.case$ -- 41
-chr.to.int$ -- 39
-cite$ -- 69
-duplicate$ -- 972
-empty$ -- 1740
-format.name$ -- 267
-if$ -- 3789
+            878 strings with 14895 characters,
+and the built_in function-call counts, 18259 in all, are:
+= -- 1655
+> -- 642
+< -- 54
++ -- 288
+- -- 205
+* -- 1806
+:= -- 2712
+add.period$ -- 204
+call.type$ -- 41
+change.case$ -- 43
+chr.to.int$ -- 40
+cite$ -- 70
+duplicate$ -- 990
+empty$ -- 1764
+format.name$ -- 270
+if$ -- 3843
 int.to.chr$ -- 2
-int.to.str$ -- 41
+int.to.str$ -- 42
 missing$ -- 36
-newline$ -- 250
-num.names$ -- 122
-pop$ -- 295
+newline$ -- 256
+num.names$ -- 125
+pop$ -- 301
 preamble$ -- 1
-purify$ -- 40
+purify$ -- 41
 quote$ -- 0
-skip$ -- 449
+skip$ -- 458
 stack$ -- 0
-substring$ -- 965
-swap$ -- 280
+substring$ -- 967
+swap$ -- 284
 text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 280
+type$ -- 287
 warning$ -- 29
-while$ -- 141
+while$ -- 143
 width$ -- 0
-write$ -- 618
+write$ -- 633
 (There were 31 warnings)
