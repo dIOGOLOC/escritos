@@ -9,7 +9,6 @@ A level-1 auxiliary file: tese_introducao.aux
 A level-1 auxiliary file: tese_contextogeologico.aux
 A level-1 auxiliary file: tese_dados.aux
 A level-1 auxiliary file: tese_FR.aux
-A level-1 auxiliary file: tese_modelagem.aux
 A level-1 auxiliary file: tese_correlacao.aux
 A level-1 auxiliary file: tese_resultados.aux
 A level-1 auxiliary file: tese_conclusao.aux
@@ -51,7 +50,7 @@ Warning--empty year in barmin_fast_2001
 Warning--empty year in barmin_fast_2001
 You've used 41 entries,
             2630 wiz_defined-function locations,
-            878 strings with 14895 characters,
+            877 strings with 14877 characters,
 and the built_in function-call counts, 18259 in all, are:
 = -- 1655
 > -- 642
