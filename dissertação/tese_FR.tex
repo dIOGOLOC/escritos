@@ -1,6 +1,6 @@
 \chapter{Função do Receptor}
 
-\section{Fundamentos do Método}
+\section{Introdução}
 
 No ínicio desse trabalho somente os dados de eventos incluídos no catálogo do IRIS (\textit{Incorporated Research Institutions for Seismology}) com magnitude maior que 5,5 entre maio de 2011 e maio de 2012 foram utilizados. Porém agora utiliza-se dados coletados na rede Sismográfica, mostrada na \ref{map_loc}, até o fim do segundo semestre de 2013. A Figura \ref{mapa_eventos} mostra eventos sísmicos registrados na estação STA08 mostrando a delimitação dos eventos pela distância epicentral, além de mostrar sismos com magnitude maior que 5.5 mb.
 
@@ -132,11 +132,11 @@ onde $r(t)$ é a função do receptor radial, $t_{1}$, $t_{2}$ e $t_{3}$ são os
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.3]{Figs/grid_search.png}
-\caption[a) $s(H,\kappa)$ do empilhamento das funções do receptor utilizando a equação \ref{Hk_stack}.(b) Relações $H-\kappa$ para diferentes fases convertidas em Moho.]{(a) $s(H,\kappa)$ do empilhamento das funções do receptor utilizando a equação \ref{Hk_stack} . Ela encontra o ponto máximo quando se usa uma espessura crustal $H$ e uma razão $v_{P}$/$v_{S}$ coerentes. (b) Relações $H-\kappa$ para diferentes fases convertidas em Moho. Cada curva representa a contribuição dessa fase convertida ao empilhamento, segundo \cite{Zhu_Kanamori_2000}.}
+\caption[a) $s(H,\kappa)$ do empilhamento das funções do receptor utilizando a equação \ref{Hk_stack}.b) Relações $H-\kappa$ para diferentes fases convertidas em Moho.]{a) $s(H,\kappa)$ do empilhamento das funções do receptor utilizando a equação \ref{Hk_stack} . Ela encontra o ponto máximo quando se usa uma espessura crustal $H$ e uma razão $v_{P}$/$v_{S}$ coerentes. b) Relações $H-\kappa$ para diferentes fases convertidas em Moho. Cada curva representa a contribuição dessa fase convertida ao empilhamento, segundo \cite{Zhu_Kanamori_2000}.}
 \label{grid_search}
 \end{figure}
 
-Ao invés de tentar ajustar toda a função, o método faz uma pesquisa, \textit{grid search}, da espessura crustal e da razão $v_{P}$/$v_{S}$ para calcular o tempo de chegada teórico das ondas P convertidas em S e das múltiplas para cada registro. A melhor combinação da espessura crustal e da razão $v_{P}$/$v_{S}$, $\kappa$, é aquela que maximiza o valor das amplitudes reais das funções receptor, como pode ser visualizado na Figura \ref{grid_search} .
+Ao invés de tentar ajustar toda a função, o método faz uma pesquisa, \textit{grid search}, da espessura crustal e da razão $v_{P}$/$v_{S}$ para calcular o tempo de chegada teórico das ondas P convertidas em S e das múltiplas para cada registro. A melhor combinação da espessura crustal e da razão $v_{P}$/$v_{S}$, $\kappa$, é aquela que maximiza o valor das amplitudes reais das funções receptor, como pode ser visualizado na Figura \ref{grid_search}.
 
 As incertezas na medidas, mostradas na Tabela \ref{tabela1}, estão diretamente ligadas a quantidade e qualidade das Funções do Receptor. A seleção das melhores Funções do Receptor é um fase importante, pois a qualidade da Função do Receptor é prepoderante sobre a quantidade. A imprecisão associada a cada um dos parâmetros obtidos pelo método de \cite{Zhu_Kanamori_2000} é estimada pelo método "\textit{bootstrap}", desenvolvido por \cite{efron_statistical_1991}.
 
@@ -155,7 +155,31 @@ Para a separação azimutal levou-se em conta a sismicidade ao redor da região.
 
 Os eventos oriundos da parte nordeste(NE) são escassos e as principais fontes são a Cadeia Meso-atlântica e a cordilheira Alpina na Europa. Já os sismos do sudeste(SE) são originários das Ilhas South Georgia e SouthSandwhich, localizadas no Atlântico Sul, e do Sul da África. A sudoeste é marcante a presença de eventos Andinos, provenientes do Chile e Argentina, e de eventos do Oceano Pacífico. Assim como a sudoeste, os eventos vindos a noroeste(NW) da área são Andinos, oriundo do norte do Chile e do Peru. Também é marcante eventos da América Central,México e Califórnia, estes são bem visíveis na Figura \ref{map_loc}.
 
+O tipo de método utilizado no empilhamento do sinal permite recuperar informações com qualidade e confiabilidade das Funções do Receptor. O empilhamento linear do sinal separado pelo azimute ainda contém um nível de ruído aleatório que não é eliminado pela soma do sinal devido a fatores como a qualidade dos dados, distribuição azimutal dos eventos,\cite{schimmel_noise_1997}. Para isso utilizou-se o Empilhamento Ponderado pela Fase, \textit{Phase Weight Stack (PWS)} , prosposto por \cite{schimmel_noise_1997} como uma ferramenta para reduzir o ruído  incoerente contido no dado, como observado na Figura \ref{empilhamento}-b). Este método concebido por \cite{schimmel_noise_1997} se torna eficiente por conseguir recuperar algumas reflexões coerentes em meio ao ruído, mesmo apresentando uma alteração na forma do sinal. 
+
+Com a finalidade de suprimir este ruído que não é coerente, utiliza-se o empilhamento da fase do sinal como uma medida de coerência para a soma dos traços sísmicos. A ideia consiste em usar o empilhameto da fase como um peso dependente do tempo do empilhamento linear do sinal sísmico. Isto é facilmente realizado pela multiplicação dos empilhamento da fase com o empilhamento linear do sinal, como observa-se na equação \ref{PWS}.
+
+\begin{equation}
+\label{PWS}
+g(t) = \frac{1}{N} \sum_{j=1}^{N}s_{j}(t)\left | \frac{1}{N} \sum_{k=1}^{N}exp\left [ i\Phi _{k}(t) \right ]  \right |^{v}
+\end{equation}
+
+onde $N$ é o número de traços, $s(t)$ o traço sísmico, $\Phi (t)$ a fase e $v$ a potência. 
+
+Segundo \cite{schimmel_noise_1997} . cada amostra do empilhamento linear será ponderado pela coerência de suas fases instantâneas. O empilhamento da fase funciona como um filtro com uma certa nitidez da transição entre a semelhança e dessemelhança da fase, que é
+controlados pela potência $v$. 
+
+Este trabalho incrementa a metodologia idealizada por \cite{schimmel_noise_1997}, pois os traços utilizados para calcular a fase do sinal foram janelados. \cite{harris_use_1978} mostra que a performance da transformada discreta de Fourier em dados janelados é mais eficiente. Com o janelamento pré-PWS o resultado gerado consegue, além de reduzir o ruído incoerente, recuperar outras reflexões que não eram bem observadas no resultado gerado pelo PWS, como pode ser observado na Figura \ref{PWS}-c).
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.8]{Figs/empilhamento.png}
+\caption[Comparação entre os tipos de empilhamento utilizados nas Funções do Receptor.]{Comparação entre os tipos de empilhamento utilizados nas Funções do Receptor. a) Empilhamento linear das funções do receptor separadas pelo azimute na estação SLP01. b)  Empilhamento das funções do receptor ponderado pela fase proposto por \cite{schimmel_noise_1997}. c) Empilhamento das funções do receptor ponderado pela fase com janelamento do sinal}
+\label{empilhamento}
+\end{figure}
+
 \section{Modelagem das Funções do Receptor}
+
 A caracterização do arcabouço estrutural utilizando métodos sismológicos possui problemas de unicidade de solução, como outros métodos geofísicos.  Essa falta de informação direta do objeto em estudo proporciona uma gama de soluções, entretante há inúmeros meios de se contornar essa situação. A modelagem mostra-se uma boa opção, pois consegue comprovar se a técnica utilizada tem resolução para seu objetivo.
 
 \begin{figure}[!ht]
@@ -169,15 +193,17 @@ Para delimitar as principais feições estruturais da área em estudo fez o uso 
 
 Os programas utilizados para criar os modelos de velocidade da onda $P$ foram "\textit{icmod}" e "\textit{vplot[s]}". A preparação dos dados sintéticos foi feita pelo programa "\textit{respknt}". O programa "\textit{pwaveqn}" calculou as Funções do Receptor no domínio da frequência para os modelos pré-estabelecidos. Os parâmetros utilizados para o cálculo das Funções do Receptor estão na Figura \ref{modelagem}. Toda a demonstração da modelagem e cálculo das Funções do Receptor sintéticas está disponibilizada por \cite{Ammon_waterlevel_1997} em \url{http://eqseis.geosc.psu.edu/~cammon/HTML/RftnDocs/rftn01.html}.
 
-Os modelos de velocidade da onda P ($V_{p}$) são exemplos retirados da literatura sobre a região em estudo, \ref{modelagem}-a. \cite{Bassini_1986} foi o primeiro a estimar a estrutura crustual para a região da Faixa Riberia, então neste trabalho utilizou-se o modelo de velocidade sísmica para a região da Serra do Mar, como observado na Figura \ref{modelagem}-b. Mais tarde, \cite{sand_franca_crustal_2004} re-compilou os dados de \cite{Bassini_1986} e propôs um novo modelo de velocidade sísmica da região da Serra do Mar, como visto na Figura \ref{modelagem}-d. Recentemente \cite{flora_solon_ancient_2013} e \cite{Silva_2014} geraram resultados da estrutura crustal reginal através dos métodos magnetométrico e gravimétrico, respectivamente. Baseando-se nesses resultados, organizou-se um modelo de velocidade sísmica para a região em estudo, como visto na Figura \ref{modelagem}-e. Uma outra opção de modelo sísmico levantada por \cite{sand_franca_crustal_2004} é o modelo Sintético, mostrado na Figura \ref{modelagem}-c. Neste modelo o autor considera que a variação das propriedades físicas da região aumenta progressivamente com a profundidade.
+Os modelos de velocidade da onda P ($V_{p}$) são exemplos retirados da literatura sobre a região em estudo, \ref{modelagem}-a). \cite{Bassini_1986} foi o primeiro a estimar a estrutura crustual para a região da Faixa Riberia, então neste trabalho utilizou-se o modelo de velocidade sísmica para a região da Serra do Mar, como observado na Figura \ref{modelagem}-b). Mais tarde, \cite{sand_franca_crustal_2004} re-compilou os dados de \cite{Bassini_1986} e propôs um novo modelo de velocidade sísmica da região da Serra do Mar, como visto na Figura \ref{modelagem}-d). Recentemente \cite{flora_solon_ancient_2013} e \cite{Silva_2014} geraram resultados da estrutura crustal reginal através dos métodos magnetométrico e gravimétrico, respectivamente. Baseando-se nesses resultados, organizou-se um modelo de velocidade sísmica para a região em estudo, como visto na Figura \ref{modelagem}-e). Uma outra opção de modelo sísmico levantada por \cite{sand_franca_crustal_2004} é o modelo Sintético, mostrado na Figura \ref{modelagem}-c). Neste modelo o autor considera que a variação das propriedades físicas da região aumenta progressivamente com a profundidade.
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.18]{Figs/perfil_RF_sintetico.png}
+\includegraphics[scale=0.25]{Figs/perfil_RF_sintetico.png}
 \caption{Perfil com Funções do Receptor Sintéticas para área abrangida pelo projeto do SUBSAL segundo modelos de velocidade Solon-Silva(2014).}
-\label{modelagem}
+\label{perfil_modelagem}
 \end{figure}
 
-As Funções do Receptor sintéticas apresentadas na Figura \ref{modelagem} mostram uma reflexão característica por volta de 5 segundos, está é a primeira reflexão de Moho, onde a onda P se converte em S. Antes dessa reflexão é notável um pulso senoidal em torno de 2.5 segundos nas Figuras \ref{modelagem}-b, \ref{modelagem}-d e \ref{modelagem}-e. Este pulso está relacionado com a camada superficial de baixa velocidade. Tal camada possui espessura aproximada de 5 quilômetros, esta representa a Bacia de Taubaté na região da Faixa Ribeira. As outras reverberações são bem características, As multiplas $PpPs$ e $PpSs+PsPs$ são bem demarcadas em $\sim 13$ e $\sim 19$ segundos, respectivamente.
+As Funções do Receptor sintéticas apresentadas na Figura \ref{modelagem} mostram uma reflexão característica por volta de 5 segundos, está é a primeira reflexão de Moho, onde a onda P se converte em S. Antes dessa reflexão é notável um pulso senoidal em torno de 2.5 segundos nas Figuras \ref{modelagem}-b), \ref{modelagem}-d) e \ref{modelagem}-e). Este pulso está relacionado com a camada superficial de baixa velocidade. Tal camada possui espessura aproximada de 5 quilômetros, esta é análoga a uma bacia sedimentar, no contexto local pode ser representada como a Bacia de Taubaté na região da Faixa Ribeira. As outras reverberações são bem características, As multiplas $PpPs$ e $PpSs+PsPs$ são bem demarcadas em $\sim 13$ e $\sim 19$ segundos, respectivamente.
+
+Na Figura \ref{perfil_modelagem} 
 
 \pagebreak

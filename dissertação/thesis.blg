@@ -12,81 +12,84 @@ A level-1 auxiliary file: tese_FR.aux
 A level-1 auxiliary file: tese_correlacao.aux
 A level-1 auxiliary file: tese_resultados.aux
 A level-1 auxiliary file: tese_conclusao.aux
-The style file: on-unsrt.bst
-A level-1 auxiliary file: tese_anexoA.aux
+The style file: on-plain.bst
 Database file #1: tese_ref.bib
 Warning--entry type for "Silva_2014" isn't style-file defined
 --line 601 of file tese_ref.bib
 Warning--entry type for "Bassini_1986" isn't style-file defined
 --line 609 of file tese_ref.bib
-Warning--empty journal in trouw_new_2013
+Warning--empty journal in aki_space_1957
+Warning--empty journal in ammon_isolation_1991
+Warning--empty journal in assumpcao_crustal_2002
+Warning--empty year in barmin_fast_2001
+Warning--empty year in barmin_fast_2001
+Warning--empty journal in barmin_fast_2001
+Warning--empty journal in bensen_processing_2007
+Warning--empty journal in boschi_measuring_2013
+Warning--empty journal in campillo_long-range_2003
+Warning--empty journal in cassidy_numerical_1992
+Warning--empty journal in clayton_source_1976
+Warning--empty journal in sand_franca_crustal_2004
+Warning--empty journal in gibbons_identification_2006
+Warning--empty year in harris_use_1978
+Warning--empty year in harris_use_1978
+Warning--empty journal in harris_use_1978
+Warning--empty journal in heilbron_evolution_2010
+Warning--empty journal in julia_deep_2008
 Warning--empty journal in kennet_iaspei_1991
-Warning--empty journal in shapiro_emergence_2004
+Warning--empty journal in kikuchi_inversion_1982
+Warning--empty journal in kuhn_metamorphic_2004
+Warning--empty journal in langston_structure_1979
+Warning--empty journal in ligorria_iterative_1999
 Warning--empty journal in pimentel_tectonic_2011
 Warning--empty journal in reno_situ_2012
-Warning--empty journal in kuhn_metamorphic_2004
-Warning--empty journal in heilbron_evolution_2010
-Warning--empty journal in valeriano_u_pb_2011
-Warning--empty journal in gibbons_identification_2006
-Warning--empty journal in clayton_source_1976
-Warning--empty journal in ammon_isolation_1991
-Warning--empty journal in cassidy_numerical_1992
-Warning--empty journal in ligorria_iterative_1999
-Warning--empty journal in langston_structure_1979
-Warning--empty journal in kikuchi_inversion_1982
-Warning--empty journal in assumpcao_crustal_2002
-Warning--empty journal in sand_franca_crustal_2004
-Warning--empty journal in julia_deep_2008
-Warning--empty booktitle in flora_solon_ancient_2013
-Warning--empty journal in aki_space_1957
-Warning--empty journal in campillo_long-range_2003
-Warning--empty journal in wapenaar_retrieving_2004
-Warning--empty journal in boschi_measuring_2013
-Warning--empty address in levshin_automated_2001
-Warning--empty journal in bensen_processing_2007
+Warning--empty journal in schimmel_noise_1997
 Warning--empty journal in seats_improved_2012
-Warning--empty journal in barmin_fast_2001
-Warning--empty year in barmin_fast_2001
-Warning--empty year in barmin_fast_2001
-You've used 41 entries,
-            2630 wiz_defined-function locations,
-            877 strings with 14877 characters,
-and the built_in function-call counts, 18259 in all, are:
-= -- 1655
-> -- 642
-< -- 54
-+ -- 288
-- -- 205
-* -- 1806
-:= -- 2712
-add.period$ -- 204
-call.type$ -- 41
-change.case$ -- 43
-chr.to.int$ -- 40
-cite$ -- 70
-duplicate$ -- 990
-empty$ -- 1764
-format.name$ -- 270
-if$ -- 3843
+Warning--empty journal in shapiro_emergence_2004
+Warning--empty booktitle in flora_solon_ancient_2013
+Warning--empty month in flora_solon_ancient_2013
+Warning--empty journal in trouw_new_2013
+Warning--empty journal in valeriano_u_pb_2011
+Warning--empty journal in wapenaar_retrieving_2004
+You've used 43 entries,
+            2972 wiz_defined-function locations,
+            938 strings with 15752 characters,
+and the built_in function-call counts, 22102 in all, are:
+= -- 2050
+> -- 1019
+< -- 57
++ -- 374
+- -- 330
+* -- 2227
+:= -- 3233
+add.period$ -- 174
+call.type$ -- 43
+change.case$ -- 162
+chr.to.int$ -- 42
+cite$ -- 119
+duplicate$ -- 1067
+empty$ -- 1915
+format.name$ -- 401
+if$ -- 4595
 int.to.chr$ -- 2
-int.to.str$ -- 42
-missing$ -- 36
-newline$ -- 256
-num.names$ -- 125
-pop$ -- 301
+int.to.str$ -- 1
+missing$ -- 38
+newline$ -- 228
+num.names$ -- 174
+pop$ -- 452
 preamble$ -- 1
-purify$ -- 41
+purify$ -- 160
 quote$ -- 0
-skip$ -- 458
+skip$ -- 618
 stack$ -- 0
-substring$ -- 967
-swap$ -- 284
-text.length$ -- 27
+substring$ -- 1017
+swap$ -- 252
+text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 287
-warning$ -- 29
-while$ -- 143
+type$ -- 473
+warning$ -- 33
+while$ -- 194
 width$ -- 0
-write$ -- 633
-(There were 31 warnings)
+write$ -- 623
+(There were 35 warnings)
