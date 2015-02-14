@@ -131,7 +131,7 @@ onde $r(t)$ é a função do receptor radial, $t_{1}$, $t_{2}$ e $t_{3}$ são os
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.3]{Figs/grid_search.png}
+\includegraphics[scale=0.5]{Figs/grid_search.png}
 \caption[a) $s(H,\kappa)$ do empilhamento das funções do receptor utilizando a equação \ref{Hk_stack}.b) Relações $H-\kappa$ para diferentes fases convertidas em Moho.]{a) $s(H,\kappa)$ do empilhamento das funções do receptor utilizando a equação \ref{Hk_stack} . Ela encontra o ponto máximo quando se usa uma espessura crustal $H$ e uma razão $v_{P}$/$v_{S}$ coerentes. b) Relações $H-\kappa$ para diferentes fases convertidas em Moho. Cada curva representa a contribuição dessa fase convertida ao empilhamento, segundo \cite{Zhu_Kanamori_2000}.}
 \label{grid_search}
 \end{figure}
@@ -169,7 +169,7 @@ onde $N$ é o número de traços, $s(t)$ o traço sísmico, $\Phi (t)$ a fase e 
 Segundo \cite{schimmel_noise_1997} . cada amostra do empilhamento linear será ponderado pela coerência de suas fases instantâneas. O empilhamento da fase funciona como um filtro com uma certa nitidez da transição entre a semelhança e dessemelhança da fase, que é
 controlados pela potência $v$. 
 
-Este trabalho incrementa a metodologia idealizada por \cite{schimmel_noise_1997}, pois os traços utilizados para calcular a fase do sinal foram janelados. \cite{harris_use_1978} mostra que a performance da transformada discreta de Fourier em dados janelados é mais eficiente. Com o janelamento pré-PWS o resultado gerado consegue, além de reduzir o ruído incoerente, recuperar outras reflexões que não eram bem observadas no resultado gerado pelo PWS, como pode ser observado na Figura \ref{PWS}-c).
+Este trabalho incrementa a metodologia idealizada por \cite{schimmel_noise_1997}, pois os traços utilizados para calcular a fase do sinal foram janelados previamente. \cite{harris_use_1978} mostra que a performance da transformada discreta de Fourier em dados janelados é mais eficiente. Com o janelamento pré-PWS o resultado gerado consegue, além de reduzir o ruído incoerente, recuperar outras reflexões que não eram bem observadas no resultado gerado pelo PWS, como pode ser observado na Figura \ref{PWS}-c), devido a baixa qualidade das funções do receptor.
 
 \begin{figure}[!ht]
 \centering
@@ -198,12 +198,16 @@ Os modelos de velocidade da onda P ($V_{p}$) são exemplos retirados da literatu
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.25]{Figs/perfil_RF_sintetico.png}
-\caption{Perfil com Funções do Receptor Sintéticas para área abrangida pelo projeto do SUBSAL segundo modelos de velocidade Solon-Silva(2014).}
+\caption{Perfil com Funções do Receptor Sintéticas para área abrangida pelo projeto do SUBSAL segundo modelos de velocidade Solon-Silva(2014), como mostrado na Figura \ref{modelagem}.}
 \label{perfil_modelagem}
 \end{figure}
 
 As Funções do Receptor sintéticas apresentadas na Figura \ref{modelagem} mostram uma reflexão característica por volta de 5 segundos, está é a primeira reflexão de Moho, onde a onda P se converte em S. Antes dessa reflexão é notável um pulso senoidal em torno de 2.5 segundos nas Figuras \ref{modelagem}-b), \ref{modelagem}-d) e \ref{modelagem}-e). Este pulso está relacionado com a camada superficial de baixa velocidade. Tal camada possui espessura aproximada de 5 quilômetros, esta é análoga a uma bacia sedimentar, no contexto local pode ser representada como a Bacia de Taubaté na região da Faixa Ribeira. As outras reverberações são bem características, As multiplas $PpPs$ e $PpSs+PsPs$ são bem demarcadas em $\sim 13$ e $\sim 19$ segundos, respectivamente.
 
-Na Figura \ref{perfil_modelagem} 
+Na Figura \ref{perfil_modelagem} observa-se três perfis de modelos com velocidades diferentes. Tais modelos foram confeccionados de acordo com o modelos geológicos locais e com os perfis de velocidades citados anteriormente. A Figura \ref{perfil_modelagem}-a) mostra os perfis de velocidade baseados nas inversões de \cite{flora_solon_ancient_2013} e de \cite{Silva_2014} com uma discontinuidade constante bem marcada no meio da crosta, por volta de $20 \sim km$. A resposta dessa discontinuidade média da crosta é apresentada na Figura \ref{perfil_modelagem}-b). Onde também é mostrado uma discontinuidade de Moho mergulhante, bem marcada pela distância entre a primeira reflexão e a segunda grande reflexão, conversão da onda P em S.
+
+Nos modelos de velocidade apresentados na Figura \ref{perfil_modelagem}-c) é adicionado uma camada com baixa velocidade na parte superior do perfil, de profundidade $5 km$, analogamente à bacias sedimentares terciárias presentes na área, como a Bacia de Taubaté. A resposta a essa camada de baixa velocidade é mostrada na Figura \ref{perfil_modelagem}-c) como um sinal senoidal por volta de 2,5 segundos.
+
+Na Figura \ref{perfil_modelagem}-e) adicionou-se ao modelo de velocidade uma velocidade alta na parte superior da crosta com inclinação contrária a discontinuidade caracterizada com Moho. Nota-se na Figura \ref{perfil_modelagem}-f) que há uma sobreposição de sinais referentes a essas essa discontinuidades. Logo quanto maior a complexidade da área há uma dificuldade na obtenção de resultados claros pela Funções do Receptor.
 
 \pagebreak
