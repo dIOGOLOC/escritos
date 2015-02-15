@@ -25,6 +25,6 @@
 \contentsline {subsection}{\numberline {5.2.5}Controle de Qualidade das Medidas}{37}{subsection.5.2.5}
 \contentsline {subsection}{\numberline {5.2.6}Invers\IeC {\~a}o Tomogr\IeC {\'a}fica}{38}{subsection.5.2.6}
 \contentsline {subsection}{\numberline {5.2.7}An\IeC {\'a}lise da Resolu\IeC {\c c}\IeC {\~a}o dos Mapas Tomogr\IeC {\'a}ficos}{39}{subsection.5.2.7}
-\contentsline {chapter}{\numberline {6}Resultados e Discuss\IeC {\~o}es}{40}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclus\IeC {\~o}es}{43}{chapter.7}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{44}{chapter*.8}
+\contentsline {chapter}{\numberline {6}Resultados e Discuss\IeC {\~o}es}{41}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclus\IeC {\~o}es}{44}{chapter.7}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{45}{chapter*.8}

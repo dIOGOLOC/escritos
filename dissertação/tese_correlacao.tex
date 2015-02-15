@@ -160,4 +160,6 @@ Para identificar e remover caminhos discrepantes que podem ter passado pelo crit
 
 \subsection{Análise da Resolução dos Mapas Tomográficos}
 
- Antes de interpretar os resultados é necessário fazer uma análise da resolução dos dados. Com isso pode-se avaliar as limitações dos mapas tomográficos gerados.
+Antes de interpretar os resultados é necessário fazer uma análise da resolução dos dados. Com isso pode-se avaliar as limitações dos mapas tomográficos gerados. O processo de inversão descrito nas seções anteriores produz concomitantemente com o resultado uma matriz de resolução. Segundo \cite{barmin_fast_2001} ajusta-se um cone para cada mapa de resolução e reporta o raio deste cone como a resolução espacial característica, isto é interpretado como a distância de separação mínima para duas anomalias para ser resolvido. A resolução não pode ser menor que duas vezes o espaçamento entre os nós. Além disso, cones que possuem os melhores ajustes de altura menores que 10\% da altura máxima são considerados ruído e são automaticamente descartados.  
+
+As limitações dos mapas tomográficos serão avaliadas qualitativamente pelo teste de tabuleiro de damas, \textit{checkerboard}, onde os tempos de viagem observados são substituídos por dados sintéticos gerados de um modelo de anomalias  de velocidade em forma de tabuleiro de damas. O modelo tem alternado anomalias senoidais de $\pm 10\% $em torno de um valor de velocidade padrão de 3 $kms^{-1}$. Em geral, as limitações descritas pelos tabuleiros reconstruídos são consistentes com a resolução espacial estimada.

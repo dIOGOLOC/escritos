@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.1.20)  14 FEB 2015 18:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.1.20)  15 FEB 2015 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1405,19 +1405,23 @@ Package babel Info: Redefining portuges shorthand "|
  [38]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 161.
-)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 164.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 164.
+ [39])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 53.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 53.
- [39]
+ [40]
 \openout2 = `tese_resultados.aux'.
 
  (./tese_resultados.tex
 Cap\'{\i }tulo 6.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-<Figs/RF_SLP01_STA08.png, id=981, 2843.60327pt x 1491.12184pt>
+<Figs/RF_SLP01_STA08.png, id=986, 2843.60327pt x 1491.12184pt>
 File: Figs/RF_SLP01_STA08.png Graphic file (type png)
 
 <use Figs/RF_SLP01_STA08.png>
@@ -1429,17 +1433,17 @@ Overfull \hbox (28.19447pt too wide) in paragraph at lines 13--14
  []
 
 
-LaTeX Warning: Reference `tabela1' on page 40 undefined on input line 20.
+LaTeX Warning: Reference `tabela1' on page 41 undefined on input line 20.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 21.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 21.
-[40
+[41
 
 
 
-] <Figs/Interpolacao_Linear.png, id=1002, 2007.5pt x 4015.0pt>
+] <Figs/Interpolacao_Linear.png, id=1007, 2007.5pt x 4015.0pt>
 File: Figs/Interpolacao_Linear.png Graphic file (type png)
 
 <use Figs/Interpolacao_Linear.png>
@@ -1450,19 +1454,19 @@ Package pdftex.def Info: Figs/Interpolacao_Linear.png used on input line 24.
 LaTeX Warning: Float too large for page by 141.53603pt on input line 27.
 
 
-LaTeX Warning: Reference `tabela1' on page 41 undefined on input line 29.
+LaTeX Warning: Reference `tabela1' on page 42 undefined on input line 29.
 
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 54.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 54.
- [41 <./Figs/RF_SLP01_STA08.png>]
+ [42 <./Figs/RF_SLP01_STA08.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 54.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 54.
- [42 <./Figs/Interpolacao_Linear.png>]
+ [43 <./Figs/Interpolacao_Linear.png>]
 \openout2 = `tese_conclusao.aux'.
 
 
@@ -1475,7 +1479,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 55.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 55.
- [43
+ [44
 
 
 
@@ -1529,7 +1533,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 88.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 88.
-[44
+[45
 
 
 
@@ -1549,12 +1553,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 165.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 165.
-[45]
+[46]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 239.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 239.
- [46]
+ [47]
 Underfull \hbox (badness 1721) in paragraph at lines 242--251
 \OT1/cmr/m/n/12 Ba-sel, pp. 1531--1545.  ISBN: 978-3-7643-6551-6, 978-3-0348-82
 64-
@@ -1564,7 +1568,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 318.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 318.
-[47]
+[48]
 Underfull \hbox (badness 2547) in paragraph at lines 356--364
 \OT1/cmr/m/n/12 belt and the cen-tral Ri-beira belt, SE Bra-zil'', v. 48, pp. 4
 3--
@@ -1592,13 +1596,13 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 388.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 388.
-[48]) 
+[49]) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 64.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 64.
-[49]
+[50]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 64.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
@@ -1618,8 +1622,8 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
  ) 
 Here is how much of TeX's memory you used:
- 8452 strings out of 493109
- 122413 string characters out of 6138587
+ 8453 strings out of 493109
+ 122420 string characters out of 6138587
  239389 words of memory out of 5000000
  11474 multiletter control sequences out of 15000+600000
  10925 words of font info for 41 fonts, out of 8000000 for 9000
@@ -1636,10 +1640,10 @@ b><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2014/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2014/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (61 pages, 16197622 bytes).
+Output written on thesis.pdf (62 pages, 16199041 bytes).
 PDF statistics:
- 1190 PDF objects out of 1200 (max. 8388607)
- 1013 compressed objects within 11 object streams
- 184 named destinations out of 1000 (max. 500000)
+ 1195 PDF objects out of 1200 (max. 8388607)
+ 1017 compressed objects within 11 object streams
+ 185 named destinations out of 1000 (max. 500000)
  378 words of extra memory for PDF output out of 10000 (max. 10000000)
 
