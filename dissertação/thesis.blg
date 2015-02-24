@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2014/W32TeX)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: tese_dedicatoria.aux
@@ -13,11 +13,13 @@ A level-1 auxiliary file: tese_correlacao.aux
 A level-1 auxiliary file: tese_resultados.aux
 A level-1 auxiliary file: tese_conclusao.aux
 The style file: on-plain.bst
+A level-1 auxiliary file: tese_anexoA.aux
+A level-1 auxiliary file: tese_anexoB.aux
 Database file #1: tese_ref.bib
 Warning--entry type for "Silva_2014" isn't style-file defined
---line 1201 of file tese_ref.bib
+--line 601 of file tese_ref.bib
 Warning--entry type for "Bassini_1986" isn't style-file defined
---line 1217 of file tese_ref.bib
+--line 609 of file tese_ref.bib
 Warning--empty journal in aki_space_1957
 Warning--empty journal in ammon_isolation_1991
 Warning--empty journal in assumpcao_crustal_2002
@@ -53,7 +55,7 @@ Warning--empty journal in valeriano_u_pb_2011
 Warning--empty journal in wapenaar_retrieving_2004
 You've used 43 entries,
             2972 wiz_defined-function locations,
-            938 strings with 15752 characters,
+            940 strings with 15782 characters,
 and the built_in function-call counts, 22102 in all, are:
 = -- 2050
 > -- 1019

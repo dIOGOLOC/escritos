@@ -1,4 +1,4 @@
-  \documentclass[msc]{on} %para dissertação de mestrada, descomentar esta linha e comentar a de baixo
+\documentclass[msc]{on} %para dissertação de mestrada, descomentar esta linha e comentar a de baixo
 %\documentclass[dsc]{on}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath,amssymb}
@@ -6,14 +6,14 @@
 %pacotes utilizados
 \usepackage{enumerate}
 \usepackage{graphicx}
-
+\usepackage{lscape}
 \makelosymbols
 \makeloabbreviations
 
 \begin{document}
   \title{Análise da Estrutura da Crosta na Região da Faixa Ribeira (entre as Províncias do Cráton São Francisco e da Bacia do Paraná) usando Métodos Sismológicos}
   \foreigntitle{Thesis Title}
-  \author{Diogo Luiz de Oliveira }{Coelho}
+    \author{Diogo Luiz de Oliveira }{Coelho}
   \advisor{Prof.}{Stéphane Gerard Martial}{Drouet}{D.Sc.}
   \coadvisor{Prof.}{Bruno Yann Nicolas}{Goutorbe}{D.Sc.}
 %  \coadvisor{Prof.}{Nome do Segundo Co-orientador}{Sobrenome}{Ph.D.}
@@ -26,7 +26,7 @@
   \examiner{Prof.}{Nome do Quarto Examinador Sobrenome}{Ph.D.}
   \examiner{Prof.}{Nome do Quinto Examinador Sobrenome}{Ph.D.}
   \department{COGE}
-  \date{03}{2015}
+  \date{04}{2015}
 
   \keyword{Funções do Receptor}
   \keyword{Dispersão de Ondas Rayleigh}
@@ -59,6 +59,9 @@
   \bibliographystyle{on-plain}
   \bibliography{tese_ref}
 
-%  \appendix
-%  \include{tese_anexoA}
+  \appendix
+  \begin{landscape}
+  \include{tese_anexoA}
+  \end{landscape}
+  \include{tese_anexoB}
 \end{document}
