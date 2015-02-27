@@ -1,4 +1,4 @@
-\begin{thebibliography}{43}
+\begin{thebibliography}{44}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -251,7 +251,7 @@
 
 \bibitem[\MakeUppercase{Ligorría} e \MakeUppercase{Ammon}(1999)Ligorría e
   Ammon]{ligorria_iterative_1999}
-\MakeUppercase{Ligorría, J.~P., Ammon, C.~J.}, 1999, \enquote{Iterative
+\MakeUppercase{Ligorría, J.~P., Ammon, C. a.~J.}, 1999, \enquote{Iterative
   deconvolution and receiver-function estimation}, v.~89, n.~5, \penalty0
   pp.~1395--1400.
 \newblock ISSN: 0037-1106, 1943-3573.
@@ -349,6 +349,16 @@
   structures in the middle crust of southeast brazilian portion identified by
   geoelectrical results with Magnetotellurics geophysical methods.} pp. 29--33.
 \newblock \doi{10.1190/sbgf2013-007}.
+
+\bibitem[\MakeUppercase{Stähler}\emph{ et~al.}()Stähler, Sigloch, e
+  Nissen-Meyer]{stahler_triplicated_2012}
+\MakeUppercase{Stähler, S.~C., Sigloch, K., Nissen-Meyer, T.},
+  \enquote{Triplicated P-wave measurements for waveform tomography of the
+  mantle transition zone}, v.~3, n.~2, \penalty0 pp.~339--354.
+\newblock ISSN: 1869-9529.
+\newblock \doi{10.5194/se-3-339-2012}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.solid-earth.net/3/339/2012/}\textgreater .
 
 \bibitem[\MakeUppercase{Trouw}\emph{ et~al.}(2013)Trouw, Peternel, Ribeiro,
   Heilbron, Vinagre, Duffles, Trouw, Fontainha, e Kussama]{trouw_new_2013}

@@ -17,9 +17,9 @@ A level-1 auxiliary file: tese_anexoA.aux
 A level-1 auxiliary file: tese_anexoB.aux
 Database file #1: tese_ref.bib
 Warning--entry type for "Silva_2014" isn't style-file defined
---line 601 of file tese_ref.bib
+--line 615 of file tese_ref.bib
 Warning--entry type for "Bassini_1986" isn't style-file defined
---line 609 of file tese_ref.bib
+--line 623 of file tese_ref.bib
 Warning--empty journal in aki_space_1957
 Warning--empty journal in ammon_isolation_1991
 Warning--empty journal in assumpcao_crustal_2002
@@ -50,48 +50,51 @@ Warning--empty journal in seats_improved_2012
 Warning--empty journal in shapiro_emergence_2004
 Warning--empty booktitle in flora_solon_ancient_2013
 Warning--empty month in flora_solon_ancient_2013
+Warning--empty year in stahler_triplicated_2012
+Warning--empty year in stahler_triplicated_2012
+Warning--empty journal in stahler_triplicated_2012
 Warning--empty journal in trouw_new_2013
 Warning--empty journal in valeriano_u_pb_2011
 Warning--empty journal in wapenaar_retrieving_2004
-You've used 43 entries,
+You've used 44 entries,
             2972 wiz_defined-function locations,
-            940 strings with 15782 characters,
-and the built_in function-call counts, 22102 in all, are:
-= -- 2050
-> -- 1019
-< -- 57
-+ -- 374
-- -- 330
-* -- 2227
-:= -- 3233
-add.period$ -- 174
-call.type$ -- 43
-change.case$ -- 162
-chr.to.int$ -- 42
-cite$ -- 119
-duplicate$ -- 1067
-empty$ -- 1915
-format.name$ -- 401
-if$ -- 4595
+            947 strings with 16459 characters,
+and the built_in function-call counts, 22673 in all, are:
+= -- 2103
+> -- 1046
+< -- 58
++ -- 384
+- -- 339
+* -- 2293
+:= -- 3315
+add.period$ -- 179
+call.type$ -- 44
+change.case$ -- 166
+chr.to.int$ -- 43
+cite$ -- 124
+duplicate$ -- 1093
+empty$ -- 1962
+format.name$ -- 411
+if$ -- 4710
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 38
-newline$ -- 228
-num.names$ -- 174
-pop$ -- 452
+missing$ -- 39
+newline$ -- 234
+num.names$ -- 178
+pop$ -- 466
 preamble$ -- 1
-purify$ -- 160
+purify$ -- 164
 quote$ -- 0
-skip$ -- 618
+skip$ -- 629
 stack$ -- 0
-substring$ -- 1017
-swap$ -- 252
-text.length$ -- 28
+substring$ -- 1045
+swap$ -- 258
+text.length$ -- 29
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 473
-warning$ -- 33
-while$ -- 194
+type$ -- 484
+warning$ -- 36
+while$ -- 199
 width$ -- 0
-write$ -- 623
-(There were 35 warnings)
+write$ -- 638
+(There were 38 warnings)

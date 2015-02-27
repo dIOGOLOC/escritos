@@ -6,9 +6,9 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Mapa de localiza\IeC {\c c}\IeC {\~a}o das Esta\IeC {\c c}\IeC {\~o}es Sismogr\IeC {\'a}ficas na regi\IeC {\~a}o com o mapa geol\IeC {\'o}gico simplificado.}}{6}{figure.2.3}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Mosaico mostrando como \IeC {\'e} feita a instala\IeC {\c c}\IeC {\~a}o das esta\IeC {\c c}\IeC {\~o}es sismogr\IeC {\'a}ficas tempor\IeC {\'a}rias do projeto SUBSAL.}}{8}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Mapa das esta\IeC {\c c}\IeC {\~o}es sismogr\IeC {\'a}ficas instaladas (tri\IeC {\^a}ngulos vermelhos). Os outros tri\IeC {\^a}ngulos s\IeC {\~a}o esta\IeC {\c c}\IeC {\~o}es da Rede Sismogr\IeC {\'a}fica Brasileira.}}{9}{figure.3.2}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Mapa das esta\IeC {\c c}\IeC {\~o}es sismogr\IeC {\'a}ficas instaladas (tri\IeC {\^a}ngulos vermelhos). Os outros tri\IeC {\^a}ngulos s\IeC {\~a}o esta\IeC {\c c}\IeC {\~o}es da Rede Sismogr\IeC {\'a}fica Brasileira. O perfil 1 estende-se da esta\IeC {\c c}\IeC {\~a}o STA01, localizada pr\IeC {\'o}ximo \IeC {\`a} costa, at\IeC {\'e} a STA09. O perfil 2 vai da esta\IeC {\c c}\IeC {\~a}o STA10, ao norte, at\IeC {\'e} a STA16, pr\IeC {\'o}ximo \IeC {\`a} costa. J\IeC {\'a} o perfil 3 \IeC {\'e} da esta\IeC {\c c}\IeC {\~a}o STA17, oeste, at\IeC {\'e} a STA24, leste.}}{9}{figure.3.2}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Sismograma mostrandos as tr\IeC {\^e}s componentes do deslocamento do terreno.}}{10}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces An\IeC {\'a}lise qualitativa do sinal atraves das \textit {Power Density Functions}. \cite {McNamara_Buland_2004} }}{11}{figure.3.4}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces An\IeC {\'a}lise qualitativa do sinal atraves das fun\IeC {\c c}\IeC {\~o}es densidade de probabilidade}}{11}{figure.3.4}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Exemplos de resultados gerados pela an\IeC {\'a}lise qualitativa do sinal atraves do programa PQLX, que utiliza o m\IeC {\'e}todo de \cite {McNamara_Buland_2004}.}}{12}{figure.3.5}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Mapa dos eventos registrados na esta\IeC {\c c}\IeC {\~a}o STA08.}}{13}{figure.3.6}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Uma ilustra\IeC {\c c}\IeC {\~a}o esquem\IeC {\'a}tica mostrando a correla\IeC {\c c}\IeC {\~a}o dos tempos de chegada da onda P.}}{15}{figure.3.7}
@@ -28,8 +28,8 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o esquem\IeC {\'a}tica do processamento.}}{34}{figure.5.2}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Formas de onda mostrando exemplos de cinco tipos de normaliza\IeC {\c c}\IeC {\~a}o no dominio do tempo.}}{35}{figure.5.3}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Correla\IeC {\c c}\IeC {\~o}es cruzadas de acordo com a dist\IeC {\^a}ncia entre as esta\IeC {\c c}\IeC {\~o}es.}}{36}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Exemplo de correla\IeC {\c c}\IeC {\~a}o cruzada e an\IeC {\'a}lise frequ\IeC {\^e}ncia-tempo (FTAN) no par de esta\IeC {\c c}\IeC {\~o}es BL.BSCB-ON.PET01.}}{38}{figure.5.5}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Exemplo de correla\IeC {\c c}\IeC {\~a}o cruzada e an\IeC {\'a}lise frequ\IeC {\^e}ncia-tempo (FTAN) no par de esta\IeC {\c c}\IeC {\~o}es BL.BSCB-ON.PET01.}}{39}{figure.5.5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Exemplos de Fun\IeC {\c c}\IeC {\~o}es do Receptor e da Componente Transversal para as esta\IeC {\c c}\IeC {\~o}es SLP01(permanete) e STA08(tempor\IeC {\'a}ria) distribu\IeC {\'\i }das em fun\IeC {\c c}\IeC {\~a}o do par\IeC {\^a}metro do Raio.}}{43}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Mapa da espessura crustal da regi\IeC {\~a}o em estudo.}}{44}{figure.6.2}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Exemplos de Fun\IeC {\c c}\IeC {\~o}es do Receptor e da Componente Transversal para as esta\IeC {\c c}\IeC {\~o}es SLP01(permanete) e STA08(tempor\IeC {\'a}ria) distribu\IeC {\'\i }das em fun\IeC {\c c}\IeC {\~a}o do par\IeC {\^a}metro do Raio.}}{44}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Mapa da espessura crustal da regi\IeC {\~a}o em estudo.}}{45}{figure.6.2}
 \addvspace {10\p@ }

@@ -103,14 +103,14 @@ S_{a}(t) = s(t) + iH(t) = \left | A(t) \right |exp(i\Phi(t))
 onde $H(t)$ é a transformada de Hilbert de $s(t)$. Para construir a função tempo-frequência, o sinal analítico é submetido a um conjunto de filtros Gaussianos passa-banda estreitos com frequências centrais $\omega _{0}$:
 
 \begin{eqnarray}
-S_{a}(\omega,\omega _{0}) = S(\omega)(1 + sgn(\omega))G(\omega - \omega _{0}),
-
+S_{a}(\omega,\omega _{0}) = S(\omega)(1 + sgn(\omega))G(\omega - \omega _{0})
+\\
 G(\omega - \omega _{0}) = e^{-\alpha(\frac{\omega - \omega _{0}}{\omega _{0}}^{2})}
 \end{eqnarray}
 
-A transformação inversa de cada função passa-banda 
+A transformação inversa retorna cada função passa-banda ao domínio do tempo produzindo uma função modulada 2-D, $\left | A(t,\omega _{0}) \right |$, e uma função da fase, $ \Phi(t,\omega _{0}) $. Onde $\alpha$ é o parâmetro que define as resoluções complementares no domínio da frequência e do tempo e é dependente da distância, \cite{levshin_automated_2001}.
 
-A análise frequência-tempo é descrita em duas etapas por \cite{levshin_automated_2001} e \cite{bensen_processing_2007}. A primeira etapa (FTAN bruta), filtros Gaussianos passa-banda estreitos são aplicados na representação analítica da correlação cruzada. Se o período central do filtro é $T$, o tempo em que a amplitude do sinal filtrado chega no máximo corresponde ao tempo de viagem, equivalente a velocidade de grupo $v_{g}$, da onda Rayleigh num período $T$. No entanto, deve-se garantir que a curva de dispersão, $v_{g}(T)$, é uma função suave do período, escapando de saltos causados por máximos espúrios. Isso é feito graças um algoritmo que maxima a suma das amplitudes atravessada pela curva de dispersão, e inclue um termo penalizando discontinuidades na curva.
+A análise frequência-tempo é descrita em duas etapas por \cite{levshin_automated_2001} e \cite{bensen_processing_2007}. A primeira etapa (FTAN bruta), filtros Gaussianos passa-banda estreitos são aplicados na representação analítica da correlação cruzada. Se o período central do filtro é $T$, o tempo em que a amplitude do sinal filtrado chega no máximo corresponde ao tempo de viagem, equivalente a velocidade de grupo $v_{g}$, da onda Rayleigh num período $T$. No entanto, deve-se garantir que a curva de dispersão, $v_{g}(T)$, é uma função suave do período, escapando de saltos causados por máximos espúrios. Isso é feito graças um algoritmo que maxima a soma das amplitudes atravessada pela curva de dispersão, e inclue um termo penalizando discontinuidades na curva.
 
 Essa FTAN bruta é realçada com o uso de um filtro '\textit{phase-matched}', em que o termo de correção $\psi(\omega)$ é aplicado na fase dos sinal analítico no domínio da frequência. $\psi(\omega)$ é avaliado graças à curva de dispersão bruta $v_{g}(T)$ como:
 
