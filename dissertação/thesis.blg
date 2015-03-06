@@ -10,31 +10,23 @@ A level-1 auxiliary file: tese_contextogeologico.aux
 A level-1 auxiliary file: tese_dados.aux
 A level-1 auxiliary file: tese_FR.aux
 A level-1 auxiliary file: tese_correlacao.aux
-A level-1 auxiliary file: tese_resultados.aux
 A level-1 auxiliary file: tese_conclusao.aux
 The style file: on-plain.bst
 A level-1 auxiliary file: tese_anexoA.aux
 A level-1 auxiliary file: tese_anexoB.aux
 Database file #1: tese_ref.bib
-Warning--entry type for "Silva_2014" isn't style-file defined
---line 615 of file tese_ref.bib
-Warning--entry type for "Bassini_1986" isn't style-file defined
---line 623 of file tese_ref.bib
 Warning--empty journal in aki_space_1957
 Warning--empty journal in ammon_isolation_1991
 Warning--empty journal in assumpcao_crustal_2002
-Warning--empty year in barmin_fast_2001
-Warning--empty year in barmin_fast_2001
 Warning--empty journal in barmin_fast_2001
 Warning--empty journal in bensen_processing_2007
+Warning--empty journal in boashash_estimating_1992
 Warning--empty journal in boschi_measuring_2013
 Warning--empty journal in campillo_long-range_2003
 Warning--empty journal in cassidy_numerical_1992
 Warning--empty journal in clayton_source_1976
 Warning--empty journal in sand_franca_crustal_2004
 Warning--empty journal in gibbons_identification_2006
-Warning--empty year in harris_use_1978
-Warning--empty year in harris_use_1978
 Warning--empty journal in harris_use_1978
 Warning--empty journal in heilbron_evolution_2010
 Warning--empty journal in julia_deep_2008
@@ -50,51 +42,49 @@ Warning--empty journal in seats_improved_2012
 Warning--empty journal in shapiro_emergence_2004
 Warning--empty booktitle in flora_solon_ancient_2013
 Warning--empty month in flora_solon_ancient_2013
-Warning--empty year in stahler_triplicated_2012
-Warning--empty year in stahler_triplicated_2012
 Warning--empty journal in stahler_triplicated_2012
 Warning--empty journal in trouw_new_2013
 Warning--empty journal in valeriano_u_pb_2011
 Warning--empty journal in wapenaar_retrieving_2004
-You've used 44 entries,
+You've used 46 entries,
             2972 wiz_defined-function locations,
-            947 strings with 16459 characters,
-and the built_in function-call counts, 22673 in all, are:
-= -- 2103
-> -- 1046
-< -- 58
-+ -- 384
-- -- 339
-* -- 2293
-:= -- 3315
-add.period$ -- 179
-call.type$ -- 44
-change.case$ -- 166
-chr.to.int$ -- 43
-cite$ -- 124
-duplicate$ -- 1093
-empty$ -- 1962
-format.name$ -- 411
-if$ -- 4710
+            961 strings with 16330 characters,
+and the built_in function-call counts, 23351 in all, are:
+= -- 2173
+> -- 1066
+< -- 61
++ -- 392
+- -- 345
+* -- 2352
+:= -- 3441
+add.period$ -- 183
+call.type$ -- 46
+change.case$ -- 172
+chr.to.int$ -- 45
+cite$ -- 123
+duplicate$ -- 1138
+empty$ -- 2018
+format.name$ -- 419
+if$ -- 4846
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 39
-newline$ -- 234
-num.names$ -- 178
-pop$ -- 466
+missing$ -- 42
+newline$ -- 243
+num.names$ -- 186
+pop$ -- 458
 preamble$ -- 1
-purify$ -- 164
+purify$ -- 168
 quote$ -- 0
-skip$ -- 629
+skip$ -- 651
 stack$ -- 0
-substring$ -- 1045
-swap$ -- 258
-text.length$ -- 29
+substring$ -- 1073
+swap$ -- 264
+text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 484
-warning$ -- 36
-while$ -- 199
+type$ -- 501
+warning$ -- 31
+while$ -- 207
 width$ -- 0
-write$ -- 638
-(There were 38 warnings)
+write$ -- 673
+(There were 31 warnings)

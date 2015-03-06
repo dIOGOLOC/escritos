@@ -1,4 +1,4 @@
-\begin{thebibliography}{44}
+\begin{thebibliography}{46}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -59,11 +59,11 @@
   \textless\url{http://libra.msra.cn/Publication/5115166/crustal-thicknesses-in-se-brazilian-shield-by-receiver-function-analysis-implications-for}\textgreater
   .
 
-\bibitem[\MakeUppercase{Barmin}\emph{ et~al.}()Barmin, Ritzwoller, e
+\bibitem[\MakeUppercase{Barmin}\emph{ et~al.}(2001)Barmin, Ritzwoller, e
   Levshin]{barmin_fast_2001}
-\MakeUppercase{Barmin, M.~P., Ritzwoller, M.~H., Levshin, A.~L.}, \enquote{A
-  Fast and Reliable Method for Surface Wave Tomography}, v.~158, n.~8,
-  \penalty0 pp.~1351--1375.
+\MakeUppercase{Barmin, M.~P., Ritzwoller, M.~H., Levshin, A.~L.}, 2001,
+  \enquote{A Fast and Reliable Method for Surface Wave Tomography}, v.~158,
+  n.~8, \penalty0 pp.~1351--1375.
 \newblock ISSN: 0033-4553, 1420-9136.
 \newblock \doi{10.1007/PL00001225}.
 \newblock Dispon{\' i}vel em:
@@ -71,8 +71,10 @@
   .
 
 \bibitem[\MakeUppercase{Bassini}(1986)Bassini]{Bassini_1986}
-\MakeUppercase{Bassini, A.}, 1986.
-\newblock \enquote{Levantamento sismográficos na região sudeste do Brasil.} .
+\MakeUppercase{Bassini, A.}, 1986, \emph{Levantamento sismográficos na região
+  sudeste do Brasil.}
+\newblock {MSc} in geophysics, Instituto de Astromomia, Geofísica e Ciências
+  as Atmosféricas/USP., São Paulo, SP, Brasil.
 
 \bibitem[\MakeUppercase{Bensen}\emph{ et~al.}(2007)Bensen, Ritzwoller, Barmin,
   Levshin, Lin, Moschetti, Shapiro, e Yang]{bensen_processing_2007}
@@ -86,6 +88,13 @@
   \textless\url{http://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.2007.03374.x/abstract}\textgreater
   .
 
+\bibitem[\MakeUppercase{Boashash}(1992)Boashash]{boashash_estimating_1992}
+\MakeUppercase{Boashash, B.}, 1992, \enquote{Estimating and interpreting the
+  instantaneous frequency of a signal. I. Fundamentals}, v.~80, n.~4, \penalty0
+  pp.~520--538.
+\newblock ISSN: 0018-9219.
+\newblock \doi{10.1109/5.135376}.
+
 \bibitem[\MakeUppercase{Boschi}\emph{ et~al.}(2013)Boschi, Weemstra, Verbeke,
   Ekstrom, Zunino, e Giardini]{boschi_measuring_2013}
 \MakeUppercase{Boschi, L., Weemstra, C., Verbeke, J., \MakeLowercase{et~al.}},
@@ -96,6 +105,11 @@
 \newblock Dispon{\' i}vel em:
   \textless\url{http://academiccommons.columbia.edu/catalog/ac%3A159032}\textgreater
   .
+
+\bibitem[\MakeUppercase{Bracewell}(1978)Bracewell]{bracewell_fourier_1978}
+\MakeUppercase{Bracewell, R.~N.}, 1978, \emph{The Fourier transform and its
+  applications}.
+\newblock  Stamford, Connecticut, {McGraw}-Hill.
 
 \bibitem[\MakeUppercase{Campillo} e \MakeUppercase{Paul}(2003)Campillo e
   Paul]{campillo_long-range_2003}
@@ -155,9 +169,10 @@
 \newblock Dispon{\' i}vel em:
   \textless\url{http://srl.geoscienceworld.org/content/77/5/559}\textgreater .
 
-\bibitem[\MakeUppercase{Harris}()Harris]{harris_use_1978}
-\MakeUppercase{Harris, F.~J.}, \enquote{On the Use of Windows for Harmonic
-  Analysis with the Discrete Fourier Transform}, v.~66, \penalty0 pp.~51--83.
+\bibitem[\MakeUppercase{Harris}(1978)Harris]{harris_use_1978}
+\MakeUppercase{Harris, F.~J.}, 1978, \enquote{On the Use of Windows for
+  Harmonic Analysis with the Discrete Fourier Transform}, v.~66, \penalty0
+  pp.~51--83.
 \newblock ISSN: 1107-1115.
 \newblock Dispon{\' i}vel em:
   \textless\url{http://adsabs.harvard.edu/abs/1978IEEEP..66...51H}\textgreater
@@ -251,7 +266,7 @@
 
 \bibitem[\MakeUppercase{Ligorría} e \MakeUppercase{Ammon}(1999)Ligorría e
   Ammon]{ligorria_iterative_1999}
-\MakeUppercase{Ligorría, J.~P., Ammon, C. a.~J.}, 1999, \enquote{Iterative
+\MakeUppercase{Ligorría, J.~P., Ammon, C.~J.}, 1999, \enquote{Iterative
   deconvolution and receiver-function estimation}, v.~89, n.~5, \penalty0
   pp.~1395--1400.
 \newblock ISSN: 0037-1106, 1943-3573.
@@ -339,9 +354,11 @@
   .
 
 \bibitem[\MakeUppercase{Silva}(2014)Silva]{Silva_2014}
-\MakeUppercase{Silva, A.~R.}, 2014.
-\newblock \enquote{Modelagem Gravimétrica de uma seção entre a margem
-  continental do sudeste do Brasil e a área emersa adjacente.} .
+\MakeUppercase{Silva, A.~R.}, 2014, \emph{Modelagem Gravimétrica de uma
+  seção entre a margem continental do sudeste do Brasil e a área emersa
+  adjacente.}
+\newblock {MSc} in geophysics, Observatório Nacinal., Rio de Janeiro, Rio de
+  Janeiro, BRA.
 
 \bibitem[\MakeUppercase{Solon} e \MakeUppercase{La~Terra}(2013)Solon e
   La~Terra]{flora_solon_ancient_2013}
@@ -350,9 +367,9 @@
   geoelectrical results with Magnetotellurics geophysical methods.} pp. 29--33.
 \newblock \doi{10.1190/sbgf2013-007}.
 
-\bibitem[\MakeUppercase{Stähler}\emph{ et~al.}()Stähler, Sigloch, e
+\bibitem[\MakeUppercase{Stähler}\emph{ et~al.}(2012)Stähler, Sigloch, e
   Nissen-Meyer]{stahler_triplicated_2012}
-\MakeUppercase{Stähler, S.~C., Sigloch, K., Nissen-Meyer, T.},
+\MakeUppercase{Stähler, S.~C., Sigloch, K., Nissen-Meyer, T.}, 2012,
   \enquote{Triplicated P-wave measurements for waveform tomography of the
   mantle transition zone}, v.~3, n.~2, \penalty0 pp.~339--354.
 \newblock ISSN: 1869-9529.
