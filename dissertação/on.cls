@@ -666,7 +666,7 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
   ao Programa de P{\' o}s-gradua{\c c}{\~ a}o em \local@deptname\ do
   \local@universityname, como parte dos requisitos
   necess{\' a}rios {\` a} obten{\c c}{\~ a}o do \ifthenelse{\boolean{doutboolean}}{Grau}{T{\' i}tulo}
-  de \local@degname\ em Ci\^ encias.}
+  de \local@degname\ em Ci\^ encias na {\' A}rea de Geof{\' i}sica.}
 }
 \newcommand\frontpage@maintext{
   \noindent {\MakeUppercase\local@doctype}

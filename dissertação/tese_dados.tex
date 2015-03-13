@@ -1,5 +1,4 @@
 \chapter{Aquisição e Tratamento dos Dados}
-\date{24}{03}{2015}
 \section{Aquisição de Dados}
 
 No âmbito do projeto SUBSAL, realizado conjuntamente entre o Observatório Nacional e a Petrobras,  instalou-se 24 estações sismográficas temporárias banda larga (STS2 ou Reftek RT151-120s), as coordenadas de cada estação podem ser vistas na Tabela \ref{tabelaDATA}. A faixa de frequência registrada varia de 50 Hz até 100 segundos. Acoplado a este sistema temos um conjunto de baterias, reguladores, painel solar e o registrador, onde são armazenados os dados. O sistema armazena os dados em um disco de 4Gb que é retirado em cada campanha de coleta dos dados.
@@ -10,7 +9,7 @@ A Figura \ref{instalacao}-A mostra que o sensor deve ser acoplado à rocha sã. 
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.5]{Figs/instalacao.png}
+\includegraphics[scale=0.45]{Figs/instalacao.png}
 \caption[Mosaico mostrando como é feita a instalação das estações sismográficas temporárias do projeto SUBSAL.]{Mosaico mostrando como é feita a instalação das estações sismográficas temporárias do projeto SUBSAL. As figuras mostram os diferentes estágios na instalação das estações.}
 \label{instalacao}
 \end{figure} 
@@ -58,7 +57,7 @@ O produto de uma análise qualitativa preliminar nos gráficos gerados pelo prog
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.35]{Figs/pqlx_results.png}
+\includegraphics[scale=0.3]{Figs/pqlx_results.png}
 \caption{Exemplos de resultados gerados pela análise qualitativa do sinal atraves do programa PQLX, que utiliza o método de \cite{McNamara_Buland_2004}.}
 \label{PQLX_results}
 \end{figure}
@@ -78,14 +77,14 @@ A distância epicentral é tida como ideal entre 20 e 95 graus, como é observad
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.6]{Figs/mapa_de_eventos.png}
+\includegraphics[scale=0.5]{Figs/mapa_de_eventos.png}
 \caption[Mapa dos eventos registrados na estação STA08.]{Mapa dos eventos (estrelas) registrados na estação STA08. O limite de 95 graus está indicada em vermelho. Estrelas azuls mostram os eventos com dados de qualidade que são usadas no calculo das Funçoes do Receptor}
 \label{mapa_eventos}
 \end{figure}
 
 Para análise 
 
-Subsequentemente foi feito um janelamento no dado do evento 5 segundos antes e 10 segundos depois da chegada da onda P, como visto na Figura \ref{simograma}. Após a discriminação e o janelamento do sinal, examina-se visualmente cada registro para certificar que todos os eventos selecionados tem um nível de sinal-ruído bom e fazer a marcação do tempo de chegada da onda P, como na Figura \ref{simograma}. No sinal observado é marcado o tempo de chegada da onda P. O tempo de chegada da onda P é calculada pelo modelo de velocidade da Terra IASPEI91 de \cite{kennet_iaspei_1991}.
+Subsequentemente foi feito um janelamento no dado do evento 5 segundos antes e 10 segundos depois da chegada da onda P, como visto na Figura \ref{simograma}. Após a discriminação e o janelamento do sinal, examina-se visualmente cada registro para certificar que todos os eventos selecionados tem um nível de sinal-ruído bom e fazer a marcação do tempo de chegada da onda P, como na Figura \ref{simograma}. No sinal observado é marcado o tempo de chegada da onda P. O tempo de chegada da onda P é calculada pelo modelo de velocidade IASPEI91 de \cite{kennet_iaspei_1991}.
 
 Logo após removeu-se a média e tendência linear dos dados. Aplicou-se um filtro passa-alta com freqüência de corte de 0.1 Hz para eventos com distância entre 20 e 95 graus e de 2 Hz para eventos próximos ($<$20). Os dados originais são reamostrados e interpolados de 0,01 segundos (100 Hz) para 0,025 segundas (40 Hz), porque a informação de alta freqüência não é considerada nesta análise.
 
@@ -100,7 +99,7 @@ A garantia da fiabilidade do tempo de chegada da onda P é fundamental para o pr
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.7]{Figs/correlacao_tempo_de_chegada.png}
+\includegraphics[scale=0.6]{Figs/correlacao_tempo_de_chegada.png}
 \caption[Uma ilustração esquemática mostrando a correlação dos tempos de chegada da onda P.]{Uma ilustração esquemática de como dois eventos sucessivos de fontes sísmicas quase idênticas que podem ser explorados para revelar anomalias dos tempo de chegada da onda P numa dada estação. \cite{gibbons_identification_2006}}
 \label{teste_tempo}
 \end{figure}

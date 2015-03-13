@@ -1,4 +1,4 @@
-\begin{thebibliography}{46}
+\begin{thebibliography}{47}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -32,6 +32,14 @@
 \newblock ISSN: 0037-1106, 1943-3573.
 \newblock Dispon{\' i}vel em:
   \textless\url{http://www.bssaonline.org/content/81/6/2504}\textgreater .
+
+\bibitem[\MakeUppercase{Andrade} e \MakeUppercase{Soares}(2007)Andrade e
+  Soares]{andrade_soares_2007}
+\MakeUppercase{Andrade, A.~O., Soares, A.~B.}, 2007.
+\newblock \enquote{Técnicas de Janelamento de Sinais}. Website.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://laps.ufpa.br/valquiria/pds-graduacao/Material%20de%20apoio/Janelamento.pdf}\textgreater
+  .
 
 \bibitem[\MakeUppercase{Assumpção}\emph{
   et~al.}(2013{\natexlab{a}})Assumpção, Bianchi, Julià, Dias, França,

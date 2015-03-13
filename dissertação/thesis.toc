@@ -8,26 +8,28 @@
 \contentsline {chapter}{\numberline {3}Aquisi\IeC {\c c}\IeC {\~a}o e Tratamento dos Dados}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}Aquisi\IeC {\c c}\IeC {\~a}o de Dados}{7}{section.3.1}
 \contentsline {section}{\numberline {3.2}Tratamento dos Dados}{10}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Processamento da Fun\IeC {\c c}\IeC {\~a}o do Receptor}{11}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Processamento da Fun\IeC {\c c}\IeC {\~a}o do Receptor}{12}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Dispers\IeC {\~a}o de Ondas de Rayleigh}{13}{subsection.3.2.2}
 \contentsline {chapter}{\numberline {4}Fun\IeC {\c c}\IeC {\~a}o do Receptor}{16}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introdu\IeC {\c c}\IeC {\~a}o}{16}{section.4.1}
 \contentsline {section}{\numberline {4.2}Processamento}{17}{section.4.2}
-\contentsline {section}{\numberline {4.3}P\IeC {\'o}s-processamento}{20}{section.4.3}
-\contentsline {section}{\numberline {4.4}Modelagem das Fun\IeC {\c c}\IeC {\~o}es do Receptor}{25}{section.4.4}
-\contentsline {section}{\numberline {4.5}Resultados}{29}{section.4.5}
-\contentsline {chapter}{\numberline {5}Dispers\IeC {\~a}o de Ondas Rayleigh}{35}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introdu\IeC {\c c}\IeC {\~a}o}{35}{section.5.1}
-\contentsline {section}{\numberline {5.2}Processamento}{36}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Prepara\IeC {\c c}\IeC {\~a}o dos dados para cada esta\IeC {\c c}\IeC {\~o}es}{36}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Normaliza\IeC {\c c}\IeC {\~a}o espectral ou braqueamento}{38}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Correla\IeC {\c c}\IeC {\~a}o Cruzada, Empilhamento e Sinal emergente}{39}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Medidas da Dispers\IeC {\~a}o}{41}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}Controle de Qualidade das Medidas}{42}{subsection.5.2.5}
-\contentsline {subsection}{\numberline {5.2.6}Invers\IeC {\~a}o Tomogr\IeC {\'a}fica}{43}{subsection.5.2.6}
-\contentsline {subsection}{\numberline {5.2.7}An\IeC {\'a}lise da Resolu\IeC {\c c}\IeC {\~a}o dos Mapas Tomogr\IeC {\'a}ficos}{45}{subsection.5.2.7}
-\contentsline {section}{\numberline {5.3}Resultados}{45}{section.5.3}
-\contentsline {chapter}{\numberline {6}Conclus\IeC {\~o}es}{46}{chapter.6}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{47}{chapter*.8}
-\contentsline {chapter}{Anexo 1}{53}{appendix*.9}
-\contentsline {chapter}{Anexo 2}{55}{appendix*.10}
+\contentsline {section}{\numberline {4.3}P\IeC {\'o}s-processamento}{22}{section.4.3}
+\contentsline {section}{\numberline {4.4}Modelagem das Fun\IeC {\c c}\IeC {\~o}es do Receptor}{27}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Modelos de velocidade para camadas horizontais}{28}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Modelos de velocidade perfilados para camadas inclinadas}{29}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Resultados}{31}{section.4.5}
+\contentsline {chapter}{\numberline {5}Correla\IeC {\c c}\IeC {\~a}o Cruzada de Ru\IeC {\'\i }do Ambiental S\IeC {\'\i }smico}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introdu\IeC {\c c}\IeC {\~a}o}{37}{section.5.1}
+\contentsline {section}{\numberline {5.2}Processamento}{38}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Prepara\IeC {\c c}\IeC {\~a}o dos dados para cada esta\IeC {\c c}\IeC {\~o}es}{38}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Normaliza\IeC {\c c}\IeC {\~a}o espectral ou braqueamento}{40}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Correla\IeC {\c c}\IeC {\~a}o Cruzada, Empilhamento e Sinal emergente}{41}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Medidas da Dispers\IeC {\~a}o}{43}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Controle de Qualidade das Medidas}{45}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Invers\IeC {\~a}o Tomogr\IeC {\'a}fica}{46}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.2.7}An\IeC {\'a}lise da Resolu\IeC {\c c}\IeC {\~a}o dos Mapas Tomogr\IeC {\'a}ficos}{47}{subsection.5.2.7}
+\contentsline {section}{\numberline {5.3}Resultados}{48}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~o}es}{51}{chapter.6}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{52}{chapter*.8}
+\contentsline {chapter}{Anexo 1}{58}{appendix*.9}
+\contentsline {chapter}{Anexo 2}{60}{appendix*.10}
