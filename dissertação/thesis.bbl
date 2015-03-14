@@ -1,4 +1,4 @@
-\begin{thebibliography}{47}
+\begin{thebibliography}{48}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -420,6 +420,17 @@
 \newblock Dispon{\' i}vel em:
   \textless\url{http://www.sciencedirect.com/science/article/pii/S0040195113001972}\textgreater
   .
+
+\bibitem[\MakeUppercase{Vinnik}\emph{ et~al.}(2007)Vinnik, Aleshin, Kiselev,
+  Kosarev, e Makeyeva]{vinnik_depth_2007}
+\MakeUppercase{Vinnik, L.~P., Aleshin, I.~M., Kiselev, S.~G.,
+  \MakeLowercase{et~al.}}, 2007, \enquote{Depth localized azimuthal anisotropy
+  from {SKS} and P receiver functions: The Tien Shan}, v.~169, n.~3, \penalty0
+  pp.~1289--1299.
+\newblock ISSN: 0956-540X, 1365-246X.
+\newblock \doi{10.1111/j.1365-246X.2007.03394.x}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://gji.oxfordjournals.org/content/169/3/1289}\textgreater .
 
 \bibitem[\MakeUppercase{Wapenaar}(2004)Wapenaar]{wapenaar_retrieving_2004}
 \MakeUppercase{Wapenaar, K.}, 2004, \enquote{Retrieving the Elastodynamic

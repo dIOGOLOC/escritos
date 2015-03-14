@@ -2,7 +2,7 @@
 \contentsline {chapter}{Resumo}{vi}{chapter*.3}
 \contentsline {chapter}{Abstract}{vii}{chapter*.4}
 \contentsline {chapter}{Lista de Figuras}{x}{chapter*.6}
-\contentsline {chapter}{Lista de Tabelas}{xii}{chapter*.7}
+\contentsline {chapter}{Lista de Tabelas}{xiii}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Contexto Geol\IeC {\'o}gico}{2}{chapter.2}
 \contentsline {chapter}{\numberline {3}Aquisi\IeC {\c c}\IeC {\~a}o e Tratamento dos Dados}{7}{chapter.3}
