@@ -171,8 +171,7 @@ S(r_{i},r_{j}) \propto exp(- \frac{\left \| r_{i}-r_{j}  \right \|^{2}}{2\sigma 
 \sum_{j\neq i} S(r_{i},r_{j}) = 1         \forall i 
 \end{eqnarray}
 
-com $r_{i}$ a posição do $i$-ésimo nó da grade e:
-
+com $r_{i}$ a posição do $i$-ésimo nó da grade e $\sigma$ a largura da suavidade espacial.
 
 O terceiro termo penaliza a norma ponderada no modelo, isso faz com que o modelo suavize regiões onde há pouca cobertura de dados:
 
@@ -219,28 +218,28 @@ As limitações dos mapas tomográficos serão avaliadas qualitativamente pelo t
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=1]{Figs/corr_selecao.png}
-\caption{asdfasdfasfasdfasdf}
+\caption{Efeito do critério de seleção sucessiva na quantidade de medidas de dispersão remanescentes. Os dados de forma de onda foram filtrados entre o passa-banda 3-60 segundos.}
 \label{corr_selecao}
 \end{figure}
 
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=1]{Figs/sensibilidade.png}
-\caption{asdfasdfasfasdfasdf}
+\caption{Sensibilidade das velocidades de grupo das ondas Rayleigh num período selecionado, normalizada para a unidade. Sensibilidade é definida como a variação na velocidade de grupo causada por uma pequena variação em $V_{s}$ em uma dada profundidade. Essas sensibilidades foram calculadas para um modelo de crosta com uma crosta superior de $20$ km e uma crosta inferior de $15$ km sobre um manto.}
 \label{sensibilidade}
 \end{figure}
 
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.3]{Figs/dist_FTAN.png}
-\caption{asdfasdfasfasdfasdf}
+\caption{Exemplos de correlação cruzada e análise frequência tempo (FTAN) em dois pares de Estações com distâncias diferentes. A parte superior mostra um par de estações com uma grande distância mostrando que a maior amplitude do sinal está no período próximo de 10 segundos. Já na parte inferior a amplitude máxima está próxima do período de 4 segundos.}
 \label{dist_FTAN}
 \end{figure}
 
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.3]{Figs/fonte_FTAN.png}
-\caption{asdfasdfasfasdfasdf}
+\caption{Exemplos de correlação cruzada e análise frequência tempo (FTAN) em dois pares de Estações com distâncias diferentes. A parte superior mostra um par de estações com uma grande distância mostrando que a maior amplitude do sinal está no período próximo de 10 segundos. Já na parte inferior a amplitude máxima está próxima do período de 4 segundos.}
 \label{fonte_FTAN}
 \end{figure}
 
