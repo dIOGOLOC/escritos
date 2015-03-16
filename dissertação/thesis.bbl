@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{53}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -146,6 +146,16 @@
 \newblock Dispon{\' i}vel em:
   \textless\url{http://gji.oxfordjournals.org/content/47/1/151}\textgreater .
 
+\bibitem[\MakeUppercase{Dias~Cario} e \MakeUppercase{De~Souza}(2006)Dias~Cario
+  e De~Souza]{dias_cario_crustal_2006}
+\MakeUppercase{Dias~Cario, F., De~Souza, J.~L.}, 2006, \enquote{Crustal
+  thickness beneath Rio de Janeiro, Brazil, from spectra of {SH} waves at
+  station {RDJ}}, v.~45, n.~2.
+\newblock ISSN: 0016-7169.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.revistas.unam.mx/index.php/geofisica/article/view/40213}\textgreater
+  .
+
 \bibitem[\MakeUppercase{Efron} e \MakeUppercase{Tibshirani}(1991)Efron e
   Tibshirani]{efron_statistical_1991}
 \MakeUppercase{Efron, B., Tibshirani, R.}, 1991, \enquote{Statistical Data
@@ -191,6 +201,19 @@
 \MakeUppercase{Hasui, Y., Sadowski, G.}, 1976, \enquote{Evolução geológica
   do Pré-Cambriano na região sudeste do Estado de São Paulo.} \emph{Revista
   Brasileira de Geociências}, v.~6, n.~3, \penalty0 pp.~182--200.
+
+\bibitem[\MakeUppercase{Heilbron}\emph{ et~al.}(2013)Heilbron, Tupinambá,
+  Valeriano, Armstrong, do~Eirado~Siva, Melo, Simonetti, Pedrosa~Soares, e
+  Machado]{heilbron_serra_2013}
+\MakeUppercase{Heilbron, M., Tupinambá, M., Valeriano, C. d.~M.,
+  \MakeLowercase{et~al.}}, 2013, \enquote{The Serra da Bolívia complex: The
+  record of a new Neoproterozoic arc-related unit at Ribeira belt}, v.~238,
+  \penalty0 pp.~158--175.
+\newblock ISSN: 0301-9268.
+\newblock \doi{10.1016/j.precamres.2013.09.014}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/S0301926813002829}\textgreater
+  .
 
 \bibitem[\MakeUppercase{Heilbron}\emph{ et~al.}(2010)Heilbron, Duarte,
   Valeriano, Simonetti, Machado, e Nogueira]{heilbron_evolution_2010}
@@ -374,6 +397,24 @@
   structures in the middle crust of southeast brazilian portion identified by
   geoelectrical results with Magnetotellurics geophysical methods.} pp. 29--33.
 \newblock \doi{10.1190/sbgf2013-007}.
+
+\bibitem[\MakeUppercase{Souza}(1991)Souza]{souza_crustal_1991}
+\MakeUppercase{Souza, J. L.~D.}, 1991, \enquote{Crustal and upper mantle
+  structures of the brazilian coast}, v.~136, n.~2, \penalty0 pp.~245--264.
+\newblock ISSN: 0033-4553, 1420-9136.
+\newblock \doi{10.1007/BF00876376}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://link.springer.com/article/10.1007/BF00876376}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Souza}(1995)Souza]{souza_shear-wave_1995}
+\MakeUppercase{Souza, J. L.~d.}, 1995, \enquote{Shear-wave velocity in the
+  south-eastern Brazilian continental shelf}, v.~122, n.~2, \penalty0
+  pp.~691--702.
+\newblock ISSN: 0956-540X, 1365-246X.
+\newblock \doi{10.1111/j.1365-246X.1995.tb07020.x}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://gji.oxfordjournals.org/content/122/2/691}\textgreater .
 
 \bibitem[\MakeUppercase{Stehly}\emph{ et~al.}(2006)Stehly, Campillo, e
   Shapiro]{stehly_study_2006}

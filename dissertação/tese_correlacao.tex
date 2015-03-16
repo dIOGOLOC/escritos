@@ -213,7 +213,7 @@ As limitações dos mapas tomográficos serão avaliadas qualitativamente pelo t
 
 \section{Resultados}
 
-A análise das pertubações na propagação das ondas de superfície permitem distinguir estruturas crustais intermediárias, que por outros métodos não se tinha resolução. A resolução é controlada pela quantidade de dados e pela distância entre as estações. O foco deste trabalho são as grandes estruturas tectônicas presentes na área, como bacias sedimentares e grandes blocos crustais.
+A análise das pertubações na propagação das ondas de superfície permitem distinguir estruturas crustais intermediárias, que por outros métodos não se tinha resolução. A resolução é controlada pela quantidade de dados e pela distância entre as estações. O foco deste trabalho são as grandes estruturas tectônicas presentes na área, como bacias sedimentares e grandes blocos crustais. A resolução deste trabalho limita-se a valores em profundidade próximos da crosta intermediária.
 
 \begin{figure}[!ht]
 \centering
@@ -231,7 +231,7 @@ A parte superior da Figura \ref{corr_dado_bruto} mostra como é o dado após o t
 \label{fonte_FTAN}
 \end{figure}
 
-Outro ponto importante sobre as estações em relação a distância do oceano são as amplitude dos gráficos de energa gerados pela análise tempo/frequência. A Figura \ref{fonte_FTAN} e \ref{dist_FTAN} mostram exemplos de quatro pares de estações que possuem configurações distintas e geram alguns resultados interessantes. 
+Outro ponto importante sobre as estações em relação a distância do oceano são as amplitude dos gráficos de energa gerados pela análise tempo/frequência. A Figura \ref{fonte_FTAN} e \ref{dist_FTAN} mostram exemplos de quatro pares de estações que possuem configurações distintas e geram alguns resultados interessantes sobre a pespectiva da fonte de ruído. Na Figura \ref{fonte_FTAN} observa-se que os pares em que os trajetos entre as estações estão paralelo à costa a energia contida no sinal concetra-se em volta do período de 7 segundos. Já nos trajetos que estão perpendiculares à costa há uma queda na amplitude do sinal no perído de 7 segundos. Indicando uma forte correspondência com a fonte de ruído sísmico ambiental. A relação entre a distância e a energia mostrado nas análise tempo/frequência pode ser observada na Figura \ref{dist_FTAN}.É notável que quanto maior a distância entre as estações mais informações em profundidade podem ser extraídas das velocidades de grupo. Na figura \ref{dist_FTAN} observa-se essa distribuição de energia bem marcada para ambas distâncias. Em grandes distâncias há uma  espalhamento da energia pelos períodos, porém em curtas distâncias há uma concentração de energia nos pequenos períodos. Nesta dissertação as distâncias entre as estações são pequenas, pois a maioria da estações do projeto SUBSAL possuem distâncias variando de $\simeq 20 km$ a $\simeq 50 km$. Portanto, o um grande número de medidas são observadas em curtos períodos com um decaimento linear bem marcado para os períodos mais longos,como pode ser observado na Figura \ref{corr_selecao}. Devido ao acentuado decréscimo do número de medidas para longos períodos, estipulou-se um período máximo para o processamento de 16 segundos, pois tem-se um número de medidas próximo de 100, considerado limite para uma tomografia de qualidade.
 
 \begin{figure}[!ht]
 \centering
@@ -242,17 +242,21 @@ Outro ponto importante sobre as estações em relação a distância do oceano s
 
 \begin{figure}[!ht]
 \centering
+\includegraphics[scale=1]{Figs/corr_selecao.png}
+\caption{Efeito do critério de seleção sucessiva na quantidade de medidas de dispersão remanescentes. Os dados de forma de onda foram filtrados entre o passa-banda 2-50 segundos.}
+\label{corr_selecao}
+\end{figure}
+
+Para analisar qualitativamente as correlações cruzadas utilizadas na tomografia sísmica, comparou-se a razão sinal-ruído em cada período, o resultado pode ser visto na Figura \ref{SNR}. A razão sinal-ruído é calculada pela diferença de amplitude entre a janela de sinal e a janela de ruído. È visível que em curtos períodos as correlações cruzadas possuem um sinal ruído maior, e que há um decrescimento da razão sinal-ruído com o aumento do período. Com isso a resolução em curtos períodos é maior que em longos períodos,
+
+\begin{figure}[!ht]
+\centering
 \includegraphics[scale=1]{Figs/SNR.png}
 \caption{25\%,50\% e 75\% do  SRN total das correlações cruzadas em função do período. As correlações cruzadas são calculadas com um filtro passa-banda entre 2 e 50 segundos.}
 \label{SNR}
 \end{figure}
 
-\begin{figure}[!ht]
-\centering
-\includegraphics[scale=1]{Figs/corr_selecao.png}
-\caption{Efeito do critério de seleção sucessiva na quantidade de medidas de dispersão remanescentes. Os dados de forma de onda foram filtrados entre o passa-banda 2-50 segundos.}
-\label{corr_selecao}
-\end{figure}
+A grande quantidade de trabalhos, puramente geológics ou geológico-geofísico, produziu uma extensa bibliografia sobre a área, porém não delimitou as estruturas crustais com um certo grau de detalhe. Com a tomografia sísmica tenta-se recuperar essas grandes feições, e para tal testou-se a sensibilidade das velocidades  de grupo das ondas Rayleigh para os seguintes períodos 5, 10 e 16 segundos, Figura \ref{sensibilidade}. Essas sensibilidade foram calculadas para um modelo com essa configuração estrutural: crosta superior de 20 km e crosta inferior de 15 km. Com as sensibilidades calculadas pode-se delimitar a profundidad de atuação de cada período, para este modelo. O período de 5 segundos tem uma sensibilidade de 4 quilômetros, já o modelo de 10 segundos 7 quilômetros e o de 16 segundos de 13 quilômetros, como observado na Figura \ref{sensibilidade}.
 
 \begin{figure}[!ht]
 \centering
@@ -261,6 +265,25 @@ Outro ponto importante sobre as estações em relação a distância do oceano s
 \label{sensibilidade}
 \end{figure}
 
+Analisando os mapas de velocidade gerados pela inversão tomográfica, Figura \ref{tomografia}-esquerda, observa-se que as grandes feições estruturais da região foram bem delimitadas, como a bacia do Paraná, Bacia de Taubaté, Faixa Brasília, nos mapas, principalmento no mapa com período de 5 segundos. Os resultados serão descritos tendo como base as unidades tectônicas regionais.
 
+A Bacia do Paraná é a uma grande estrutura regional bem delimitada por todas os mapas tomográficos. O mapa com 5 segundos de período delimita claramente a bacia apresentando uma grande anomalia de baixa velocidade. Porém quanto nos períodos mais longos, 10 e 16, a anomalia de baixa velocidade não é bem delimitada, provavelmente devido a baixa resolução espacial. 
+
+A Bacia de Taubaté também é uma estrutura que possui uma anomalia negativa de velocidade marcante. Mesmo sendo uma bacia pouco profunda é representada nos períodos de 5 e 10 segundos. Já no período de 16 segundos não existe nenhuem indício.
+
+A Faixa Brasília apresenta uma anomalia positiva no período de 5 segundos, porém no período de 10 segundos essa anomalia se torna negativa e no período de 16 segundos volta a ser positiva. Essa mudança de velocidade é um resultado concordante com modelos geofísicos da região, como \cite{sand_franca_crustal_2004}, \cite{flora_solon_ancient_2013} e \cite{Silva_2014}, pois essa mudança estaria relacionada com uma inversão de velocidade devido a Zona de interferência com a Faixa Ribeira. Na parte geológica \cite{trouw_new_2013} mostra a evolução da zona de superposição em que rochas supracrustais são soerguidas gerando o sistema de \textit{Nappes}, mostrado no perfil \ref{perfil_esquematico}, explicando assim essa anomalia de baixa velocidade.
+
+O Cráton do São Franciso possui possui uma anomalia de velocidade positiva nos mapas de período 5 e 10 segundos, o que era de se esperar de uma área cratônica, porém no mapa de 16 segundos apresenta uma anomalia de velocidade negativa. Tal anomalia encontra-se na Zona de interferência do Cráton com a Faixa Ribeira. \cite{heilbron_serra_2013} mostra que há uma uma imbricação de domínios tectônicos na borda sudeste do Cráton do São Francisco. Nesta amalgamação terrenos metassedimentares Neoproterozóicos, outrora bacias sedimentares, pode ter sidos carreados para grandes profundidades, pois existem sedimentos de arcos magmáticos associados a essa região, \cite{heilbron_evolution_2010}, \cite{heilbron_serra_2013} e \cite{trouw_new_2013}. 
+
+A Faixa Ribeira apresenta resultados bem parecidos nos períodos de 5 e 10 segundos, anomalias positivas de velocidade associadas aos arcos Rio Negro, a sudeste, e Socorro, a sudoeste. Uma anomalia negativa de velocidade associada a Bacia de Taubaté e a região costeira próxima ao litoral sul de São Paulo, podendo ter influência das bacias sedimentares costeiras. Uma característica interessante é a anomalia de baixa velocidade na região sudoeste da Faixa Brasília no mapa de 16 segundos, porém não foi encontrado na literatura nada que faça referência a essa anomalia de baixa velocidade.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.45]{Figs/mapa_tomografia.png}
+\caption{Esquerda:Pertubações nas velocidades de grupo nas ondas Rayleigh relativas a velocidade média sobre o mapa no períodos de 5, 10 e 16 segundos. Centro: Trajetórias entre as estações válidas para a inversão tomográfica. Direita: Resolução espacial definida como o raio do cone que melhor ajusta o mapa de resolução em cada ponto. Ao fundo encontra-se o mapa geológico da regional.}
+\label{tomografia}
+\end{figure}
+
+As colunas central e direita da Figura \ref{tomografia} mostram a densidade de trajetórias e a resolução espacial para a tomografia sísmica. Os resultados tiveram como base a resolução espacial da tomografia. Nota-se claramente que com o aumento do período há uma diminuição da resolução espacial devido a redução do número de caminhos. A região que possui a melhor resolução espacial é a região em que se localiza a rede SUBSAL.
 
 \pagebreak

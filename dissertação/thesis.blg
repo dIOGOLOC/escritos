@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2014/W32TeX)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: tese_dedicatoria.aux
@@ -26,9 +26,11 @@ Warning--empty journal in boschi_measuring_2013
 Warning--empty journal in campillo_long-range_2003
 Warning--empty journal in cassidy_numerical_1992
 Warning--empty journal in clayton_source_1976
+Warning--empty journal in dias_cario_crustal_2006
 Warning--empty journal in sand_franca_crustal_2004
 Warning--empty journal in gibbons_identification_2006
 Warning--empty journal in harris_use_1978
+Warning--empty journal in heilbron_serra_2013
 Warning--empty journal in heilbron_evolution_2010
 Warning--empty journal in julia_deep_2008
 Warning--empty journal in kennet_iaspei_1991
@@ -43,51 +45,53 @@ Warning--empty journal in seats_improved_2012
 Warning--empty journal in shapiro_emergence_2004
 Warning--empty booktitle in flora_solon_ancient_2013
 Warning--empty month in flora_solon_ancient_2013
+Warning--empty journal in souza_crustal_1991
+Warning--empty journal in souza_shear-wave_1995
 Warning--empty journal in stehly_study_2006
 Warning--empty journal in stahler_triplicated_2012
 Warning--empty journal in trouw_new_2013
 Warning--empty journal in valeriano_u_pb_2011
 Warning--empty journal in vinnik_depth_2007
 Warning--empty journal in wapenaar_retrieving_2004
-You've used 49 entries,
+You've used 53 entries,
             2972 wiz_defined-function locations,
-            979 strings with 17022 characters,
-and the built_in function-call counts, 24960 in all, are:
-= -- 2322
-> -- 1154
-< -- 63
-+ -- 424
-- -- 374
-* -- 2516
-:= -- 3680
-add.period$ -- 197
-call.type$ -- 49
-change.case$ -- 185
-chr.to.int$ -- 48
-cite$ -- 131
-duplicate$ -- 1210
-empty$ -- 2150
-format.name$ -- 453
-if$ -- 5180
+            1006 strings with 18094 characters,
+and the built_in function-call counts, 27075 in all, are:
+= -- 2522
+> -- 1259
+< -- 69
++ -- 462
+- -- 408
+* -- 2731
+:= -- 3995
+add.period$ -- 216
+call.type$ -- 53
+change.case$ -- 202
+chr.to.int$ -- 52
+cite$ -- 143
+duplicate$ -- 1307
+empty$ -- 2323
+format.name$ -- 493
+if$ -- 5616
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 44
-newline$ -- 260
-num.names$ -- 198
-pop$ -- 496
+missing$ -- 48
+newline$ -- 283
+num.names$ -- 214
+pop$ -- 538
 preamble$ -- 1
-purify$ -- 181
+purify$ -- 198
 quote$ -- 0
-skip$ -- 695
+skip$ -- 754
 stack$ -- 0
-substring$ -- 1131
-swap$ -- 280
-text.length$ -- 31
+substring$ -- 1218
+swap$ -- 301
+text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 534
-warning$ -- 33
-while$ -- 219
+type$ -- 578
+warning$ -- 37
+while$ -- 237
 width$ -- 0
-write$ -- 718
-(There were 33 warnings)
+write$ -- 780
+(There were 37 warnings)
