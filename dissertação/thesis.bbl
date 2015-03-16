@@ -1,4 +1,4 @@
-\begin{thebibliography}{48}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -374,6 +374,17 @@
   structures in the middle crust of southeast brazilian portion identified by
   geoelectrical results with Magnetotellurics geophysical methods.} pp. 29--33.
 \newblock \doi{10.1190/sbgf2013-007}.
+
+\bibitem[\MakeUppercase{Stehly}\emph{ et~al.}(2006)Stehly, Campillo, e
+  Shapiro]{stehly_study_2006}
+\MakeUppercase{Stehly, L., Campillo, M., Shapiro, N.~M.}, 2006, \enquote{A
+  study of the seismic noise from its long-range correlation properties},
+  v.~111, \penalty0 pp.~B10306.
+\newblock ISSN: 2156-2202.
+\newblock \doi{10.1029/2005JB004237}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://onlinelibrary.wiley.com/doi/10.1029/2005JB004237/abstract}\textgreater
+  .
 
 \bibitem[\MakeUppercase{Stähler}\emph{ et~al.}(2012)Stähler, Sigloch, e
   Nissen-Meyer]{stahler_triplicated_2012}

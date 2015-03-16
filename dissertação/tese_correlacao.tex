@@ -122,7 +122,7 @@ A variabilidade sazonal das medidas de dispersão é avaliada pelo FTAN e pelas 
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.3]{Figs/correlacao_FTAN.png}
+\includegraphics[scale=0.35]{Figs/correlacao_FTAN.png}
 \caption[Exemplo de correlação cruzada e análise frequência-tempo (FTAN) no par de estações BL.BSCB-ON.PET01.]{Exemplo de correlação cruzada e análise frequência-tempo (FTAN) no par de estações BL.BSCB-ON.PET01. (Esquerda) Correlação cruzada original simetrizada e filtrada com passa-banda. (Centro) Amplitude da FTAN bruta e filtrada, normalizada por cada valor de período e curvas de dispersão das velocidades de grupo. Os dados da forma de onda foram filtradas entre 2 e 50 segundos. (Direita) Mapa mostrando a localização do par de estações (estações, províncias tectônicas e divisas estaduais).}
 \label{correlacao_FTAN}
 \end{figure}
@@ -213,12 +213,44 @@ As limitações dos mapas tomográficos serão avaliadas qualitativamente pelo t
 
 \section{Resultados}
 
+A análise das pertubações na propagação das ondas de superfície permitem distinguir estruturas crustais intermediárias, que por outros métodos não se tinha resolução. A resolução é controlada pela quantidade de dados e pela distância entre as estações. O foco deste trabalho são as grandes estruturas tectônicas presentes na área, como bacias sedimentares e grandes blocos crustais.
 
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.5]{Figs/corr_dado_bruto.png}
+\caption[Dados Brutos das estações SLP01 e VAS01 e a correlação dos mesmos.]{Na parte superior da Figura observa-se os dados brutos do mês de Maio das estações SLP01 e VAS01 . Na parte inferior tem-se o empilhamento de 731 de correlações cruzadas entre as estações e o espectro deste sinal.}
+\label{corr_dado_bruto}
+\end{figure}
+
+A parte superior da Figura \ref{corr_dado_bruto} mostra como é o dado após o tratamento, este dado que é processado para gerar as correlações cruzadas. A parte inferior mostra o resultado do empilhamento das correlações cruzadas diárias entre as estações SLP01 e VAS01 em 731 dias, entre os dias 01/01/2012 e 31/12/2013.  A correlação cruzada apresenta uma parte causal (positiva), esta corresponde ao deslocamento de uma onda da estação SLP01 a VAS01, e a anticausal (negativa), que representa a propagação de uma onda entre a estação VAS01 e SLP01. O sinal gerado pela correlação entre as estações SLP01 e VAS01 é assimétrico,Figura \ref{corr_dado_bruto}, assim como a maioria das correlações cruzadas geradas neste trabalho, pode ser observado na Figura \ref{correlacao_cruzada}. No caso da correlação entre SLP01 e VAS01 a maior parte da energia do sinal acumula-se na parte acausal do dado. Isso acontece devido á distribuição das fontes de ruído sísmico ambiental, pois se as fontes fossem azimutalmente bem distribuídas as correlações seriam simétricas, como mostra \cite{stehly_study_2006} em seu trabalho. \cite{stehly_study_2006} mostra a procedência das fontes de rúido sísmico ambiental e explica que as fontes possuem duas bandas espectrais, estas são separadas em primárias (10-20 segundos) e secundárias (5-10 segundos). O ruído sísmico de fundo  de alta frequência, microssismo secundário, é gerado pela interação do oceano com a costa, este tipo de fonte não sofre grandes variações por efeitos sazonais, diferentemente do microssismo primário que exibe uma variação sazonal forte. Portanto a discrepância entre as amplitudes entre as partes causal e acausal da correlação está relacionada com a posição das estações em relação ao oceano. 
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.8]{Figs/fonte_FTAN.png}
+\caption{Exemplos de correlação cruzada e análise frequência tempo (FTAN) em dois pares de Estações com distâncias diferentes. A parte superior mostra um par de estações com uma grande distância mostrando que a maior amplitude do sinal está no período próximo de 10 segundos. Já na parte inferior a amplitude máxima está próxima do período de 4 segundos.}
+\label{fonte_FTAN}
+\end{figure}
+
+Outro ponto importante sobre as estações em relação a distância do oceano são as amplitude dos gráficos de energa gerados pela análise tempo/frequência. A Figura \ref{fonte_FTAN} e \ref{dist_FTAN} mostram exemplos de quatro pares de estações que possuem configurações distintas e geram alguns resultados interessantes. 
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.8]{Figs/dist_FTAN.png}
+\caption{Exemplos de correlação cruzada e análise frequência tempo (FTAN) em dois pares de Estações com distâncias diferentes. A parte superior mostra um par de estações com uma grande distância mostrando que a maior amplitude do sinal está no período próximo de 10 segundos. Já na parte inferior a amplitude máxima está próxima do período de 4 segundos.}
+\label{dist_FTAN}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=1]{Figs/SNR.png}
+\caption{25\%,50\% e 75\% do  SRN total das correlações cruzadas em função do período. As correlações cruzadas são calculadas com um filtro passa-banda entre 2 e 50 segundos.}
+\label{SNR}
+\end{figure}
 
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=1]{Figs/corr_selecao.png}
-\caption{Efeito do critério de seleção sucessiva na quantidade de medidas de dispersão remanescentes. Os dados de forma de onda foram filtrados entre o passa-banda 3-60 segundos.}
+\caption{Efeito do critério de seleção sucessiva na quantidade de medidas de dispersão remanescentes. Os dados de forma de onda foram filtrados entre o passa-banda 2-50 segundos.}
 \label{corr_selecao}
 \end{figure}
 
@@ -229,19 +261,6 @@ As limitações dos mapas tomográficos serão avaliadas qualitativamente pelo t
 \label{sensibilidade}
 \end{figure}
 
-\begin{figure}[!ht]
-\centering
-\includegraphics[scale=0.3]{Figs/dist_FTAN.png}
-\caption{Exemplos de correlação cruzada e análise frequência tempo (FTAN) em dois pares de Estações com distâncias diferentes. A parte superior mostra um par de estações com uma grande distância mostrando que a maior amplitude do sinal está no período próximo de 10 segundos. Já na parte inferior a amplitude máxima está próxima do período de 4 segundos.}
-\label{dist_FTAN}
-\end{figure}
-
-\begin{figure}[!ht]
-\centering
-\includegraphics[scale=0.3]{Figs/fonte_FTAN.png}
-\caption{Exemplos de correlação cruzada e análise frequência tempo (FTAN) em dois pares de Estações com distâncias diferentes. A parte superior mostra um par de estações com uma grande distância mostrando que a maior amplitude do sinal está no período próximo de 10 segundos. Já na parte inferior a amplitude máxima está próxima do período de 4 segundos.}
-\label{fonte_FTAN}
-\end{figure}
 
 
 \pagebreak
