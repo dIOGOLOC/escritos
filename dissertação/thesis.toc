@@ -8,12 +8,12 @@
 \contentsline {chapter}{\numberline {3}Aquisi\IeC {\c c}\IeC {\~a}o e Tratamento dos Dados}{8}{chapter.3}
 \contentsline {section}{\numberline {3.1}Aquisi\IeC {\c c}\IeC {\~a}o de Dados}{8}{section.3.1}
 \contentsline {section}{\numberline {3.2}Tratamento dos Dados}{11}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Processamento da Fun\IeC {\c c}\IeC {\~a}o do Receptor}{13}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Processamento da Fun\IeC {\c c}\IeC {\~a}o do Receptor}{12}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Dispers\IeC {\~a}o de Ondas de Rayleigh}{14}{subsection.3.2.2}
 \contentsline {chapter}{\numberline {4}Fun\IeC {\c c}\IeC {\~a}o do Receptor}{18}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introdu\IeC {\c c}\IeC {\~a}o}{18}{section.4.1}
 \contentsline {section}{\numberline {4.2}Processamento}{19}{section.4.2}
-\contentsline {section}{\numberline {4.3}P\IeC {\'o}s-processamento}{24}{section.4.3}
+\contentsline {section}{\numberline {4.3}P\IeC {\'o}s-processamento}{23}{section.4.3}
 \contentsline {section}{\numberline {4.4}Modelagem das Fun\IeC {\c c}\IeC {\~o}es do Receptor}{29}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Modelos de velocidade para camadas horizontais}{30}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Modelos de velocidade perfilados para camadas inclinadas}{31}{subsection.4.4.2}
