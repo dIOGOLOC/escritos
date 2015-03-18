@@ -137,6 +137,16 @@ Para o controle de qualidade dos dados deve-se identificar e rejeitar medidas ru
 
 Outro critério estabelecido por \cite{bensen_processing_2007} é avaliar a repetibilidade temporal das medidas de dispersão. As fontes de ruído ambiental mudam sazonalmente e fornecem diferentes condições para as medições. Dadas certas condições de mudança, a repetibilidade da medição é um indicador significativo de confiabilidade. Neste procedimento calculou-se o desvio padrão para um conjunto de velocidades sazonais, estas devem ter SNR maior que 7 e no mínimo 3 dessas velocidades disponíveis. Se não for satisfeito esse critério o desvio padrão é considerado indefinido.
 
+O conjunto de critérios para considerar as medidas de dispersão de boa qualidade para um período $T$ são:
+
+\begin{enumerate}
+\item T $\leq$ período de corte, definido no parágrafo anterior;
+
+\item Para velocidades de grupo cujo o desvio padrão é definido: $sigma$ $\leq$ 0.1 km/s e SNR $\geq$ 7;
+
+\item Para velociades de grupo que o desvio padrão é indefinido: SNR $\geq$ 15.
+\end{enumerate}
+
 \subsection{Inversão Tomográfica}
 
 A metodologia desenvolvida por  \cite{barmin_fast_2001} foi utilizada para produzir os mapas de velocidade de grupo das ondas Rayleigh. Assume-se que as ondas de superfície seguem os caminhos entre os pares de estações, fazendo com que a inversão seja um problema linear em relação as vagarosidades. Logo num período ($T$) qualquer as pertubações no tempo de viagem entre os pares de estações é dada por:
