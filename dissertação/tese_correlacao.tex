@@ -59,9 +59,16 @@ Terremotos geram grandes impecílios na automatização do processamento, pois e
 
 \subsection{Normalização espectral ou braqueamento}
 
-O ruído sísmico ambiente não é branco no domínio da frequência, ou seja, tem frequências que se destacam. \cite{bensen_processing_2007} cita que a normalização espectral atua para alargar a banda do sinal nas correlações cruzadas e atua contra a degradação causada por fontes persistentes.
+O Ruído Sísmico Ambiental não é branco no domínio da frequência, ou seja, tem frequências que se destacam. \cite{bensen_processing_2007} cita que a normalização espectral atua para alargar a banda do sinal nas correlações cruzadas e atua contra a degradação causada por fontes persistentes, como mostrado na Figura \ref{whitening}. Portanto, fez-se uso da normalização espectral nos dados brutos para tentar diminuir a esse efeito.
 
-A janela temporal  utilizada por \cite{bensen_processing_2007} em seu trabalho é de 7 a 150 segundos, porém quando a distância entre as estações é pequena ($\simeq 20 km$) é necessário utilizar períodos mais curtos, como é o caso desse trabalho. A banda de interesse desta dissertação é de 2 a 50 segundos, logo inclui-se o ruído de alta frequência no processamento. Com a necessidade de preservar este ruído de alta frequência, não se aplicou a normalização espectral. Testes preliminares com a normalização espectral mostraram que com a normalização espectral dos dados a qualidade em curtos perdidos era menor. 
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.5]{Figs/whitening.png}
+\caption[Comparação entre correlações com e sem  normalização espectral.]{Comparação entre correlações com e sem  normalização espectral. Correlação cruzada das estações CCM e SSPA (Standing Stone, PA, USA) filtrada entre 7 e 150 segundos.}
+\label{whitening}
+\end{figure} 
+
+A janela temporal  utilizada por \cite{bensen_processing_2007} em seu trabalho é de 7 a 150 segundos, porém quando a distância entre as estações é pequena ($\simeq 20 km$) é necessário utilizar períodos mais curtos, como é o caso desse trabalho. A banda de interesse desta dissertação é de 2 a 50 segundos, logo inclui-se o ruído de alta frequência no processamento. Com a necessidade de preservar este ruído de alta frequência, não se aplicou a normalização espectral nas correlações cruzadas calculadas. Testes preliminares com a normalização espectral nas correlações cruzadas calculadas mostraram que com a normalização espectral dos dados a qualidade em curtos períodos era menor. 
 
 
 \subsection{Correlação Cruzada, Empilhamento e  Sinal emergente}
