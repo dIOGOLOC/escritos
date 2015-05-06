@@ -78,7 +78,7 @@ Após preparar as séries temporais diárias, a próxima fase, como visto na Fig
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.2]{Figs/correlaca_cruzada.png}
-\caption[Correlações cruzadas de acordo com a distância entre as estações.]{Correlações cruzadas de acordo com a distância entre as estações. Linhas indicam as velocidades de 2.5 e 3.5 $km/s$, faixa de velocidade para as ondas de superfície. Dados foram filtrados por um filtro passa-banda entre 2 e 50 segundos.}
+\caption[Correlações cruzadas de acordo com a distância entre as estações utilizadas neste trabalho, Tabela \ref{tabelaDATAcorr} (Anexo 3).]{Correlações cruzadas de acordo com a distância entre as estações. Linhas indicam as velocidades de 2.5 e 3.5 $km/s$, faixa de velocidade para as ondas de superfície. Dados foram filtrados por um filtro passa-banda entre 2 e 50 segundos.}
 \label{correlacao_cruzada}
 \end{figure} 
 
@@ -115,7 +115,7 @@ G(\omega - \omega _{0}) = e^{-\alpha(\frac{\omega - \omega _{0}}{\omega _{0}}^{2
 
 Após a transformação inversa cada função passa-banda é retornada ao domínio do tempo produzindo uma função modulada 2-D, $\left | A(t,\omega _{0}) \right |$, e uma função da fase, $ \Phi(t,\omega _{0}) $. Onde $\alpha$ é o parâmetro que define as resoluções complementares no domínio da frequência e do tempo, \cite{levshin_automated_2001}. O tempo de chegada de grupo, $\tau (\omega _{0})$, como uma função da frequência central do filtro Gaussiano é determinado do pico da função modulada de modo que a velocidade de grupo é $U(\omega _{0})=r/\tau (\omega _{0})$, onde r é a distância entre as estações. \cite{bensen_processing_2007} substitui $\omega _{0}$ pela "frequência instantânea", como mostra \cite{bracewell_fourier_1978}. A frequência instantânea é definida como taxa de variação da fase do sinal analítico num tempo $\tau$. \cite{bensen_processing_2007} declara que esta correção é significativa quando o espectro da forma de onda apresenta picos. Devido ao vazamento espectral as frequências centrais dos filtros de bandas estreitas podem não representar fielmente o conteúdo da frequência de saída dos filtros. \cite{boashash_estimating_1992} explica detalhadamente a utilização da frequência instantânea. Para o processamento utilizou-se a frequência central para a análise tempo/frequência.
 
-A análise frequência-tempo é descrita em duas etapas por \cite{levshin_automated_2001} e \cite{bensen_processing_2007}. A primeira etapa (FTAN bruta), filtros Gaussianos passa-banda estreitos são aplicados na representação analítica da correlação cruzada. Se o período central do filtro é $T$, o tempo em que a amplitude do sinal filtrado chega no máximo corresponde ao tempo de viagem, equivalente a velocidade de grupo $v_{g}$, da onda Rayleigh num período $T$. No entanto, deve-se garantir que a curva de dispersão, $v_{g}(T)$, é uma função suave do período, escapando de saltos causados por máximos espúrios. Isso é feito graças um algoritmo que maxima a soma das amplitudes atravessada pela curva de dispersão, e inclue um termo penalizando discontinuidades na curva.
+A análise frequência-tempo é descrita em duas etapas por \cite{levshin_automated_2001} e \cite{bensen_processing_2007}. A primeira etapa (FTAN bruta), filtros Gaussianos passa-banda estreitos são aplicados na representação analítica da correlação cruzada. Se o período central do filtro é $T$, o tempo em que a amplitude do sinal filtrado chega no máximo corresponde ao tempo de viagem, equivalente a velocidade de grupo $v_{g}$, da onda Rayleigh num período $T$. No entanto, deve-se garantir que a curva de dispersão, $v_{g}(T)$, é uma função suave do período, escapando de saltos causados por máximos espúrios. Isso é feito graças um algoritmo que maxima a soma das amplitudes atravessada pela curva de dispersão, e inclue um termo penalizando descontinuidades na curva.
 
 Essa FTAN bruta é realçada com o uso de um filtro '\textit{phase-matched}', em que o termo de correção $\psi(\omega)$ é aplicado na fase dos sinal analítico no domínio da frequência. $\psi(\omega)$ é avaliado graças à curva de dispersão bruta $v_{g}(T)$ como:
 
@@ -125,7 +125,7 @@ Essa FTAN bruta é realçada com o uso de um filtro '\textit{phase-matched}', em
 
 onde $\Delta$ é a distância entre as estações e $\omega = \frac{T}{2\pi}$. Uma curva de dispersão filtrada pode então ser medida repetindo o primeiro passo com o sinal filtrado pelo termo de correção.
 
-A variabilidade sazonal das medidas de dispersão é avaliada pelo FTAN e pelas medidas das curvas de dispersão nas correlações cruzadas obtidas dos subconjuntos sazonais trimestralmente (Jan-Fev-Mar, Fev-Mar-Abr, ... , Dec-Jan-Fev). 
+A variabilidade estatística das medidas de dispersão é avaliada pelo FTAN e pelas medidas das curvas de dispersão nas correlações cruzadas obtidas dos subconjuntos sazonais trimestralmente (Jan-Fev-Mar, Fev-Mar-Abr, ... , Dec-Jan-Fev). 
 
 \begin{figure}[!ht]
 \centering
@@ -162,7 +162,7 @@ A metodologia desenvolvida por  \cite{barmin_fast_2001} foi utilizada para produ
 d=Gm
 \end{equation} 
 
-O vetor $d$ contém o pertubações no tempo de viagem entre os pares de estações (deduzidos das velocidades de grupo medidas no período $T$), o vetor de parâmetro $m$ consite da pertubações na vagarosidade ao longo dos nós de um grade regular e a matriz sensibilidade $G$ realiza a integração entre a vagarosidade ao longo do caminho percorrido pelas ondas. As pertubações são relativas ao modelo de referência, definido como a vagarosidade média implícita por todos o tempos de propagação das ondas observados. A vagarosidade modelada é discretizada ao longo de uma grade regular de 0.1º x 0.1º. 
+O vetor $d$ contém o perturbações no tempo de viagem entre os pares de estações (deduzidos das velocidades de grupo medidas no período $T$), o vetor de parâmetro $m$ consiste da pertubações na vagarosidade ao longo dos nós de um grade regular e a matriz sensibilidade $G$ realiza a integração entre a vagarosidade ao longo do caminho percorrido pelas ondas. As pertubações são relativas ao modelo de referência, definido como a vagarosidade média implícita por todos o tempos de propagação das ondas observados. A vagarosidade modelada é discretizada ao longo de uma grade regular de 0.1º x 0.1º. 
 
 Introduz-se uma função de penalização que é composta por três termos:
 

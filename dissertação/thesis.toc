@@ -9,32 +9,32 @@
 \contentsline {section}{\numberline {3.1}Aquisi\IeC {\c c}\IeC {\~a}o de Dados}{9}{section.3.1}
 \contentsline {section}{\numberline {3.2}Tratamento dos Dados}{12}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Processamento da Fun\IeC {\c c}\IeC {\~a}o do Receptor}{13}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Dispers\IeC {\~a}o de Ondas de Rayleigh}{15}{subsection.3.2.2}
-\contentsline {chapter}{\numberline {4}Fun\IeC {\c c}\IeC {\~a}o do Receptor}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introdu\IeC {\c c}\IeC {\~a}o}{19}{section.4.1}
-\contentsline {section}{\numberline {4.2}Processamento}{20}{section.4.2}
-\contentsline {section}{\numberline {4.3}P\IeC {\'o}s-processamento}{24}{section.4.3}
-\contentsline {section}{\numberline {4.4}Modelagem das Fun\IeC {\c c}\IeC {\~o}es do Receptor}{30}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Modelos de velocidade para camadas horizontais}{31}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {3.2.2}Dispers\IeC {\~a}o de Ondas de Rayleigh}{16}{subsection.3.2.2}
+\contentsline {chapter}{\numberline {4}Fun\IeC {\c c}\IeC {\~a}o do Receptor}{20}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introdu\IeC {\c c}\IeC {\~a}o}{20}{section.4.1}
+\contentsline {section}{\numberline {4.2}Processamento}{21}{section.4.2}
+\contentsline {section}{\numberline {4.3}P\IeC {\'o}s-processamento}{25}{section.4.3}
+\contentsline {section}{\numberline {4.4}Modelagem das Fun\IeC {\c c}\IeC {\~o}es do Receptor}{29}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Modelos de velocidade para camadas horizontais}{30}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Modelos de velocidade perfilados para camadas inclinadas}{32}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Resultados}{34}{section.4.5}
-\contentsline {chapter}{\numberline {5}Correla\IeC {\c c}\IeC {\~a}o Cruzada de Ru\IeC {\'\i }do Ambiental S\IeC {\'\i }smico}{41}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introdu\IeC {\c c}\IeC {\~a}o}{41}{section.5.1}
-\contentsline {section}{\numberline {5.2}Processamento}{42}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Prepara\IeC {\c c}\IeC {\~a}o dos dados para cada esta\IeC {\c c}\IeC {\~o}es}{42}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Normaliza\IeC {\c c}\IeC {\~a}o espectral ou braqueamento}{44}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Correla\IeC {\c c}\IeC {\~a}o Cruzada, Empilhamento e Sinal emergente}{46}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Medidas da Dispers\IeC {\~a}o}{48}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}Controle de Qualidade das Medidas}{49}{subsection.5.2.5}
-\contentsline {subsection}{\numberline {5.2.6}Invers\IeC {\~a}o Tomogr\IeC {\'a}fica}{51}{subsection.5.2.6}
-\contentsline {subsection}{\numberline {5.2.7}An\IeC {\'a}lise da Resolu\IeC {\c c}\IeC {\~a}o dos Mapas Tomogr\IeC {\'a}ficos}{53}{subsection.5.2.7}
-\contentsline {section}{\numberline {5.3}Resultados}{53}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Correla\IeC {\c c}\IeC {\~o}es Cruzadas de Ru\IeC {\'\i }do S\IeC {\'\i }smico Ambiental}{53}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}An\IeC {\'a}lise tempo/frequ\IeC {\^e}ncia}{55}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Controle de qualidade}{56}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Tomografia S\IeC {\'\i }smica}{58}{subsection.5.3.4}
-\contentsline {chapter}{\numberline {6}Conclus\IeC {\~o}es e Cen\IeC {\'a}rios Futuros}{61}{chapter.6}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{63}{chapter*.9}
-\contentsline {chapter}{Anexo 1}{70}{appendix*.10}
-\contentsline {chapter}{Anexo 2}{72}{appendix*.11}
-\contentsline {chapter}{Anexo 3}{74}{appendix*.12}
+\contentsline {section}{\numberline {4.5}Resultados}{33}{section.4.5}
+\contentsline {chapter}{\numberline {5}Correla\IeC {\c c}\IeC {\~a}o Cruzada de Ru\IeC {\'\i }do Ambiental S\IeC {\'\i }smico}{39}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introdu\IeC {\c c}\IeC {\~a}o}{39}{section.5.1}
+\contentsline {section}{\numberline {5.2}Processamento}{40}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Prepara\IeC {\c c}\IeC {\~a}o dos dados para cada esta\IeC {\c c}\IeC {\~o}es}{40}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Normaliza\IeC {\c c}\IeC {\~a}o espectral ou braqueamento}{42}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Correla\IeC {\c c}\IeC {\~a}o Cruzada, Empilhamento e Sinal emergente}{44}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Medidas da Dispers\IeC {\~a}o}{46}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Controle de Qualidade das Medidas}{47}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Invers\IeC {\~a}o Tomogr\IeC {\'a}fica}{49}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.2.7}An\IeC {\'a}lise da Resolu\IeC {\c c}\IeC {\~a}o dos Mapas Tomogr\IeC {\'a}ficos}{51}{subsection.5.2.7}
+\contentsline {section}{\numberline {5.3}Resultados}{51}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Correla\IeC {\c c}\IeC {\~o}es Cruzadas de Ru\IeC {\'\i }do S\IeC {\'\i }smico Ambiental}{51}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}An\IeC {\'a}lise tempo/frequ\IeC {\^e}ncia}{53}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Controle de qualidade}{54}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Tomografia S\IeC {\'\i }smica}{56}{subsection.5.3.4}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~o}es e Cen\IeC {\'a}rios Futuros}{59}{chapter.6}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{61}{chapter*.9}
+\contentsline {chapter}{Anexo 1}{68}{appendix*.10}
+\contentsline {chapter}{Anexo 2}{70}{appendix*.11}
+\contentsline {chapter}{Anexo 3}{72}{appendix*.12}

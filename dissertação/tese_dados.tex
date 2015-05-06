@@ -1,4 +1,4 @@
-k\chapter{Aquisição e Tratamento dos Dados}
+\chapter{Aquisição e Tratamento dos Dados}
 \section{Aquisição de Dados}
 
 No âmbito do projeto SUBSAL, realizado conjuntamente entre o Observatório Nacional e a Petrobras,  instalaram-se 24 estações sismográficas temporárias banda larga (STS2 ou Reftek RT151-120s), as coordenadas de cada estação podem ser vistas na Tabela \ref{tabelaDATA} (Anexo 1). A faixa de frequência registrada varia de 50 Hz até 100 segundos e a taxa de amostragem é de 100 Hz. Acoplado a este sistema temos um conjunto de baterias, reguladores, painel solar e o registrador, onde são armazenados os dados. O sistema armazena os dados em um disco de 4Gb que é retirado em cada campanha de coleta dos dados.
@@ -17,7 +17,7 @@ As estações foram dispostas espacialmente em três perfis em relação à cost
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.5]{Figs/mapa_das_estacoes_simosgraficas_instaladas.png}
-\caption[Mapa das estações sismográficas instaladas]{Mapa das estações sismográficas instaladas (triângulos vermelhos). Os outros triângulos são estações da Rede Sismográfica Brasileira. O perfil 1 estende-se da estação STA01, localizada próximo à costa, até a STA09. O perfil 2 vai da estação STA10, ao norte, até a STA16, próximo à costa. Já o perfil 3 é da estação STA17, oeste, até a STA24, leste.}
+\caption[Mapa das estações sismográficas instaladas]{Mapa das estações sismográficas instaladas (triângulos pretos). O triângulo em verde representa a estação SLP01 da Rede Sismográfica Brasileira. O perfil 1 estende-se da estação STA01, localizada próximo à costa, até a STA09. O perfil 2 vai da estação STA10, ao norte, até a STA16, próximo à costa. Já o perfil 3 é da estação STA17, oeste, até a STA24, leste.}
 \label{map_loc}
 \end{figure}
 
@@ -27,64 +27,71 @@ A velocidade da partícula é registrada pelo sismógrafo, dado bruto, através 
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.6]{Figs/sismograma.png}
-\caption{Sismograma mostrandos as três componentes do deslocamento do terreno gerados pelo terremoto no dia 05/11/2012. Os tempos teóricos de chegada das ondas P e S foram calculados utilizando o modelo IASPEI91, estes tempos estão demarcados pelas retas verticais.}
+\includegraphics[scale=0.75]{Figs/comp_z_SLP01.png}
+\caption{Sismograma mostrandos a componente vertical do deslocamento registrado no mês de setembro em 2012.}
 \label{simograma}
 \end{figure}
 
-O sismograma é gerado pela perturbação do meio pelas ondas  mecânicas que se propagam no interior da Terra. As velocidades das ondas variam em função dos parâmetros elásticos do meio e da densidade, estes variam pela mineralogia e condições de pressão e temperatura do meio atravessado. As ondas mecânicas são divididas em ondas de corpo e de superfície. As ondas de corpo estão categorizadas em dois tipos: as ondas P, longitudinais, e as ondas S, transversais. A onda P é mais rapida e consegue se propagar em todos os meios, tem velocidade entre 4 e 7 km$/$s na crosta terrestre e em torno de 8 km$/$s no manto superior. As ondas S tem velocidade menor, em torno de 3 a 4 $km/$s na crosta, porém a onda S não se propaga em meios líquidos. 
+O sismograma é gerado pela perturbação do meio pelas ondas  mecânicas que se propagam no interior da Terra. As velocidades das ondas variam em função dos parâmetros elásticos do meio e da densidade, estes variam pela mineralogia e condições de pressão e temperatura do meio atravessado. As ondas mecânicas são divididas em ondas de corpo e de superfície. As ondas de corpo estão categorizadas em dois tipos: as ondas P, longitudinais, e as ondas S, transversais. A onda P é mais rápida, consegue se propagar em todos os meios, tem velocidade entre 4 e 7 km$/$s na crosta terrestre e em torno de 8 km$/$s no manto superior. As ondas S tem velocidade menor, em torno de 3 a 4 $km/$s na crosta, porém a onda S não se propaga em meios líquidos. A diferença de velocidade entre as ondas P e S pode ser observada na Figura \ref{simograma_componentes}.
 
-Para produzir esta análise sobre a estrutura da região de estudo pelo método da Função do Receptor, \cite{langston_structure_1979}, utilizou-se de um conjunto de dados com eventos sísmicos registrados. Já para a Dispersão de Ondas de Rayleigh, \cite{campillo_long-range_2003} e \cite{shapiro_emergence_2004}, utilizou-se o ruído sísmico ambiental.
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.6]{Figs/sismograma.png}
+\caption{Sismograma da estação SLP01 mostrandos as três componentes do deslocamento gerados pelo terremoto no dia 05/09/2012, com magnitude de 7.59, distância epicentral de $0.01\,^{\circ}$. Os tempos teóricos de chegada das ondas P e S foram calculados utilizando o modelo IASPEI91, estes tempos estão demarcados pelas retas verticais.}
+\label{simograma_componentes}
+\end{figure}
+
+Para produzir esta análise sobre a estrutura da região de estudo pelo método da Função do Receptor, \cite{langston_structure_1979}, utilizou-se de um conjunto de dados com eventos sísmicos registrados, como mostrado na Figura \ref{simograma_componentes}. Já para a Dispersão de Ondas de Rayleigh, \cite{campillo_long-range_2003} e \cite{shapiro_emergence_2004}, utilizou-se o ruído sísmico ambiental, que é mensurado utilizando todo o registro do banco de dados, como mostrado na Figura \ref{simograma}, não apenas dados de eventos.
 
 \section{Tratamento dos Dados}
 
 A caracterização prévia das informações contidas no sinal é imprescindível para o processamento. A primeira avaliação da performance e da qualidade dos dados da estações sismográficas foi feita no software livre PQLX.  A metodologia do PQLX é baseada no trabalho de \cite{McNamara_Buland_2004} que é usado para se obter a informação espectral sísmica dos dados.
 
-A metodoliga de \cite{McNamara_Buland_2004} segmenta a série temporal em intervalos de uma hora, com 50\% de superposição do sinal. Cada janela de hora está separada em 13 intervalos com 75\% de superposição para calcular a densidade de potência espectral, \textit{Power Spectral Density}. As médias obtidas para cada um dos 13 intervalos são usadas para estimar as funções densidade de probabilidade, \textit{Probability Density Functions}, calculados a partir das médias pelo número total de segmentos de hora em hora. 
+A metodoliga de \cite{McNamara_Buland_2004} segmenta a série temporal em intervalos de uma hora, com 50\% de superposição do sinal. Cada janela de hora está separada em 13 intervalos com 75\% de superposição para calcular a densidade de potência espectral, \textit{Power Spectral Density}. Esta é computada pela Transformada Rápida de Fourier dos dados. Para estimar as verdadeiras variações de ruído em cada estação, gerou-se  funções densidade de probabilidade, \textit{Probability Density Functions}, de milhares de densidades de potência espectral.
 
-Essa metodologia de \cite{McNamara_Buland_2004} difere dos métodos habitualmente utilizados, porque não é necessário a visualização de todo conjunto de dados para uma estimativa qualitativa do sinal.  As curvas HNM e LNM, que são o maior nível e menor nível de ruído calculados em várias estações sismográficas no mundo, respectivamente. Estes são valores padrões de diferentes estações, são utilizados para demarcar o limite mínimo e máximo que o nível de ruído pode chegar. A funções densidade de probalibilidade mostram a distribuição das fontes de ruído sísmico. Altas frequências são dominadas por ondas de corpo e períodos longos por ondas de superfícies. Como por exemplo, ruído antrópicos de alta frequência. Ruídos gerados por vento, água e pelo contexto geológico local se apresentam em períodos mais longos. Microssismos apresentam dois picos bem marcantes no espectro do ruído sísmico ambiental, chamados de microssismos primários e secundários, um de 10-16 segundos conhecido como "pico de frequência único" e em altas amplitudes, picos de longo período, de 4-8 segundos encontram-se os "picos de frequênacia dupla".
+Essa metodologia de \cite{McNamara_Buland_2004} difere dos métodos habitualmente utilizados, porque não é necessário a visualização de todo conjunto de dados para uma estimativa qualitativa do sinal.  As curvas HNM e LNM, que são o maior nível e menor nível de ruído calculados em várias estações sismográficas no mundo, respectivamente, como pode ser observado nas curvas em preto na Figura \ref{PQLX}. Estes são valores padrões são utilizados para demarcar o limite mínimo e máximo ideal do nível de ruído. A funções densidade de probalibilidade mostram a distribuição das fontes de ruído sísmico. Períodos curtos são dominados por ondas de corpo e períodos longos por ondas de superfícies, demarcado na Figura \ref{PQLX}. Como por exemplo, ruído antrópicos de curto período e ruídos gerados por vento, água e pelo geologia local se apresentam em períodos mais longos (Figura \ref{PQLX}).
 
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.6]{Figs/mcnamura_buland.png}
-\caption[Análise qualitativa do sinal atraves das funções densidade de probabilidade]{Análise qualitativa do sinal atraves das funções densidade de probabilidade,\textit{Power Density Functions}, segundo \cite{McNamara_Buland_2004}.}
+\caption[Análise qualitativa do sinal atraves das funções densidade de probabilidade]{Análise qualitativa do sinal atraves das funções densidade de probabilidade,\textit{Power Density Functions}, segundo \cite{McNamara_Buland_2004}. Exemplo de funções densidade de probabilidade para a estação HLID BHZ. Este gráfico foi construído utilizando 13.636 PSDs no período de setembro de 2000 a setembro de 2003.}
 \label{PQLX}
 \end{figure}
 
-O produto de uma análise qualitativa preliminar nos gráficos gerados pelo programa PQLX é mostrado na Figura \ref{PQLX_results}, que tem como exemplos a componente HHZ nas estações STA05, STA04 e STA24. Observando os resultados nas estações temporárias conclui-se que existem registros bons e confiáveis, como exemplo a Figura \ref{PQLX_results}-A. Porém em algumas estações existem pequenos problemas, que são caracterizados por tendências lineares, como observados na Figura \ref{PQLX_results}-B. Já em outras estações pode-se constatar a falta de registros na componente HHZ,   possíveis problemas instrumentais, observado na Figura \ref{PQLX_results}-C.
+O produto de uma análise qualitativa preliminar nos gráficos gerados pelo programa PQLX é mostrado na Figura \ref{PQLX_results}, que tem como exemplos a componente HHZ nas estações STA05, STA04 e STA24. Comparando os resultados obtidos nas estações temporárias com os padrões mostrados por \cite{McNamara_Buland_2004} conclui-se que existem registros bons e confiáveis, como exemplo a Figura \ref{PQLX_results}-A. Porém em algumas estações existem problemas, que são caracterizados por retas inclinadas, como observados na Figura \ref{PQLX_results}-B, que podem estar associadas a calibrações na estação sismográfica. Já em outras estações pode-se constatar a falta de registros na componente HHZ, possíveis problemas na mídia física que grava os dados, observado na Figura \ref{PQLX_results}-C.
 
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.3]{Figs/pqlx_results.png}
-\caption{Exemplos de resultados gerados pela análise qualitativa do sinal atraves do programa PQLX, que utiliza o método de \cite{McNamara_Buland_2004}.}
+\caption{Exemplos de resultados gerados pela análise qualitativa do sinal atraves do programa PQLX para as componentes verticais das estações STA05, STA05 e STA24 respectivamente.}
 \label{PQLX_results}
 \end{figure}
 
 \subsection{Processamento da Função do Receptor}
 
-Os dados utilizados para os cálculos da Função do Receptor foram dados coletados em 24 estações temporárias da Rede SUBSAL e na estação permanente SLP01, esta pertencente a rede RSIS, parte da Rede Simosgráfica Brasileira (RSB), \url{www.rsbr.gov.br}, observado na Figura \ref{map_loc}. Porém ao final agregou-se estações pertencentes à Universidade de São Paulo (USP), citados por \cite{Assumpcao_Brazil_2013}. 
+Os dados utilizados para os cálculos da Função do Receptor foram dados coletados em 24 estações temporárias da Rede SUBSAL e na estação permanente SLP01, esta pertencente a rede RSIS, parte da Rede Simosgráfica Brasileira (RSB), \url{www.rsbr.gov.br}, observado na Figura \ref{map_loc}. Porém ao final agregou-se informações coletadas de estações pertencentes à Universidade de São Paulo (USP), citados por \cite{Assumpcao_Brazil_2013}. 
 
-Para assegurar a confiabilidade do processamento é necessário um tratamento preliminar dos sinais. Utilizou-se eventos catalogados na rede IRIS, \textit{Incorporated Research Institutions for Seismology}\url{http://www.iris.edu/hq/}, para uma identificação automática nestes sinais. Alguns pré-requisitos foram utilizados para a escolha dos eventos, como:
+Para assegurar a confiabilidade do processamento é necessário um tratamento preliminar dos sinais. Utilizou-se eventos catalogados na rede IRIS, \textit{Incorporated Research Institutions for Seismology}\url{http://www.iris.edu/hq/}, para uma identificação automática de eventos sísmicos ocorridos na mesma época dos dados. Alguns pré-requisitos foram utilizados para a escolha dos eventos, como:
 
 \begin{enumerate}
 \item Distância Epicentral (Entre 20º e 95º);
 \item Magnitude ($\geq$ 5.5);
 \end{enumerate}
 
-A distância epicentral é tida como ideal entre 20 e 95 graus, como é observado na Figura \ref{mapa_eventos}. Sismos próximos (distância menor que 20 graus) geram ondas com incidência oblíqua e produzem uma triplicação característica. Esta se refere a fases de ondas sísmicas que possuem um parâmetro do raio similar e possuem os tempos de chegada das reflexões das ondes bem próximos, \cite{stahler_triplicated_2012}, logo devem ser processados de maneira diferente. Em sismos com distâncias maiores que 95 graus as ondas P não chegam na estação devido a inversão de velocidade no limite manto-núcleo, diminuição da velocidade da onda P entre o manto e o núcleo, e não é observada a onda P direta. Devido grande parte dos sismos serem oriundos da Cordilheira dos Andes, como é visto na Figura \ref{teste_tempo}, também utilizou-se dados com distâncias menores que 20 graus. A magnitude do sismo é importante para a propagação da onda, eventos com pequena magnitude não tem energia suficiente para gerar um sinal claro no sismograma.
+A distância epicentral é tida como ideal entre 20 e 95 graus, como é observado na Figura \ref{mapa_eventos}. Sismos com distância epicentral menor que 30 graus geram três fases de ondas sísmicas que possuem um parâmetro do raio similar e tem um tempo de chegada bem próximo na estação, isto é chamado de triplicação, como mostra \cite{stahler_triplicated_2012}, logo devem ser processados de maneira diferente. Em sismos com distâncias maiores que 95 graus as ondas P não chegam na estação devido a inversão de velocidade no limite manto-núcleo, diminuição da velocidade da onda P entre o manto e o núcleo, e não é observada a onda P direta. Devido grande parte dos sismos serem oriundos da Cordilheira dos Andes, como é visto na Figura \ref{mapa_eventos}, também utilizou-se dados com distâncias menores que 20 graus, porém com um tipo de processamento diferenciado. A magnitude do sismo é importante para a propagação da onda, eventos com pequena magnitude não tem energia suficiente para gerar um sinal claro no sismograma.
 
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.5]{Figs/mapa_de_eventos.png}
-\caption[Mapa dos eventos registrados na estação STA08.]{Mapa dos eventos (estrelas) registrados na estação STA08. O limite de 95 graus está indicada em vermelho. Estrelas azuls mostram os eventos com dados de qualidade que são usadas no calculo das Funçoes do Receptor}
+\caption[Mapa dos eventos registrados na estação STA08.]{Mapa dos eventos (estrelas) registrados na estação STA08. O limite de 95 graus está indicada em vermelho. Estrelas azuis mostram os eventos com dados de qualidade que são usadas no cáculo das Funções do Receptor}
 \label{mapa_eventos}
 \end{figure}
 
 Subsequentemente foi feito um janelamento no dado do evento 5 segundos antes e, para eventos perto, 20 segundos, distantes, de 30 a 100 segundos, depois da chegada da onda P, como visto na Figura \ref{simograma}. Após a discriminação e o janelamento do sinal, examina-se visualmente cada registro para certificar que todos os eventos selecionados tem um nível de sinal-ruído bom e fazer a marcação do tempo de chegada da onda P. O tempo de chegada da onda P teórico é calculada pelo modelo de velocidade IASPEI91 de \cite{kennet_iaspei_1991} e é utilizado para ajudar a marcação do tempo de chegada da onda P.
 
-Logo após removeu-se a média e tendência linear dos dados. Aplicou-se um filtro passa-alta com freqüência de corte de 0.1 Hz para eventos com distância entre 20 e 95 graus e de 2 Hz para eventos próximos ($<$20 graus). Os dados originais são reamostrados e interpolados de 0,01 segundos (100 Hz) para 0,025 segundas (40 Hz), porque a informação de alta freqüência não é considerada nesta análise.
+Logo após removeu-se a média e tendência linear dos dados. Aplicou-se um filtro passa-alta com freqüência de corte de 0.1 Hz para eventos com distância entre 20 e 95 graus e de 2 Hz para eventos próximos ($<$20 graus). Os dados originais são reamostrados e interpolados de 0,01 segundos (100 Hz) para 0,025 segundos (40 Hz), porque a informação de alta freqüência não é considerada nesta análise e também para diminuir o tamanho do banco do dados.
 
-Após esta análise preliminar observou-se que algumas estações temporárias, STA22, STA23 e STA24, apresentaram problemas e foram descartadas. As estações STA23 e STA24 apresentaram a componente vertical quebrada, porém as outras componentes estão aptas e serem utilizadas em outros estudos, como Dispersão das Ondas Love. Já a estação STA22 foi descartada pelo curto período de funcionamento, como pode ser visto na Tabela \ref{tabelaDATA}.
+Após esta análise preliminar observou-se que algumas estações temporárias, STA22, STA23 e STA24, apresentaram problemas e foram descartadas. As estações STA23 e STA24 apresentaram a componente vertical quebrada, como pode ser visto na Figura \ref{PQLX_results}-C, porém as outras componentes estão aptas e serem utilizadas em outros estudos, como Dispersão das Ondas Love. Já a estação STA22 foi descartada pelo curto período de funcionamento, como pode ser visto na Tabela \ref{tabelaDATA}.
 
 
 \subsection{Dispersão de Ondas de Rayleigh}
@@ -107,7 +114,7 @@ A garantia da fiabilidade da sincronização do tempo em cada estação é funda
 \label{teste_tempo}
 \end{figure}
 
-Neste trabalho utilizamos uma metodologia conceitualmente semelhante a de \cite{gibbons_identification_2006}. Fez-se a correlação cruzada dos dados de um sismo distante de um par de estações sismográficas próximas. Como a fonte está distante das estações, a correlação cruzada dos sinais deve ser próxima de zero. A estação permanente SLP01 foi utilizada como referência devido a proximidade com as estações do rede SUBSAL. Todos os eventos com magnitude maior que 6.5, sinais claros filtrados entre 0.02 a 1 Hz, utilizados para fazer correlações de cada estação temporária com a estação SLP01.
+Neste trabalho utilizamos uma metodologia conceitualmente semelhante a de \cite{gibbons_identification_2006}. Fez-se a correlação cruzada dos dados de um sismo distante de um par de estações sismográficas próximas. Como a fonte está distante das estações, a correlação dos sinais deve ser próxima de zero. A estação permanente SLP01 foi utilizada como referência devido a proximidade com as estações do rede SUBSAL. Todos os eventos com magnitude maior que 6.5, sinais claros filtrados entre 0.02 a 1 Hz, utilizados para fazer correlações de cada estação temporária com a estação SLP01.
 
 \begin{figure}[!ht]
 \centering
@@ -118,4 +125,5 @@ Neste trabalho utilizamos uma metodologia conceitualmente semelhante a de \cite{
 
 Os gráficos gerados com a correlação cruzada são vistos na Figura \ref{teste_tempo_results}. Os resultados mostram que para a estação STA01 há uma defasagem no tempo, Figura \ref{teste_tempo_results}-B. Tais defasagens podem ter sidos gerados por difentes fatores, como erro no sinal do GPS acoplado à estação, erro instrumental. As Figuras \ref{teste_tempo_results}-C e \ref{teste_tempo_results}-D apresentam a defasagem das correlações cruzadas ao longo do tempo. Nota-se uma relação entre os  dias que ocorreram manutenções nas estações  e a ocorrência de defasagem no sinal, essas manutenções estão demarcados pelas linhas verticais verdes na Figuras \ref{teste_tempo_results}-C e \ref{teste_tempo_results}-D. A Figuras \ref{teste_tempo_results}-D mostra que a estação STA01 apresenta um aumento sistemático na defasagem medida, estes números, 400 e 700 segundos, são verificados na Figura \ref{teste_tempo_results}-B.
 
-Com esse tratamento preliminar dos dados pôde-se selecionar melhor o banco de dados para minimizar os erros gerados no processamento da dispersão das curvas de superfície. Após estes estudos, as estações temporárias STA23 e STA24 foram consideradas impróprias para o cálculos da dispersão das ondas Rayleigh. Porém serão aproveitadas quando for analisada a dispersão das ondas Love, pois as componentes horizontais estão boas. A estação STA22 só possui 4 dias de dados registrados, logo foi descartada da análise.
+Com esse tratamento preliminar dos dados pôde-se selecionar melhor o banco de dados para minimizar os erros gerados no processamento da dispersão das curvas de superfície. Após estes estudos, as estações temporárias STA23 e STA24 foram consideradas impróprias para o cálculos da dispersão das ondas Rayleigh. Porém serão aproveitadas quando for analisada a dispersão das ondas Love, pois as componentes horizontais estão boas. A estação STA22 só possui 4 dias de dados registrados, logo foi descartada da análise. A STA01 apresentou dados com problemas de sincronização após março de 2012, então estes foram descartados no processamento das correlações cruzadas.
+
