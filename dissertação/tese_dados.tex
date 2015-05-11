@@ -37,7 +37,7 @@ O sismograma é gerado pela perturbação do meio pelas ondas  mecânicas que se
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.6]{Figs/sismograma.png}
-\caption{Sismograma da estação SLP01 mostrandos as três componentes do deslocamento gerados pelo terremoto no dia 05/09/2012, com magnitude de 7.59, distância epicentral de $0.01\,^{\circ}$. Os tempos teóricos de chegada das ondas P e S foram calculados utilizando o modelo IASPEI91, estes tempos estão demarcados pelas retas verticais.}
+\caption[Sismograma da estação SLP01 mostrandos as três componentes do deslocamento gerados pelo terremoto no dia 05/09/2012.]{Sismograma da estação SLP01 mostrandos as três componentes do deslocamento gerados pelo terremoto no dia 05/09/2012, com magnitude de 7.59, distância epicentral de $51.4\,^{\circ}$. Os tempos teóricos de chegada das ondas P e S foram calculados utilizando o modelo IASPEI91, estes tempos estão demarcados pelas retas verticais.}
 \label{simograma_componentes}
 \end{figure}
 
@@ -49,12 +49,12 @@ A caracterização prévia das informações contidas no sinal é imprescindíve
 
 A metodoliga de \cite{McNamara_Buland_2004} segmenta a série temporal em intervalos de uma hora, com 50\% de superposição do sinal. Cada janela de hora está separada em 13 intervalos com 75\% de superposição para calcular a densidade de potência espectral, \textit{Power Spectral Density}. Esta é computada pela Transformada Rápida de Fourier dos dados. Para estimar as verdadeiras variações de ruído em cada estação, gerou-se  funções densidade de probabilidade, \textit{Probability Density Functions}, de milhares de densidades de potência espectral.
 
-Essa metodologia de \cite{McNamara_Buland_2004} difere dos métodos habitualmente utilizados, porque não é necessário a visualização de todo conjunto de dados para uma estimativa qualitativa do sinal.  As curvas HNM e LNM, que são o maior nível e menor nível de ruído calculados em várias estações sismográficas no mundo, respectivamente, como pode ser observado nas curvas em preto na Figura \ref{PQLX}. Estes são valores padrões são utilizados para demarcar o limite mínimo e máximo ideal do nível de ruído. A funções densidade de probalibilidade mostram a distribuição das fontes de ruído sísmico. Períodos curtos são dominados por ondas de corpo e períodos longos por ondas de superfícies, demarcado na Figura \ref{PQLX}. Como por exemplo, ruído antrópicos de curto período e ruídos gerados por vento, água e pelo geologia local se apresentam em períodos mais longos (Figura \ref{PQLX}).
+Essa metodologia de \cite{McNamara_Buland_2004} difere dos métodos habitualmente utilizados, porque não é necessário a visualização de todo conjunto de dados para uma estimativa qualitativa do sinal.  As curvas HNM e LNM, que são o maior nível e menor nível de ruído calculados em várias estações sismográficas no mundo, respectivamente, como pode ser observado nas curvas em preto na Figura \ref{PQLX}. Estes são valores empíricos são utilizados como padrões de limite mínimo e máximo do nível de ruído para um estação. A funções densidade de probalibilidade mostram a distribuição das fontes de ruído sísmico. Períodos curtos são dominados por ondas de corpo e períodos longos por ondas de superfícies, demarcado na Figura \ref{PQLX}. Como por exemplo, ruído antrópicos de curto período e ruídos gerados por vento, água e pelo geologia local se apresentam em períodos mais longos (Figura \ref{PQLX}).
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.6]{Figs/mcnamura_buland.png}
-\caption[Análise qualitativa do sinal atraves das funções densidade de probabilidade]{Análise qualitativa do sinal atraves das funções densidade de probabilidade,\textit{Power Density Functions}, segundo \cite{McNamara_Buland_2004}. Exemplo de funções densidade de probabilidade para a estação HLID BHZ. Este gráfico foi construído utilizando 13.636 PSDs no período de setembro de 2000 a setembro de 2003.}
+\includegraphics[scale=0.7]{Figs/mcnamura_buland.png}
+\caption[Análise qualitativa do sinal através das funções densidade de probabilidade]{Análise qualitativa do sinal atraves das funções densidade de probabilidade,\textit{Power Density Functions}, segundo \cite{McNamara_Buland_2004}. Exemplo de funções densidade de probabilidade para a estação HLID BHZ. Este gráfico foi construído utilizando 13.636 PSDs no período de setembro de 2000 a setembro de 2003.}
 \label{PQLX}
 \end{figure}
 
@@ -67,6 +67,7 @@ O produto de uma análise qualitativa preliminar nos gráficos gerados pelo prog
 \label{PQLX_results}
 \end{figure}
 
+\clearpage
 \subsection{Processamento da Função do Receptor}
 
 Os dados utilizados para os cálculos da Função do Receptor foram dados coletados em 24 estações temporárias da Rede SUBSAL e na estação permanente SLP01, esta pertencente a rede RSIS, parte da Rede Simosgráfica Brasileira (RSB), \url{www.rsbr.gov.br}, observado na Figura \ref{map_loc}. Porém ao final agregou-se informações coletadas de estações pertencentes à Universidade de São Paulo (USP), citados por \cite{Assumpcao_Brazil_2013}. 
@@ -101,7 +102,7 @@ Para o cálculo da dispersão das ondas de superfície utilizou-se estações te
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.5]{Figs/sta_corr.png}
-\caption{Mapa com as estações sismográficas utilizadas para a correlação de ruído ambiental sísmico. Ao fundo o mapa geólogico regional mostrado anteriormente.}
+\caption[Mapa com as estações sismográficas utilizadas para a correlação de ruído ambiental sísmico]{Mapa com as estações sismográficas utilizadas para a correlação de ruído ambiental sísmico. Ao fundo o mapa geólogico regional mostrado anteriormente.}
 \label{STA_corr}
 \end{figure}
 
@@ -119,7 +120,7 @@ Neste trabalho utilizamos uma metodologia conceitualmente semelhante a de \cite{
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.3]{Figs/correlacao_tempo_de_chegada_resultado.png}
-\caption[Superposições de correlações entre registros de  eventos com magnitude maior que 6.5 nas estações sismográficas STA10 e SLP01 (A) e  STA01 e SLP01 (B)]{Superposições de correlações entre registros de  eventos com magnitude maior que 6.5 nas estações sismográficas STA10 e SLP01 (A) e  STA01 e SLP01 (B). Na parte inferior mostram o atraso do pico da correlação pelo tempo. As retas verticais verdes mostram os períodos onde teve manutenção do equipamento e as em vermelhas quando a estação não estava funcionando (C e D).}
+\caption[Superposições de correlações entre registros de  eventos com magnitude maior que 6.5 nas estações sismográficas]{Superposições de correlações entre registros de  eventos com magnitude maior que 6.5 nas estações sismográficas STA10 e SLP01 (A) e  STA01 e SLP01 (B). Na parte inferior mostram o atraso do pico da correlação pelo tempo. As retas verticais verdes mostram os períodos onde teve manutenção do equipamento e as em vermelhas quando a estação não estava funcionando (C e D).}
 \label{teste_tempo_results}
 \end{figure}
 

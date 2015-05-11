@@ -67,7 +67,7 @@ E_{T}(\omega) =  \frac{D_{T}(\omega)}{I(\omega)S(\omega)} \simeq \frac{D_{T}(\om
 
 $E_{R}(\omega)$ e $E_{T}(\omega)$ são retransformadas para o domínio do tempo, importante lembrar que nessa técnica a informação da fase é conservada. A componente radial, $E_{R}(\omega)$ , é chamada de Função do Receptor. \cite{langston_structure_1979} resalta que o resultado da série temporal pode ser interpretado diretamente com um sismograma, permitindo que tempo e amplitude de chegadas possam ser examinadas de uma maneira relativamente inequívoca.
 
-\cite{clayton_source_1976}, \cite{langston_structure_1979}, \cite{ligorria_iterative_1999} mostram que o processo de deconvolução possui um instabilidade numérica devido a vários fatores, como o ruído aleatório contido nos dados e a limitação da banda de frequência. Para acabar com os problemas gerados na deconvolução, \cite{clayton_source_1976} introduz-se um nível de amplitude mínimo permitido da fonte, $c$, nomeado de \textit{water-level}, como pode ser visto na Figura \ref{water_level}. Faz-se isso para reduzir componentes de ruídos espúrios e efeitos de pequenos erros na estimação da localização da fonte. Na deconvolução, a maneira de se evitar a divisão por números pequenos é substituir esses valores pequenos no denominador por uma fração do valor máximo do denominador (para todas as frequências), segundo \cite{Ammon_waterlevel_1997}. Esse método pode agir, em alguns casos, como um filtro "passa-baixa", "passa-alta" e "não-passa", como mostrado na Figura \ref{water_level}. 
+\cite{clayton_source_1976}, \cite{langston_structure_1979}, \cite{ligorria_iterative_1999} mostram que o processo de deconvolução possui um instabilidade numérica devido a vários fatores, como o ruído aleatório contido nos dados e a limitação da banda de frequência. Para acabar com os problemas gerados na deconvolução, \cite{clayton_source_1976} introduz-se um nível de amplitude mínimo permitido da fonte, $c$, nomeado de \textit{water-level}, como pode ser visto na Figura \ref{water_level}. Utiliza-se o \textit{water-level} para reduzir componentes de ruídos espúrios e efeitos de pequenos erros na estimação da localização da fonte. Para evitar a divisão por números pequenos na deconvolução substitui-se os valores pequenos do denominador por uma fração do valor máximo do denominador (para todas as frequências), segundo \cite{Ammon_waterlevel_1997}. Esse método pode agir, em alguns casos, como um filtro "passa-baixa", "passa-alta" e "não-passa", como mostrado na Figura \ref{water_level}. 
 
 Lembrando que a inversa de um número complexo pode ser escrito como $\frac{1}{Z} = \frac{Z^{*}}{ZZ^{*}}$, onde $*$ indica o conjugado complexo, substituindo isto na eguação \ref{lang_resposta} teremos:
 
@@ -98,11 +98,11 @@ No processamento dos dados a deconvolução no domínio do tempo feita é de aco
 
 \section{Pós-processamento}
 
-Após gerar sismogramas pela deconvolução Interativa, as séries temporais passaram por um processo de triagem para qualificar as que obtveram melhor resultado. Tal seleção foi feita sob um critério visual observando o formato das Funções do Receptor. Este formato é característico é mostrado por \citep{langston_structure_1979}, onde o maior pico é a onda $P$ direta e o segundo maior pico é caracterizado pela conversão da onda $P$ em $S$ em Moho. Neste etapa procurou-se excluir Funções do receptor que apresentavam baixo sinal-ruído.
+Após gerar sismogramas pela deconvolução Interativa, as séries temporais passaram por um processo de triagem para qualificar as que obtveram melhor resultado. Tal seleção foi feita sob um critério visual, seleção dasdas Funções do Receptor que apresentam um formato  característico mostrado por \citep{langston_structure_1979}, onde o maior pico é a onda $P$ direta e o segundo maior pico é caracterizado pela conversão da onda $P$ em $S$ em Moho. Neste etapa procurou-se excluir Funções do receptor que apresentavam baixo nível sinal-ruído.
 
-Tendo como objetivo a análise da estrutura da crosta, buscou-se inicialmente o cálculo da profundidade de Moho, um importante parâmetro porque é relacionada à geologia e a evolução tectônica da região. \cite{Zhu_Kanamori_2000} propõe um método robusto utilizando a análise das Funções do Receptor para calcular a profundidade de Moho.
+Tendo como objetivo a análise da estrutura da crosta, calculou-se a profundidade de Moho, um importante parâmetro, pois é relacionada à geologia e a evolução tectônica regional. \cite{Zhu_Kanamori_2000} propõe um método robusto utilizando a análise das Funções do Receptor para calcular a profundidade de Moho.
 
-Com um modelo da estrutura da Terra, neste caso o modelo IASPEI 91 de \cite{kennet_iaspei_1991}, utiliza-se as velocidades médias na crosta para calcular as diferenças de tempo teórica entre a onda P direta e a onda P convertida em S, bem como os tempos das outras reverberações na crosta. De posse de uma dada velocidade $v_{P}$, os tempos de chegada podem ser calculados utilizando a profundidade de Moho ($H$), a razão $V_{P}$/$V_{S}$ e o parâmetro do raio ($p$), dependente da localização e da profundidade do evento, e do modelo.
+Com um modelo da estrutura da Terra, neste caso o modelo IASPEI 91 de \cite{kennet_iaspei_1991}, utiliza-se as velocidades médias na crosta para calcular as diferenças de tempo teórica entre a onda P direta e a onda P convertida em S, bem como os tempos das outras reverberações na crosta. De posse de uma dada velocidade $v_{P}$ ($6.4$ $km/s$), os tempos de chegada podem ser calculados utilizando a profundidade de Moho ($H$), a razão $V_{P}$/$V_{S}$ e o parâmetro do raio ($p$), dependente da localização e da profundidade do evento, e do modelo.
 
 \cite{Zhu_Kanamori_2000} mostra que os tempos teóricos entre $P_{S}$ e $P$ podem ser utilizados para estimar a espessura crustal, dado uma velocidade crustal média:
 
@@ -120,13 +120,13 @@ t_{P_{p}P_{s}} = H.{{\sqrt{\frac{1}{V_{s}^{2}} - p^{2}}} + \sqrt{\frac{1}{V_{p}^
 t_{P_{p}S_{s}+P_{s}P_{s}} = H.{{2\sqrt{\frac{1}{V_{s}^{2}}- p^{2}}}}
 \end{eqnarray}
 
-Em situações reais, identificar a conversão $P_{s}$ e as múltiplas é complicado. Medir os tempos de chegada em um único traço da função do receptor pode ser muito difícil devido ao ruído de fundo, espalhamento gerado por heterogeneidades crustais e conversões $P_{s}$ de outras descontinuidades de velocidades. Devido a isso, para aumentar a razão sinal-ruído empilha-se as funções do receptor de uma mesma estação. Esse empilhamento é feito no domínio do tempo para um aglomerado de eventos. Para estimar um valor da espessura crustal \cite{Zhu_Kanamori_2000} propõem um empilhamento $H$-$\kappa$ como sendo a função:
+Em situações reais, identificar a conversão $P_{s}$ e as múltiplas é complicado e medir os tempos de chegada em um único traço da função do receptor pode ser muito difícil devido ao ruído de fundo, espalhamento gerado por heterogeneidades crustais e conversões $P_{s}$ de outras descontinuidades de velocidades. Devido a isso, para aumentar a razão sinal-ruído empilha-se as funções do receptor de uma mesma estação. Esse empilhamento é feito no domínio do tempo para um aglomerado de eventos. Para estimar um valor da espessura crustal \cite{Zhu_Kanamori_2000} propõem um empilhamento $H$-$\kappa$ como sendo a função:
 
 \begin{eqnarray} \label{Hk_stack}
 s(H,\kappa) = \omega_{1}E_{r}(t_{P_{s}}) + \omega_{2}E_{r}(t_{P_{p}P_{s}}) + \omega_{3}E_{r}(t_{P_{p}S_{s}+P_{s}P_{s}})
 \end{eqnarray}
 
-onde $E_{r}$ é a função do receptor radial, os tempos de chegada preditos  $t_{P_{s}}$,  $t_{P_{p}P_{s}}$ e  $t_{P_{p}P_{s}+P_{s}P_{s}}$ correspondente a uma espessura crustal $H$ e a uma razão $V_{p}/V_{s}$ e $\omega_{i}$ são os pesos dos fatores, e $\sum \omega_{i} = 1$, os valores para cada peso pode ser encontrado na Tabela \ref{tabelaMoho} (Anexo 2). 
+onde $E_{r}$ é a função do receptor (componente radial), os tempos de chegada preditos  $t_{P_{s}}$,  $t_{P_{p}P_{s}}$ e  $t_{P_{p}P_{s}+P_{s}P_{s}}$ correspondente a uma espessura crustal $H$ e a uma razão $V_{p}/V_{s}$ e $\omega_{i}$ são os pesos dos fatores, e $\sum \omega_{i} = 1$, os valores para cada peso pode ser encontrado na Tabela \ref{tabelaMoho} (Anexo 2). 
 
 O método faz uma pesquisa, \textit{grid search}, da espessura crustal, $H$, e da razão $v_{P}$/$v_{S}$, $\kappa$, para calcular o tempo de chegada teórico das ondas P convertidas em S e das múltiplas para cada registro. A melhor combinação de $H$ e $\kappa$, é aquela que maximiza o valor do empilhamento das amplitudes reais das funções receptor, significa que os tempos teóricos são semelhantes aos tempos reais encontrados pela forma da função do receptor.
 
@@ -181,13 +181,13 @@ A modelagem das Funções do Receptor mostra-se uma boa opção para compreender
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.22]{Figs/modelagem_RF.png}
-\caption{Funções do Receptor Sintéticas para área abrangida pelo projeto do SUBSAL segundo vários tipos de modelos de velocidade da onda P. O parâmetro de largura do filtro gaussiano (a) utilizado foi 2 e o parâmetro \textit{water level} (c) foi 0.001.}
+\caption[Funções do Receptor Sintéticas para área abrangida pelo projeto do SUBSAL]{Funções do Receptor Sintéticas para área abrangida pelo projeto do SUBSAL segundo vários tipos de modelos de velocidade da onda P. O parâmetro de largura do filtro gaussiano (a) utilizado foi 2 e o parâmetro \textit{water level} (c) foi 0.001.}
 \label{modelagem}
 \end{figure}
 
 Para delimitar as principais feições estruturais da área de estudo utilizou-se de modelos de velocidade simples, 1-D, como visto na Figura \ref{modelagem}-a, apenas com camadas planas, porém tais modelos são condizentes com o contexto geológico local e são exemplos retirados da literatura sobre a região. \cite{Bassini_1986} foi o primeiro a estimar a estrutura crustual para a região da Faixa Riberia, como observado na Figura \ref{modelagem}-b). Mais tarde, \cite{sand_franca_crustal_2004} re-compilou os dados de \cite{Bassini_1986} e propôs um novo modelo de velocidade sísmica da região da Serra do Mar, como visto na Figura \ref{modelagem}-d). Recentemente \cite{flora_solon_ancient_2013} e \cite{Silva_2014} geraram resultados da estrutura crustal regional através dos métodos magnetotelúrico e gravimétrico, respectivamente. Baseando-se nesses resultados, organizou-se um modelo de velocidade sísmica para a região em estudo, como visto na Figura \ref{modelagem}-e). Uma outra opção de modelo sísmico denominado por \cite{sand_franca_crustal_2004} como modelo Sintético pode ser visto na Figura \ref{modelagem}-c). Neste modelo o autor considera que a variação das propriedades físicas da região aumenta progressivamente com a profundidade. Com esses modelos pretende-se mostrar que as estimativas da espessura crustal e razão $V_{p}/V_{s}$ são consistentes com os dados observados.
 
-Toda a demonstração da modelagem e cálculo das Funções do Receptor sintéticas está disponibilizada por \cite{Ammon_waterlevel_1997} em \url{http://eqseis.geosc.psu.edu/~cammon/HTML/RftnDocs/rftn01.html}. O programa utilizado para criar os modelos de velocidade da onda $P$ foi o "\textit{icmod}". Com os valores de velocidade para a onda $P$ utilizou-se o programa "\textit{vplot[s]}" para gerar os dados sobre a velocidade da onda $S$ e densidade. A preparação dos dados sintéticos foi feita pelo programa "\textit{respknt}". O programa "\textit{pwaveqn}" calculou as Funções do Receptor no domínio da frequência para os modelos pré-estabelecidos. O programa "\textit{pwaveqn}" exige como dados de entrada a determinação do parâmetro \textit{water level} e a banda de frequência a ser utilizada. Os parâmetros utilizados para o cálculo das Funções do Receptor estão na Figura \ref{modelagem}.
+Toda a demonstração da modelagem e cálculo das Funções do Receptor sintéticas está disponibilizada por \cite{Ammon_waterlevel_1997} em \url{http://eqseis.geosc.psu.edu/~cammon/HTML/RftnDocs/rftn01.html}. Para criar os modelos de velocidade da onda $P$ utilizou-se o "\textit{icmod}", abreviação de \textit{interactive creation of model} (criação interativa de modelo). Com o modelo de velocidade criado, utilizou o programa "\textit{respknt}" para calcular numericamente a resposta da estrutura para um onda P incidente. Este programa é baseado na matriz de reflexão de \cite{kennett_seismic_1983}, que computa a resposta sísmica de um meio cilíndrico simétrico. Após o cálculo numérico da resposta da estrutura, o programa "\textit{pwaveqn}" calcula as Funções do Receptor no domínio da frequência para os modelos pré-estabelecidos. O programa "\textit{pwaveqn}" exige como dados de entrada a determinação do parâmetro \textit{water level} e a banda de frequência a ser utilizada. Os parâmetros utilizados para o cálculo das Funções do Receptor estão na Figura \ref{modelagem}.
 
 As Funções do Receptor sintéticas apresentadas na Figura \ref{modelagem} mostram uma reflexão característica em torno de 5 segundos onde a onda $P$ se converte em $S$ (primeira reflexão de Moho), como mostra \cite{langston_structure_1979}. Antes dessa reflexão é notável um pulso senoidal em torno de 2.5 segundos nas Figuras \ref{modelagem}-b), \ref{modelagem}-d) e \ref{modelagem}-e). Este pulso está relacionado com a camada superficial de baixa velocidade. Tal camada possui espessura aproximada de 5 quilômetros, análoga a uma bacia sedimentar. No contexto local pode ser representada como a Bacia de Taubaté na região da Faixa Ribeira. As outras reverberações de Moho são bem características, essas múltiplas $PpPs$ e $PpSs+PsPs$ são bem demarcadas em $\sim 13$ e $\sim 19$ segundos neste modelo de velocidade.
 
@@ -198,7 +198,7 @@ Os resultados gerados pelos modelos de velocidade mostram como as Funções do R
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.25]{Figs/perfil_RF_sintetico.png}
-\caption{Perfil com Funções do Receptor Sintéticas para área abrangida pelo projeto do SUBSAL segundo modelos de velocidade Solon-Silva(2014), como mostrado na Figura \ref{modelagem}.}
+\caption[Perfil com Funções do Receptor Sintéticas para área abrangida pelo projeto do SUBSAL]{Perfil com Funções do Receptor Sintéticas para área abrangida pelo projeto do SUBSAL segundo modelos de velocidade Solon-Silva(2014), como mostrado na Figura \ref{modelagem}.}
 \label{perfil_modelagem}
 \end{figure}
 
@@ -221,7 +221,7 @@ O foco principal deste trabalho foram as fases da Função do Receptor relaciona
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.16]{Figs/RF_SLP01_STA08.png}
-\caption[Exemplos de Funções do Receptor e da Componente Transversal para as estações SLP01 (permanete) e STA08 (temporária) distribuídas em função do parâmetro do Raio.]{Exemplos de Funções do Receptor e da Componente Transversal para as estações SLP01(permanete) e STA08(temporária) distribuídas em função do parâmetro do Raio. O primeiro pico significa a chegada da onda $P$ direta. Já o segundo a conversão da onda $P$ em $S$ em Moho. As outras múltiplas geradas em Moho não são observáveis. A linha pontilhada simboliza os tempos de chegada teóricos calculados segundo o modelo IASPEI91 de \cite{kennet_iaspei_1991}. O parâmetro de largura do filtro gaussiano (a) utilizado foi 2 para sismos distantes ($>$20º) e de 15 para sismos próximos ($<$20º). }
+\caption[Exemplos de Funções do Receptor e da Componente Transversal para as estações SLP01 (permanete) e STA08 (temporária)]{Exemplos de Funções do Receptor e da Componente Transversal para as estações SLP01(permanete) e STA08(temporária) distribuídas em função do parâmetro do Raio. O primeiro pico significa a chegada da onda $P$ direta. Já o segundo a conversão da onda $P$ em $S$ em Moho. As outras múltiplas geradas em Moho não são observáveis. A linha pontilhada simboliza os tempos de chegada teóricos calculados segundo o modelo IASPEI91 de \cite{kennet_iaspei_1991}. O parâmetro de largura do filtro gaussiano (a) utilizado foi 2 para sismos distantes ($>$20º) e de 15 para sismos próximos ($<$20º). }
 \label{RF_SLP01_STA08}
 \end{figure}
 
@@ -231,9 +231,18 @@ Com as Funções do Receptor calculadas, utilizou-se a método desenvolvido por 
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.7]{Figs/Interpolacao_Linear.png}
-\caption[Mapa da espessura crustal da região em estudo.]{Mapa da espessura crustal da região em estudo, os valores da espessura de Moho está localizado na Tabela \ref{tabelaMoho} (Anexo 2). Os triângulos representam as estações sismograficas e as cores represetam a espessura de Moho em cada estação. BP-Bacia Paraná, CSF-Cráton do São Francisco, FB-Faixa Brasília, TO-Terreno Oriental  e FR-Faixa Ribeira.}
+\includegraphics[scale=1]{Figs/Interpolacao_Linear.png}
+\caption[Mapa da espessura crustal da região em estudo.]{Mapa da espessura crustal da região em estudo, os valores da espessura de Moho está localizado na Tabela \ref{tabelaMoho} (Anexo 2). Os círculos representam as estações sismográficas e as cores represetam a espessura de Moho em cada estação. O tamanho do círculo em cada estação representa a influência do erro, quanto maior o círculo menor o erro da profundidade de Moho para a estação. BP-Bacia Paraná, CSF-Cráton do São Francisco, FB-Faixa Brasília, TO-Terreno Oriental  e FR-Faixa Ribeira.}
 \label{Interpolacao}
+\end{figure}
+
+O mapa gerado pela interpolação das razões $V_{p}/V_{s}$ para cada estação pode ser visto na Figura \ref{Interpolacao_vpvs}. As razões $V_{p}/V_{s}$ estão na  \ref{tabelaMoho} (Anexo 2). Pode ser visto na  Figura \ref{Interpolacao_vpvs} que a média da razão $V_{p}/V_{s}$ para a região em estudo é por volta de 1.73 a 1.75. Não há um padrão bem estabelecido para a razão $V_{p}/V_{s}$ e as estruturas geológicas da região, porém o que é pode ser distinguido é que próximo a costa da divisa entre o Rio de Janeiro e São Paulo a razão $V_{p}/V_{s}$ é maior que nas outras regiões.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=1]{Figs/Interpolacao_Linear_vpvs.png}
+\caption[Interpolação da razão $V_{p}/V_{s}$ para cada estação.]{Interpolação da razão $V_{p}/V_{s}$ para cada estação. Os círculos representam as estações sismográficas e as cores represetam a razão $V_{p}/V_{s}$ em cada estação. O tamanho do círculo em cada estação representa a influência do erro, quanto maior o círculo menor o erro da razão $V_{p}/V_{s}$ para a estação. BP-Bacia Paraná, CSF-Cráton do São Francisco, FB-Faixa Brasília, TO-Terreno Oriental  e FR-Faixa Ribeira.}
+\label{Interpolacao_vpvs}
 \end{figure}
 
 As Funções do Receptor para cada estação foram empilhadas linearmente para gerar estes perfis, de acordo com o arranjo das estações sismográficas. 
@@ -243,21 +252,21 @@ Identificam-se sinais precursores ao sinal de Moho por volta de 2 a 4 segundos, 
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.15]{Figs/RF_azimute_perfil1.png}
+\includegraphics[scale=0.5]{Figs/RF_azimute_perfil1.png}
 \caption{Seção com as Funções do Receptor empilhadas linearmente segundo o perfil 1 (STA09-STA01). Cada traço foi empilhado linearmente de acordo com seu grupo de backazimute: NE,SE,SW e NW.}
 \label{RF_perfil1}
 \end{figure}
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.15]{Figs/RF_azimute_perfil2.png}
+\includegraphics[scale=0.5]{Figs/RF_azimute_perfil2.png}
 \caption{Seção com as Funções do Receptor empilhadas linearmente segundo o perfil 2 (STA10-SLP01). Cada traço foi empilhado linearmente de acordo com seu grupo de backazimute: NE, SE, SW e NW.}
 \label{RF_perfil2}
 \end{figure}
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale=0.15]{Figs/RF_azimute_perfil3.png}
+\includegraphics[scale=0.5]{Figs/RF_azimute_perfil3.png}
 \caption{Seção com as Funções do Receptor empilhadas linearmente segundo o perfil 3 (STA17-STA21). Cada traço foi empilhado linearmente de acordo com seu grupo de backazimute: NE, SE, SW e NW.}
 \label{RF_perfil3}
 \end{figure}
