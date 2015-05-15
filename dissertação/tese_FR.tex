@@ -11,9 +11,9 @@ O sismômetro registra a velocidade do terreno ao longo das direções Vertical 
 \label{rotacao}
 \end{eqnarray}
 
-onde E é a componente leste-oeste do sismograma, N a componente norte-sul, Z a componente vertical, R a componente radial, T a componente tangencial e $\theta$ o backazimute.
+onde E é a componente leste-oeste do sismograma, N a componente norte-sul, Z a componente vertical, R a componente radial, T a componente tangencial e $\theta$ o backazimute, ângulo entre o Norte da estação sismográfica e a linha que une a estação ao evento sísmico.
 
-O resultado da equação \ref{rotacao} discrimina claramente a contribuição de cada componente  no sismograma. A componente N (norte-sul) transforma-se na componente T (transversal) e guarda os registro da componente horizontal da onda S, chamada de onda SH. A resposta da onda SV é resgistrada na componente radial do sismograma, chamada R, como pode ser visualizada na Figura \ref{sismo_radial}.
+O resultado da equação \ref{rotacao} discrimina claramente a contribuição de cada componente  no sismograma. A componente N (norte-sul) transforma-se na componente T (transversal) e guarda os registro da onda SH. A resposta da onda SV é resgistrada na componente radial do sismograma, chamada R, como pode ser visualizada na Figura \ref{sismo_radial}.
 
 \begin{figure}[!ht]
 \centering
@@ -69,7 +69,7 @@ $E_{R}(\omega)$ e $E_{T}(\omega)$ são retransformadas para o domínio do tempo,
 
 \cite{clayton_source_1976}, \cite{langston_structure_1979}, \cite{ligorria_iterative_1999} mostram que o processo de deconvolução possui um instabilidade numérica devido a vários fatores, como o ruído aleatório contido nos dados e a limitação da banda de frequência. Para acabar com os problemas gerados na deconvolução, \cite{clayton_source_1976} introduz-se um nível de amplitude mínimo permitido da fonte, $c$, nomeado de \textit{water-level}, como pode ser visto na Figura \ref{water_level}. Utiliza-se o \textit{water-level} para reduzir componentes de ruídos espúrios e efeitos de pequenos erros na estimação da localização da fonte. Para evitar a divisão por números pequenos na deconvolução substitui-se os valores pequenos do denominador por uma fração do valor máximo do denominador (para todas as frequências), segundo \cite{Ammon_waterlevel_1997}. Esse método pode agir, em alguns casos, como um filtro "passa-baixa", "passa-alta" e "não-passa", como mostrado na Figura \ref{water_level}. 
 
-Lembrando que a inversa de um número complexo pode ser escrito como $\frac{1}{Z} = \frac{Z^{*}}{ZZ^{*}}$, onde $*$ indica o conjugado complexo, substituindo isto na eguação \ref{lang_resposta} teremos:
+Lembrando que a inversa de um número complexo pode ser escrito como $\frac{1}{Z} = \frac{Z^{*}}{ZZ^{*}}$, onde $*$ indica o conjugado complexo, substituindo isto na equação \ref{lang_resposta} teremos:
 
 \begin{eqnarray}
 E_{R}(\omega) =  \frac{D_{R}(\omega).D^{*}_{v}(\omega)}{\Phi(\omega)}G(\omega)
@@ -98,7 +98,7 @@ No processamento dos dados a deconvolução no domínio do tempo feita é de aco
 
 \section{Pós-processamento}
 
-Após gerar sismogramas pela deconvolução Interativa, as séries temporais passaram por um processo de triagem para qualificar as que obtveram melhor resultado. Tal seleção foi feita sob um critério visual, seleção dasdas Funções do Receptor que apresentam um formato  característico mostrado por \citep{langston_structure_1979}, onde o maior pico é a onda $P$ direta e o segundo maior pico é caracterizado pela conversão da onda $P$ em $S$ em Moho. Neste etapa procurou-se excluir Funções do receptor que apresentavam baixo nível sinal-ruído.
+Após gerar sismogramas pela deconvolução Interativa, as séries temporais passaram por um processo de triagem para qualificar as que obtiveram melhor resultado. Tal seleção foi feita sob um critério visual, seleção das Funções do Receptor que apresentam um formato  característico mostrado por \citep{langston_structure_1979}, onde o maior pico é a onda $P$ direta e o segundo maior pico é caracterizado pela conversão da onda $P$ em $S$ em Moho. Neste etapa procurou-se excluir Funções do receptor que apresentavam baixo nível sinal-ruído.
 
 Tendo como objetivo a análise da estrutura da crosta, calculou-se a profundidade de Moho, um importante parâmetro, pois é relacionada à geologia e a evolução tectônica regional. \cite{Zhu_Kanamori_2000} propõe um método robusto utilizando a análise das Funções do Receptor para calcular a profundidade de Moho.
 

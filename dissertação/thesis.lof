@@ -10,7 +10,7 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Sismograma mostrandos a componente vertical do deslocamento registrado no m\IeC {\^e}s de setembro em 2012.}}{11}{figure.3.3}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Sismograma da esta\IeC {\c c}\IeC {\~a}o SLP01 mostrandos as tr\IeC {\^e}s componentes do deslocamento gerados pelo terremoto no dia 05/09/2012.}}{12}{figure.3.4}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces An\IeC {\'a}lise qualitativa do sinal atrav\IeC {\'e}s das fun\IeC {\c c}\IeC {\~o}es densidade de probabilidade}}{14}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Exemplos de resultados gerados pela an\IeC {\'a}lise qualitativa do sinal atraves do programa PQLX para as componentes verticais das esta\IeC {\c c}\IeC {\~o}es STA05, STA05 e STA24 respectivamente.}}{14}{figure.3.6}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Exemplos de resultados gerados pela an\IeC {\'a}lise qualitativa do sinal atraves do programa PQLX para as componentes verticais das esta\IeC {\c c}\IeC {\~o}es STA05, STA04 e STA24 respectivamente.}}{14}{figure.3.6}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Mapa dos eventos registrados na esta\IeC {\c c}\IeC {\~a}o STA08.}}{16}{figure.3.7}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Mapa com as esta\IeC {\c c}\IeC {\~o}es sismogr\IeC {\'a}ficas utilizadas para a correla\IeC {\c c}\IeC {\~a}o de ru\IeC {\'\i }do ambiental s\IeC {\'\i }smico}}{17}{figure.3.8}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Uma ilustra\IeC {\c c}\IeC {\~a}o esquem\IeC {\'a}tica mostrando a correla\IeC {\c c}\IeC {\~a}o dos tempos de chegada da onda P.}}{18}{figure.3.9}
@@ -43,5 +43,6 @@
 \contentsline {figure}{\numberline {5.10}{\ignorespaces Efeito do crit\IeC {\'e}rio de sele\IeC {\c c}\IeC {\~a}o sucessiva na quantidade de medidas de dispers\IeC {\~a}o remanescentes. Os dados de forma de onda foram filtrados entre o passa-banda 2-50 segundos.}}{57}{figure.5.10}
 \contentsline {figure}{\numberline {5.11}{\ignorespaces 25\%,50\% e 75\% do SRN total das correla\IeC {\c c}\IeC {\~o}es cruzadas em fun\IeC {\c c}\IeC {\~a}o do per\IeC {\'\i }odo. As correla\IeC {\c c}\IeC {\~o}es cruzadas s\IeC {\~a}o calculadas com um filtro passa-banda entre 2 e 50 segundos.}}{57}{figure.5.11}
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Sensibilidade das velocidades de grupo das ondas Rayleigh num per\IeC {\'\i }odo selecionado}}{58}{figure.5.12}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Mosaico contendo as pertuba\IeC {\c c}\IeC {\~o}es nas velocidades de grupo, trajet\IeC {\'o}rias entre as esta\IeC {\c c}\IeC {\~o}es e a resolu\IeC {\c c}\IeC {\~a}o espacial.}}{60}{figure.5.13}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Mosaico contendo as pertuba\IeC {\c c}\IeC {\~o}es nas velocidades de grupo das ondas Rayleigh.}}{60}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Mosaico contendo trajet\IeC {\'o}rias entre as esta\IeC {\c c}\IeC {\~o}es e a resolu\IeC {\c c}\IeC {\~a}o espacial.}}{61}{figure.5.14}
 \addvspace {10\p@ }

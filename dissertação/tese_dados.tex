@@ -49,7 +49,7 @@ A caracterização prévia das informações contidas no sinal é imprescindíve
 
 A metodoliga de \cite{McNamara_Buland_2004} segmenta a série temporal em intervalos de uma hora, com 50\% de superposição do sinal. Cada janela de hora está separada em 13 intervalos com 75\% de superposição para calcular a densidade de potência espectral, \textit{Power Spectral Density}. Esta é computada pela Transformada Rápida de Fourier dos dados. Para estimar as verdadeiras variações de ruído em cada estação, gerou-se  funções densidade de probabilidade, \textit{Probability Density Functions}, de milhares de densidades de potência espectral.
 
-Essa metodologia de \cite{McNamara_Buland_2004} difere dos métodos habitualmente utilizados, porque não é necessário a visualização de todo conjunto de dados para uma estimativa qualitativa do sinal.  As curvas HNM e LNM, que são o maior nível e menor nível de ruído calculados em várias estações sismográficas no mundo, respectivamente, como pode ser observado nas curvas em preto na Figura \ref{PQLX}. Estes são valores empíricos são utilizados como padrões de limite mínimo e máximo do nível de ruído para um estação. A funções densidade de probalibilidade mostram a distribuição das fontes de ruído sísmico. Períodos curtos são dominados por ondas de corpo e períodos longos por ondas de superfícies, demarcado na Figura \ref{PQLX}. Como por exemplo, ruído antrópicos de curto período e ruídos gerados por vento, água e pelo geologia local se apresentam em períodos mais longos (Figura \ref{PQLX}).
+Essa metodologia de \cite{McNamara_Buland_2004} difere dos métodos habitualmente utilizados, porque não é necessário a visualização de todo conjunto de dados para uma estimativa qualitativa do sinal.  As curvas HNM e LNM, que são o maior nível e menor nível de ruído calculados em várias estações sismográficas no mundo, respectivamente, como pode ser observado nas curvas em preto na Figura \ref{PQLX}. Estes são valores empíricos são utilizados como padrões de limite mínimo e máximo do nível de ruído para uma estação. As funções densidade de probalibilidade mostram a distribuição das fontes de ruído sísmico. Períodos curtos são dominados por ondas de corpo e períodos longos por ondas de superfícies, demarcado na Figura \ref{PQLX}. Como por exemplo, ruído antrópicos dominam os períodos mais curtos e ruídos de períodos longos são gerados pela turbulência do vento devido irregularidades topográficas, movimentação de grade quantidade de água e atividades vulcânicas (Figura \ref{PQLX}).
 
 \begin{figure}[!ht]
 \centering
@@ -63,23 +63,23 @@ O produto de uma análise qualitativa preliminar nos gráficos gerados pelo prog
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale=0.3]{Figs/pqlx_results.png}
-\caption{Exemplos de resultados gerados pela análise qualitativa do sinal atraves do programa PQLX para as componentes verticais das estações STA05, STA05 e STA24 respectivamente.}
+\caption{Exemplos de resultados gerados pela análise qualitativa do sinal atraves do programa PQLX para as componentes verticais das estações STA05, STA04 e STA24 respectivamente.}
 \label{PQLX_results}
 \end{figure}
 
 \clearpage
 \subsection{Processamento da Função do Receptor}
 
-Os dados utilizados para os cálculos da Função do Receptor foram dados coletados em 24 estações temporárias da Rede SUBSAL e na estação permanente SLP01, esta pertencente a rede RSIS, parte da Rede Simosgráfica Brasileira (RSB), \url{www.rsbr.gov.br}, observado na Figura \ref{map_loc}. Porém ao final agregou-se informações coletadas de estações pertencentes à Universidade de São Paulo (USP), citados por \cite{Assumpcao_Brazil_2013}. 
+Os dados utilizados para os cálculos da Função do Receptor foram dados coletados em 24 estações temporárias da Rede SUBSAL e na estação permanente SLP01, esta pertencente a rede RSIS, parte da Rede Simosgráfica Brasileira (RSBR), \url{www.rsbr.gov.br}, observado na Figura \ref{map_loc}. Porém ao final agregou-se informações coletadas de estações pertencentes à Universidade de São Paulo (USP), citados por \cite{Assumpcao_Brazil_2013}. 
 
 Para assegurar a confiabilidade do processamento é necessário um tratamento preliminar dos sinais. Utilizou-se eventos catalogados na rede IRIS, \textit{Incorporated Research Institutions for Seismology}\url{http://www.iris.edu/hq/}, para uma identificação automática de eventos sísmicos ocorridos na mesma época dos dados. Alguns pré-requisitos foram utilizados para a escolha dos eventos, como:
 
 \begin{enumerate}
-\item Distância Epicentral (Entre 20º e 95º);
+\item Distância Epicentral ( $>$ 95º);
 \item Magnitude ($\geq$ 5.5);
 \end{enumerate}
 
-A distância epicentral é tida como ideal entre 20 e 95 graus, como é observado na Figura \ref{mapa_eventos}. Sismos com distância epicentral menor que 30 graus geram três fases de ondas sísmicas que possuem um parâmetro do raio similar e tem um tempo de chegada bem próximo na estação, isto é chamado de triplicação, como mostra \cite{stahler_triplicated_2012}, logo devem ser processados de maneira diferente. Em sismos com distâncias maiores que 95 graus as ondas P não chegam na estação devido a inversão de velocidade no limite manto-núcleo, diminuição da velocidade da onda P entre o manto e o núcleo, e não é observada a onda P direta. Devido grande parte dos sismos serem oriundos da Cordilheira dos Andes, como é visto na Figura \ref{mapa_eventos}, também utilizou-se dados com distâncias menores que 20 graus, porém com um tipo de processamento diferenciado. A magnitude do sismo é importante para a propagação da onda, eventos com pequena magnitude não tem energia suficiente para gerar um sinal claro no sismograma.
+A distância epicentral é tida como ideal entre 30 e 95 graus, como é observado na Figura \ref{mapa_eventos}. Sismos com distância epicentral menor que 30 graus geram três fases de ondas sísmicas que possuem um parâmetro do raio similar e tem um tempo de chegada bem próximo na estação, isto é chamado de triplicação, como mostra \cite{stahler_triplicated_2012}. Então há um problema quando utiliza-se o parâmetro do raio errado para um evento, logo esse tipo de dado deve ser processado com uma certa cautela. Em sismos com distâncias maiores que 95 graus as ondas P não chegam na estação devido a inversão de velocidade no limite manto-núcleo, diminuição da velocidade da onda P entre o manto e o núcleo, e não é observada a onda P direta. Devido grande parte dos sismos serem oriundos da Cordilheira dos Andes, como é visto na Figura \ref{mapa_eventos}, também utilizou-se dados com distâncias menores que 20 graus, porém com um tipo de processamento diferenciado. A magnitude do sismo é importante para a propagação da onda, eventos com pequena magnitude não tem energia suficiente para gerar um sinal claro no sismograma.
 
 \begin{figure}[!ht]
 \centering
