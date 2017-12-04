@@ -1,0 +1,291 @@
+\begin{thebibliography}{27}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Allen and Armitage(2012)]{allen_cratonic_2012}
+Philip~A. Allen and John~J. Armitage.
+\newblock Cratonic {Basins}.
+\newblock In Cathy Busby and Antonio Azor, editors, \emph{Tectonics of
+  {Sedimentary} {Basins}}, pages 602--620. John Wiley \& Sons, Ltd, 2012.
+\newblock ISBN 9781444347166.
+\newblock URL
+  \url{http://onlinelibrary.wiley.com/doi/10.1002/9781444347166.ch30/summary}.
+\newblock DOI: 10.1002/9781444347166.ch30.
+
+\bibitem[Armitage and Allen(2010)]{armitage_subsidence_2010}
+John Armitage and Philip Allen.
+\newblock Cratonic basins and the long-term subsidence history of continental
+  interiors.
+\newblock \emph{Journal of the Geological Society}, 167:\penalty0 61--70, 2010.
+\newblock ISSN 0016-7649.
+\newblock \doi{10.1144/0016-76492009-108}.
+
+\bibitem[Assumpção et~al.(2013{\natexlab{a}})Assumpção, Bianchi, Julià,
+  Dias, Sand~França, Nascimento, Drouet, Pavão, Albuquerque, and
+  Lopes]{assumpcao_crustal_2013}
+Marcelo Assumpção, Marcelo Bianchi, Jordi Julià, Fábio~L. Dias, George
+  Sand~França, Rosana Nascimento, Stéphane Drouet, César~Garcia Pavão,
+  Diogo~Farrapo Albuquerque, and Afonso E.~V. Lopes.
+\newblock Crustal thickness map of brazil: Data compilation and main features.
+\newblock \emph{Journal of South American Earth Sciences}, 43:\penalty0 74--85,
+  2013{\natexlab{a}}.
+\newblock ISSN 0895-9811.
+\newblock \doi{10.1016/j.jsames.2012.12.009}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0895981113000059}.
+
+\bibitem[Assumpção et~al.(2013{\natexlab{b}})Assumpção, Feng, Tassara, and
+  Julià]{assumpcao_models_2013}
+Marcelo Assumpção, Mei Feng, Andrés Tassara, and Jordi Julià.
+\newblock Models of crustal thickness for south america from seismic
+  refraction, receiver functions and surface wave tomography.
+\newblock \emph{Tectonophysics}, 609:\penalty0 82--96, 2013{\natexlab{b}}.
+\newblock ISSN 0040-1951.
+\newblock \doi{10.1016/j.tecto.2012.11.014}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0040195112007330}.
+
+\bibitem[Brito~Neves et~al.(1984)Brito~Neves, Fuck, Cordani, and
+  Thomaz]{de_brito_neves_influence_1984}
+B.B. Brito~Neves, R.A. Fuck, U.G. Cordani, and F.A. Thomaz.
+\newblock Influence of basement structures on the evolution of the major
+  sedimentary basins of brazil: A case of tectonic heritage.
+\newblock \emph{Journal of Geodynamics}, 1\penalty0 (3):\penalty0 495--510,
+  1984.
+\newblock ISSN 02643707.
+\newblock \doi{10.1016/0264-3707(84)90021-8}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/0264370784900218}.
+
+\bibitem[Cordani et~al.(2009)Cordani, Brito~Neves, and A.]{cordani_bacia_2009}
+U.G. Cordani, B.B. Brito~Neves, and Thomaz~Filho A.
+\newblock Estudo preliminar de integração do pré-cambriano com os eventos
+  tectônicos das bacias sedimentares brasileiras(atualização).
+\newblock \emph{Boletim de Geociências da Petrobras}, 17\penalty0
+  (1):\penalty0 205--219, 2009.
+
+\bibitem[Daly et~al.(2014)Daly, Andrade, Barousse, Costa, {McDowell}, Piggott,
+  and Poole]{daly_brasiliano_2014}
+Michael~C. Daly, Vander Andrade, Chuck~A. Barousse, Rafaela Costa, Kenneth
+  {McDowell}, Neil Piggott, and Alan~J. Poole.
+\newblock Brasiliano crustal structure and the tectonic setting of the
+  parnaíba basin of {NE} brazil: Results of a deep seismic reflection profile.
+\newblock \emph{Tectonics}, 33\penalty0 (11):\penalty0 2014TC003632, 2014.
+\newblock ISSN 1944-9194.
+\newblock \doi{10.1002/2014TC003632}.
+\newblock URL
+  \url{http://onlinelibrary.wiley.com/doi/10.1002/2014TC003632/abstract}.
+
+\bibitem[de~Castro et~al.(2014)de~Castro, Fuck, Phillips, Vidotti, Bezerra, and
+  Dantas]{de_castro_crustal_2014}
+David~L. de~Castro, Reinhardt~A. Fuck, Jeffrey~D. Phillips, Roberta~M. Vidotti,
+  Francisco H.~R. Bezerra, and Elton~L. Dantas.
+\newblock Crustal structure beneath the paleozoic parnaíba basin revealed by
+  airborne gravity and magnetic data, brazil.
+\newblock \emph{Tectonophysics}, 614:\penalty0 128--145, 2014.
+\newblock ISSN 0040-1951.
+\newblock \doi{10.1016/j.tecto.2013.12.009}.
+\newblock URL \url{http://adsabs.harvard.edu/abs/2014Tectp.614..128D}.
+
+\bibitem[de~Castro et~al.(2016)de~Castro, Bezerra, Fuck, and
+  Vidotti]{de_castro_geophysical_2016}
+David~Lopes de~Castro, Francisco~Hilário Bezerra, Reinhardt~Adolfo Fuck, and
+  Roberta~Mary Vidotti.
+\newblock Geophysical evidence of pre-sag rifting and post-rifting fault
+  reactivation in the parnaíba basin, brazil.
+\newblock \emph{Solid Earth}, 7\penalty0 (2):\penalty0 529--548, 2016.
+\newblock ISSN 1869-9510.
+\newblock \doi{10.5194/se-7-529-2016}.
+\newblock URL
+  \url{http://www.solid-earth.net/7/529/2016/se-7-529-2016-discussion.html}.
+
+\bibitem[de~Oliveira and Mohriak(2003)]{de_oliveira_jaibaras_2003}
+Diógenes~Custódio de~Oliveira and Webster~Ueipass Mohriak.
+\newblock Jaibaras trough: an important element in the early tectonic evolution
+  of the parnaíba interior sag basin, northern brazil.
+\newblock \emph{Marine and Petroleum Geology}, 20\penalty0 (3-4):\penalty0
+  351--383, March 2003.
+\newblock ISSN 02648172.
+\newblock \doi{10.1016/S0264-8172(03)00044-8}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0264817203000448}.
+
+\bibitem[Feng et~al.(2004)Feng, Assumpção, and Van~der
+  Lee]{feng_group_velocity_2004}
+Mei Feng, Marcelo Assumpção, and Suzan Van~der Lee.
+\newblock Group-velocity tomography and lithospheric s-velocity structure of
+  the south american continent.
+\newblock \emph{Physics of the Earth and Planetary Interiors}, 147\penalty0
+  (4):\penalty0 315--331, 2004.
+\newblock ISSN 0031-9201.
+\newblock \doi{10.1016/j.pepi.2004.07.008}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0031920104002924}.
+
+\bibitem[Feng et~al.(2007)Feng, van~der Lee, and Assumpção]{feng_upper_2007}
+Mei Feng, Suzan van~der Lee, and Marcelo Assumpção.
+\newblock Upper mantle structure of south america from joint inversion of
+  waveforms and fundamental mode group velocities of rayleigh waves.
+\newblock \emph{Journal of Geophysical Research}, 112:\penalty0 B04312, 2007.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/2006JB004449}.
+\newblock URL
+  \url{http://onlinelibrary.wiley.com/doi/10.1029/2006JB004449/abstract}.
+
+\bibitem[Fuck et~al.(2008)Fuck, Brito~Neves, and
+  Schobbenhaus]{fuck_rodinia_2008}
+Reinhardt~A. Fuck, Benjamim~Bley Brito~Neves, and Carlos Schobbenhaus.
+\newblock Rodinia descendants in south america.
+\newblock \emph{Precambrian Research}, 160\penalty0 (1):\penalty0 108--126,
+  2008.
+\newblock ISSN 0301-9268.
+\newblock \doi{10.1016/j.precamres.2007.04.018}.
+\newblock URL
+  \url{//www.sciencedirect.com/science/article/pii/S0301926807001593}.
+
+\bibitem[Goutorbe et~al.(2015)Goutorbe, Coelho, and
+  Drouet]{goutorbe_rayleigh_2015}
+Bruno Goutorbe, Diogo Luiz de~Oliveira Coelho, and Stéphane Drouet.
+\newblock Rayleigh wave group velocities at periods of 6–23 s across brazil
+  from ambient noise tomography.
+\newblock \emph{Geophysical Journal International}, 203\penalty0 (2):\penalty0
+  869--882, November 2015.
+\newblock ISSN 0956-540X, 1365-246X.
+\newblock \doi{10.1093/gji/ggv343}.
+\newblock URL \url{http://gji.oxfordjournals.org/content/203/2/869}.
+
+\bibitem[Góes and Feijó(1994)]{goes_feijo_1994}
+A.M.O. Góes and F.J. Feijó.
+\newblock Bacia do parnaíba.
+\newblock \emph{Boletim de Geociências da Petrobras}, 8:\penalty0 57--67,
+  1994.
+
+\bibitem[Góes(1995)]{goes_formacao_1995}
+Ana~Maria Góes.
+\newblock \emph{Formação {Poti} ({Carbonífero} inferior) da {Bacia} do
+  {Parnaiba}}.
+\newblock text, Universidade de São Paulo, September 1995.
+\newblock URL
+  \url{http://www.teses.usp.br/teses/disponiveis/44/44136/tde-11022014-105309/}.
+\newblock DOI: 10.11606/T.44.1995.tde-11022014-105309.
+
+\bibitem[Hartley and Allen(1994)]{hartley_interior_1994}
+Roxby~W. Hartley and Philip~A. Allen.
+\newblock Interior cratonic basins of africa: relation to continental break-up
+  and role of mantle convection.
+\newblock \emph{Basin Research}, 6\penalty0 (2):\penalty0 95--113, 1994.
+\newblock ISSN 1365-2117.
+\newblock \doi{10.1111/j.1365-2117.1994.tb00078.x}.
+\newblock URL
+  \url{http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2117.1994.tb00078.x/abstract}.
+
+\bibitem[Kaminski and Jaupart(2000)]{kaminski_lithosphere_2000}
+Edouard Kaminski and Claude Jaupart.
+\newblock Lithosphere structure beneath the phanerozoic intracratonic basins of
+  north america.
+\newblock \emph{Earth and Planetary Science Letters}, 178\penalty0
+  (1):\penalty0 139--149, 2000.
+\newblock ISSN 0012-821X.
+\newblock \doi{10.1016/S0012-821X(00)00067-4}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0012821X00000674}.
+
+\bibitem[Lloyd et~al.(2010)Lloyd, van~der Lee, França, Assumpção, and
+  Feng]{lloyd_moho_2010}
+Simon Lloyd, Suzan van~der Lee, George~Sand França, Marcelo Assumpção, and
+  Mei Feng.
+\newblock Moho map of south america from receiver functions and surface waves.
+\newblock \emph{Journal of Geophysical Research: Solid Earth}, 115\penalty0
+  (B11):\penalty0 n/a--n/a, 2010.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/2009JB006829}.
+\newblock URL
+  \url{http://onlinelibrary.wiley.com/doi/10.1029/2009JB006829/abstract}.
+
+\bibitem[McKenzie(1978)]{mckenzie_remarks_1978}
+Dan McKenzie.
+\newblock Some remarks on the development of sedimentary basins.
+\newblock \emph{Earth and Planetary Science Letters}, 40\penalty0 (1):\penalty0
+  25--32, June 1978.
+\newblock ISSN 0012-821X.
+\newblock \doi{10.1016/0012-821X(78)90071-7}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0012821X78900717}.
+
+\bibitem[McKenzie and Priestley(2016)]{mkenzie_speculations_2016}
+Dan McKenzie and Keith Priestley.
+\newblock Speculations on the formation of cratons and cratonic basins.
+\newblock \emph{Earth and Planetary Science Letters}, 435\penalty0 (Supplement
+  C):\penalty0 94--104, February 2016.
+\newblock ISSN 0012-821X.
+\newblock \doi{10.1016/j.epsl.2015.12.010}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0012821X15007736}.
+
+\bibitem[Merle et~al.(2011)Merle, Marzoli, Bertrand, Reisberg, Verati,
+  Zimmermann, Chiaradia, Bellieni, and Ernesto]{merle_40ar_39ar_2011}
+Renaud Merle, Andrea Marzoli, Hervé Bertrand, Laurie Reisberg, Chrystèle
+  Verati, Catherine Zimmermann, Massimo Chiaradia, Giuliano Bellieni, and
+  Marcia Ernesto.
+\newblock 40ar/39ar ages and sr–nd–pb–os geochemistry of camp tholeiites
+  from western maranhão basin ne brazil.
+\newblock \emph{Lithos}, 122\penalty0 (3–4):\penalty0 137--151, March 2011.
+\newblock ISSN 0024-4937.
+\newblock \doi{10.1016/j.lithos.2010.12.010}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0024493710003531}.
+
+\bibitem[Mocitaiba et~al.(2017)Mocitaiba, Castro, and
+  Oliveira]{mocitaiba_cartografia_2017}
+Leonardo Silva~Ribeiro Mocitaiba, David Lopes~de Castro, and Diógenes
+  Custódio~de Oliveira.
+\newblock Cartografia geofísica regional do magmatismo mesozoico na bacia do
+  parnaíba.
+\newblock \emph{Geologia USP. Série Científica}, 17\penalty0 (2):\penalty0
+  169--192, August 2017.
+\newblock ISSN 2316-9095.
+\newblock \doi{10.11606/issn.2316-9095.v17-455}.
+\newblock URL \url{http://www.revistas.usp.br/guspsc/article/view/134870}.
+
+\bibitem[Tozer et~al.(2017)Tozer, Watts, and Daly]{tozer_crustal_2017}
+B.~Tozer, A.~B. Watts, and M.~C. Daly.
+\newblock Crustal structure, gravity anomalies, and subsidence history of the
+  parnaíba cratonic basin, northeast brazil.
+\newblock \emph{Journal of Geophysical Research: Solid Earth}, 122\penalty0
+  (7):\penalty0 2017JB014348, July 2017.
+\newblock ISSN 2169-9356.
+\newblock \doi{10.1002/2017JB014348}.
+\newblock URL
+  \url{http://onlinelibrary.wiley.com/doi/10.1002/2017JB014348/abstract}.
+
+\bibitem[Uieda and Barbosa(2017)]{uieda_fast_2017}
+Leonardo Uieda and Valéria C.~F. Barbosa.
+\newblock Fast nonlinear gravity inversion in spherical coordinates with
+  application to the south american moho.
+\newblock \emph{Geophysical Journal International}, 208\penalty0 (1):\penalty0
+  162--176, 2017.
+\newblock ISSN 0956-540X.
+\newblock \doi{10.1093/gji/ggw390}.
+\newblock URL
+  \url{https://academic.oup.com/gji/article-abstract/208/1/162/2417303/Fast-nonlinear-gravity-inversion-in-spherical}.
+
+\bibitem[van~der Meijde et~al.(2013)van~der Meijde, Julià, and
+  Assumpção]{van_der_meijde_gravity_2013}
+M.~van~der Meijde, J.~Julià, and M.~Assumpção.
+\newblock Gravity derived moho for south america.
+\newblock \emph{Tectonophysics}, 609:\penalty0 456--467, 2013.
+\newblock ISSN 0040-1951.
+\newblock \doi{10.1016/j.tecto.2013.03.023}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0040195113001972}.
+
+\bibitem[Vaz et~al.(2007)Vaz, Rezende, W., and Travassos]{vaz_bacia_2007}
+P.T. Vaz, N.A.M. Rezende, Filho~J.R. W., and W.A.S. Travassos.
+\newblock Bacia do parnaíba.
+\newblock \emph{Boletim de Geociências da Petrobras}, 15\penalty0
+  (2):\penalty0 253--263, 2007.
+
+\end{thebibliography}

@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: resumo.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: chapter1.aux
+A level-1 auxiliary file: chapter2.aux
+A level-1 auxiliary file: chapter3.aux
+A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: chapter5.aux
+A level-1 auxiliary file: chapter6.aux
+The style file: plainnat.bst
+Database file #1: refs.bib
+Warning--I'm ignoring lloyd_moho_2010's extra "issn" field
+--line 688 of file refs.bib
+Warning--I'm ignoring lloyd_moho_2010's extra "doi" field
+--line 689 of file refs.bib
+You've used 27 entries,
+            2773 wiz_defined-function locations,
+            840 strings with 13052 characters,
+and the built_in function-call counts, 15291 in all, are:
+= -- 1488
+> -- 940
+< -- 11
++ -- 315
+- -- 287
+* -- 1425
+:= -- 2428
+add.period$ -- 152
+call.type$ -- 27
+change.case$ -- 176
+chr.to.int$ -- 26
+cite$ -- 54
+duplicate$ -- 566
+empty$ -- 1084
+format.name$ -- 330
+if$ -- 3145
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 26
+newline$ -- 213
+num.names$ -- 110
+pop$ -- 235
+preamble$ -- 1
+purify$ -- 149
+quote$ -- 0
+skip$ -- 435
+stack$ -- 0
+substring$ -- 690
+swap$ -- 46
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 297
+warning$ -- 0
+while$ -- 132
+width$ -- 0
+write$ -- 499
+(There were 2 warnings)

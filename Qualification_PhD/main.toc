@@ -1,0 +1,17 @@
+\select@language {portuguese}
+\contentsline {chapter}{Resumo}{i}
+\contentsline {chapter}{Abstract}{iii}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}
+\contentsline {section}{\numberline {1.1}Escopo}{1}
+\contentsline {section}{\numberline {1.2}Objetivos}{1}
+\contentsline {section}{\numberline {1.3}Justificativa}{2}
+\contentsline {section}{\numberline {1.4}Cronograma de Execu\IeC {\c c}\IeC {\~a}o}{3}
+\contentsline {chapter}{\numberline {2}Modelos de Forma\IeC {\c c}\IeC {\~a}o de Bacias Intracrat\IeC {\^o}nicas}{5}
+\contentsline {chapter}{\numberline {3}Arcabou\IeC {\c c}o Geol\IeC {\'o}gico da Bacia do Parna\IeC {\'\i }ba}{7}
+\contentsline {section}{\numberline {3.1}Preenchimento Sedimentar}{7}
+\contentsline {section}{\numberline {3.2}Magmatismo}{9}
+\contentsline {section}{\numberline {3.3}Tect\IeC {\^o}nica}{10}
+\contentsline {chapter}{\numberline {4}Artigo: Deep crustal architecture of the Parna\IeC {\'\i }ba basin of NE Brazil from receiver function analysis: Implications for basin subsidence}{12}
+\contentsline {chapter}{\numberline {5}Artigo: Receiver function imaging of mantle transition zone discontinuities beneath Parna\IeC {\'\i }ba Basin}{53}
+\contentsline {chapter}{\numberline {6}Artigo: Ambient noise tomography across Parna\IeC {\'\i }ba Basin}{55}
+\contentsline {chapter}{Bibliografia}{57}

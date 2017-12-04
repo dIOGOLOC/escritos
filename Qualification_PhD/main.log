@@ -1,0 +1,1689 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.1)  27 NOV 2017 16:27
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2017/01/01> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./ociamthesis.cls
+Document Class: ociamthesis 2010/11/22 v2.2 OCIAM thesis class
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/02/22 v2.0g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/02/22 v2.0g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen105
+)
+Package babel Info: Making " an active character on input line 145.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count90
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count91
+\calc@Bcount=\count92
+\calc@Adimen=\dimen106
+\calc@Bdimen=\dimen107
+\calc@Askip=\skip45
+\calc@Bskip=\skip46
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count93
+\calc@Cskip=\skip47
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen108
+\AM@pageheight=\dimen109
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box26
+\AM@global@opts=\toks18
+\AM@toc@title=\toks19
+\c@AM@survey=\count94
+\AM@templatesizebox=\box27
+) (./main.aux
+(./resumo.aux) (./abstract.aux) (./chapter1.aux) (./chapter2.aux)
+(./chapter3.aux) (./chapter4.aux) (./chapter5.aux
+
+LaTeX Warning: Label `mapa_sta_mantle' multiply defined.
+
+) (./chapter6.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count95
+\scratchdimen=\dimen110
+\scratchbox=\box28
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen111
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
+\everyMPtoPDFconversion=\toks21
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box29
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+))
+<brasao_ufrn.png, id=1, 150.5625pt x 159.7167pt>
+File: brasao_ufrn.png Graphic file (type png)
+ <use brasao_ufrn.png>
+Package pdftex.def Info: brasao_ufrn.png used on input line 51.
+(pdftex.def)             Requested size: 142.26378pt x 150.92819pt.
+ [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./brasao_ufrn.png>]
+\openout2 = `resumo.aux'.
+
+
+(./resumo.tex) [1
+
+
+
+] [2]
+\openout2 = `abstract.aux'.
+
+ (./abstract.tex) [3
+
+
+
+] [4] (./main.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [5
+
+
+]
+\openout2 = `chapter1.aux'.
+
+ (./chapter1.tex
+Cap\'{\i }tulo 1.
+[1
+
+
+
+] [2] <Fig/cronograma.pdf, id=38, 597.23125pt x 845.1575pt>
+File: Fig/cronograma.pdf Graphic file (type pdf)
+
+<use Fig/cronograma.pdf>
+Package pdftex.def Info: Fig/cronograma.pdf used on input line 35.
+(pdftex.def)             Requested size: 433.62pt x 613.63268pt.
+
+
+LaTeX Warning: Float too large for page by 17.53545pt on input line 39.
+
+) [3] [4 <./Fig/cronograma.pdf>]
+\openout2 = `chapter2.aux'.
+
+ (./chapter2.tex
+Cap\'{\i }tulo 2.
+[5
+
+
+
+]) [6]
+\openout2 = `chapter3.aux'.
+
+ (./chapter3.tex
+Cap\'{\i }tulo 3.
+<Fig/mapa_geologico_eras.pdf, id=63, 1195.46625pt x 845.1575pt>
+File: Fig/mapa_geologico_eras.pdf Graphic file (type pdf)
+
+<use Fig/mapa_geologico_eras.pdf>
+Package pdftex.def Info: Fig/mapa_geologico_eras.pdf used on input line 7.
+(pdftex.def)             Requested size: 433.62pt x 306.55196pt.
+ [7
+
+
+
+] [8 <./Fig/mapa_geologico_eras.pdf>]
+[9]) [10] [11]
+\openout2 = `chapter4.aux'.
+
+ (./chapter4.tex
+Cap\'{\i }tulo 4.
+<GSL_paper.pdf, id=86, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf>
+Package pdftex.def Info: GSL_paper.pdf used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf>
+Package pdftex.def Info: GSL_paper.pdf used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ <GSL_paper.pdf, id=89, page=1, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 1>
+Package pdftex.def Info: GSL_paper.pdf, page1 used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 1>
+Package pdftex.def Info: GSL_paper.pdf, page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [12
+
+
+
+]
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 1>
+Package pdftex.def Info: GSL_paper.pdf, page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 1>
+Package pdftex.def Info: GSL_paper.pdf, page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 1>
+Package pdftex.def Info: GSL_paper.pdf, page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [13 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=141, page=2, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 2>
+Package pdftex.def Info: GSL_paper.pdf, page2 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 2>
+Package pdftex.def Info: GSL_paper.pdf, page2 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 2>
+Package pdftex.def Info: GSL_paper.pdf, page2 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [14 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=148, page=3, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 3>
+Package pdftex.def Info: GSL_paper.pdf, page3 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 3>
+Package pdftex.def Info: GSL_paper.pdf, page3 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 3>
+Package pdftex.def Info: GSL_paper.pdf, page3 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [15 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=152, page=4, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 4>
+Package pdftex.def Info: GSL_paper.pdf, page4 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 4>
+Package pdftex.def Info: GSL_paper.pdf, page4 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 4>
+Package pdftex.def Info: GSL_paper.pdf, page4 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [16 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=158, page=5, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 5>
+Package pdftex.def Info: GSL_paper.pdf, page5 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 5>
+Package pdftex.def Info: GSL_paper.pdf, page5 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 5>
+Package pdftex.def Info: GSL_paper.pdf, page5 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [17 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=167, page=6, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 6>
+Package pdftex.def Info: GSL_paper.pdf, page6 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 6>
+Package pdftex.def Info: GSL_paper.pdf, page6 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 6>
+Package pdftex.def Info: GSL_paper.pdf, page6 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [18 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=171, page=7, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 7>
+Package pdftex.def Info: GSL_paper.pdf, page7 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 7>
+Package pdftex.def Info: GSL_paper.pdf, page7 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 7>
+Package pdftex.def Info: GSL_paper.pdf, page7 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [19 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=176, page=8, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 8>
+Package pdftex.def Info: GSL_paper.pdf, page8 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 8>
+Package pdftex.def Info: GSL_paper.pdf, page8 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 8>
+Package pdftex.def Info: GSL_paper.pdf, page8 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [20 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=180, page=9, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 9>
+Package pdftex.def Info: GSL_paper.pdf, page9 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 9>
+Package pdftex.def Info: GSL_paper.pdf, page9 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 9>
+Package pdftex.def Info: GSL_paper.pdf, page9 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [21 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=184, page=10, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 10>
+Package pdftex.def Info: GSL_paper.pdf, page10 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 10>
+Package pdftex.def Info: GSL_paper.pdf, page10 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 10>
+Package pdftex.def Info: GSL_paper.pdf, page10 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [22 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=188, page=11, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 11>
+Package pdftex.def Info: GSL_paper.pdf, page11 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 11>
+Package pdftex.def Info: GSL_paper.pdf, page11 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 11>
+Package pdftex.def Info: GSL_paper.pdf, page11 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [23 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=192, page=12, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 12>
+Package pdftex.def Info: GSL_paper.pdf, page12 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 12>
+Package pdftex.def Info: GSL_paper.pdf, page12 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 12>
+Package pdftex.def Info: GSL_paper.pdf, page12 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [24 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=203, page=13, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 13>
+Package pdftex.def Info: GSL_paper.pdf, page13 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 13>
+Package pdftex.def Info: GSL_paper.pdf, page13 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 13>
+Package pdftex.def Info: GSL_paper.pdf, page13 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [25 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=208, page=14, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 14>
+Package pdftex.def Info: GSL_paper.pdf, page14 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 14>
+Package pdftex.def Info: GSL_paper.pdf, page14 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 14>
+Package pdftex.def Info: GSL_paper.pdf, page14 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [26 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=212, page=15, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 15>
+Package pdftex.def Info: GSL_paper.pdf, page15 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 15>
+Package pdftex.def Info: GSL_paper.pdf, page15 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 15>
+Package pdftex.def Info: GSL_paper.pdf, page15 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [27 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=216, page=16, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 16>
+Package pdftex.def Info: GSL_paper.pdf, page16 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 16>
+Package pdftex.def Info: GSL_paper.pdf, page16 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 16>
+Package pdftex.def Info: GSL_paper.pdf, page16 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [28 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=220, page=17, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 17>
+Package pdftex.def Info: GSL_paper.pdf, page17 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 17>
+Package pdftex.def Info: GSL_paper.pdf, page17 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 17>
+Package pdftex.def Info: GSL_paper.pdf, page17 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [29 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=224, page=18, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 18>
+Package pdftex.def Info: GSL_paper.pdf, page18 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 18>
+Package pdftex.def Info: GSL_paper.pdf, page18 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 18>
+Package pdftex.def Info: GSL_paper.pdf, page18 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [30 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=228, page=19, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 19>
+Package pdftex.def Info: GSL_paper.pdf, page19 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 19>
+Package pdftex.def Info: GSL_paper.pdf, page19 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 19>
+Package pdftex.def Info: GSL_paper.pdf, page19 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [31 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=233, page=20, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 20>
+Package pdftex.def Info: GSL_paper.pdf, page20 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 20>
+Package pdftex.def Info: GSL_paper.pdf, page20 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 20>
+Package pdftex.def Info: GSL_paper.pdf, page20 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [32 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=237, page=21, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 21>
+Package pdftex.def Info: GSL_paper.pdf, page21 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 21>
+Package pdftex.def Info: GSL_paper.pdf, page21 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 21>
+Package pdftex.def Info: GSL_paper.pdf, page21 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [33 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=241, page=22, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 22>
+Package pdftex.def Info: GSL_paper.pdf, page22 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 22>
+Package pdftex.def Info: GSL_paper.pdf, page22 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 22>
+Package pdftex.def Info: GSL_paper.pdf, page22 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [34 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=245, page=23, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 23>
+Package pdftex.def Info: GSL_paper.pdf, page23 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 23>
+Package pdftex.def Info: GSL_paper.pdf, page23 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 23>
+Package pdftex.def Info: GSL_paper.pdf, page23 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [35 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=249, page=24, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 24>
+Package pdftex.def Info: GSL_paper.pdf, page24 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 24>
+Package pdftex.def Info: GSL_paper.pdf, page24 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 24>
+Package pdftex.def Info: GSL_paper.pdf, page24 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [36 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=253, page=25, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 25>
+Package pdftex.def Info: GSL_paper.pdf, page25 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 25>
+Package pdftex.def Info: GSL_paper.pdf, page25 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 25>
+Package pdftex.def Info: GSL_paper.pdf, page25 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [37 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=258, page=26, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 26>
+Package pdftex.def Info: GSL_paper.pdf, page26 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 26>
+Package pdftex.def Info: GSL_paper.pdf, page26 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 26>
+Package pdftex.def Info: GSL_paper.pdf, page26 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [38 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=262, page=27, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 27>
+Package pdftex.def Info: GSL_paper.pdf, page27 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 27>
+Package pdftex.def Info: GSL_paper.pdf, page27 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 27>
+Package pdftex.def Info: GSL_paper.pdf, page27 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [39 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=266, page=28, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 28>
+Package pdftex.def Info: GSL_paper.pdf, page28 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 28>
+Package pdftex.def Info: GSL_paper.pdf, page28 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 28>
+Package pdftex.def Info: GSL_paper.pdf, page28 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [40 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=270, page=29, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 29>
+Package pdftex.def Info: GSL_paper.pdf, page29 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 29>
+Package pdftex.def Info: GSL_paper.pdf, page29 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 29>
+Package pdftex.def Info: GSL_paper.pdf, page29 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [41 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=291, page=30, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 30>
+Package pdftex.def Info: GSL_paper.pdf, page30 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 30>
+Package pdftex.def Info: GSL_paper.pdf, page30 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 30>
+Package pdftex.def Info: GSL_paper.pdf, page30 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [42 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=310, page=31, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 31>
+Package pdftex.def Info: GSL_paper.pdf, page31 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 31>
+Package pdftex.def Info: GSL_paper.pdf, page31 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 31>
+Package pdftex.def Info: GSL_paper.pdf, page31 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [43 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=315, page=32, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 32>
+Package pdftex.def Info: GSL_paper.pdf, page32 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 32>
+Package pdftex.def Info: GSL_paper.pdf, page32 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 32>
+Package pdftex.def Info: GSL_paper.pdf, page32 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [44 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=319, page=33, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 33>
+Package pdftex.def Info: GSL_paper.pdf, page33 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 33>
+Package pdftex.def Info: GSL_paper.pdf, page33 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 33>
+Package pdftex.def Info: GSL_paper.pdf, page33 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [45 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=341, page=34, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 34>
+Package pdftex.def Info: GSL_paper.pdf, page34 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 34>
+Package pdftex.def Info: GSL_paper.pdf, page34 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 34>
+Package pdftex.def Info: GSL_paper.pdf, page34 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [46 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=369, page=35, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 35>
+Package pdftex.def Info: GSL_paper.pdf, page35 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 35>
+Package pdftex.def Info: GSL_paper.pdf, page35 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 35>
+Package pdftex.def Info: GSL_paper.pdf, page35 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [47 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=410, page=36, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 36>
+Package pdftex.def Info: GSL_paper.pdf, page36 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 36>
+Package pdftex.def Info: GSL_paper.pdf, page36 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 36>
+Package pdftex.def Info: GSL_paper.pdf, page36 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [48 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=448, page=37, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 37>
+Package pdftex.def Info: GSL_paper.pdf, page37 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 37>
+Package pdftex.def Info: GSL_paper.pdf, page37 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 37>
+Package pdftex.def Info: GSL_paper.pdf, page37 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [49 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=479, page=38, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 38>
+Package pdftex.def Info: GSL_paper.pdf, page38 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 38>
+Package pdftex.def Info: GSL_paper.pdf, page38 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 38>
+Package pdftex.def Info: GSL_paper.pdf, page38 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [50 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=517, page=39, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 39>
+Package pdftex.def Info: GSL_paper.pdf, page39 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 39>
+Package pdftex.def Info: GSL_paper.pdf, page39 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 39>
+Package pdftex.def Info: GSL_paper.pdf, page39 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [51 <./GSL_paper.pdf>]
+<GSL_paper.pdf, id=551, page=40, 614.295pt x 794.97pt>
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 40>
+Package pdftex.def Info: GSL_paper.pdf, page40 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+ <use GSL_paper.pdf, page 40>
+Package pdftex.def Info: GSL_paper.pdf, page40 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: GSL_paper.pdf Graphic file (type pdf)
+
+<use GSL_paper.pdf, page 40>
+Package pdftex.def Info: GSL_paper.pdf, page40 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [52 <./GSL_paper.pdf>])
+\openout2 = `chapter5.aux'.
+
+ (./chapter5.tex
+Cap\'{\i }tulo 5.
+<Fig/mapa_topografico_estacoes.pdf, id=575, 1195.46625pt x 845.1575pt>
+File: Fig/mapa_topografico_estacoes.pdf Graphic file (type pdf)
+
+<use Fig/mapa_topografico_estacoes.pdf>
+Package pdftex.def Info: Fig/mapa_topografico_estacoes.pdf used on input line 7
+.
+(pdftex.def)             Requested size: 433.62pt x 306.55196pt.
+) [53
+
+
+
+] [54 <./Fig/mapa_topografico_estacoes.pdf>]
+\openout2 = `chapter6.aux'.
+
+ (./chapter6.tex
+Cap\'{\i }tulo 6.
+
+<Fig/mapa_topografico_estacoes_ambient_noise_BB.pdf, id=587, 1195.46625pt x 845
+.1575pt>
+File: Fig/mapa_topografico_estacoes_ambient_noise_BB.pdf Graphic file (type pdf
+)
+ <use Fig/mapa_topografico_estacoes_ambient_noise_BB.pdf>
+Package pdftex.def Info: Fig/mapa_topografico_estacoes_ambient_noise_BB.pdf use
+d on input line 7.
+(pdftex.def)             Requested size: 433.62pt x 306.55196pt.
+) [55
+
+
+
+]
+[56 <./Fig/mapa_topografico_estacoes_ambient_noise_BB.pdf>] (./main.bbl
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 15.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Underfull \hbox (badness 1983) in paragraph at lines 9--17
+\T1/cmr/m/n/12 and An-to-nio Azor, edi-tors, \T1/cmr/m/it/12 Tec-to-nics of Se-
+di-men-tary Ba-sins\T1/cmr/m/n/12 , pa-ges 602--
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 9--17
+\T1/cmr/m/n/12 620. John Wi-ley & Sons, Ltd, 2012.  ISBN 9781444347166.  URL
+ []
+
+
+Overfull \hbox (7.36119pt too wide) in paragraph at lines 9--17
+\T1/cmtt/m/n/12 http://onlinelibrary.wiley.com/doi/10.1002/9781444347166.ch30/s
+ummary\T1/cmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 29--39
+[]\T1/cmr/m/n/12 Marcelo As-sump-ção, Mar-celo Bi-an-chi, Jordi Ju-lià, Fá-bio 
+L. Dias, Ge-orge
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 42--50
+[]\T1/cmr/m/n/12 Marcelo As-sump-ção, Mei Feng, An-drés Tas-sara, and Jordi Ju-
+lià.  Mo-
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 42--50
+\T1/cmr/m/n/12 dels of crus-tal thick-ness for south ame-rica from seis-mic re-
+frac-tion, re-
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 42--50
+\T1/cmr/m/n/12 cei-ver func-ti-ons and sur-face wave to-mo-graphy.  \T1/cmr/m/i
+t/12 Tec-to-nophy-sics\T1/cmr/m/n/12 , 609:82--
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 42--50
+\T1/cmr/m/n/12 96, 2013b.  ISSN 0040-1951.  doi: 10.1016/j.tecto.2012.11.014.  
+URL
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 53--62
+[]\T1/cmr/m/n/12 B.B. Brito Ne-ves, R.A. Fuck, U.G. Cor-dani, and F.A. Tho-maz.
+  In-flu-ence
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 53--62
+\T1/cmr/m/n/12 of ba-se-ment struc-tu-res on the evo-lu-tion of the ma-jor se-d
+i-men-tary ba-sins
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 53--62
+\T1/cmr/m/n/12 510, 1984.  ISSN 02643707.  doi: 10.1016/0264-3707(84)90021-8.  
+URL
+ []
+
+[57
+
+
+]
+Underfull \hbox (badness 5681) in paragraph at lines 72--81
+\T1/cmr/m/n/12 neth Mc-Dowell, Neil Pig-gott, and Alan J. Po-ole.  Bra-si-li-an
+o crus-
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 72--81
+\T1/cmr/m/n/12 tal struc-ture and the tec-to-nic set-ting of the par-naíba ba-s
+in of NE bra-
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 72--81
+\T1/cmr/m/n/12 zil: Re-sults of a deep seis-mic re-flec-tion pro-file.  \T1/cmr
+/m/it/12 Tec-to-nics\T1/cmr/m/n/12 , 33(11):
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 95--104
+\T1/cmr/m/n/12 Ro-berta Mary Vi-dotti.  Ge-ophy-si-cal evi-dence of pre-sag rif
+-ting and post-
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 95--104
+\T1/cmr/m/n/12 rifting fault re-ac-ti-va-tion in the par-naíba ba-sin, bra-zil.
+  \T1/cmr/m/it/12 So-lid Earth\T1/cmr/m/n/12 , 7
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 95--104
+\T1/cmr/m/n/12 (2):529--548, 2016.  ISSN 1869-9510.  doi: 10.5194/se-7-529-2016
+.  URL
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 118--127
+[]\T1/cmr/m/n/12 Mei Feng, Mar-celo As-sump-ção, and Su-zan Van der Lee.  Group
+-velocity
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 118--127
+\T1/cmr/m/n/12 to-mo-graphy and lithosphe-ric s-velocity struc-ture of the sout
+h ame-ri-can
+ []
+
+
+Underfull \hbox (badness 4765) in paragraph at lines 118--127
+\T1/cmr/m/n/12 con-ti-nent.  \T1/cmr/m/it/12 Phy-sics of the Earth and Pla-ne-t
+ary In-te-ri-ors\T1/cmr/m/n/12 , 147(4):315--
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 118--127
+\T1/cmr/m/n/12 331, 2004.  ISSN 0031-9201.  doi: 10.1016/j.pepi.2004.07.008.  U
+RL
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 129--137
+\T1/cmr/m/n/12 ture of south ame-rica from joint in-ver-sion of wa-ve-forms and
+ fun-da-men-tal
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 129--137
+\T1/cmr/m/n/12 112:B04312, 2007.  ISSN 2156-2202.  doi: 10.1029/2006JB004449.  
+URL
+ []
+
+[58]
+Underfull \hbox (badness 1377) in paragraph at lines 140--148
+[]\T1/cmr/m/n/12 Reinhardt A. Fuck, Ben-ja-mim Bley Brito Ne-ves, and Car-los S
+chob-be-nhaus.
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 140--148
+\T1/cmr/m/n/12 Ro-di-nia des-cen-dants in south ame-rica.  \T1/cmr/m/it/12 Pre-
+cam-brian Re-se-arch\T1/cmr/m/n/12 , 160(1):108--
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 151--159
+\T1/cmr/m/n/12 leigh wave group ve-lo-ci-ties at pe-ri-ods of 6^^U23 s across b
+ra-zil from am-bi-
+ []
+
+
+Underfull \hbox (badness 6332) in paragraph at lines 167--174
+[]\T1/cmr/m/n/12 Ana Ma-ria Góes.  \T1/cmr/m/it/12 For-ma-ção Poti (Car-bo-ní-f
+ero in-fe-rior) da Ba-cia do
+ []
+
+
+Underfull \hbox (badness 3579) in paragraph at lines 167--174
+\T1/cmr/m/it/12 Par-naiba\T1/cmr/m/n/12 .  text, Uni-ver-si-dade de São Paulo, 
+Sep-tem-ber 1995.  URL
+ []
+
+
+Overfull \hbox (19.70818pt too wide) in paragraph at lines 167--174
+\T1/cmtt/m/n/12 http://www.teses.usp.br/teses/disponiveis/44/44136/tde-11022014
+-105309/\T1/cmr/m/n/12 .
+ []
+
+
+Overfull \hbox (62.92262pt too wide) in paragraph at lines 176--184
+\T1/cmtt/m/n/12 http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2117.1994.tb0
+0078.x/abstract\T1/cmr/m/n/12 . 
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 198--207
+[]\T1/cmr/m/n/12 Simon Lloyd, Su-zan van der Lee, Ge-orge Sand França, Mar-celo
+ As-sump-
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 198--207
+\T1/cmr/m/n/12 ção, and Mei Feng.  Moho map of south ame-rica from re-cei-ver f
+unc-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--217
+[]\T1/cmr/m/n/12 Dan Mc-Ken-zie.  Some re-marks on the de-ve-lop-ment of se-di-
+men-tary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--217
+\T1/cmr/m/n/12 ba-sins.  \T1/cmr/m/it/12 Earth and Pla-ne-tary Sci-ence Let-ter
+s\T1/cmr/m/n/12 , 40(1):25--32, June
+ []
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 209--217
+\T1/cmr/m/n/12 1978.  ISSN 0012-821X.  doi: 10.1016/0012-821X(78)90071-7.  URL
+ []
+
+[59]
+Underfull \hbox (badness 1210) in paragraph at lines 230--240
+\T1/cmr/m/n/12 cia Er-nesto.  40ar/39ar ages and sr^^Und^^Upb^^Uos ge-o-che-mis
+-try of camp tho-
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 230--240
+\T1/cmr/m/n/12 lei-i-tes from wes-tern ma-ra-nhão ba-sin ne bra-zil.  \T1/cmr/m
+/it/12 Lithos\T1/cmr/m/n/12 , 122(3^^U4):137--151,
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 230--240
+\T1/cmr/m/n/12 March 2011.  ISSN 0024-4937.  doi: 10.1016/j.lithos.2010.12.010.
+  URL
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 254--263
+\T1/cmr/m/n/12 zil.  \T1/cmr/m/it/12 Jour-nal of Ge-ophy-si-cal Re-se-arch: So-
+lid Earth\T1/cmr/m/n/12 , 122(7):2017JB014348,
+ []
+
+
+Underfull \hbox (badness 6078) in paragraph at lines 254--263
+\T1/cmr/m/n/12 July 2017.  ISSN 2169-9356.  doi: 10.1002/2017JB014348.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--274
+[]\T1/cmr/m/n/12 Leonardo Ui-eda and Va-lé-ria C. F. Bar-bosa.  Fast non-li-nea
+r gra-
+ []
+
+
+Underfull \hbox (badness 7221) in paragraph at lines 265--274
+\T1/cmr/m/n/12 vity in-ver-sion in sphe-ri-cal co-or-di-na-tes with ap-pli-ca-t
+ion to the south
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--274
+\T1/cmr/m/n/12 ame-ri-can moho.  \T1/cmr/m/it/12 Ge-ophy-si-cal Jour-nal In-ter
+-na-ti-o-nal\T1/cmr/m/n/12 , 208(1):162--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--274
+\T1/cmr/m/n/12 176, 2017.  ISSN 0956-540X.  doi: 10.1093/gji/ggw390.  URL
+ []
+
+
+Overfull \hbox (254.30089pt too wide) in paragraph at lines 265--274
+\T1/cmtt/m/n/12 https://academic.oup.com/gji/article-abstract/208/1/162/2417303
+/Fast-nonlinear-gravity-inversion-in-spherical\T1/cmr/m/n/12 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--284
+[]\T1/cmr/m/n/12 M. van der Meijde, J. Ju-lià, and M. As-sump-ção.  Gra-vity de
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--284
+\T1/cmr/m/n/12 ri-ved moho for south ame-rica.  \T1/cmr/m/it/12 Tec-to-nophy-si
+cs\T1/cmr/m/n/12 , 609:456--467,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--284
+\T1/cmr/m/n/12 2013.  ISSN 0040-1951.  doi: 10.1016/j.tecto.2013.03.023.  URL
+ []
+
+[60]) [61] (./main.aux (./resumo.aux) (./abstract.aux) (./chapter1.aux)
+(./chapter2.aux) (./chapter3.aux) (./chapter4.aux) (./chapter5.aux)
+(./chapter6.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4749 strings out of 493013
+ 64917 string characters out of 6135683
+ 137335 words of memory out of 5000000
+ 8126 multiletter control sequences out of 15000+600000
+ 14681 words of font info for 41 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,18n,48p,2651b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (67 pages, 29469873 bytes).
+PDF statistics:
+ 671 PDF objects out of 1000 (max. 8388607)
+ 440 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+
