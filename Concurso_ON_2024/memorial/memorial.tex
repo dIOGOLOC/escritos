@@ -66,6 +66,9 @@
 \usepackage{nameref}
 % Better handling of footnotes inside summary boxes
 \usepackage{footmisc}
+
+\usepackage{pdflscape}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -291,55 +294,19 @@
 %==============================================================================
 \chapter*{Resumo}
 
-Possuo Bacharelado em Geofísica pela Universidade de São Paulo e Mestrado
-e Doutorado em Geofísica pelo Observatório Nacional.
-Ao longo da minha formação e carreira, passei por seis instituições de ensino
-superior em quarto países diferentes.
-Trabalhei como Professor Assistente na *,
-Professor Visitante na * e atualmente sou Lecturer (equivalente a
-Professor Doutor) na University of Liverpool.
-Ministrei 10 disciplinas diferentes a nível de graduação e 17 cursos de curta
-duração abrangendo uma gama de tópicos da geofísica, geologia e programação.
-Sou autor de 16 artigos científicos que agregam mais de 1700
-citações\footnote{Segundo Google Scholar em 27/12/2022: \url{https://scholar.google.com/citations?user=qfmPrUEAAAAJ}}.
-Atuo na área de ciência aberta e reprodutibilidade desde meu primeiro artigo
-publicado em 2012 durante meu Mestrado.
-Desenvolvo diversos projetos de software livre para ciência, dentre eles
-\href{https://www.fatiando.org/}{Fatiando a Terra},
-\href{https://tesseroids.leouieda.com}{Tesseroids}
-e
-\href{https://www.generic-mapping-tools.org/}{Generic Mapping Tools},
-que podem chegar a ter centenas de milhares de downloads
-mensais\footnote{Por exemplo, o software
-\href{https://github.com/fatiando/pooch}{Pooch} que é parte do Fatiando a
-Terra: \url{https://pypistats.org/packages/pooch}}.
-Sou reconhecido por minha expertise em Geociências, ciência aberta e
-desenvolvimento de software livre, tendo servido como editor do
-\href{https://joss.theoj.org/}{Journal of Open Source Software} e na
-coordenação das organizações internacionais
-\href{https://eartharxiv.org/}{EarthArXiv},
-\href{https://www.pyopensci.org/}{pyOpenSci}
-e \href{https://softwareunderground.org}{Software Underground}.
+Ao longo da minha trajetória acadêmica, obtive sucesso ao concluir o bacharelado em Geologia pela Universidade Federal do Espírito Santo, o mestrado em Geofísica pelo Observatório Nacional e o doutorado em Geodinâmica e Geofísica pela Universidade Federal do Rio Grande do Norte. Durante minha formação acadêmica, tive a oportunidade de passar por três instituições de ensino superior ligadas ao Ministério da Educação (MEC), uma unidade de pesquisa vinculada ao Ministério da Ciência, Tecnologia e Inovações (MCTI), além de realizar estágio de nível superior na Petrobras, uma empresa estatal do setor de energia. Nessa caminhada acadêmica, tive a oportunidade enriquecedora de vivenciar de perto instituições públicas em quatro estados distintos do país. Essa diversidade geográfica proporcionou-me um aprendizado valioso e aprimorou o desenvolvimento de métodos de atuação na academia. Desde minha entrada no Observatório Nacional, ministrei a disciplina de Introdução à Sismologia em nível de pós-graduação, além de cursos de curta duração para graduandos em outras instituições e orientei alunos de iniciação científica. No âmbito da divulgação e popularização da ciência, redigi diversas notas técnicas tanto para a instituição quanto para veículos de imprensa. Além disso, participei de feiras de divulgação científica e entrevistas em diversos canais da imprensa, explorando temas variados da sismologia, incluindo sua relação com desastres naturais, bem como curiosidades gerais da população. Desde o mestrado, tenho atuado na área de sismologia e tectônica. Já no doutorado iniciei, de forma sistemática, o processo de desenvolvimento de diversos códigos em \href{https://www.python.org/}{python} para a sismologia, incluindo \href{https://github.com/dIOGOLOC/codes_escritos/tree/master/mantle_transition_zone_migration_obspy_Pds}{Receiver Migration}, \href{https://zooxantelapy.readthedocs.io/en/latest/}{Zooxantelapy} e \href{https://github.com/dIOGOLOC/marefone/wiki}{Marefone}. Estes dois últimos relacionados à dados oriundos de redes subaquáticas. Este memorial apresenta de forma resumida minha formação e atuação acadêmica, incluindo algumas considerações sobre os fatores que influenciaram na minha trajetória e os principais ensinamentos adquiridos ao longo dessa jornada que me ajudaram fazer pequenos ajustes na minha formação.
 
-Este memorial apresenta minha formação e atuação profissional, incluindo
-reflexões sobre os fatores que me trouxeram até onde estou e as lições que
-aprendi ao longo do caminho.
-Além disso, o memorial também relata meus planos futuros para meu
-desenvolvimento profissional e a minha motivação para retornar à Universidade
-de São Paulo, onde iniciei minha trajetória 19 anos atrás.
-
+\begin{landscape}
+% Conteúdo da página em modo paisagem
 \begin{figure}[tb]
   \begin{center}
-    \includegraphics[width=\textwidth]{images/timeline.pdf}
+    \includegraphics[width=\pagewidth]{images/linha_do_tempo.png}
   \end{center}
   \caption*{
-    Linha do tempo (fora de escala) resumindo minha trajetória acadêmica, desde
-    o início do meu curso de Bacharelado em Geofísica na Universidade de São
-    Paulo em 2004 até meu cargo de Lecturer na University of Liverpool de 2019
-    até o presente.
-  }
+    Resumo da minha trajetória acadêmica, desde a entrada na graduação em Geologia na Universidade Federal do Espírito Santo em 2007 até meu terceiro estágio pós-doutoral no Observatório Nacional no ano de 2024.
+    }
 \end{figure}
-
+\end{landscape}
 %==============================================================================
 \tableofcontents
 
@@ -347,7 +314,7 @@ de São Paulo, onde iniciei minha trajetória 19 anos atrás.
 \pagestyle{fancy}
 
 %==============================================================================
-\chapter{Introdução}
+\chapter{Apresentação}
 
 \begin{figure}[h]
   \HeroFigPad
@@ -445,38 +412,32 @@ Finalmente, apresento considerações finais no capítulo~\ref{cap_conclusao}.
 \begin{figure}[h]
   \HeroFigPad
   \begin{center}
-    \includegraphics[width=\textwidth]{images/vassouras-geomag-observation-2012.jpg}
+    \includegraphics[width=\textwidth]{images/formacao.png}
   \end{center}
   \caption{
-    Realizando medidas da direção do campo geomagnético no observatório de
-    Vassouras, Rio de Janeiro. A atividade foi parte de uma disciplina de
-    instrumentação geofísica que cursei durante a pós-graduação do Observatório
-    Nacional.
+    Moisaco mostrando as diferentes fases da minha formação acadêmica. Esquerda: Realizando medidas estruturais no campo do trabalho de conclusão de curso na Serra de Itaóca Pedra-ES. Centro: Apresentação do seminário dos estudantes no Observatório Nacional. Instalação da estação sismográfica temporária na Bacia do Parnaíba (Maranhão) com o corpo técnico do \href{https://labsis.ufrn.br/}{LabSis-UFRN}.
   }
+  
 \end{figure}
-\begin{summarybox}[frametitle=\faInfoCircle{}\quad Resumo da formação acadêmica]
+\begin{summarybox}[frametitle=\faAward{}\quad Resumo da formação acadêmica]
   \begin{datelist}
-    2004--2009 & Bacharelado em Geofísica -- Universidade de São Paulo \\
-    2008--2009 & \faPlane{} Intercâmbio Internacional -- York University, Canadá \\
-    2010--2011 & Mestrado em Geofísica -- Observatório Nacional \\
-    2011--2016 & Doutorado em Geofísica -- Observatório Nacional
+    2007--2012 & Bacharelado em Geologia -- Universidade Federal do Espírito Santo \\
+    2013--2015 & Mestrado em Geofísica -- Observatório Nacional \\
+    2015--2019 & Doutorado em Geodinâmica e Geofísica -- Universidade Federal do Rio Grande do Norte
   \end{datelist}
 \end{summarybox}
 
-Este capítulo relata a minha formação acadêmica, do Bacharelado ao Doutorado,
-refletindo sobre os fatores que influenciaram minhas linhas de pesquisa e o
-rumo que tomei durante minha carreira.
+Este capítulo relata a minha trajetória acadêmica, da Graduação ao Doutorado, explorando alguns detalhes que foram cruciais na minha carreira e nos ajustes feitos durante o percurso.
 
-\section{Universidade de São Paulo}
-\label{sec_usp}
+\section{Universidade Federal do Espírito Santo}
+\label{sec_ufrn}
 
-\begin{subsummarybox}[frametitle=\faGraduationCap{}\quad Bacharelado em Geofísica]
+\begin{subsummarybox}[frametitle=\faGraduationCap\quad Bacharelado em Geologia]
   \begin{fa-ul}
-    \faUniversity & Universidade de São Paulo \\
-    \faCalendar & Fevereiro 2004 -- Novembro 2009 \\
-    \faUser & Orientadora: Naomi Ussami\\
-    \faInfoCircle & Trabalho de conclusão: Cálculo do tensor gradiente
-    gravimétrico utilizando tesseroides (\DOI{10.6084/m9.figshare.963547})
+    \faFortAwesome & Universidade Federal do Espírito Santo \\
+    \faClock & Agosto 2007 -- Setembro 2012 \\
+    \faUser & Orientador: Roberto Sacks de Campos\\
+    \faChalkboardTeacher & Trabalho de conclusão: Caracterização Estrutural e Petrológica dos Escarnitos da Região de Itaóca Pedra - ES.
   \end{fa-ul}
 \end{subsummarybox}
 
@@ -584,24 +545,13 @@ coorientação de um aluno de Doutorado (seção~\ref{sec_modelagemdireta}).
 
 \begin{subsummarybox}[frametitle=\faGraduationCap{}\quad Mestrado em Geofísica]
   \begin{fa-ul}
-    \faUniversity & Observatório Nacional \\
-    \faCalendar & Fevereiro de 2010 -- Outubro de 2011 \\
-    \faUser & Orientadora:  Valéria C. F. Barbosa\\
-    \faInfoCircle & Dissertação: Robust 3D gravity gradient inversion by
-    planting anomalous densities (\DOI{10.6084/m9.figshare.16882300})
+    \faFortAwesome & Observatório Nacional \\
+    \faClock & Março 2012 -- Abril 2015 \\
+    \faUser & Orientador: Stéphane Gérard Martial Drouet.\\
+    \faUser & Co-orientador: Bruno Yann Nicolas Goutorbe\\
+    \faChalkboardTeacher & Dissertação: Análise da Estrutura Crustal na Faixa Ribeira (entre as Províncias do Cráton São Francisco e da Bacia do Paraná) utilizando Métodos Sismológicos.
   \end{fa-ul}
 \end{subsummarybox}
-\begin{subsummarybox}[frametitle=\faGraduationCap{}\quad Doutorado em Geofísica]
-  \begin{fa-ul}
-    \faUniversity & Observatório Nacional \\
-    \faCalendar & Novembro de 2011 -- Abril de 2016 \\
-    \faUser & Orientadora:  Valéria C. F. Barbosa\\
-    \faInfoCircle & Tese Modelagem direta e inversão de campos gravitacionais em
-    coordenadas esféricas (\DOI{10.6084/m9.figshare.16883689}) \\
-    \faTrophy & Ganhador do Prêmio SBGf de Melhor Tese de Doutorado (2015--2017)\footnotemark
-  \end{fa-ul}
-\end{subsummarybox}
-\footnotetext{Mais informações em \url{https://sbgf.org.br/premiacoes}}
 
 Minha ida para o Canadá durante a graduação fez com que eu atrasasse minha
 formatura em um ano.
@@ -754,8 +704,17 @@ Terminei meu mestrado em Outubro de 2011 (quatro meses adiantado) e ingressei
 no Doutorado em Geofísica do Observatório Nacional, ainda sob supervisão da
 Valéria, logo em seguida.
 
-\subsection{Doutorado}
+\section{Universidade Federal do Rio Grande do Norte}
 \label{sec_doutorado}
+
+\begin{subsummarybox}[frametitle=\faGraduationCap{}\quad Doutorado em Geodinâmica e Geofísica]
+  \begin{fa-ul}
+    \faFortAwesome & Universidade Federal do Rio Grande do Norte \\
+    \faClock & Agosto 2015 -- Dezembro 2019 \\
+    \faUser & Orientador: Jordi Julià Casas \\
+    \faChalkboardTeacher & Tese: Sismologia de fonte passiva na bacia do Parnaíba: Implicações para a subsidência cratônica.
+  \end{fa-ul}
+\end{subsummarybox}
 
 Meu projeto de Doutorado era desenvolver métodos para inversão de dados de
 gravidade 3D em uma aproximação esférica da Terra, combinando assim os temas
