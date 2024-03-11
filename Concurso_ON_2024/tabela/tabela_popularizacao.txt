@@ -1,0 +1,40 @@
+Data;Tipo;Local;link;Título
+06/05/2020;Evento Online;Youtube ON;https://youtu.be/TrTe2VveEB8;Diminuição do zumbido urbano no planeta 
+13/05/2020;Entrevista gravada;Ciência na Rádio;https://www.gov.br/observatorio/pt-br/acesso-a-informacao/auditorias/relatorios-do-termo-de-compromisso-de-gestao/documentos/on_relatorio_tcg_2020.pdf/view;Diminuímos o zumbido urbano no planeta 
+01/09/2020;Evento Online;Youtube ON;https://youtu.be/dHavR6DvAIo;A terra tremeu na Bahia!
+09/09/2020;Entrevista gravada;Ciência na Rádio;https://www.gov.br/observatorio/pt-br/acesso-a-informacao/auditorias/relatorios-do-termo-de-compromisso-de-gestao/documentos/on_relatorio_tcg_2020.pdf/view;Tremores de terra na Bahia
+30/08/2020;Entrevista ao vivo;GloboNews;https://g1.globo.com/globonews/jornal-globonews/video/magnitude-choca-um-pouco-as-pessoas-diz-sismologo-sobre-terremoto-na-bahia-8817616.ghtml;"Magnitude choca um pouco as pessoas", diz sismólogo sobre terremoto na Bahia
+29/04/2021;Evento Online;Youtube ON;https://youtu.be/Zazh2MlbkXU;Por que a terra treme no Brasil?
+05/07/2021;Revisão de texto;Facebook ON;https://www.facebook.com/observatorionacional/videos/319161219946539;você pode conhecer um pouco mais sobre a sismologia, que é o estudo dos terremotos e da estrutura da Terra.
+21/07/2021;Entrevista gravada;Ciência na Rádio;https://radios.ebc.com.br/radio-sociedade/2021/07/o-mar-tambem-treme-nao-so-terra;O mar também treme, não só a terra 
+26/07/2021;Entrevista escrita;apufsc;https://www.apufsc.org.br/2021/07/26/equipe-da-ufsc-trabalha-com-dados-ineditos-captados-por-equipamentos-complexos-instalados-no-fundo-do-oceano/;Equipe da UFSC trabalha com dados inéditos captados por equipamentos complexos instalados no fundo do oceano
+26/07/2021;PodCast;IFFcast;https://podcasters.spotify.com/pod/show/iffcast/episodes/66-Terremotos-e150eb0/a-a67a2kg;66 Terremotos
+26/07/2021;Entrevista escrita;Noticias UFSC;https://noticias.ufsc.br/2021/07/equipe-da-ufsc-trabalha-com-dados-ineditos-captados-por-equipamentos-complexos-instalados-no-fundo-do-oceano/;Equipe da UFSC trabalha com dados inéditos captados por equipamentos complexos instalados no fundo do oceano
+27/07/2021;Entrevista escrita;FAPEU;http://www.fapeu.com.br/noticias.php?id_noticia=351&id_categoria=5;Projeto apoiado pela UFSC trabalha com dados inéditos captados por equipamentos instalados no fundo do oceano
+10/10/2021;Entrevista ao vivo;JAM;https://globoplay.globo.com/v/10614041/;Moradores relatam tremor em Manaus após terremoto no Peru
+17/10/2021;Entrevista gravada;Ciência na Rádio;https://radios.ebc.com.br/radio-sociedade/2021/10/cumbre-vieja-maior-erupcao-vulcanica-na-europa-em-100-anos;Cumbre Vieja, a maior erupção vulcânica na Europa em 100 anos
+13/01/2022;Entrevista escrita;Site ON;https://www.gov.br/observatorio/pt-br/assuntos/areas-de-atuacao/divulgacao-e-popularizacao-da-ciencia/on-riw/monitoramento-de-tremores-de-terra-no-brasil-1;Projeto de monitoramento sismo-oceanográfico e RSBR
+13/01/2022;Evento presencial;Rio Innovation Week;https://www.gov.br/observatorio/pt-br/assuntos/areas-de-atuacao/divulgacao-e-popularizacao-da-ciencia/on-riw;Participação com o Projeto Sismo-oceanográfico na Rio Innovation Week. O evento ocorreu entre os dias 13 e 16 de janeiro de 2022.
+02/02/2022;Revisão de texto;Facebook ON;https://www.facebook.com/photo?fbid=4569504043159191&set=a.318827624893542;Os cânions são formações rochosas impressionantes!
+04/03/2022;Entrevista gravada;Ciência na Rádio;https://radios.ebc.com.br/radio-sociedade/2022/03/entenda-o-que-sao-movimentos-de-massa-inundacoes-e-quais-sao-os-impactos;Podcast: como os desastres ambientais são causados
+26/05/2022;Revisão de texto;Facebook ON;https://www.facebook.com/photo?fbid=314008907578314&set=a.279769034335635;Um terremoto de magnitude 7,2 atingiu o Peru nesta quinta-feira (26) e pôde ser sentido em Manaus (AM).
+03/06/2022;Entrevista escrita;O Tempo;https://www.otempo.com.br/super-noticia/sete-lagoas-investiga-serie-de-tremores-de-terra-1.2678079;Sete Lagoas investiga série de tremores de terra
+04/09/2022;Palestra Online;https://youtu.be/yTUVBx0fsDA;107ª QCC - Monitoramento sísmico marinho no Brasil - Diogo Coelho (ON)
+08/11/2022;Evento presencial;Rio Innovation Week;https://www.gov.br/observatorio/pt-br/assuntos/noticias/observatorio-nacional-leva-ciencia-e-tecnologia-ao-rio-innovation-week-2022;Observatório Nacional (ON/MCTI) leva ciência e tecnologia à Rio Innovation Week entre 8 e 11 de novembro de 2022
+14/12/2022;Entrevista gravada;Ciência na Rádio;https://radios.ebc.com.br/radio-sociedade/2022/12/impacto-de-navio-deriva-na-ponte-rio-niteroi-foi-equivalente-um-terremoto-de;Impacto de navio a deriva na Ponte Rio-Niterói foi equivalente a terremoto de magnitude 1.6
+19/12/2022;Entrevista escrita;Enfoco;https://enfoco.com.br/noticias/cidades/colisao-de-navio-com-a-ponte-rio-niteroi-provoca-terremoto-video-88684?d=1;Colisão de navio com a Ponte Rio-Niterói provoca terremoto
+06/02/2023;Revisão de texto;Facebook ON;https://www.facebook.com/photo?fbid=504786468504778&set=a.286674090316018;Você deve ter lido recentemente que o núcleo da Terra pode se inverter.
+10/02/2023;Entrevista escrita;Enfoque MS;https://www.enfoquems.com.br/estudo-aponta-que-nucleo-da-terra-desacelerou-e-fenomeno-pode-afetar-duracao-dos-dias/;Estudo aponta que núcleo da Terra desacelerou, e fenômeno pode afetar duração dos dias
+11/02/2023;Entrevista gravada;Jovem Pan News;https://youtu.be/MlcSJgjTF7A;Terremoto Turquia | DOCUMENTO JOVEM PAN - 11/02/2023
+27/02/2023;Entrevista escrita;Jornal Força do Vale;https://jornalforcadovale.com.br/mundo/como-cientistas-estudam-a-importancia-do-nucleo-da-terra/;Como cientistas estudam a importância do núcleo da Terra
+24/04/2023;Entrevista escrita;Site ON;https://www.gov.br/observatorio/pt-br/assuntos/noticias/on-investiga-terremotos-antigos-na-regiao-do-pre-sal-com-veiculo-subaquatico-autonomo#:~:text=Pesquisadores%20da%20%C3%A1rea%20de%20geof%C3%ADsica,de%20explora%C3%A7%C3%A3o%20do%20Pr%C3%A9%2DSal.;ON investiga terremotos antigos na região do Pré-Sal com ‘veículo subaquático autônomo’
+26/04/2023;Entrevista gravada;Ciência na Rádio;https://radios.ebc.com.br/radio-sociedade/2023/04/entenda-o-uso-de-veiculos-subaquaticos-na-descoberta-de-terremotos-antigos;Entenda o uso de veículos subaquáticos na descoberta de terremotos antigos
+08/08/2023;Mini-curso;UFPE;https://www.gov.br/observatorio/pt-br/assuntos/noticias/i-escola-itinerante-da-geofisica-do-observatorio-nacional-e-realizada-na-ufpe;I Escola Itinerante da Geofísica do Observatório Nacional
+14/09/2023;Entrevista ao vivo;CNN Pop;https://youtu.be/NqFl7g9YMsE;Vulcão Kilauea entra em erupção pela 3ª vez em 2023: como o fenômeno acontece? | Popverso CNN
+02/10/2023;Palestra Presencial;SEGEO/UFES;https://www.instagram.com/segeo.ufes/;Sismologia: Adornando a Tectônica com Terremotos
+02/10/2023;Mini-curso;SEGEO/UFES;https://www.instagram.com/segeo.ufes/;Sismologia e Python: Introdução prática ao processamento de dados
+sismológicos
+22/01/2024;Entrevista escrita;Site ON;https://www.gov.br/observatorio/pt-br/assuntos/noticias/sismologo-do-observatorio-nacional-explica-terremoto-registrado-pela-rede-sismografica-brasileira-no-norte-do-brasil?fbclid=IwAR2a42LyCxwwkI93V6Axrv9bB2AR8Pdx6IqMW2tPlzkwZIcrE18Jq9aU39U;Sismólogo do Observatório Nacional explica terremoto registrado pela Rede Sismográfica Brasileira no Norte do Brasil
+24/01/2024;Entrevista escrita;Canaltech;https://canaltech.com.br/meio-ambiente/por-que-ninguem-sentiu-o-terremoto-de-66-graus-no-brasil-276873/;Por que ninguém sentiu o terremoto de 6,6 graus no Brasil?
+01/02/2024;Entrevista escrita;Canaltech;https://canaltech.com.br/meio-ambiente/da-para-prever-um-terremoto-com-antecedencia/;Dá para prever um terremoto com antecedência? 
+11/02/2024;Entrevista escrita;Multiverso Noticias;https://multiversonoticias.com.br/terremoto-no-brasil-descubra-quais-regioes-sao-mais-vulneraveis/;Terremoto no Brasil: descubra quais regiões são mais vulneráveis
