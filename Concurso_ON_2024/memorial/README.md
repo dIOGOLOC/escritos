@@ -1,13 +1,13 @@
 # Memorial Acadêmico - 2024
 
-Apresentado para concurso público de provas e títulos para cargo de Pesquisador Adjunto I em Sismologia à Coordenação de Geofísica do Observatório Nacional.
+Memorial apresentado para concurso público de provas e títulos para cargo de Pesquisador Adjunto I em Sismologia à Coordenação de Geofísica do Observatório Nacional.
 (EDITAL Nº 1, DE 9 DE OUTUBRO DE 2023).
 
 
 # Formatação inspirada em:
+> [📝 Leo Uieda](https://github.com/leouieda/memorial2023)
 
-[📝 Leo Uieda](https://github.com/leouieda/memorial2023)
-[📝 Vanderlei Birocoles](https://github.com/birocoles/memos)
+> [📝 Vanderlei Birocoles](https://github.com/birocoles/memos)
 
 ## License
 
