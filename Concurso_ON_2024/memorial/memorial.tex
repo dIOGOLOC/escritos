@@ -77,7 +77,6 @@
 \usepackage{pstricks-add}
 \usepackage{pgf-pie}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -129,10 +128,12 @@
 % Define custom colors
 \definecolor{lu_gray}{gray}{0.98}
 \definecolor{lu_darkgray}{gray}{0.3}
+\definecolor{gold(metallic)}{rgb}{0.83, 0.69, 0.22}
+\definecolor{cornsilk}{rgb}{1.0, 0.97, 0.86}
 \definecolor{lu_blue}{RGB}{32, 96, 194}
 \definecolor{lu_lightblue}{RGB}{238, 245, 250}
-\definecolor{lu_yellow}{RGB}{255, 193, 7}
-\definecolor{lu_lightyellow}{RGB}{255, 249, 230}
+\definecolor{timberwolf}{rgb}{0.86, 0.84, 0.82}
+\definecolor{battleshipgrey}{rgb}{0.52, 0.52, 0.51}
 
 % Customize how Chapter headings are displayed
 \titleformat{\chapter}[display]{\normalfont}{\large Capítulo \thechapter}{0pt}{\huge}[\titlerule]
@@ -151,9 +152,9 @@
   topline=false,
   bottomline=false,
   linewidth=4pt,
-  linecolor=lu_blue,
+  linecolor=gold(metallic),
   frametitlefont=\bfseries\color{black}\small,
-  frametitlebackgroundcolor=lu_lightblue,
+  frametitlebackgroundcolor=cornsilk,
   frametitleaboveskip=7pt,
   frametitlebelowskip=7pt,
   frametitlerule=true,
@@ -173,9 +174,9 @@
   topline=false,
   bottomline=false,
   linewidth=4pt,
-  linecolor=lu_yellow,
+  linecolor=battleshipgrey,
   frametitlefont=\bfseries\color{black}\small,
-  frametitlebackgroundcolor=lu_lightyellow,
+  frametitlebackgroundcolor=timberwolf,
   frametitleaboveskip=7pt,
   frametitlebelowskip=7pt,
   frametitlerule=true,
@@ -337,6 +338,7 @@ Ao longo da minha trajetória acadêmica, obtive sucesso ao concluir o bacharela
 \end{figure}
 
 Este memorial apresenta uma análise sumária sobre a minha trajetória acadêmica, contemplando formação, atuação, atividades de ensino e divulgação/popularização da ciência.
+\bigskip
 
 \begin{summarybox}[frametitle=\faIcon{address-card}{}\quad Informações para contato]
   \begin{fa-ul}
@@ -586,6 +588,25 @@ Enfrentar os desafios deste projeto foi uma jornada repleta de aprendizado e sup
 
 Os desafios enfrentados neste projeto foram verdadeiramente monumentais, testando minha resiliência e capacidade de adaptação. A imersão em uma área tão pouco explorada pela ciência sismológica exigiu um esforço hercúleo para assimilar conceitos complexos e desenvolver metodologias inovadoras. No entanto, cada desafio superado foi um passo em direção à consolidação do meu entendimento e expertise nesse campo emergente. Essa jornada de descoberta e superação não apenas ampliou meus horizontes profissionais, mas também reforçou minha convicção na importância de enfrentar o desconhecido com coragem e determinação, contribuindo assim para o progresso da ciência e para a expansão das fronteiras do conhecimento.
 
+\bigskip
+
+\begin{summarybox}[frametitle=\faBookmark{}\quad Resumo de atividades científica]
+  \begin{fa-ul}
+      \faBuilding & 17 Congresso Internacional da Sociedade Brasileira de Geofísica e EXPOGEf \\
+      \faBook & New horizons in Brazilian Seismology: expanding seismic monitoring to offshore Southeast Brazil. \\
+      \faChild & COELHO, D. L. O.; FONTES, S. L.; KLEIN, A. H. F.; DIAS, F. L.; MAURICIO, I. C. B. S.; MACHADO, A. A.; PRADO, M. F. V.; LIMA, A. P. Y.; SILVA, A. A. C.; THEODORO, C.E.; ROSALBA, J. F.; SOBREIRA, J. F. F.; MAHIQUES, M. M.; BUENO, G. V.\\
+      \faCertificate & \href{https://sbgf.org.br/mysbgf/eventos/expanded_abstracts/17th_CISBGf/170620210624192518Expanded_abstract_SBGf_2021.pdf}{Apresentação}  \\
+      \faCalendar & 2021 \\
+
+      \faBuilding & Artigo em preparação: apresentação dos resultados da análise do banco de dados coletado pelos sismômetros de fundo oceânico, onde o principal objetivo é
+destacar a sismicidade local na rede de OBSs \\
+      \faBook & Seismicity, performance and noise recorded by ocean bottom seismometers monitoring of the Southeast Offshore of Brazil. \\
+      \faChild & COELHO, D. L. O.; FONTES, S. L.; KLEIN, A. H. F.; DIAS, F. L.; MAURICIO, I. C. B. S.; MACHADO, A. A.; PRADO, M. F. V.; LIMA, A. P. Y.; SILVA, A. A. C.; THEODORO, C.E.; ROSALBA, J. F.; SOBREIRA, J. F. F.; MAHIQUES, M. M.; BUENO, G. V.\\
+      \faCalendar & 2024 \\
+  \end{fa-ul}
+\end{summarybox}
+
+
 \section{Observatório Nacional (2021-2023)}
 \label{sec_posdoc_pci}
 
@@ -622,6 +643,18 @@ O resultado principal deste trabalho é o pacote \href{https://github.com/dIOGOL
 
 Foram apresentadas as metodologias para a extração/conversão dos dados e para o seu processamento, incluindo o controle de qualidade, redução do ruído nos dados e correções. Além disso, este relatório apresentou novas ideias e aprimoramentos para o algoritmo de busca de eventos sísmicos, com inserção de novas ferramentas computacionais e ideias. Os resultados apresentados são a compilação da busca por um pacote de processamento que seja simples de se utilizar e de se reproduzir. Os resultados ainda não são finais, pois precisam de uma validação adequada dos procedimentos desenvolvidos com testes em outros bancos de dados. Apesar da dificuldade encontrada na criação de algumas rotinas, até mesmo na dificuldade de encontrar ferramentas computacionais que sejam simples o suficiente para agregar valor ao pacote computacional sem dificultar a sua utilização e reprodução, as metas propostas foram alcançadas e espero até começo do próximo semestre submeter o artigo com este pacote de processamento implementado.
 
+\bigskip
+
+\begin{summarybox}[frametitle=\faBookmark{}\quad Resumo de atividades científica]
+  \begin{fa-ul}
+      \faBuilding & Artigo em preparação: apresentação de um programa que é dedicado a fornecer uma estrutura em Python® (linguagem de programação) para análise de dados sismológicos de sismômetros de fundo oceânico (OBSs). \\
+      \faBook & Zooxantela: An Ocean-Bottom Seismometer Toolkit. \\
+      \faChild & COELHO, D. L. O.; KLEIN, A. H. F.; FONTES, S. L.\\
+      \faCalendar & 2024 \\
+  \end{fa-ul}
+\end{summarybox}
+
+
 \section{Observatório Nacional (2023-atual)}
 \label{sec_posdoc_glider}
 
@@ -654,6 +687,19 @@ Os registros de eventos sísmicos, apresentam um conteúdo de frequência abaixo
 O SeisComp (Helmholtz Centre, 2018) é um pacote capaz de lidar com todo o gerenciamento dos dados de forma de onda (séries temporais) e metadados desde a sua aquisição até o compartilhamento final das localizações dos eventos detectados. O SeisComp integra módulos de aquisição em tempo real, detectores STA/LTA apoiados por refinadores de leitura como o AIC, nucleadores e, finalmente, localizadores. O compartilhamento de informação é feito seguindo os protocolos da FDSN (Federation of Digital Seismograph Networks) via a implementação de serviços WEB federados suportados pelos mais diversos clientes de acesso (seisgram, obspy, pyrocko, swarm, e etc.). Embora o pacote do SeisComp esteja operacional no contexto da Rede Sismográfica Brasileira, o uso de dados de gliders dentro da
 plataforma envolve a sua adaptação para o suporte de sensores móveis, ou que, tem suas coordenadas fortemente dependente do tempo. Além disso, como já demonstrado por Lopez (2021) ou mesmo em Bianchi et al. (2020, 2021) a correta detecção de eventos e sua localização depende da determinação de parâmetros ótimos de detecção e nucleação para que o sistema possa ser utilizado de forma eficaz no monitoramento da plataforma. Em geral, a nucleação de eventos e, em especial, a sua localização dependem de ao menos 3-4 estações de monitoramento. Por isso, em suporte aos gliders, é importante a possibilidade de complementar os dados adquiridos no projeto com os dados das estações sismográficas operadas dentro do contexto da Rede Sismográfica Brasileira, em especial pelo próprio Observatório Nacional. Assim, propomos a completa adaptação do pacote SeisComp (versão 4) para ser usado no contexto do projeto,
 integrando suporte às coordenadas variáveis no tempo no sistema, além de otimizar os parâmetros do sistema para sua correta operação de rotina para o monitoramento da plataforma. Além disso, a implementação e o uso SeisComp permitirá o acesso à base de dados de forma de onda convertida e informações paramétricas a partir de servidores FDSN. Eles servirão dados de eventos sísmicos detectados, metadados e formas de onda restritos aos membros do projeto e a Petrobras durante a vigência deste projeto, ou projetos subsequentes para o acompanhamento da sismicidade na plataforma continental.
+
+\bigskip
+
+\begin{summarybox}[frametitle=\faBookmark{}\quad Resumo dos trabalhos apresentados pelos alunos em congressos]
+  \begin{fa-ul}
+      \faBuilding & 18 Congresso Internacional da Sociedade Brasileira de Geofísica e EXPOGEf \\
+      \faBook & Investigação da espessura e composição crustal no Escudo Sul-rio-grandense, Sul do Brasil \\
+      \faChild & HERZOG, I.; COELHO, D. L. O. ; HISPAGNOL, N. R. ; LIMA, M. V. A. G. D. ; GREGORY, T. R.\\
+      \faCertificate & \href{https://sbgf.org.br/congresso/pages/techprogram.php\#technicalPoster}{Poster}  \\
+      \faCalendar & 2023 \\
+  \end{fa-ul}
+\end{summarybox}
+
 
 %
 %==============================================================================
