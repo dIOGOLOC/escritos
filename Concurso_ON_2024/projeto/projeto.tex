@@ -147,7 +147,7 @@
 % Configure captions
 \captionsetup{labelfont=bf,font={small,color=lu_darkgray},skip=0pt}
 
-% Define a fancy text box
+% Define a fancy text for summarybox
 \mdfdefinestyle{summarybox}{%
   leftline=true,
   rightline=false,
@@ -170,6 +170,8 @@
   skipabove=0pt,
 }
 \newmdenv[style=summarybox]{summarybox}
+
+% Define a fancy text for subsummarybox
 \mdfdefinestyle{subsummarybox}{%
   leftline=true,
   rightline=false,
@@ -192,6 +194,30 @@
   skipabove=0pt,
 }
 \newmdenv[style=subsummarybox]{subsummarybox}
+
+% Define a fancy text for projectbox
+\mdfdefinestyle{projectbox}{%
+  leftline=true,
+  rightline=false,
+  topline=false,
+  bottomline=false,
+  linewidth=4pt,
+  linecolor=lu_blue,
+  frametitlefont=\bfseries\color{black}\small,
+  frametitlebackgroundcolor=lu_lightblue,
+  frametitleaboveskip=7pt,
+  frametitlebelowskip=7pt,
+  frametitlerule=true,
+  frametitlerulewidth=1pt,
+  backgroundcolor=lu_gray,
+  innertopmargin=7pt,
+  innerbottommargin=10pt,
+  innerleftmargin=15pt,
+  innerrightmargin=15pt,
+  skipbelow=5pt,
+  skipabove=0pt,
+}
+\newmdenv[style=projectbox]{projectbox}
 
 % Define something like an fa-ul and a date list
 \NewEnviron{fa-ul}{%
@@ -312,7 +338,7 @@ Ao longo da minha trajetória acadêmica, obtive sucesso ao concluir o bacharela
 \begin{center}
 \includegraphics[width=\pagewidth]{images/linha_do_projeto.png}
 \end{center}
-\caption*{Resumo cronológico das minhas propostas de projetos a serem desenvolvidos. Borda completa: plena capacidade de desenvolvimento e experiência prática, Borda incompleta: necessidade de aperfeiçoamento de metodologias e experiência prática incompleta, Borda tracejada: falta de arcabouço teórico e prático.}
+\caption*{Resumo cronológico dos temas a serem desenvolvidos. Borda completa: plena capacidade de desenvolvimento e experiência prática, Borda incompleta: necessidade de aperfeiçoamento de metodologias e experiência prática incompleta, Borda tracejada: falta de arcabouço teórico e prático.}
 \label{fig_tempo_linha}
 \end{figure}
 \end{landscape}
@@ -358,16 +384,17 @@ Ao longo da minha trajetória acadêmica, obtive sucesso ao concluir o bacharela
 
 \bigskip	
 
-A presente proposta de projeto de pesquisa representa um esforço dedicado à investigação e avanço do conhecimento na sismologia brasileira, principalmente quando se refere à sismologia marinha e estrutura profunda do Brasil. Este projeto busca preencher lacunas identificadas na literatura atual, contribuindo para a compreensão mais ampla e aprofundada dessas áreas tão desafiadoras. Com base na revisão da literatura atual e na identificação de questões ainda não exploradas, esta proposta visa desenvolver uma série de estudos inovadores que possam agregar valor acadêmico e prático à comunidade científica e à sociedade como um todo. A meta desse projeto não é apenas investigar questões teóricas e metodológicas, mas busca contribuir para o progresso acadêmico, científico e social. Com uma abordagem multidisciplinar, o projeto visa não apenas responder a perguntas específicas de pesquisa, mas também promover o diálogo interdisciplinar e a colaboração entre diferentes áreas de conhecimento relacionadas aos diversos temas abordados.
+A presente proposta de projeto de pesquisa representa um esforço dedicado à investigação e avanço de áreas da sismologia brasileira, principalmente quando se refere à parte acústica e hidroacústica. Este projeto tem como objetivo preencher lacunas identificadas previamente, visando a ampliação e aprofundamento da compreensão nessas áreas desafiadoras, que possuem grande potencial para trabalhos interdisciplinares. Com base na revisão da literatura e na identificação de questões ainda não exploradas, esta proposta visa desenvolver uma série de estudos inovadores que possam agregar valor teórico e prático à comunidade científica, além de aumentar a área de contato com temas relevantes para a sociedade civil. Com uma abordagem interdisciplinar, o projeto visa não apenas responder a perguntas específicas de pesquisa, mas também promover o diálogo interdisciplinar e a colaboração entre diferentes áreas de conhecimento relacionadas aos diversos temas abordados.
 
 %==============================================================================
+
 \chapter{Estrutura do Projeto}
 \label{cap_estrutura}
 
 \begin{figure}[h]
 	\HeroFigPad
 	\begin{center}
-		\includegraphics[scale=0.52]{images/arpoador.jpg}
+		\includegraphics[width=\textwidth]{images/arpoador.jpg}
 	\end{center}
 	\caption{
 	O pôr do sol no \href{https://pt.wikipedia.org/wiki/Arpoador}{Arpoador} serviu de inspiração para a concepção deste Projeto de Pesquisa, uma vez que representa um espetáculo fenomenal que une o céu, o mar e a terra.
@@ -379,38 +406,201 @@ Como o Projeto de pesquisa possui várias frentes de atuação em ambientes dist
 
 \bigskip
 
-\begin{summarybox}[frametitle=\faStreetView{}\quad Panorama cronológico sobre o Projeto de Pesquisa]
+\begin{summarybox}[frametitle=\faStreetView{}\quad Panorama cronológico dos temas propostos]
   \begin{datelist}
-    2024--2028 & Monitoramento Sísmico e Acústico (MAR) \\
-    2024--2028 & Sismicidade nos oceanos (MAR) \\
+    2024--2028 & Monitoramento sísmico e hidroacústico (MAR) \\
+    2024--2028 & Ilhas oceânicas (MAR) \\
     2025--2030 & Estrutura profunda do Brasil (TERRA) \\
-    2028--2030 & Monitoramento de Barragens (TERRA) \\
-    2034--2040 & Monitoramento Infrassônico (CÉU) 
+    2028--2030 & Monitoramento de barragens (TERRA) \\
+    2034--2040 & Monitoramento infrassônico (CÉU) 
   \end{datelist}
 \end{summarybox}
 
 \bigskip
 
-Como mostrado no resumo cronológico da minha proposta, existem vários projetos para serem executadas em diferentes períodos, pois ainda existem carências acadêmicas do autor, ou metodológicas ou práticas, a serem sanadas. Um bom exemplo é o caso do monitoramento utilizando equipamentos de infrassom, eu não tenho nenhuma experiência prática com esses dados, por isso linha do tempo ele é o último. Adicionalmente, nota-se um alinhamento lógico com a \href{http://www.finep.gov.br/images/contratos-Adm/2022/dou/Y_S_dias_extrato_contrato.pdf}{expansão para o mar da Rede Sismográfica Brasileira} e os projetos aqui propostos. Pois, além de participar do grupo de execução dessa expansão, eu tenho experiências com esse tipo de banco de dados e tenho plena convicção da necessidades de implementação de novas frentes de trabalho para enfrentar os desafios de dados oriundos do fundo oceânico.
+Observando o resumo cronológico inicial da minha proposta, é possível identificar uma sequência de temas prospostos com diferentes prazos de implementação. Esses períodos evidenciam lacunas acadêmicas, metodológicas ou práticas, por parte do autor. Por exemplo, considerando o caso do monitoramento com o uso de equipamentos de infrassom, até o momento não possuo experiência prática com esse tipo de dado. Por essa razão, na linha do tempo, ele é o último tema a ser iniciado. No entanto, como descreverei no plano de implementação (capítulo \ref{cap_ceu}), essa falta de experiência pode ser sanada através de um cronograma estruturado de ações para aumentar a minha experiência neste tema. Notadamente observa-se um alinhamento cronológico com a \href{http://www.finep.gov.br/images/contratos-Adm/2022/dou/Y_S_dias_extrato_contrato.pdf}{expansão para o mar da Rede Sismográfica Brasileira} e os projetos aqui propostos. Pois, além de participar do grupo de execução dessa expansão, eu tenho experiências com esse tipo de banco de dados e tenho plena convicção da necessidade de implementação de novas frentes de trabalho para enfrentar os desafios desse tipo de projeto.
 
-Nem todos os temas de projetos exemplificados aqui nesta proposta estão em fase embrionária. Por exemplo, o projeto que visa estudar as Ilhas Oceânicas, já está sendo executado e já tem resultados promissores, com mostra o trabalho apresentado no 18 Congresso Internacional da Sociedade Brasileira de Geofísica\footnote{Resumo (2023): 18th International Congress of the Brazilian Geophysical Society, Rio de Janeiro, Brazil. \href{https://sbgf.org.br/mysbgf/eventos/expanded_abstracts/18th_CISBGf/57aeee35c98205091e18d1140e9f38cfShort_Abstract_18th_CISBGf_.docx}{Comparison of the shallow and deep structure beneath the Abrolhos Archipelago and the Trindade Island with passive-source seismology}. Eveline Sayao, Diogo Luiz de Oliveira Coelho, Daniele Ingredy Gomes Silva, Carlos Ribeiro, Sergio Luiz Fontes, Thiago Santanna, Elisabeth Lima, Ronaldo Marins}. Outro tema que já está estruturado é o Estruturua profunda do Brasil, onde já formamos um grupo de pesquisa com pesquisadores e alunos de algumas universidade para atualizar metodologias e propor ideias de trabalhos para estudar a estrutura profunda de certas áreas do Brasil com dados da \href{http://rsbr.on.br/}{RSBR}. 
+Nem todos os temas de projetos exemplificados nesta proposta estão em fase embrionária. Por exemplo, o tema que visa estudar as Ilhas oceânicas, já está sendo executado e já tem resultados promissores, com mostra o trabalho apresentado no 18$^\circ$ Congresso Internacional da Sociedade Brasileira de Geofísica\footnote{Resumo (2023): 18th International Congress of the Brazilian Geophysical Society, Rio de Janeiro, Brazil. \href{https://sbgf.org.br/mysbgf/eventos/expanded_abstracts/18th_CISBGf/57aeee35c98205091e18d1140e9f38cfShort_Abstract_18th_CISBGf_.docx}{Comparison of the shallow and deep structure beneath the Abrolhos Archipelago and the Trindade Island with passive-source seismology}. Eveline Sayao, Diogo Luiz de Oliveira Coelho, Daniele Ingredy Gomes Silva, Carlos Ribeiro, Sergio Luiz Fontes, Thiago Santanna, Elisabeth Lima, Ronaldo Marins}. Outro tema que já está estruturado é o Estruturua profunda do Brasil, onde já formamos um grupo de pesquisa com pesquisadores e alunos de algumas universidade para atualizar metodologias e propor ideias de trabalhos para estudar a estrutura profunda de certas áreas do Brasil com dados da \href{http://rsbr.on.br/}{RSBR}. 
 
-Para facilitar a 
+Para facilitar o acompanhamento das várias propostas de projetos de pesquisa, cada um dos projetos foram estruturados segundo a tabela abaixo, onde todos os projetos possuem um título, justificativa, objetivos, metodologia, bibliografia e plano de implementação. 
+
 \bigskip
 
 \begin{subsummarybox}[frametitle=\faBone\quad Constituição de cada projeto]
   \begin{fa-ul}
-    \faTag & \textbf{Título:} tema do projeto \\
-    \faPencil* &  \textbf{Justificativa:} qual a relevância da pesquisa \\
-    \faListUl & \textbf{Objetivos:} o que se pretende pesquisar \\
-    \faAtom & \textbf{Metodologia:} descrição sucinta de como a pesquisa poderá ser realizada. \\
-    \faBook & \textbf{Bibliografia:}  1 a 2 referências. \\
-    \faShoePrints & \textbf{Plano de Implementação:} como se pretende realizar a pesquisa
+    \faTag & \textbf{Título:} Tema do projeto \\
+    \faPencil* &  \textbf{Justificativa:} Relevância da pesquisa \\
+    \faFutbol & \textbf{Objetivos:} Tópicos o que se pretende pesquisar \\
+    \faBook & \textbf{Bibliografia:} Referências de trabalhos fundamentais \\
+    \faBrain & \textbf{Plano de Implementação:} Etapas de como realizar a pesquisa  \\
+	%\faAtom & \textbf{Metodologia:} Descrição sucinta de como a pesquisa será realizada \\
+    \faShoppingCart & \textbf{Produtos:} Lista com os principais resultados do projeto
   \end{fa-ul}
 \end{subsummarybox}
 
-
 %==============================================================================
+
+\chapter{Mar}
+\label{cap_mar}
+
+\begin{figure}[h]
+	\HeroFigPad
+	\begin{center}
+		\includegraphics[width=\textwidth]{images/obs_foto.jpeg}
+	\end{center}
+	\caption{
+	Processo de instalação de um Sismômetro de Fundo Ocêanico no \href{https://sismo-oceano.ufsc.br/}{Projeto Monitoramento Sismo-Oceanográfico}.
+    }
+ \label{fig_obs}
+\end{figure}
+
+Neste capítulo, apresento de forma resumida os projetos que serão realizados para investigar a estrutura profunda do Brasil através de uma gama de metodologias consolidas, dentre as quais temos: \href{https://doi.org/10.1029/JB084iB09p04749}{Função do Receptor}, \href{https://doi.org/10.1111/j.1365-246X.1990.tb04573.x}{Dispersão de Ondas de Superfície}, \href{https://doi.org/10.1046/j.1365-246x.2000.00217.x}{Inversão Conjunta}, \href{https://doi.org/10.1016/j.epsl.2013.08.025}{Migração das Funções do Receptor} e \href{https://doi.org/10.1111/j.1365-246X.2007.03374.x}{Tomografia de Ruído Sísmico}.   
+
+\section{Tema: Monitoramento Sísmico e Hidroacústico}
+
+Como demonstrado no memorial, eu tenho experiência no processamento de banco de dados sísmicos e acústicos orindos de equipamentos oceânicos, como: sismômetros de fundo oceânico (OBS), sismógrafos flutuantes (MERMAID) e planadores oceânicos. Após a análise desses banco de dados, sugere-se um projeto que tenha foco em metodologias de redução/supressão de ruído nos dados.
+
+\subsection{Redução de ruído em dados sísmicos e acústicos}
+
+\begin{projectbox}[frametitle=\faProjectDiagram{}\quad Panorama do Projeto de pesquisa: Redução de ruído]
+	\begin{datelist}
+		\faTag & \textbf{Título:} Tema do projeto \\
+		\faBook & \textbf{Bibliografia:}  Jiang et al.(2024) \& Zali et al.(2023)\\
+	\end{datelist}
+\end{projectbox}
+
+\bigskip
+
+A proposta de redução de ruído se faz necessária devido ao alto nível de ruído basal encontrado globalmente em dados de Sismômetros de Fundo Oceânico (OBS), além disso, deve-se adicionar o ruído devido ao acoplamento entre o sensor e o assoalho oceânico. Existem metodologias recentes, como o trabalho de Zali et al. (2023)\footnote{Zali, Z., Rein, T., Krüger, F., Ohrnberger, M., and Scherbaum, F. 2023. Ocean bottom seismometer (OBS) noise reduction from horizontal and vertical components using harmonic–percussive separation algorithms, Solid Earth, 14, 181–195, https://doi.org/10.5194/se-14-181-2023.}, para a redução de ruído nos dados de OBS através de algoritmos de processamento de áudio, onde os resultados encontrados são bem satisfatórios. Para dados acústicos, temos o trabalho de Jiang et al. (2024)\footnote{Jiang,Y., Zhang, X., Mo, Y., Huang, Y. 2024. Research on Noise Reduction Method of Underwater Acoustic Signal Based on CEEMDAN Decomposition-Improved Wavelet Threshold. Journal of Physics: Conference Series, 2718(1), 012078.}, onde propõe o uso do algoritmo de decomposição CEEMDAN (Complete Ensemble Empirical Mode Decomposition with Adaptive Noise) combinado com um algoritmo de limiar de wavelet aprimorado para processar o sinal e obter o sinal reconstruído após a remoção de ruído.
+
+\begin{fancyenum}{\faFutbol}{Objetivos}
+  \item Aplicação de métodos avançados para remoção de ruído em dados sísmicos;
+  \item Aplicação de métodos avançados para remoção de ruído em dados hidroacústicos;
+  \item Investigar a relação entre atividades sísmicas e fenômenos geodinâmicos;
+  \item Classificação de eventos sísmicos em todo território nacional, principalmente em ambiente submarino.
+\end{fancyenum}
+
+\begin{fancyenum}{\faBrain}{Plano de Implementação}
+  \item Desenvolvimento de algoritmos para identificação de eventos sísmicos e acústicos, naturais e antrópicos;
+  \item Implementação de um sistema de monitoramento sísmico/hidroacústico em ambiente submarino;
+  \item Contribuições para a compreensão dos efeitos de atividades humanas nos padrões sísmicos e acústicos da margem Sudeste do Brasil.
+\end{fancyenum}
+
+\begin{fancyenum}{\faShoppingCart}{Produtos}
+  \item Desenvolvimento de algoritmos para identificação de eventos sísmicos e acústicos, naturais e antrópicos;
+  \item Implementação de um sistema de monitoramento sísmico/hidroacústico em ambiente submarino;
+  \item Contribuições para a compreensão dos efeitos de atividades humanas nos padrões sísmicos e acústicos da margem Sudeste do Brasil.
+\end{fancyenum}
+
+\subsection{Redução de ruído em dados sísmicos e acústicos}
+
+\bigskip
+
+\begin{projectbox}[frametitle=\faProjectDiagram{}\quad Panorama do Projeto de pesquisa: Redução de ruído]
+	\begin{datelist}
+		\faTag & \textbf{Título:} Tema do projeto \\
+		\faBook & \textbf{Bibliografia:}  Jiang et al.(2024) \& Zali et al.(2023)\\
+	\end{datelist}
+\end{projectbox}
+
+\bigskip
+
+
+% ==============================================================================
+\chapter{Terra}
+\label{cap_terra}
+
+\begin{figure}[h]
+	\HeroFigPad
+	\begin{center}
+		\includegraphics[width=\textwidth]{images/globe_structure.jpg}
+	\end{center}
+	\caption{
+	Modelo tomográfico global do manto superior. \href{https://www.olcf.ornl.gov/2017/03/28/a-seismic-mapping-milestone/}{Fonte}.
+    }
+ \label{fig_structure}
+\end{figure}
+
+Neste capítulo, apresento de forma resumida os projetos que serão realizados para investigar a estrutura profunda do Brasil através de uma gama de metodologias consolidas, dentre as quais temos: \href{https://doi.org/10.1029/JB084iB09p04749}{Função do Receptor}, \href{https://doi.org/10.1111/j.1365-246X.1990.tb04573.x}{Dispersão de Ondas de Superfície}, \href{https://doi.org/10.1046/j.1365-246x.2000.00217.x}{Inversão Conjunta}, \href{https://doi.org/10.1016/j.epsl.2013.08.025}{Migração das Funções do Receptor} e \href{https://doi.org/10.1111/j.1365-246X.2007.03374.x}{Tomografia de Ruído Sísmico}.   
+
+\section{Tema: Estrutura profunda do Brasil}
+
+\begin{summarybox}[frametitle=\faProjectDiagram{}\quad Panorama da linha de pesquisa]
+	\begin{datelist}
+		\faFile* & \textbf{Número de projetos:} 4 \\
+		\faBinoculars & \textbf{Equipamentos:} Sismômetros banda larga e período curto \\
+		\faCalendar*[regular] & \textbf{Período:} 2013 - atual \\
+		\faMapMarked* & \textbf{Regiões:} Faixa Ribeira, Bacia do Parnaíba, ilhas oceânicas e bacias costeiras. \\
+	\end{datelist}
+\end{summarybox}
+
+\bigskip
+
+Esta linha de pesquisa busca revelar a estruturação profunda da Terra através de uma gama de metodologias, dentre as quais temos: \href{https://doi.org/10.1029/JB084iB09p04749}{Função do Receptor}, \href{https://doi.org/10.1111/j.1365-246X.1990.tb04573.x}{Dispersão de Ondas de Superfície}, \href{https://doi.org/10.1046/j.1365-246x.2000.00217.x}{Inversão Conjunta}, \href{https://doi.org/10.1016/j.epsl.2013.08.025}{Migração das Funções do Receptor} e \href{https://doi.org/10.1111/j.1365-246X.2007.03374.x}{Tomografia de Ruído Sísmico}. Esta linha de pesquisa está intimamente ligada à minha trajetória acadêmica, uma vez que minha formação prévia em Geologia, combinada com os resultados obtidos pelos métodos sismológicos, contribuem para uma visão abrangente da composição e dinâmica da subsuperfície terrestre. A caracterização da estrutura profunda das bacias cratônicas, faixas móveis e cratons permitem a identificação de padrões de sedimentação, processos geodinâmicos associados e processos de formação de montanhas, falhas e outros elementos estruturais. Além disso, a investigação da estrutura do manto superior, principalmente da zona de transição, fornece informações cruciais sobre a composição, temperatura e movimentos do manto superior, contribuindo para o entendimento dos processos de convecção e circulação mantélica que impulsionam a dinâmica global do planeta.  
+
+\begin{fancyenum}{\faFutbol}{Objetivos}
+	\item Imagear as principais descontinuidades crustais e mantélicas;
+	\item Caracterizar a estrutura crustal profunda das principais provincias geológicas do Brasil;
+	\item Investigar a composição, temperatura e fluxos do manto superior;
+	\item Desenvolver rotinas computacionais mais eficientes para estimar as profundidade e espessuras das camadas em subsuperfície.
+\end{fancyenum}
+
+\begin{fancyenum}{\faCogs}{Principais contribuições}
+	\item Estimativas da espessura das principais camadas abaixo de bacias intracratônicas;
+	\item Contribuições no entendimento dos processos profundos atuantes em bacias sedimentares intracratônicas no Brasil;
+	\item Rotina computacional para o cálculo das Funções do Receptor de onda P inteiramente em python;
+	\item Programa eficiente para realizar a migração pré-empilhamento das Funções do Receptor de onda P.
+\end{fancyenum}
+% ==============================================================================
+
+\chapter{Céu}
+\label{cap_ceu}
+
+\begin{figure}[h]
+	\HeroFigPad
+	\begin{center}
+		\includegraphics[width=\textwidth]{images/wind_infrasound.jpg}
+	\end{center}
+	\caption{
+	Instação de um Raspberry Boom, uma inovação significativa no campo da monitoramento de infrassom. Tecnologia avançada e acessível ($\approx$ 1000 USD), que ofere uma maneira eficaz de detectar e analisar ondas sonoras de baixa frequência geradas por eventos naturais e antrópicos. Na foto observa-se um formato conhecido como \href{https://www.ctbto.org/our-work/monitoring-technologies/infrasound-monitoring}{pipe arrays}, empregado pela Organização do Tratado de Proibição Completa de Testes Nucleares (\href{https://www.ctbto.org/}{CTBTO}) para a supressão do ruído do vento nos dados.
+    }
+ \label{fig_wind}
+\end{figure}
+
+Observar ondas sonoras propagadas pelo ar é uma área crucial em diversos campos, desde a acústica e engenharia de som até a meteorologia e monitoramento ambiental. Essas ondas, resultantes de variações na pressão do ar, carregam uma riqueza de informações sobre fontes sonoras, características do ambiente e fenômenos naturais. Em resumo, a análise de ondas sonoras pelo ar é uma ferramenta poderosa e versátil que desempenha um papel vital em uma variedade de campos. Ao compreender como as ondas sonoras se comportam no ambiente atmosférico, podemos obter insights valiosos sobre uma ampla gama de fenômenos naturais e antrópicos, promovendo avanços significativos em diversas áreas das geociências.
+
+\section{Tema: Monitoramento Infrassônico}
+
+Os sistemas de monitoramento infrassônico representam uma contribuição significativa para a compreensão e detecção de fenômenos sonoros de baixa frequência, dentre os quais temos: Explosões volcânicas, colisão de meteoros, tempestades troposféricas, ondas de gravidade atmosféricas, terremotos, deslocamentos de massa e atividades antrópicas (explosões controladas, testes de armas e atividades de mineração).
+
+\bigskip
+
+\begin{summarybox}[frametitle=\faProjectDiagram{}\quad Panorama do Projeto de Pesquisa]
+	\begin{datelist}
+		\faFile* & \textbf{Título:} 3 \\
+		\faBinoculars & \textbf{Equipamentos:} Sismômetros de fundo oceânico, sismógrafos flutuantes e planadores subaquáticos \\
+		\faCalendar*[regular] & \textbf{Período:} 2020 - atual \\
+		\faMapMarked* & \textbf{Regiões:} Bacia de Campos, Bancia de Santos e ilhas oceânicas. \\
+	\end{datelist}
+\end{summarybox}
+
+\bigskip
+
+Essa linha de pesquisa abrange métodos de monitoramento sismológico terrestre e marinho, visando compreender os eventos sísmicos e acústicos em diversas escalas temporais e espaciais. Isso inclui a detecção e análise de terremotos, atividade vulcânica, movimentos submarinos e até mesmo fenômenos relacionados à ação humana. Esse novo capítulo na minha jornada acadêmica reflete não apenas a evolução dos meus interesses de pesquisa, mas também o compromisso contínuo com a inovação e a busca por desafios científicos que contribuam para o avanço do conhecimento sismológico para a sociedade como um todo.
+
+\begin{fancyenum}{\faFutbol}{Objetivos}
+  \item Aplicação de métodos avançados eficientes de monitoramento sísmico e hidroacústico;
+  \item Investigar a relação entre atividades sísmicas e fenômenos geodinâmicos;
+  \item Classificação de eventos sísmicos em todo território nacional, principalmente em ambiente submarino.
+\end{fancyenum}
+
+\begin{fancyenum}{\faCogs}{Principais contribuições}
+  \item Desenvolvimento de algoritmos para identificação de eventos sísmicos e acústicos, naturais e antrópicos;
+  \item Implementação de um sistema de monitoramento sísmico/hidroacústico em ambiente submarino;
+  \item Contribuições para a compreensão dos efeitos de atividades humanas nos padrões sísmicos e acústicos da margem Sudeste do Brasil.
+\end{fancyenum}
+
+% ==============================================================================
 
 \chapter{Linhas de Pesquisa}
 \label{cap_pesquisa}
@@ -455,227 +645,12 @@ Esta linha de pesquisa concentra-se na instalação e otimização da instrument
   \item Contribuições para a padronização de práticas instalação de estações sismográficas em diversos contextos geológicos diferentes.
 \end{fancyenum}
 
-\chapter{Mar}
-\label{cap_mar}
-
-\section{Monitoramento Sísmico e Hidroacústico}
-
-
-\begin{summarybox}[frametitle=\faProjectDiagram{}\quad Panorama da linha de pesquisa]
-	\begin{datelist}
-		\faFile* & \textbf{Número de projetos:} 3 \\
-		\faBinoculars & \textbf{Equipamentos:} Sismômetros de fundo oceânico, sismógrafos flutuantes e planadores subaquáticos \\
-		\faCalendar*[regular] & \textbf{Período:} 2020 - atual \\
-		\faMapMarked* & \textbf{Regiões:} Bacia de Campos, Bancia de Santos e ilhas oceânicas. \\
-	\end{datelist}
-\end{summarybox}
-
-\bigskip
-
-Essa linha de pesquisa abrange métodos de monitoramento sismológico terrestre e marinho, visando compreender os eventos sísmicos e acústicos em diversas escalas temporais e espaciais. Isso inclui a detecção e análise de terremotos, atividade vulcânica, movimentos submarinos e até mesmo fenômenos relacionados à ação humana. Esse novo capítulo na minha jornada acadêmica reflete não apenas a evolução dos meus interesses de pesquisa, mas também o compromisso contínuo com a inovação e a busca por desafios científicos que contribuam para o avanço do conhecimento sismológico para a sociedade como um todo.
-
-\begin{fancyenum}{\faFutbol}{Objetivos}
-  \item Aplicação de métodos avançados eficientes de monitoramento sísmico e hidroacústico;
-  \item Investigar a relação entre atividades sísmicas e fenômenos geodinâmicos;
-  \item Classificação de eventos sísmicos em todo território nacional, principalmente em ambiente submarino.
-\end{fancyenum}
-
-\begin{fancyenum}{\faCogs}{Principais contribuições}
-  \item Desenvolvimento de algoritmos para identificação de eventos sísmicos e acústicos, naturais e antrópicos;
-  \item Implementação de um sistema de monitoramento sísmico/hidroacústico em ambiente submarino;
-  \item Contribuições para a compreensão dos efeitos de atividades humanas nos padrões sísmicos e acústicos da margem Sudeste do Brasil.
-\end{fancyenum}
-
-% ==============================================================================
-\chapter{Terra}
-\label{cap_terra}
-
-\section{Estruturação da Crosta e do Manto Superior}
-
-\begin{summarybox}[frametitle=\faProjectDiagram{}\quad Panorama da linha de pesquisa]
-	\begin{datelist}
-		\faFile* & \textbf{Número de projetos:} 4 \\
-		\faBinoculars & \textbf{Equipamentos:} Sismômetros banda larga e período curto \\
-		\faCalendar*[regular] & \textbf{Período:} 2013 - atual \\
-		\faMapMarked* & \textbf{Regiões:} Faixa Ribeira, Bacia do Parnaíba, ilhas oceânicas e bacias costeiras. \\
-	\end{datelist}
-\end{summarybox}
-
-\bigskip
-
-Esta linha de pesquisa busca revelar a estruturação profunda da Terra através de uma gama de metodologias, dentre as quais temos: \href{https://doi.org/10.1029/JB084iB09p04749}{Função do Receptor}, \href{https://doi.org/10.1111/j.1365-246X.1990.tb04573.x}{Dispersão de Ondas de Superfície}, \href{https://doi.org/10.1046/j.1365-246x.2000.00217.x}{Inversão Conjunta}, \href{https://doi.org/10.1016/j.epsl.2013.08.025}{Migração das Funções do Receptor} e \href{https://doi.org/10.1111/j.1365-246X.2007.03374.x}{Tomografia de Ruído Sísmico}. Esta linha de pesquisa está intimamente ligada à minha trajetória acadêmica, uma vez que minha formação prévia em Geologia, combinada com os resultados obtidos pelos métodos sismológicos, contribuem para uma visão abrangente da composição e dinâmica da subsuperfície terrestre. A caracterização da estrutura profunda das bacias cratônicas, faixas móveis e cratons permitem a identificação de padrões de sedimentação, processos geodinâmicos associados e processos de formação de montanhas, falhas e outros elementos estruturais. Além disso, a investigação da estrutura do manto superior, principalmente da zona de transição, fornece informações cruciais sobre a composição, temperatura e movimentos do manto superior, contribuindo para o entendimento dos processos de convecção e circulação mantélica que impulsionam a dinâmica global do planeta.  
-
-\begin{fancyenum}{\faFutbol}{Objetivos}
-	\item Imagear as principais descontinuidades crustais e mantélicas;
-	\item Caracterizar a estrutura crustal profunda das principais provincias geológicas do Brasil;
-	\item Investigar a composição, temperatura e fluxos do manto superior;
-	\item Desenvolver rotinas computacionais mais eficientes para estimar as profundidade e espessuras das camadas em subsuperfície.
-\end{fancyenum}
-
-\begin{fancyenum}{\faCogs}{Principais contribuições}
-	\item Estimativas da espessura das principais camadas abaixo de bacias intracratônicas;
-	\item Contribuições no entendimento dos processos profundos atuantes em bacias sedimentares intracratônicas no Brasil;
-	\item Rotina computacional para o cálculo das Funções do Receptor de onda P inteiramente em python;
-	\item Programa eficiente para realizar a migração pré-empilhamento das Funções do Receptor de onda P.
-\end{fancyenum}
-% ==============================================================================
-
-\chapter{Céu}
-\label{cap_ceu}
-
-\section{Monitoramento Infrassônico}
-\begin{summarybox}[frametitle=\faProjectDiagram{}\quad Panorama da linha de pesquisa]
-	\begin{datelist}
-		\faFile* & \textbf{Número de projetos:} 3 \\
-		\faBinoculars & \textbf{Equipamentos:} Sismômetros de fundo oceânico, sismógrafos flutuantes e planadores subaquáticos \\
-		\faCalendar*[regular] & \textbf{Período:} 2020 - atual \\
-		\faMapMarked* & \textbf{Regiões:} Bacia de Campos, Bancia de Santos e ilhas oceânicas. \\
-	\end{datelist}
-\end{summarybox}
-
-\bigskip
-
-Essa linha de pesquisa abrange métodos de monitoramento sismológico terrestre e marinho, visando compreender os eventos sísmicos e acústicos em diversas escalas temporais e espaciais. Isso inclui a detecção e análise de terremotos, atividade vulcânica, movimentos submarinos e até mesmo fenômenos relacionados à ação humana. Esse novo capítulo na minha jornada acadêmica reflete não apenas a evolução dos meus interesses de pesquisa, mas também o compromisso contínuo com a inovação e a busca por desafios científicos que contribuam para o avanço do conhecimento sismológico para a sociedade como um todo.
-
-\begin{fancyenum}{\faFutbol}{Objetivos}
-  \item Aplicação de métodos avançados eficientes de monitoramento sísmico e hidroacústico;
-  \item Investigar a relação entre atividades sísmicas e fenômenos geodinâmicos;
-  \item Classificação de eventos sísmicos em todo território nacional, principalmente em ambiente submarino.
-\end{fancyenum}
-
-\begin{fancyenum}{\faCogs}{Principais contribuições}
-  \item Desenvolvimento de algoritmos para identificação de eventos sísmicos e acústicos, naturais e antrópicos;
-  \item Implementação de um sistema de monitoramento sísmico/hidroacústico em ambiente submarino;
-  \item Contribuições para a compreensão dos efeitos de atividades humanas nos padrões sísmicos e acústicos da margem Sudeste do Brasil.
-\end{fancyenum}
-
-% ==============================================================================
-
-\chapter{Atividades de Ensino e Mentoria}
-\label{cap_ensino}
-
-\begin{figure}[h]
-  \HeroFigPad
-  \begin{center}
-    \includegraphics[width=\textwidth]{images/inicio.png}
-  \end{center}
-  \caption{
-    Moisaico de imagens em atividades de ensino durante o estátio pós-doutoral no Observatório Nacional. Primeira: Ministrando um curso de python no Ciclo de Seminários do Programa de Pós-Graduação do Observatório Nacional. Segunda: Ministrando a palestra Sismologia: Adornando a Tectônica com Terremotos na Universidade Federal do Espírito Santo. Ministrando o minicurso na I Escola Itinerante da Geofísica do Observatório Nacional na Universidade Federal de Pernambuco.}
-\end{figure}
-
-\begin{summarybox}[frametitle=\faChalkboardTeacher{}\quad Resumo das atividades]
-  \begin{fa-ul}
-    \faStreetView & 2 orientações de alunos de iniciação científica \\
-    \faBook & 1 disciplina de pós-graduação ministrada \\
-    \faEdit & 3 cursos de curta duração ministrados \\
-    \faNewspaper & Tópicos ensinados: Sismologia, Geologia, Tectônica, Programação (Python), Instrumentação sismológica e Geodinâmica.
-  \end{fa-ul}
-\end{summarybox}
-
-As atividades de ensino e mentoria de alunos começaram formalmente apenas durante o estágio pós-doutoral. Essa falta de prática em atividades de ensino e orientação deve-se ao fato de que as bolsas de estudo concedidas para o mestrado e doutorado não exigem a realização de disciplinas ou estágios de docência. No entanto, é evidente o crescimento vertiginoso do conhecimento sismológico acumulado devido às orientações e aulas ministradas, além das oportunidades para aprender e desenvolver minhas habilidades interpessoais com outros acadêmicos. A forma de ensinar e orientar é fortemente influenciada pelas disciplinas estudadas durante a minha trajetória acadêmica, especialmente no que se refere à habilidade de selecionar e transmitir uma grande quantidade de conteúdo em um curto período de tempo. No entanto, a experiência familiar foi muito relevante neste tópico, pois a minha família é majoritariamente formada por professores da rede pública de ensino do Estado do Rio de Janeiro (\href{https://www.seeduc.rj.gov.br/}{SEEDUC}), e nas conversas informais eu aprendi diversas formas de interegir com uma turma diversa e oriunda realidades distintas. Ratificando o que foi dito anteriormente, todas as conversas com minhas tias que passaram décadas lecionando na Educação de Jovens e Adultos (\href{http://portal.mec.gov.br/index.php?option=com_docman&view=download&alias=13448-diretrizes-curiculares-nacionais-2013-pdf&Itemid=30192}{EJA}) me ajudaram a entender que a pesquisa na área das Geociências rompe com a simetria do ensino regular e impulsiona percursos individualizados, sendo a minha trajetória acadêmica um grande exemplo disso. Como a entrada no Programa de Pós-graduação em Geofísica é fomentada para uma gama de áreas do saber (e.g. graduados em Geofísica, Geologia, Física, Matemática ou áreas afins) é vital que o professor entenda a responsabilidade de estimular e viabilizar o acesso e a permanência do aluno na instituição, proporcionando oportunidades educacionais apropriadas de acordo com as características do aluno, seus interesses, condições de vida e de trabalho.
-
-No desenvolvimento da minha prática docente, percebi que a computação é uma ferramenta poderosa para capacitar os alunos, não apenas na compreensão dos conceitos teóricos, mas também na aplicação prática desses conceitos. Através de atividades práticas, os alunos desenvolvem uma série de competências, incluindo análise de dados, resolução de problemas e pensamento crítico. Isso facilita a compreensão dos alunos e estimula sua curiosidade e interesse pelo assunto. Este capítulo oferece um breve relato das minhas atividades de ensino e orientação, destacando minha abordagem pedagógica e meu papel na ministração da disciplina de Introdução à Sismologia no Programa de Pós-graduação, onde busco promover um ambiente de aprendizado colaborativo e inclusivo, onde os alunos sintam-se capacitados a explorar e desenvolver seu potencial máximo.
-
-\section{Orientações}
-\label{sec_orientacao}
-
-Minha primeira experiência como orientador é oriunda do Programa Institucional de Iniciação Científica e Tecnológica do ON (\href{https://www.gov.br/observatorio/pt-br/assuntos/programas-academicos/iniciacao-cientifica-e-tecnologica/apresentacao}{PICT/ON}), o qual é uma iniciativa da instituição como contrapartida ao programa de bolsas \href{http://portal-adm.cnpq.br/web/guest/pibic/}{PIBIC}, oferecido pelo Conselho Nacional de Desenvolvimento Científico e Tecnológico (\href{https://www.gov.br/cnpq/pt-br}{CNPq}). Esta iniciativa do ON ampliou o número de bolsas de Iniciação Científica e Tecnológica para alunos de graduação de diversas áreas. No entanto, um diferencial desse programa é permitir que alunos de outras Universidades, localizadas fora do Rio de Janeiro, possam desenvolver trabalhos junto a pesquisadores do ON. Dada a essa nova realidade, eu iniciei a orientação das alunas \href{http://lattes.cnpq.br/4746789434324199}{Ingrid Herzog} (\href{https://unipampa.edu.br/portal/}{Unipampa}) e \href{http://lattes.cnpq.br/6698175242371919}{Thereza Mayra de Souza Fialho} (\href{https://www5.usp.br/}{USP}) inteiramente online entre Setembro de 2022 e Março de 2024 (18 meses).
-
-O projeto realizado pela Ingrid utilizou dados das estações sismográficas situadas no estado do Rio Grande do Sul a fim de desenvolver estudos sismológicos sobre a estrutura sob essas estações, procurando correlacionar os resultados com a história geotectônica local. Nesse contexto, o método da \href{http://eqseis.geosc.psu.edu/cammon/HTML/RftnDocs/rftn01.html#:~:text=Receiver\%20functions\%20are\%20time\%20series,Earth\%20structure\%20near\%20the\%20receiver}{função do receptor} tem sido usado com sucesso para estudar descontinuidades no limite crosta/manto ao redor do mundo. Os resultados desse projeto proporcionaram informações-chave para formular hipóteses, bem como confirmar alguns modelos propostos para as grandes estruturas crustais abaixo das estações e contribuiu para ajudar a determinar os processos evolutivos que ocorreram na área de estudo. Além disso, o projeto compilou um fluxo de processamento em python para o cálculo da espessura crustal, assim como propriedades complementares oriundas da metodologia da função do receptor que será disponibilizado para toda comunidade científica. A estudante realizou todo o processamento dos dados em algoritmos desenvolvidos em Python, utilizando os pacotes do \href{https://docs.obspy.org/}{ObsPy}, \href{https://seispy.xumijian.me/latest/}{Seispy} e \href{https://www.pygmt.org/latest/}{Pygmt}. Os resultados deste trabalhos foram satisfatórios e foram apresentados pela estudante como um resumo expandido no \href{https://sbgf.org.br/congresso/}{18 Congresso Internacional da Sociedade Brasileira de Geofísica e EXPOGEf} entre 16 e 19 de Outubro de 2023. O trabalho foi premiado pela Unipampa e a estudante foi contemplada com uma ajuda de custos para apresentar presencialmente seu poster no congresso. Além dessa premiação, o resumo expandido recebeu a indicação para publicação no \href{https://sbgf.org.br/revista/index.php/rbgf}{Brazilian Journal of Geophysics}. Contudo, no início de 2024 recebi a notícia que a Ingrid passou no processo seletivo para mestrado no \href{https://www.iag.usp.br/}{Instituto de Astronomia, Geofísica e Ciências Atmosféricas} da USP.
-
-O projeto realizado pela Thereza teve como objetivo comparar as particularidades dos terremotos em Marte e inferir os principais agentes causadores da sismicidade no planeta vermelho. Utilizamos a biblioteca \href{https://docs.obspy.org/}{ObsPy} para leitura e tratamento dos dados do \href{https://www.insight.ethz.ch/seismicity/catalog/v13}{catálogo sísmico da missão InSight} e, para que eles fossem mais concisos, limitamos a observação de eventos para que tivéssemos não somente a magnitude, mas também a longitude e latitude para podermos comparar com as feições geológicas existentes e, se viável, traçar um paralelo com a Terra. O grande desafio do projeto foi aplicar métodos sismológicos em dados resultantes de apenas uma estação para estudar a distribuição dos sismos marcianos, que são fortemente ofuscados pela presença de tempestades de areia e de outros processos de superfície. O âmago deste projeto foi examinar os dados contínuos do \href{https://www.iris.edu/hq/sis/insight}{InSight SEIS} para buscar entender a sismicidade em Marte através da identificação dos principais eventos sísmicos catalogados e da distribuição da atividade sísmica na superfície de Marte. Esse trabalho abriu uma nova frente de pesquisa para mim, pois os meus trabalhos e linhas de pesquisa eram relacionados a Terra. Assim como aconteceu anteriormente, a Thereza também foi aprovada no processo seletivo de mestrado do \href{https://www.iag.usp.br/}{Instituto de Astronomia, Geofísica e Ciências Atmosféricas} da USP, portanto o projeto teve que ser finalizado.
-
-\bigskip
-
-\begin{summarybox}[frametitle=\faBookmark{}\quad Resumo dos trabalhos apresentados pelos alunos em congressos]
-  \begin{fa-ul}
-      \faBuilding & 18th International Congress of the Brazilian Geophysical Society \\
-      \faBook & Thickness and crustal composition investigation in the Sul-rio-grandense Shield (SrgS) \\
-      \faChild & HERZOG, I.; \textbf{COELHO, D. L. O.}; HISPAGNOL, N. R. ; LIMA, M. V. A. G. D.; GREGORY, T. R.\\
-      \faCertificate & \href{https://sbgf.org.br/mysbgf/eventos/expanded_abstracts/18th_CISBGf/9778d5d219c5080b9a6a17bef029331cResumo_expandd_SBGF_INGL\%C3\%8AS.docx\%20(1).pdf}{Resumo Expandido}  \\
-      \faCalendar & 2023 \\
-  \end{fa-ul}
-\end{summarybox}
-
-Através dessas orientações, aprendi a orientar alunos sem experiência prévia em pesquisa através das etapas iniciais de um projeto e a adaptar o nível dos projetos propostos ao nível dos alunos. Foi gratificante receber a notícia de que os alunos progrediram em suas carreiras acadêmicas e que seus projetos alcançaram uma qualidade excelente, superando até mesmo as expectativas deles mesmos.
-
-\section{Cursos de curta duração}
-\label{sec_workshops}
-
-Minha primeira experiência em outra instituição, divulgando e ensinando sob o regime de estágio pós-doutoral no Observatório Nacional, ocorreu por convite do professor \href{http://lattes.cnpq.br/4046823088402890}{Luiz Carlos de Carvalho Benyosef}, na Escola Itinerante de Geofísica do Observatório Nacional, realizada de 08 a 10 de agosto de 2023. Foi durante esse curso que percebi minha habilidade para lecionar e divulgar a pesquisa científica. Desde então, ministrei 3 cursos de curta duração e workshops em formato online e presencial. Esses cursos complementam o ensino convencional em Sismologia e Tectônica, oferecendo a chance de explorar diferentes tecnologias, métodos de ensino e temas menos convencionais. Além disso, também ministrei cursos relacionados a integração de Sismologia e Programação em python. O formato curto é adequado para uma introdução à conceitos básicos de programação ou para abordar um assunto específico (e.g., como ler e plotar gráficos de dados sismológicos, como manipular catálogos de eventos sísmicos ou como realizar tarefas simples em python). Mesmo com um orçamento limitado é possível desenvolver esses cursos, pois atualmente existem diversas plataformas de vídeo conferência.
-
-\bigskip
-
-\begin{subsummarybox}[frametitle=\faEdit{}\quad Seminários e workshops ministrados]
-	\begin{paperlist}
-		Ago/23  & Sismologia: existem terremotos no Brasil?
-		\newline
-		\faInfoCircle I Escola Itinerante de Geofísica do Observatório Nacional (presencial).
-		\newline
-		\faBuilding Universidade Federal de Pernambuco  (Recife-PE)
-		\newline
-		\faArchive{} \href{https://doi.org/10.6084/m9.figshare.25387180.v1}{Apresentação}
-		\faBullhorn{} \href{https://www.ufpe.br/df/todos-os-informes/-/asset_publisher/znKKONCGSp59/content/a-primeira-escola-itinerante-de-geofisica-do-observatorio-nacional-ocorrera-na-ufpe-no-periodo-de-08-10-de-agosto-de-2023/441331}{Noticia}
-		\\
-		Set/23  & Desvendando Python: Uma Jornada de 40 Minutos.
-		\newline
-		\faInfoCircle Ciclo de seminários do PPGG/ON 2023 (presencial/online)
-		\newline
-		\faBuilding Observatório Nacional (Rio de Janeiro-RJ) 
-		\newline
-		\faGithub{} \href{https://github.com/dIOGOLOC/workshop_course_lecture/tree/6a0758f18303eecb6344a61fdbf874225da5e6be/ON_SET_2023}{Código}
-		\faYoutube{} \href{https://youtu.be/LhRH2uYTWhc}{Vídeo}
-		\\ 
-		Out/23 & Sismologia e Python: Introdução prática ao processamento de dados sismológicos
-		\newline
-		\faInfoCircle XI Semana de Estudos Geológicos da Universidade Federal do Espírito Santo/IX Semana de Geologia do Espírito Santo (presencial)
-		\newline
-		\faBuilding Universidade Federal do Espírito Santo (Alegre-ES) 
-		\newline
-		\faArchive{} \href{https://doi.org/10.6084/m9.figshare.25387123.v1}{Apresentação}
-		\faGithub{} \href{https://github.com/dIOGOLOC/workshop_course_lecture/tree/6a0758f18303eecb6344a61fdbf874225da5e6be/SEGEO_2023_UFES}{Código}
-		\\
-	\end{paperlist}
-\end{subsummarybox}
-
-\section{Disciplinas na pós-graduação}
-\label{sec_ensino_grad}
-
-Sou o responsável, juntamente com o professor \href{http://lattes.cnpq.br/8537150955145617}{Sergio Luiz Fontes}, pela disciplina \href{https://www.gov.br/observatorio/pt-br/assuntos/programas-academicos/pos-graduacao-em-geofisica/ementas/introducao-a-sismologia}{Introdução à Sismologia} onde ensino de maneira introdutória terremotos, estrutura da Terra, aquisição e processamento de dados sísmicos e instrumentação dentro nos diversos campos de atuação da \href{http://www.rsis.on.br/}{Rede Sismográfica do Sul e do Sudeste do Brasil (RSIS)}. Dada a complexidade da mecânica de terremotos e da geodinânima, aliados ao pouco tempo disponível para a disciplina (3 meses), o processo de avaliação que eu utilizado para mensurar o desempenho dos alunos está relacionado a confecção de três tipos de resumos (e.g. informativo, indicativo e crítico) sobre artigos científicos da área. A proposta desse processo de avaliação\footnote{Exemplos: avaliações \href{https://docs.google.com/forms/d/e/1FAIpQLSffa78ttrM_i5cWZmISGNz-lhwShi3Wzk7AUbWPgN6lhDuTNQ/viewform}{2} e \href{https://docs.google.com/forms/d/e/1FAIpQLSe8FIH4vSjn5QLT79BdG8eVRLti0le8i6yssInmQTX1iXNrYA/viewform}{3}} é ensinar aos alunos a elaboração de um resumo científico, tanto em português quanto em inglês, já que para a maioria deles, essa seria sua primeira experiência e contato com a escrita científica. Além disso, incorporei uma abordagem computacional introduzindo a manipulação de tabelas e dados de eventos sísmicos dentro do ambiente do \href{https://colab.google/}{google colab}, que é um serviço hospedado do \href{https://jupyter.org/}{Jupyter Notebook} que não requer configuração para ser usado e fornece acesso gratuito a recursos de computação. O Colab é especialmente adequado para aprendizado de máquina, ciência de dados e educação computacional básica. Como exemplos temos a \href{https://colab.research.google.com/drive/1c7Vc_s0A5GURJIab2vTS-LCW8fPlRaXt?usp=sharing}{aula de introdução ao Google colab} e a \href{https://colab.research.google.com/drive/17VaW0MkQxcxUjGaeowaVwyRORrijCXaV?usp=sharing}{aula de introdução ao Python}.
-
-\bigskip
-
-\begin{subsummarybox}[frametitle=\faGraduationCap{}\quad Disciplinas ministradas no Observatório Nacional]
-  \begin{courselist}
-    2022--2024 &
-      SISMO - Introdução à Sismologia
-      \newline
-      \faInfoCircle \href{https://www.gov.br/observatorio/pt-br/assuntos/programas-academicos/pos-graduacao-em-geofisica/grade-curricular}{Grade Curricular}
-      \newline
-      \faInbox \href{https://www.gov.br/observatorio/pt-br/assuntos/programas-academicos/pos-graduacao-em-geofisica/ementas/introducao-a-sismologia}{Ementa}
-  \end{courselist}
-\end{subsummarybox}
-
-Estou plenamente disponível e comprometido para ministrar essas novas disciplinas de Sismologia na pós-graduação. Com uma sólida experiência em pesquisa e análise de dados sísmicos, estou entusiasmado em oferecer aos alunos uma educação de alta qualidade e prepará-los para os desafios do mundo real. Estou confiante para trabalhar em colaboração com os alunos para promover uma compreensão profunda e abrangente da Sismologia e suas aplicações.
-
 %==============================================================================
 
+\chapter{Considerações Finais}
+\label{cap_conclusao}
 
-\chapter{Popularização da Ciência}
-\label{cap_comunidade}
-
-\bigskip
-
-\begin{figure}[h]
-  \HeroFigPad
-  \begin{center}
-    \includegraphics[width=\textwidth]{images/inicio.png}
-  \end{center}
-  \caption{
-    Moisaico mostrando as diversas frentes de atuação na divulgação e popularização da ciência durante o estágio pós-doutoral no Observatório Nacional. Esquerda: Participação com o Projeto Sismo-oceanográfico em 2022 no Rio Innovation Week. Centro: 3 fotos de entrevistas respondendo os questionamentos da sociedade em relação a sismicidade brasileira e global. Direita: Ministrando o mini-curso “Sismologia: existem terremotos no Brasil?” na Universidade Federal de Pernambuco.}
-\end{figure}
-
-Após ingressar no estágio pós-doutoral, cerca de um mês depois, o planeta iniciou um extenso período de \href{http://repositoriocovid19.unb.br/repositorio-produtos/desvelando-o-isolamento-social-no-cotidiano-vivido-na-pandemia-da-covid-19/}{isolamento social}. Foi nesse contexto que constatei uma crescente demanda social por informações científicas, além de identificar uma lacuna significativa em minha carreira nesse campo tão crucial na ciência contemporânea. Diante dessa necessidade evidente, iniciei minhas atividades voltadas para à divulgação e popularização da ciência junto à Divisão de Comunicação e Popularização da Ciência (\href{https://www.gov.br/observatorio/pt-br/assuntos/areas-de-atuacao/divulgacao-e-popularizacao-da-ciencia}{DICOP}), reconhecendo a importância de fornecer conhecimento acessível à sociedade. Este capítulo relata minhas atividades relacionadas a divulgação da ciência, como mostra a Figura \ref{fig_resumo_divulgacao}. Durante esse período, meu engajamento abrangeu a diversas demandas da DICOP em variadas plataformas de comunicação, abordando tanto o meio virtual, por meio de redes sociais e canais de imprensa online, quanto atividades presenciais, como feiras e eventos de divulgação científica e tecnológica, assim que as restrições permitiram.
+Este memorial narra minha jornada desde os meados dos anos 2000, quando iniciei meu curso de Geologia na Universidade Federal do Espírito Santo, até meu último estágio pós-doutoral no Observatório Nacional, instituição que desempenhou um papel fundamental ao longo da minha trajetória acadêmica. Durante meu último estágio pós-doutoral nessa instituição, pude aprofundar meu conhecimento e contribuir para projetos de pesquisa de grande relevância. Nessa maratona acadêmica, passei por 4 instituições federais em 4 estados diferentes, visitei 15 estados para participar de conferências nacionais e aulas de campo e visitei 5 países assistindo a cursos e conferências internacionais graças ás oportunidades geradas pelos programas de pós-graduação, projetos e bolsas que estive envolvidos.
 
 \begin{figure}
 	\centering
@@ -694,58 +669,6 @@ Após ingressar no estágio pós-doutoral, cerca de um mês depois, o planeta in
 \end{figure}
 
 Os números apresentados acima, assim como a lista \ref{lista_divulgacao}, fornecem uma visão detalhada dessa abordagem multifacetada na popularização da ciência e das atividades do Obseravtório Nacional ao longo do período que estive na instituição, um total de 38 atividades ao longo de 3 anos. Destaco que concedi dezenas de entrevistas, totalizando 24 (13 escritas, 8 gravadas e 3 ao vivo), contribuí revisando textos na temática da Sismologia e Geologia que foram publicados nas redes sociais do Obseravtório Nacional. Além disso, fiz parte da comitiva que participou do \href{https://www.gov.br/observatorio/pt-br/assuntos/areas-de-atuacao/divulgacao-e-popularizacao-da-ciencia/on-riw}{Rio Innovation Week}, o maior evento de tecnologia e inovação da América Latina, para apresentar as iniciativas, ações e projetos ligados ao \href{https://www.gov.br/mcti/pt-br}{MCTI}. Somada a isso, ministrei dois minicursos em duas instituições de ensino superior, na Universidade Federal do Espírito Santo para o curso de Geologia na \href{https://www.instagram.com/segeo.ufes/}{Semana de Estudos Geológicos da Universidade Federal do Espírito Santo} e no Instituto de Física da Universidade Federal de Pernambuco na \href{https://www.gov.br/observatorio/pt-br/assuntos/noticias/i-escola-itinerante-da-geofisica-do-observatorio-nacional-e-realizada-na-ufpe}{I Escola Itinerante da Geofísica do Observatório Nacional}. Ministrar um curso em outras instituições, não apenas promove a disseminação do conhecimento especializado, mas também desempenha um papel crucial na visibilidade e reputação do Observatório Nacional. Esses eventos compartilham expertise em contextos acadêmicos diversos, estabelecendo laços colaborativos e fortalecendo a presença no cenário acadêmico. Além disso, o envolvimento em eventos externos fortalece parcerias e colabora para o crescimento do programa de iniciação científica e pós-graduação do ON, estimulando a atração de novos alunos.
-
-\bigskip
-
-\begin{subsummarybox}[frametitle=\faList{}\quad Listagem das atividades de divulgação científica]
-  \label{lista_divulgacao}
-  \begin{datelist}
-  	06/05/2020 & Evento Online - Youtube ON - \href{https://youtu.be/TrTe2VveEB8}{Diminuição do zumbido urbano no planeta} \\
-	13/05/2020 & Entrevista gravada - Ciência na Rádio - \href{https://www.gov.br/observatorio/pt-br/acesso-a-informacao/auditorias/relatorios-do-termo-de-compromisso-de-gestao/documentos/on_relatorio_tcg_2020.pdf/view}{Diminuímos o zumbido urbano no planeta} \\
-	01/09/2020 & Evento Online - Youtube ON - \href{https://youtu.be/dHavR6DvAIo}{A terra tremeu na Bahia!}\\
-	09/09/2020 & Entrevista gravada - Ciência na Rádio - \href{https://www.gov.br/observatorio/pt-br/acesso-a-informacao/auditorias/relatorios-do-termo-de-compromisso-de-gestao/documentos/on_relatorio_tcg_2020.pdf/view}{Tremores de terra na Bahia}\\
-	30/08/2020 & Entrevista ao vivo - GloboNews - \href{https://g1.globo.com/globonews/jornal-globonews/video/magnitude-choca-um-pouco-as-pessoas-diz-sismologo-sobre-terremoto-na-bahia-8817616.ghtml}{"Magnitude choca um pouco as pessoas", diz sismólogo sobre terremoto na Bahia}\\
-	29/04/2021 & Evento Online - Youtube ON - \href{https://youtu.be/Zazh2MlbkXU}{Por que a terra treme no Brasil?}\\
-	05/07/2021 & Revisão de texto - Facebook ON - \href{https://www.facebook.com/observatorionacional/videos/319161219946539}{você pode conhecer um pouco mais sobre a sismologia, que é o estudo dos terremotos e da estrutura da Terra.}\\		
-	21/07/2021 & Entrevista gravada - Ciência na Rádio - \href{https://radios.ebc.com.br/radio-sociedade/2021/07/o-mar-tambem-treme-nao-so-terra}{O mar também treme, não só a terra} \\
-	26/07/2021 & Entrevista escrita - apufsc - \href{https://www.apufsc.org.br/2021/07/26/equipe-da-ufsc-trabalha-com-dados-ineditos-captados-por-equipamentos-complexos-instalados-no-fundo-do-oceano/}{Equipe da UFSC trabalha com dados inéditos captados por equipamentos complexos instalados no fundo do oceano}\\	
-	26/07/2021 & PodCast - IFFcast - \href{https://podcasters.spotify.com/pod/show/iffcast/episodes/66-Terremotos-e150eb0/a-a67a2kg}{66 Terremotos}\\	
-	26/07/2021 & Entrevista escrita - Noticias UFSC - \href{https://noticias.ufsc.br/2021/07/equipe-da-ufsc-trabalha-com-dados-ineditos-captados-por-equipamentos-complexos-instalados-no-fundo-do-oceano/}{Equipe da UFSC trabalha com dados inéditos captados por equipamentos complexos instalados no fundo do oceano}\\	
-	27/07/2021 & Entrevista escrita - FAPEU - \href{http://www.fapeu.com.br/noticias.php?id_noticia=351\&id_categoria=5}{Projeto apoiado pela UFSC trabalha com dados inéditos captados por equipamentos instalados no fundo do oceano}\\	
-	10/10/2021 & Entrevista ao vivo - JAM - \href{https://globoplay.globo.com/v/10614041/}{Moradores relatam tremor em Manaus após terremoto no Peru}\\
-	17/10/2021 & Entrevista gravada - Ciência na Rádio - \href{https://radios.ebc.com.br/radio-sociedade/2021/10/cumbre-vieja-maior-erupcao-vulcanica-na-europa-em-100-anos}{Cumbre Vieja, a maior erupção vulcânica na Europa em 100 anos}\\
-	13/01/2022 & Entrevista escrita - Site ON - \href{https://www.gov.br/observatorio/pt-br/assuntos/areas-de-atuacao/divulgacao-e-popularizacao-da-ciencia/on-riw/monitoramento-de-tremores-de-terra-no-brasil-1}{Projeto de monitoramento sismo-oceanográfico e RSBR}\\	
-	13/01/2022 & Evento presencial - Rio Innovation Week - \href{https://www.gov.br/observatorio/pt-br/assuntos/areas-de-atuacao/divulgacao-e-popularizacao-da-ciencia/on-riw}{Participação com o Projeto Sismo-oceanográfico na Rio Innovation Week. O evento ocorreu entre os dias 13 e 16 de janeiro de 2022.}\\	
-	02/02/2022 & Revisão de texto - Facebook ON - \href{https://www.facebook.com/photo?fbid=4569504043159191\&set=a.318827624893542}{Os cânions são formações rochosas impressionantes!}\\	
-	04/03/2022 & Entrevista gravada - Ciência na Rádio - \href{https://radios.ebc.com.br/radio-sociedade/2022/03/entenda-o-que-sao-movimentos-de-massa-inundacoes-e-quais-sao-os-impactos}{Podcast: como os desastres ambientais são causados}\\
-	26/05/2022 & Revisão de texto - Facebook ON - \href{https://www.facebook.com/photo?fbid=314008907578314\&set=a.279769034335635}{Um terremoto de magnitude 7,2 atingiu o Peru nesta quinta-feira (26) e pôde ser sentido em Manaus (AM).}\\	
-	03/06/2022 & Entrevista escrita - O Tempo - \href{https://www.otempo.com.br/super-noticia/sete-lagoas-investiga-serie-de-tremores-de-terra-1.2678079}{Sete Lagoas investiga série de tremores de terra}\\
-	04/09/2022 & Palestra Online - \href{https://youtu.be/yTUVBx0fsDA}{107ª QCC - Monitoramento sísmico marinho no Brasil - Diogo Coelho (ON)}\\
-	08/11/2022 & Evento presencial - Rio Innovation Week - \href{https://www.gov.br/observatorio/pt-br/assuntos/noticias/observatorio-nacional-leva-ciencia-e-tecnologia-ao-rio-innovation-week-2022}{Observatório Nacional (ON/MCTI) leva ciência e tecnologia à Rio Innovation Week entre 8 e 11 de novembro de 2022}\\	
-	14/12/2022 & Entrevista gravada - Ciência na Rádio - \href{https://radios.ebc.com.br/radio-sociedade/2022/12/impacto-de-navio-deriva-na-ponte-rio-niteroi-foi-equivalente-um-terremoto-de}{Impacto de navio a deriva na Ponte Rio-Niterói foi equivalente a terremoto de magnitude 1.6}\\
-	19/12/2022 & Entrevista escrita - Enfoco - \href{https://enfoco.com.br/noticias/cidades/colisao-de-navio-com-a-ponte-rio-niteroi-provoca-terremoto-video-88684?d=1}{Colisão de navio com a Ponte Rio-Niterói provoca terremoto}\\
-	06/02/2023 & Revisão de texto - Facebook ON - \href{https://www.facebook.com/photo?fbid=504786468504778\&set=a.286674090316018}{Você deve ter lido recentemente que o núcleo da Terra pode se inverter.}\\	
-	10/02/2023 & Entrevista escrita - Enfoque MS - \href{https://www.enfoquems.com.br/estudo-aponta-que-nucleo-da-terra-desacelerou-e-fenomeno-pode-afetar-duracao-dos-dias/}{Estudo aponta que núcleo da Terra desacelerou, e fenômeno pode afetar duração dos dias}\\
-	11/02/2023 & Entrevista gravada - Jovem Pan News - \href{https://youtu.be/MlcSJgjTF7A}{Terremoto Turquia | DOCUMENTO JOVEM PAN - 11/02/2023}\\
-	27/02/2023 & Entrevista escrita - Jornal Força do Vale - \href{https://jornalforcadovale.com.br/mundo/como-cientistas-estudam-a-importancia-do-nucleo-da-terra/}{Como cientistas estudam a importância do núcleo da Terra}\\
-	24/04/2023 & Entrevista escrita - Site ON - \href{https://www.gov.br/observatorio/pt-br/assuntos/noticias/on-investiga-terremotos-antigos-na-regiao-do-pre-sal-com-veiculo-subaquatico-autonomo\#:~:text=Pesquisadores\%20da\%20\%C3\%A1rea\%20de\%20geof\%C3\%ADsica,de\%20explora\%C3\%A7\%C3\%A3o\%20do\%20Pr\%C3\%A9\%2DSal.}{ON investiga terremotos antigos na região do Pré-Sal com ‘veículo subaquático autônomo’}\\
-	26/04/2023 & Entrevista gravada - Ciência na Rádio - \href{https://radios.ebc.com.br/radio-sociedade/2023/04/entenda-o-uso-de-veiculos-subaquaticos-na-descoberta-de-terremotos-antigos}{Entenda o uso de veículos subaquáticos na descoberta de terremotos antigos}\\
-	08/08/2023 & Workshop - UFPE - \href{https://www.gov.br/observatorio/pt-br/assuntos/noticias/i-escola-itinerante-da-geofisica-do-observatorio-nacional-e-realizada-na-ufpe}{I Escola Itinerante da Geofísica do Observatório Nacional}\\
-	14/09/2023 & Entrevista ao vivo - CNN Pop - \href{https://youtu.be/NqFl7g9YMsE}{Vulcão Kilauea entra em erupção pela 3ª vez em 2023: como o fenômeno acontece? | Popverso CNN}\\
-	02/10/2023 & Palestra Presencial - SEGEO/UFES - \href{https://www.instagram.com/segeo.ufes/}{Sismologia: Adornando a Tectônica com Terremotos}\\
-	22/01/2024 & Entrevista escrita - Site ON - \href{https://www.gov.br/observatorio/pt-br/assuntos/noticias/sismologo-do-observatorio-nacional-explica-terremoto-registrado-pela-rede-sismografica-brasileira-no-norte-do-brasil?fbclid=IwAR2a42LyCxwwkI93V6Axrv9bB2AR8Pdx6IqMW2tPlzkwZIcrE18Jq9aU39U}{Sismólogo do Observatório Nacional explica terremoto registrado pela Rede Sismográfica Brasileira no Norte do Brasil}\\
-	24/01/2024 & Entrevista escrita - Canaltech - \href{https://canaltech.com.br/meio-ambiente/por-que-ninguem-sentiu-o-terremoto-de-66-graus-no-brasil-276873/}{Por que ninguém sentiu o terremoto de 6,6 graus no Brasil?}\\
-	01/02/2024 & Entrevista escrita - Canaltech - \href{https://canaltech.com.br/meio-ambiente/da-para-prever-um-terremoto-com-antecedencia/}{Dá para prever um terremoto com antecedência?} \\
-	11/02/2024 & Entrevista escrita - Multiverso Noticias - \href{https://multiversonoticias.com.br/terremoto-no-brasil-descubra-quais-regioes-sao-mais-vulneraveis/}{Terremoto no Brasil: descubra quais regiões são mais vulneráveis}\\
-  \end{datelist}
-\end{subsummarybox}
-
-%==============================================================================
-
-\chapter{Considerações Finais}
-\label{cap_conclusao}
-
-Este memorial narra minha jornada desde os meados dos anos 2000, quando iniciei meu curso de Geologia na Universidade Federal do Espírito Santo, até meu último estágio pós-doutoral no Observatório Nacional, instituição que desempenhou um papel fundamental ao longo da minha trajetória acadêmica. Durante meu último estágio pós-doutoral nessa instituição, pude aprofundar meu conhecimento e contribuir para projetos de pesquisa de grande relevância. Nessa maratona acadêmica, passei por 4 instituições federais em 4 estados diferentes, visitei 15 estados para participar de conferências nacionais e aulas de campo e visitei 5 países assistindo a cursos e conferências internacionais graças ás oportunidades geradas pelos programas de pós-graduação, projetos e bolsas que estive envolvidos.
 
 Atuo em diversas linhas de pesquisa relacionadas a Sismologia, com aplicações na indústria e na academia. Toda a minha caminhada estive envolvido à tópicos da Sismologia, no entanto, sempre estive aberto a coloborar com outras áreas. A experiência na Sismologia Marinha mostrou minha habilidade multidisciplinar com outras áreas da Ciências Marinhas. Todo o ensino superior, de alta qualidade, foi-me proporcionado de forma gratuita e através de inúmeros auxílios para estudos na pós-graduação. Se houver a possibilidade, estou pronto para retribuir com a experiência que adquiri em pesquisa, ensino e divulgação científica. Caso tenha a oportunidade, pretendo buscar colaborações com os pesquisadores e pesquisadoras do Observatório Nacional e de outras instituições na região Sudeste, no Brasil e  na América do Sul, inicialmente. Posteriormente, a vontade é de consolidar colaborações com outras regiões do mundo. As áreas de atuação são diversas, como estrutura da Terra, regionalmente e globalmnte, monitoramento sísmico e acústico, tectônica e de instrumentação geofísica. No quesito do ensino, eu tenho a capacidade de ajudar a pós-graduação em diversos tópicos que ligam a Geologia, Geofísica e Sismologia, propondo disciplinas eletivas, cursos de aperfeiçoamento e cursos de curta duração. Além disso, atualmente existe a expansão da utilização de ferramentas remotas para o ensino, aperfeiçoamento e divulgação da Ciência. 
 
