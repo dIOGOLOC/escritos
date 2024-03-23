@@ -77,6 +77,8 @@
 \usepackage{pstricks-add}
 \usepackage{pgf-pie}
 
+\usepackage{wrapfig}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -268,7 +270,7 @@
 
 \begin{titlepage}
   \begin{center}
-    \includegraphics[height=0.5cm]{images/logo_seismo.png}
+    \includegraphics[height=2cm]{images/logo_terra.png}
     \vspace{1cm}
 
     CONCURSO PÚBLICO
@@ -279,7 +281,7 @@
 
     \vspace{5cm}
 
-    \textbf{\LARGE Projeto}
+    \textbf{\LARGE Proposta de projeto de pesquisa}
     \vspace{1cm}
 
     \textbf{\LARGE \MakeUppercase{\Author{}}}
@@ -307,12 +309,11 @@ Ao longo da minha trajetória acadêmica, obtive sucesso ao concluir o bacharela
 \begin{landscape}
 % Conteúdo da página em modo paisagem
 \begin{figure}[tb]
-  \begin{center}
-    \includegraphics[width=\pagewidth]{images/linha_do_tempo.png}
-  \end{center}
-  \caption*{
-    Resumo da minha trajetória acadêmica, desde a entrada na graduação em Geologia na Universidade Federal do Espírito Santo em 2007 até meu terceiro estágio pós-doutoral no Observatório Nacional no ano de 2024.
-    }
+\begin{center}
+\includegraphics[width=\pagewidth]{images/linha_do_projeto.png}
+\end{center}
+\caption*{Resumo cronológico das minhas propostas de projetos a serem desenvolvidos. Borda completa: plena capacidade de desenvolvimento e experiência prática, Borda incompleta: necessidade de aperfeiçoamento de metodologias e experiência prática incompleta, Borda tracejada: falta de arcabouço teórico e prático.}
+\label{fig_tempo_linha}
 \end{figure}
 \end{landscape}
 %==============================================================================
@@ -324,234 +325,89 @@ Ao longo da minha trajetória acadêmica, obtive sucesso ao concluir o bacharela
 %==============================================================================
 \chapter{Apresentação}
 
-\begin{figure}[h]
-  \HeroFigPad
-  \begin{center}
-    \includegraphics[width=\textwidth]{images/inicio.png}
-  \end{center}
-  \caption{
-    Visitando em 2023 o estádio de \href{https://vasco.com.br/sao-januario/}{São Januário}, a colina histórica. Por estar localizada a menos de 1 km do Observatório Nacional, a sede do Vasco da Gama foi um dos principais fatores que me motivaram a entrar no programa de pós-graduação do Observatório Nacional.
-  }
-  \label{fig_riacho}
-\end{figure}
+\begin{minipage}[b]{0.5\linewidth}
+{\faUser} \textbf{Identificação:} Diogo Luiz de Oliveira Coelho\\
+{\faIcon{at}} \textbf{e-mail profissional:}  \href{mailto:\Email}{\Email} \\
+{\faIcon{at}} \textbf{e-mail pessoal:}  \href{mailto:\EmailPersonal}{\EmailPersonal}\\
+\textbf{Links úteis: }  
+\href{https://orcid.org/\ORCID}{\Large \aiOrcid}
+\href{\ResearchGate}{\Large \aiResearchGate}
+\href{https://lattes.cnpq.br/\Lattes}{\Large \aiLattes}
+\href{https://github.com/diogoloc}{\Large \faIcon{github}}
+\end{minipage}
+\begin{minipage}[b]{0.5\linewidth}
+\centering
+\includegraphics[scale=0.1]{images/foto.jpg}
+\end{minipage}
 
-Os textos devem ser apresentados em papel branco, formato A4, impressos somente na frente do papel, na cor preta, podendo utilizar outras cores somente para as ilustrações. 
+\bigskip	
+\bigskip	
+\bigskip	
+\bigskip	
 
-O projeto gráfico é de responsabilidade do autor da pesquisa.
-
-A fonte recomendada para a digitação é tamanho 12 para todo o texto, sendo que as citações com mais de três linhas devem ser digitado com tamanho menor e uniforme, além de ter o recuo de 4cm da margem esquerda.
-
-Todo o texto deve ser digitado com o espaço entrelinhas de 1,5.
-
-Os títulos das subseções devem ser separados do texto que os precede ou os sucede por dois espaços 1,5 (dois ENTER total = 3cm)
-
-Os títulos sem indicativo numérico ( sumário, referencias, apêndices e anexos) devem ser centralizados.
-
-As citações devem ser de acordo com as normas da ABNT, NBR10520, ago. 2002
-
-\bigskip
-
-\begin{summarybox}[frametitle=\faIcon{address-card}{}\quad Informações para contato]
-  \begin{fa-ul}
-    \faIcon{at} & email profissional: \href{mailto:\Email}{\Email} \\
-    \faIcon{at} & email pessoal: \href{mailto:\EmailPersonal}{\EmailPersonal} \\
-    \aiOrcid & ORCID: \href{https://orcid.org/\ORCID}{\ORCID} \\
-    \aiResearchGate & ResearchGate: \href{\ResearchGate}{\ResearchGate} \\
-    \aiLattes & Currículo Lattes: \url{https://lattes.cnpq.br/\Lattes} \\
-    \faIcon{github} & Github: \url{https://github.com/diogoloc}
-  \end{fa-ul}
+\begin{summarybox}[frametitle=\faAward{}\quad Resumo da formação e atuação acadêmica]
+  \begin{datelist}
+    2007--2012 & Bacharelado em Geologia (UFES) \\
+    2013--2015 & Mestrado em Geofísica (ON) \\
+    2015--2019 & Doutorado em Geodinâmica e Geofísica (UFRN) \\
+    2020--2021 & Estágio Pós-doutoral I (UFSC) \\
+    2022--2023 & Estágio Pós-doutoral II  (ON) \\
+    2023--atual & Estágio Pós-doutoral III (ON)
+  \end{datelist}
 \end{summarybox}
 
-O Projeto de Pesquisa deve ser um roteiro para a elaboração de pesquisa em uma determinada área, que possibilita a produção do conhecimento e sua sistematização sobre o tema específico a ser abordando. O tema abordado deve constituir-se no objeto de estudo da pesquisa. A indicação do tema da pesquisa é o primeiro passo da elaboração do projeto.
+\bigskip	
 
-O tema deve ser exposto de forma clara, apenas indicando o objeto a ser estudado. Para realizar o trabalho de investigação científica o pesquisador deverá definir e explicitar o tema ou objeto de análise de forma clara e direta. A delimitação do foco da pesquisa implica em situar o tema espacial (delimitação geográfica) e temporalmente (período proposto para a pesquisa), de acordo com o contexto geral da sua área de trabalho, assim como deve apresentar, já nesse momento, uma indicação do problema que será discutido acerca do tema.
-
-O Projeto de pesquisa deve ser escrito de forma tal que pessoas não especialistas no tema, tais como as equipes das agências financiadoras ou organismos de política de pesquisa possam compreender os argumentos apresentados. Se for necessário utilizar termos muito especializados, estes devem ser definidos. Evitar uma linguagem pesada que dificulte a compreensão das idéias desenvolvidas pelo proponente.
-
-Nesse mesmo sentido, tomar em consideração que o especialista a quem será encaminhado o projeto, deve ler muitos outros projetos. Se a redação é longa, complexa, desordenada, pouco clara, pedante e com erros ortográficos ou gramaticais, o especialista poderá até abandonar a leitura.
-
-- Uma redação sintética, bem feita, é sinal de que o autor tem idéias bem claras e precisas do que pretende fazer. As probabilidades do projeto ser aprovado aumentarão.
+A presente proposta de projeto de pesquisa representa um esforço dedicado à investigação e avanço do conhecimento na sismologia brasileira, principalmente quando se refere à sismologia marinha e estrutura profunda do Brasil. Este projeto busca preencher lacunas identificadas na literatura atual, contribuindo para a compreensão mais ampla e aprofundada dessas áreas tão desafiadoras. Com base na revisão da literatura atual e na identificação de questões ainda não exploradas, esta proposta visa desenvolver uma série de estudos inovadores que possam agregar valor acadêmico e prático à comunidade científica e à sociedade como um todo. A meta desse projeto não é apenas investigar questões teóricas e metodológicas, mas busca contribuir para o progresso acadêmico, científico e social. Com uma abordagem multidisciplinar, o projeto visa não apenas responder a perguntas específicas de pesquisa, mas também promover o diálogo interdisciplinar e a colaboração entre diferentes áreas de conhecimento relacionadas aos diversos temas abordados.
 
 %==============================================================================
 \chapter{Estrutura do Projeto}
-\label{cap_formacao}
+\label{cap_estrutura}
 
 \begin{figure}[h]
-  \HeroFigPad
-  \begin{center}
-    \includegraphics[width=\textwidth]{images/estrutura.png}
-  \end{center}
-  \caption{
-    Visão da estrutura de um telhado (\href{https://cdn.b12.io/client_media/Mb9jai90/84e3b0f8-4fe0-11e9-a928-0242ac110003-jpg-regular_image.jpeg}{Fonte}).
-  }
- \label{fig_formacao}
+	\HeroFigPad
+	\begin{center}
+		\includegraphics[scale=0.52]{images/arpoador.jpg}
+	\end{center}
+	\caption{
+	O pôr do sol no \href{https://pt.wikipedia.org/wiki/Arpoador}{Arpoador} serviu de inspiração para a concepção deste Projeto de Pesquisa, uma vez que representa um espetáculo fenomenal que une o céu, o mar e a terra.
+    }
+ \label{fig_arpoador}
 \end{figure}
 
-\begin{summarybox}[frametitle=\faAward{}\quad Panorama sobre a estrutura do projeto]
+Como o Projeto de pesquisa possui várias frentes de atuação em ambientes distintos, para facilitar a leitura e o acopanhamento dos projetos de pesquisa propostos, estruturei o plano em três capítulos diferentes, cada um associado com um elemento da Figura \ref{fig_arpoador}, Mar (capítulo \ref{cap_mar}), Terra (capítulo \ref{cap_terra}) e Céu (capítulo \ref{cap_ceu}), além de posicionar cronologicamente os ambientes e projetos.
+
+\bigskip
+
+\begin{summarybox}[frametitle=\faStreetView{}\quad Panorama cronológico sobre o Projeto de Pesquisa]
   \begin{datelist}
-    2007--2012 & Bacharelado em Geologia -- Universidade Federal do Espírito Santo \\
-    2013--2015 & Mestrado em Geofísica -- Observatório Nacional \\
-    2015--2019 & Doutorado em Geodinâmica e Geofísica -- Universidade Federal do Rio Grande do Norte
+    2024--2028 & Monitoramento Sísmico e Acústico (MAR) \\
+    2024--2028 & Sismicidade nos oceanos (MAR) \\
+    2025--2030 & Estrutura profunda do Brasil (TERRA) \\
+    2028--2030 & Monitoramento de Barragens (TERRA) \\
+    2034--2040 & Monitoramento Infrassônico (CÉU) 
   \end{datelist}
 \end{summarybox}
 
-Este capítulo relata a minha trajetória acadêmica, da Graduação ao Doutorado, explorando alguns detalhes que foram cruciais na minha carreira e nos ajustes feitos durante o percurso.
+\bigskip
 
-\section{IDENTIFICAÇÃO}
-\label{sec_ufrn}
+Como mostrado no resumo cronológico da minha proposta, existem vários projetos para serem executadas em diferentes períodos, pois ainda existem carências acadêmicas do autor, ou metodológicas ou práticas, a serem sanadas. Um bom exemplo é o caso do monitoramento utilizando equipamentos de infrassom, eu não tenho nenhuma experiência prática com esses dados, por isso linha do tempo ele é o último. Adicionalmente, nota-se um alinhamento lógico com a \href{http://www.finep.gov.br/images/contratos-Adm/2022/dou/Y_S_dias_extrato_contrato.pdf}{expansão para o mar da Rede Sismográfica Brasileira} e os projetos aqui propostos. Pois, além de participar do grupo de execução dessa expansão, eu tenho experiências com esse tipo de banco de dados e tenho plena convicção da necessidades de implementação de novas frentes de trabalho para enfrentar os desafios de dados oriundos do fundo oceânico.
 
-\begin{subsummarybox}[frametitle=\faGraduationCap\quad Bacharelado em Geologia]
+Nem todos os temas de projetos exemplificados aqui nesta proposta estão em fase embrionária. Por exemplo, o projeto que visa estudar as Ilhas Oceânicas, já está sendo executado e já tem resultados promissores, com mostra o trabalho apresentado no 18 Congresso Internacional da Sociedade Brasileira de Geofísica\footnote{Resumo (2023): 18th International Congress of the Brazilian Geophysical Society, Rio de Janeiro, Brazil. \href{https://sbgf.org.br/mysbgf/eventos/expanded_abstracts/18th_CISBGf/57aeee35c98205091e18d1140e9f38cfShort_Abstract_18th_CISBGf_.docx}{Comparison of the shallow and deep structure beneath the Abrolhos Archipelago and the Trindade Island with passive-source seismology}. Eveline Sayao, Diogo Luiz de Oliveira Coelho, Daniele Ingredy Gomes Silva, Carlos Ribeiro, Sergio Luiz Fontes, Thiago Santanna, Elisabeth Lima, Ronaldo Marins}. Outro tema que já está estruturado é o Estruturua profunda do Brasil, onde já formamos um grupo de pesquisa com pesquisadores e alunos de algumas universidade para atualizar metodologias e propor ideias de trabalhos para estudar a estrutura profunda de certas áreas do Brasil com dados da \href{http://rsbr.on.br/}{RSBR}. 
+
+Para facilitar a 
+\bigskip
+
+\begin{subsummarybox}[frametitle=\faBone\quad Constituição de cada projeto]
   \begin{fa-ul}
-    \faFortAwesome & \textbf{Local:} Universidade Federal do Espírito Santo (Alegre-ES)\\
-    \faClock & \textbf{Período:} Agosto 2007 -- Setembro 2012 \\
-    \faUserTie & \textbf{Orientador:} Roberto Sacks de Campos\\
-    \faChalkboardTeacher & \textbf{Tema:} Caracterização Estrutural e Petrológica dos Escarnitos da Região de Itaóca Pedra - ES.
+    \faTag & \textbf{Título:} tema do projeto \\
+    \faPencil* &  \textbf{Justificativa:} qual a relevância da pesquisa \\
+    \faListUl & \textbf{Objetivos:} o que se pretende pesquisar \\
+    \faAtom & \textbf{Metodologia:} descrição sucinta de como a pesquisa poderá ser realizada. \\
+    \faBook & \textbf{Bibliografia:}  1 a 2 referências. \\
+    \faShoePrints & \textbf{Plano de Implementação:} como se pretende realizar a pesquisa
   \end{fa-ul}
 \end{subsummarybox}
-
-IDENTIFICAÇÃO (caso seja necessário)
-
-Área/Linha de Pesquisa:
-
-Grupo de Pesquisa:
-
-Departamento:
-
-Campus Universitário:
-
-Faculdade/Instituto:
-
-Período de Execução:
-
-Titulo: identificados na capa e na folha de rosto
-
-Introdução:
-
-Justificativa:
-
-Objetivo: (Objetivos Gerais, Objetivos Específicos)
-
-Fundamentação ou Referencial Teórico:
-
-Metodologia (Materiais e Métodos, Hipóteses ou Questões Problemas)
-
-Cronograma
-
-Resultados Esperados:
-
-Referencias
-
-Apêndices
-
-Anexos
-
-MODELO DE CAPA: disponível no arquivo em PDF
-
-MODELO DA FOLHA DE ROSTO: Disponível no arquivo em PDF
-
-MODELO DO SUMÁRIO
-
-SUMÁRIO
-(Confira a ordem do conteúdo. A configuração correta está disponível no arquivo em PDF)
-
-
-1 INTRODUÇÃO 
-2 JUSTIFICATIVA 
-3 OBJETIVOS 
-4 FUNDAMENTAÇÃO TEÓRICA 
-5 METODOLOGIA 
-6 CRONOGRAMA 
-7 RESULTADOS
-REFERÊNCIAS
-APÊNDICES 
-ANEXOS
-
-
-\subsection{O que é um projeto de pesquisa}
-\label{sec_geo_basico}
-
-
-O projeto é um documento através do qual se articula e se organiza uma proposta de pesquisa
-e que se elabora, conforme DESLANDES (1996), orientado pelos seguintes aspectos:
-a) Definição de um conjunto de recortes na realidade social.
-b) Cartografia das escolhas para abordar a realidade, ou seja,
-• O que pesquisar;
-• Por que pesquisar;
-• Como pesquisar.
-
-\subsection{Finalidades do projeto}
-\label{sec_geo_especifico}
-
-As finalidades do projeto de pesquisa, na perspectiva proposta por DESLANDES (1996), são as seguintes:
-a) Mapear o caminho a ser seguido durante a investigação; 
-b) Orientar o pesquisador durante o percurso de investigação;
-c) Comunicar os propósitos da pesquisa para a comunidade científica. 
-
-\subsection{Elementos constitutivos do projeto}
-\label{sec_bolsa_hidro}
-
-\begin{summarybox}[frametitle=\faProjectDiagram{}\quad Resumo do projeto]
-  \begin{datelist}
-    \faFile* & Levantamento Hidrogeológico do Estado do Espírito Santo \\
-    \faHammer & Universidade Federal do Espírito Santo e Universidade Federal do Ceará \\
-    \faCalendar*[regular] & 24 meses \\
-    \faMapMarked* & 37 municípios dos Espírito Santo \\
-    \faUserTie & Paulo de Tarso Ferro de Oliveira Fortes \\
-    \faWallet & Petrobras \\
-    \faMoneyBill*[regular] & R\$ 3.447.638,38
-  \end{datelist}
-\end{summarybox}
-
-O projeto é composto por elementos teóricos e metodológicos, conforme se especifica no
-quadro a seguir. 
-
-\begin{itemize}
-	\item Referenciais teóricos
-	\begin{itemize}
-		\item Tema, problema, hipótese, objetivo geral, objetivos específicos, justificativa. 
-	\end{itemize}
-	\item Referenciais metodológicos 
-	\begin{itemize}
-		\item Metodologia: amostragem, formas de coleta, de organização e de análise dos dados.
-	\end{itemize}
-	\item Elementos complementares 
-	\begin{itemize}
-		\item Bibliografia, Equipe, Produtos, Cronograma, Orçamento 
-	\end{itemize}
-\end{itemize}
-
-
-\subsection{Constituição formal do projeto}
-\label{sec_bolsa_petro}
-
-\begin{summarybox}[frametitle=\faInfoCircle{}\quad Resumo do estágio]
-  \begin{datelist}
-    \faFile* & Estágio Supervisionado em Geologia \\
-    \faCalendar*[regular] & 3 meses (Junho a Agosto) \\
-    \faMapMarked* & E\&P-SERV/US-SUB/GM (Geologia Marinha/Macaé-RJ) \\
-    \faUserTie & Marco Aurélio de Campos Merschmann \\
-    \faWallet & Petrobras
-  \end{datelist}
-\end{summarybox}
-
-O projeto final deve conter obrigatoriamente os seguintes itens:
-
-• Introdução
-Apresentação do tema e do problema;
-• Justificativa
-Texto no qual se articulam os argumentos, de forma a demonstrar a relevância do tema.
-• Referencial teórico
-Destina-se a apresentar as leituras e fundamentos teóricos que embasam a proposta da pesquisa
-• Objetivos
- a) Objetivo geral – apresentam-se de forma global os objetivos pretendidos na pesquisa;
- b) Objetivos específicos – corresponde aos desdobramentos do objetivo geral, de forma a traduzir, em suas diferentes especificidades, o que se pretende alcançar.
-• Metodologia
-Descreve-se os caminhos metodológicos previstos e as técnicas a serem utilizadas.
-• Bibliografia
-Referencia-se o material utilizado para o projeto e/ou da pesquisa, de acordo com as Normas da ABNT.
-• Cronograma 
-Destina-se a traduzir as ações a serem realizadas, distribuindo-as no espaço de tempo disponível para
-a realização do projeto. 
 
 
 %==============================================================================
@@ -565,40 +421,11 @@ a realização do projeto.
     \includegraphics[width=\textwidth]{images/inicio.png}
   \end{center}
   \caption{
-    Compilação de resultados obtidos em três linhas de pesquisa distintas. Esquerda: Sismograma e espectrograma do terremoto local de 4.2 de magnitude do dia 25/03/2020 às 11:30:00, registrado na componente vertical de um OBS. Centro: Análise do banco de dados acústicos de glider oceânico do dia 02/08/2019 entre às 05:58:30 e 06:08:30. Direita: Comparação entre dados Sintéticos e Reais para a  espessura da Zona de Transição do Manto abaixo da Bacia do Parnaíba.
+    Compilação de resultados obtidos em três linhas de pesquisa distintas.
   }
 \end{figure}
 
 Neste capítulo, apresento de forma resumida os focos de investigação explorados no desenvolvimento da minha carreira acadêmica. Esta trajetória é marcada pela evolução dos interesses de pesquisa e pela busca contínua por desafios e conhecimento. Inicialmente, fui influenciado por temas intrinsecamente ligados à Geologia, especialmente Geomorfologia e Tectônica. Tal escolha foi guiada não apenas devido a minha formação na área, mas também pela minha fascinação por processos geológicos que moldam a superfície do nosso planeta, assim como a atuação da dinâmica das placas litosféricas e movimentos mantélicos ao longo do tempo geológico. No entanto, ao longo do doutorado, a introdução da programação como uma ferramenta complementar expandiu o meu leque de atuação. Esse novo caminho permitiu um aprendizado mais prático dos métodos e da modelagem computacional, enriquecendo ainda mais minha atuação científica. No estágio pós-doutoral, optei por uma abordagem mais flexível em relação aos temas de pesquisa, incorporando o monitoramento sísmico e hidroacústico. Aproveitando as oportunidades disponíveis, efetuei mudanças significativas de direcionamento, refletidas na expansão das linhas de pesquisa nas quais estou atualmente engajado. 
-
-\section{Estruturação da Crosta e do Manto Superior}
-
-\begin{summarybox}[frametitle=\faProjectDiagram{}\quad Panorama da linha de pesquisa]
-	\begin{datelist}
-		\faFile* & \textbf{Número de projetos:} 4 \\
-		\faBinoculars & \textbf{Equipamentos:} Sismômetros banda larga e período curto \\
-		\faCalendar*[regular] & \textbf{Período:} 2013 - atual \\
-		\faMapMarked* & \textbf{Regiões:} Faixa Ribeira, Bacia do Parnaíba, ilhas oceânicas e bacias costeiras. \\
-	\end{datelist}
-\end{summarybox}
-
-\bigskip
-
-Esta linha de pesquisa busca revelar a estruturação profunda da Terra através de uma gama de metodologias, dentre as quais temos: \href{https://doi.org/10.1029/JB084iB09p04749}{Função do Receptor}, \href{https://doi.org/10.1111/j.1365-246X.1990.tb04573.x}{Dispersão de Ondas de Superfície}, \href{https://doi.org/10.1046/j.1365-246x.2000.00217.x}{Inversão Conjunta}, \href{https://doi.org/10.1016/j.epsl.2013.08.025}{Migração das Funções do Receptor} e \href{https://doi.org/10.1111/j.1365-246X.2007.03374.x}{Tomografia de Ruído Sísmico}. Esta linha de pesquisa está intimamente ligada à minha trajetória acadêmica, uma vez que minha formação prévia em Geologia, combinada com os resultados obtidos pelos métodos sismológicos, contribuem para uma visão abrangente da composição e dinâmica da subsuperfície terrestre. A caracterização da estrutura profunda das bacias cratônicas, faixas móveis e cratons permitem a identificação de padrões de sedimentação, processos geodinâmicos associados e processos de formação de montanhas, falhas e outros elementos estruturais. Além disso, a investigação da estrutura do manto superior, principalmente da zona de transição, fornece informações cruciais sobre a composição, temperatura e movimentos do manto superior, contribuindo para o entendimento dos processos de convecção e circulação mantélica que impulsionam a dinâmica global do planeta.  
-
-\begin{fancyenum}{\faFutbol}{Objetivos}
-	\item Imagear as principais descontinuidades crustais e mantélicas;
-	\item Caracterizar a estrutura crustal profunda das principais provincias geológicas do Brasil;
-	\item Investigar a composição, temperatura e fluxos do manto superior;
-	\item Desenvolver rotinas computacionais mais eficientes para estimar as profundidade e espessuras das camadas em subsuperfície.
-\end{fancyenum}
-
-\begin{fancyenum}{\faCogs}{Principais contribuições}
-	\item Estimativas da espessura das principais camadas abaixo de bacias intracratônicas;
-	\item Contribuições no entendimento dos processos profundos atuantes em bacias sedimentares intracratônicas no Brasil;
-	\item Rotina computacional para o cálculo das Funções do Receptor de onda P inteiramente em python;
-	\item Programa eficiente para realizar a migração pré-empilhamento das Funções do Receptor de onda P.
-\end{fancyenum}
 
 \section{Instrumentação e Controle de Qualidade de dados na Sismologia}
 \label{sec_inst_qc}
@@ -628,9 +455,75 @@ Esta linha de pesquisa concentra-se na instalação e otimização da instrument
   \item Contribuições para a padronização de práticas instalação de estações sismográficas em diversos contextos geológicos diferentes.
 \end{fancyenum}
 
-\section{Monitoramento Sísmico e Hidroacústico}
-\label{sec_monitor_sis}
+\chapter{Mar}
+\label{cap_mar}
 
+\section{Monitoramento Sísmico e Hidroacústico}
+
+
+\begin{summarybox}[frametitle=\faProjectDiagram{}\quad Panorama da linha de pesquisa]
+	\begin{datelist}
+		\faFile* & \textbf{Número de projetos:} 3 \\
+		\faBinoculars & \textbf{Equipamentos:} Sismômetros de fundo oceânico, sismógrafos flutuantes e planadores subaquáticos \\
+		\faCalendar*[regular] & \textbf{Período:} 2020 - atual \\
+		\faMapMarked* & \textbf{Regiões:} Bacia de Campos, Bancia de Santos e ilhas oceânicas. \\
+	\end{datelist}
+\end{summarybox}
+
+\bigskip
+
+Essa linha de pesquisa abrange métodos de monitoramento sismológico terrestre e marinho, visando compreender os eventos sísmicos e acústicos em diversas escalas temporais e espaciais. Isso inclui a detecção e análise de terremotos, atividade vulcânica, movimentos submarinos e até mesmo fenômenos relacionados à ação humana. Esse novo capítulo na minha jornada acadêmica reflete não apenas a evolução dos meus interesses de pesquisa, mas também o compromisso contínuo com a inovação e a busca por desafios científicos que contribuam para o avanço do conhecimento sismológico para a sociedade como um todo.
+
+\begin{fancyenum}{\faFutbol}{Objetivos}
+  \item Aplicação de métodos avançados eficientes de monitoramento sísmico e hidroacústico;
+  \item Investigar a relação entre atividades sísmicas e fenômenos geodinâmicos;
+  \item Classificação de eventos sísmicos em todo território nacional, principalmente em ambiente submarino.
+\end{fancyenum}
+
+\begin{fancyenum}{\faCogs}{Principais contribuições}
+  \item Desenvolvimento de algoritmos para identificação de eventos sísmicos e acústicos, naturais e antrópicos;
+  \item Implementação de um sistema de monitoramento sísmico/hidroacústico em ambiente submarino;
+  \item Contribuições para a compreensão dos efeitos de atividades humanas nos padrões sísmicos e acústicos da margem Sudeste do Brasil.
+\end{fancyenum}
+
+% ==============================================================================
+\chapter{Terra}
+\label{cap_terra}
+
+\section{Estruturação da Crosta e do Manto Superior}
+
+\begin{summarybox}[frametitle=\faProjectDiagram{}\quad Panorama da linha de pesquisa]
+	\begin{datelist}
+		\faFile* & \textbf{Número de projetos:} 4 \\
+		\faBinoculars & \textbf{Equipamentos:} Sismômetros banda larga e período curto \\
+		\faCalendar*[regular] & \textbf{Período:} 2013 - atual \\
+		\faMapMarked* & \textbf{Regiões:} Faixa Ribeira, Bacia do Parnaíba, ilhas oceânicas e bacias costeiras. \\
+	\end{datelist}
+\end{summarybox}
+
+\bigskip
+
+Esta linha de pesquisa busca revelar a estruturação profunda da Terra através de uma gama de metodologias, dentre as quais temos: \href{https://doi.org/10.1029/JB084iB09p04749}{Função do Receptor}, \href{https://doi.org/10.1111/j.1365-246X.1990.tb04573.x}{Dispersão de Ondas de Superfície}, \href{https://doi.org/10.1046/j.1365-246x.2000.00217.x}{Inversão Conjunta}, \href{https://doi.org/10.1016/j.epsl.2013.08.025}{Migração das Funções do Receptor} e \href{https://doi.org/10.1111/j.1365-246X.2007.03374.x}{Tomografia de Ruído Sísmico}. Esta linha de pesquisa está intimamente ligada à minha trajetória acadêmica, uma vez que minha formação prévia em Geologia, combinada com os resultados obtidos pelos métodos sismológicos, contribuem para uma visão abrangente da composição e dinâmica da subsuperfície terrestre. A caracterização da estrutura profunda das bacias cratônicas, faixas móveis e cratons permitem a identificação de padrões de sedimentação, processos geodinâmicos associados e processos de formação de montanhas, falhas e outros elementos estruturais. Além disso, a investigação da estrutura do manto superior, principalmente da zona de transição, fornece informações cruciais sobre a composição, temperatura e movimentos do manto superior, contribuindo para o entendimento dos processos de convecção e circulação mantélica que impulsionam a dinâmica global do planeta.  
+
+\begin{fancyenum}{\faFutbol}{Objetivos}
+	\item Imagear as principais descontinuidades crustais e mantélicas;
+	\item Caracterizar a estrutura crustal profunda das principais provincias geológicas do Brasil;
+	\item Investigar a composição, temperatura e fluxos do manto superior;
+	\item Desenvolver rotinas computacionais mais eficientes para estimar as profundidade e espessuras das camadas em subsuperfície.
+\end{fancyenum}
+
+\begin{fancyenum}{\faCogs}{Principais contribuições}
+	\item Estimativas da espessura das principais camadas abaixo de bacias intracratônicas;
+	\item Contribuições no entendimento dos processos profundos atuantes em bacias sedimentares intracratônicas no Brasil;
+	\item Rotina computacional para o cálculo das Funções do Receptor de onda P inteiramente em python;
+	\item Programa eficiente para realizar a migração pré-empilhamento das Funções do Receptor de onda P.
+\end{fancyenum}
+% ==============================================================================
+
+\chapter{Céu}
+\label{cap_ceu}
+
+\section{Monitoramento Infrassônico}
 \begin{summarybox}[frametitle=\faProjectDiagram{}\quad Panorama da linha de pesquisa]
 	\begin{datelist}
 		\faFile* & \textbf{Número de projetos:} 3 \\
