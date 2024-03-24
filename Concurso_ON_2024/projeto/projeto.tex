@@ -426,14 +426,14 @@ Para facilitar o acompanhamento das várias propostas de projetos de pesquisa, c
 
 \bigskip
 
-\begin{subsummarybox}[frametitle=\faBone\quad Constituição de cada projeto]
+\begin{subsummarybox}[frametitle=\faBullhorn\quad Constituição de cada projeto]
   \begin{fa-ul}
     \faTag & \textbf{Título:} Tema do projeto \\
+    \faBook & \textbf{Bibliografia básica:} Referências de trabalhos fundamentais \\
     \faPencil* &  \textbf{Justificativa:} Relevância da pesquisa \\
+	\faDatabase & \textbf{Banco de Dados:} Referência do banco de dados utilizado \\
     \faFutbol & \textbf{Objetivos:} Tópicos o que se pretende pesquisar \\
-    \faBook & \textbf{Bibliografia:} Referências de trabalhos fundamentais \\
     \faBrain & \textbf{Plano de Implementação:} Etapas de como realizar a pesquisa  \\
-	%\faAtom & \textbf{Metodologia:} Descrição sucinta de como a pesquisa será realizada \\
     \faShoppingCart & \textbf{Produtos:} Lista com os principais resultados do projeto
   \end{fa-ul}
 \end{subsummarybox}
@@ -458,53 +458,153 @@ Neste capítulo, apresento de forma resumida os projetos que serão realizados p
 
 \section{Tema: Monitoramento Sísmico e Hidroacústico}
 
-Como demonstrado no memorial, eu tenho experiência no processamento de banco de dados sísmicos e acústicos orindos de equipamentos oceânicos, como: sismômetros de fundo oceânico (OBS), sismógrafos flutuantes (MERMAID) e planadores oceânicos. Após a análise desses banco de dados, sugere-se um projeto que tenha foco em metodologias de redução/supressão de ruído nos dados.
+Como demonstrado no memorial, eu tenho experiência no processamento de banco de dados sísmicos e acústicos orindos de equipamentos oceânicos, como: sismômetros de fundo oceânico (\href{https://en.wikipedia.org/wiki/Ocean-bottom_seismometer}{OBS}), sismógrafos flutuantes (\href{https://www.geoazur.fr/GLOBALSEIS/Mermaid.html}{MERMAID}) e planadores oceânicos (\href{https://oceanservice.noaa.gov/facts/ocean-gliders.html}{GLIDER}). Após a análise desses banco de dados, sugere-se um projeto que tenha foco em metodologias de redução/supressão de ruído nos dados.
 
-\subsection{Redução de ruído em dados sísmicos e acústicos}
+\subsection{Projeto: Redução de ruído em dados sísmicos e acústicos}
 
-\begin{projectbox}[frametitle=\faProjectDiagram{}\quad Panorama do Projeto de pesquisa: Redução de ruído]
-	\begin{datelist}
-		\faTag & \textbf{Título:} Tema do projeto \\
-		\faBook & \textbf{Bibliografia:}  Jiang et al.(2024) \& Zali et al.(2023)\\
-	\end{datelist}
-\end{projectbox}
+A proposta de redução de ruído se faz necessária devido ao alto nível de ruído basal encontrado globalmente em dados de equipamentos localizados em áreas oceânicas (Bayrakci \& Klingelhoefer, 2024). Devido alta sensibilidade de Sismômetros de Fundo Oceânico (OBS), o nível de ruído nesses dados é bem elevado devido a várias condicionantes (e.g. correntes de fundo oceânico, baixo acoplamento entre o sensor e o assoalho oceânico, operações submarinas próximas, etc). Existem metodologias recentes, como o trabalho de Zali et al. (2023), para a redução de ruído nos dados de OBS através de algoritmos de processamento de áudio, onde os resultados encontrados são bem satisfatórios. Para dados acústicos, temos o trabalho de Shen et al. (2024) que mostra observações de ondas T de terremotos distantes e regionais e um esquema de supressão de ruído por Curvelet para aprimorar os sinais de ondas T. No entanto, nossa ideia não é utilizar somente a transformada Curvelet, e sim utilizar a combinação das transformadas de Wavelet e Curvelet para lidar com as fraquezas individuais de cada método e suprimir ruído dos dados, como mostra Bal et al.(2019) a remoção de ruído nas imagens de Tomografia por Emissão de Pósitrons (PET).
 
-\bigskip
+\begin{fancyenum}{\faDatabase}{Banco de Dados}
+	\item Sismômetros de Fundo Oceânico: \href{https://sismo-oceano.ufsc.br/}{Bacia de Campos e Santos} (\faLock);
+	\item Planadores Submarinos: \href{https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-da-paisagem-acustica-submarina-pmpas-}{Bacia de Santos} (\faLock);
+	\item Hidrofones acoplados em linhas de fundeio: \href{https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-da-paisagem-acustica-submarina-pmpas-}{Bacia de Santos} (\faLock);
+	\item Sismógrafos flutuantes: \href{https://www.geoazur.fr/GLOBALSEIS/Data.html}{Ilha de Galápagos} (\faUnlock).
+	\item Hidrofones do \href{https://www.ctbto.org/our-work/international-monitoring-system}{Sistema de Monitoramento Internacional}: \href{https://ds.iris.edu/gmap/\#network=IM\&planet=earth}{Incorporated Research Institution for Seismology} (\faUnlock);
 
-A proposta de redução de ruído se faz necessária devido ao alto nível de ruído basal encontrado globalmente em dados de Sismômetros de Fundo Oceânico (OBS), além disso, deve-se adicionar o ruído devido ao acoplamento entre o sensor e o assoalho oceânico. Existem metodologias recentes, como o trabalho de Zali et al. (2023)\footnote{Zali, Z., Rein, T., Krüger, F., Ohrnberger, M., and Scherbaum, F. 2023. Ocean bottom seismometer (OBS) noise reduction from horizontal and vertical components using harmonic–percussive separation algorithms, Solid Earth, 14, 181–195, https://doi.org/10.5194/se-14-181-2023.}, para a redução de ruído nos dados de OBS através de algoritmos de processamento de áudio, onde os resultados encontrados são bem satisfatórios. Para dados acústicos, temos o trabalho de Jiang et al. (2024)\footnote{Jiang,Y., Zhang, X., Mo, Y., Huang, Y. 2024. Research on Noise Reduction Method of Underwater Acoustic Signal Based on CEEMDAN Decomposition-Improved Wavelet Threshold. Journal of Physics: Conference Series, 2718(1), 012078.}, onde propõe o uso do algoritmo de decomposição CEEMDAN (Complete Ensemble Empirical Mode Decomposition with Adaptive Noise) combinado com um algoritmo de limiar de wavelet aprimorado para processar o sinal e obter o sinal reconstruído após a remoção de ruído.
+\end{fancyenum}
 
 \begin{fancyenum}{\faFutbol}{Objetivos}
-  \item Aplicação de métodos avançados para remoção de ruído em dados sísmicos;
-  \item Aplicação de métodos avançados para remoção de ruído em dados hidroacústicos;
-  \item Investigar a relação entre atividades sísmicas e fenômenos geodinâmicos;
-  \item Classificação de eventos sísmicos em todo território nacional, principalmente em ambiente submarino.
+	\item Aplicar métodos de processamento de áudio para remoção de ruído em dados sísmicos;
+	\item Aplicar métodos de processamento de imagem para remoção de ruído em dados acústicos;
+	\item Combinar as transformadas de Wavelet e Curvelet para aprimorar os sinais das \href{https://insu.hal.science/insu-00915042/document}{ondas T} nos dados acústicos.
 \end{fancyenum}
 
 \begin{fancyenum}{\faBrain}{Plano de Implementação}
-  \item Desenvolvimento de algoritmos para identificação de eventos sísmicos e acústicos, naturais e antrópicos;
-  \item Implementação de um sistema de monitoramento sísmico/hidroacústico em ambiente submarino;
-  \item Contribuições para a compreensão dos efeitos de atividades humanas nos padrões sísmicos e acústicos da margem Sudeste do Brasil.
+	\item Compilação dos dados acústicos e sísmicos disponíveis;
+	\item Compilação de pacotes eficientes em python para o desenvolvimento dos algoritmos computacionais;
+	\item Testes com sintéticos utilizando \href{https://pyrocko.org/docs/current/apps/fomosto/tutorial.html}{FOMOSTO} e \href{https://ds.iris.edu/ds/products/syngine/}{SYNGINE}, ferramentas que fornecem acesso a sismogramas de acordo com funções de Green e modelos de Terra pré-calculados;
+	\item Testes em dados reais;
+	\item Elaboração de documentação do pacote computacional e dos algoritmos desenvolvidos.
 \end{fancyenum}
 
 \begin{fancyenum}{\faShoppingCart}{Produtos}
-  \item Desenvolvimento de algoritmos para identificação de eventos sísmicos e acústicos, naturais e antrópicos;
-  \item Implementação de um sistema de monitoramento sísmico/hidroacústico em ambiente submarino;
-  \item Contribuições para a compreensão dos efeitos de atividades humanas nos padrões sísmicos e acústicos da margem Sudeste do Brasil.
+	\item Desenvolvimento de algoritmos computacionais para a remoção de ruídos em dados sísmicos e acústicos;
+	\item Implementação de pacote computacional em python para compilar os algoritmos criados.
 \end{fancyenum}
 
-\subsection{Redução de ruído em dados sísmicos e acústicos}
+\begin{fancyenum}{\faBook}{Bibliografia básica}
+	\item Bal, A., Banerjee, M., Sharma, P. et al. 2019. An efficient wavelet and curvelet-based PET image denoising technique. Med Biol Eng Comput 57, 2567–2598. https://doi.org/10.1007/s11517-019-02014-w;
+	\item Bayrakci, G. and Klingelhoefer, F. 2024. eds. Noisy Oceans. Geophysical Monograph Series. Wiley, 28 February 2024. https://doi.org/10.1002/9781119750925;
+	\item Shen, Z., \& Wu, W. 2024. Ocean bottom distributed acoustic sensing for oceanic seismicity detection and seismic ocean thermometry. Journal of Geophysical Research: Solid Earth, 129,e2023JB027799. https://doi.org/10.1029/
+2023JB027799;
+	\item Zali, Z., Rein, T., Krüger, F., Ohrnberger, M., and Scherbaum, F. 2023. Ocean bottom seismometer (OBS) noise reduction from horizontal and vertical components using harmonic–percussive separation algorithms, Solid Earth, 14, 181–195, https://doi.org/10.5194/se-14-181-2023.
+\end{fancyenum}
 
-\bigskip
+\subsection{Projeto: Localização de eventos sísmicos utilizando reflexões hidroacústicas}
 
-\begin{projectbox}[frametitle=\faProjectDiagram{}\quad Panorama do Projeto de pesquisa: Redução de ruído]
-	\begin{datelist}
-		\faTag & \textbf{Título:} Tema do projeto \\
-		\faBook & \textbf{Bibliografia:}  Jiang et al.(2024) \& Zali et al.(2023)\\
-	\end{datelist}
-\end{projectbox}
+Eventos de grande amplitude, como explosões e terremotos, produzem sinais hidroacústicos de grande amplitude que têm sido estudados desde a Segunda Guerra Mundial. Upton et al. (2006) mostra que quando o som viaja na coluna d'água e encontra uma mudança na impedância, como um monte submarino, uma ilha ou uma plataforma continental, parte da energia pode ser dispersada ou refletida. Como relata Hanson \& Bowman (2006), é notável a eficiência da propagação hidroacústica nos oceanos. As reflexões hidroacústicas oriundas de grandes alvos batimétricos podem ser usadas para restringir as localizações de eventos quando a cobertura da estação não é ideal. Dados hidroacústicos históricos e contemporâneos de muitas explosões subaquáticas e terremotos sub-marinhos mostram grandes reflexões chegando aos receptores dezenas de minutos ou horas após a chegada direta (Upton et al., 2006). Devido a isso, o objetivo deste estudo é investigar a possibilidade de melhorar/localizar eventos hidroacústicos locais registrados por hidrofones instalados na costa sudeste do Brasil. 
 
-\bigskip
+\begin{fancyenum}{\faDatabase}{Banco de Dados}
+	\item Hidrofones acoplados em OBS: \href{https://sismo-oceano.ufsc.br/}{Bacia de Campos e Santos} (\faLock);
+	\item Hidrofones acoplados em linhas de fundeio: \href{https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-da-paisagem-acustica-submarina-pmpas-}{Bacia de Santos} (\faLock);
+	\item Planadores Submarinos: \href{https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-da-paisagem-acustica-submarina-pmpas-}{Bacia de Santos} (\faLock).
+	\item Hidrofones do \href{https://www.ctbto.org/our-work/international-monitoring-system}{Sistema de Monitoramento Internacional}: \href{https://ds.iris.edu/gmap/\#network=IM\&planet=earth}{Incorporated Research Institution for Seismology} (\faUnlock);
+\end{fancyenum}
 
+\begin{fancyenum}{\faFutbol}{Objetivos}
+	\item Identificar as reflexões hidroacústicas de grandes eventos sísmicos locais;
+	\item Identificar as principais feições batimétricas que podem ser potencias fontes de reflexões hidroacústicas;
+	\item Avaliar a viabilidade do uso de reflexões hidroacústicas para localizar eventos sísmicos locais;
+	\item Estender o potencial de cobertura de detecção e localização da Rede Sismográfica Brasileira.
+\end{fancyenum}
+
+\begin{fancyenum}{\faBrain}{Plano de Implementação}
+	\item Idenficação de potenciais sinais refletidos em sismogramas;
+	\item Associação destes eventos com as feiçõess batimétricas proeminentes que podem atuar como superfícies refletoras;
+	\item O tempo de viagem entre o refletor e o sensor é previsto usando um modelo de velocidade do som oceânico dependente da estação;
+	\item As chegadas diretas e refletidas são então usadas como entrada para o algoritmo de localização padrão, conforme descrito acima.
+\end{fancyenum}
+
+\begin{fancyenum}{\faShoppingCart}{Produtos}
+	\item Melhoramento da determinação da localização de grandes terremotos locais, utilizando as fases sísmicas e acústicas;
+	\item Pacote computacional eficiente em python para localizar os eventos.
+\end{fancyenum}
+
+\begin{fancyenum}{\faBook}{Bibliografia básica}
+	\item Hanson, J. A. and Bowman, J.R.  2006. Methods for monitoring hydroacoustic events using direct and reflected T waves in the Indian Ocean, J. Geophys. Res., 111, B02305, doi:10.1029/2004JB003609.
+	\item Upton, Z.M., Pulli, J.J., Myhre, B., Blau, D. 2006. A reflected energy prediction model for long-range hydroacoustic reflection in the oceans. J Acoust Soc Am. 2006 Jan;119(1):153-60. doi: 10.1121/1.2141234.
+\end{fancyenum}
+
+\subsection{Projeto: Instalação de estação hidroacústica de baixo custo - tríade de hidrofones}
+
+O \href{https://www.ctbto.org/our-work/international-monitoring-system}{Sistema de Monitoramento Internacional} da \href{https://funag.gov.br/biblioteca/download/934-Tratado_de_Proibicao_Completa_dos_Testes_Nucleares_CTBT.pdf}{Organização do Tratado de Proibição Completa de Testes Nucleares} e Gibbons (2022) descrevem um bom exemplo de estação hidroacústica para o monitoramento de eventos sísmicos submarinos. O \href{https://www.ctbto.org/our-work/monitoring-technologies/hydroacoustic-monitoring}{array de hidrofones} consiste de uma ou duas redes triangulares de hidrofones submersos diretamente no canal \href{https://pt.wikipedia.org/wiki/Canal_SOFAR}{SOFAR}. Esse tipo de estação é chamado de estação de fase-T, referente a onda Terciária (T), em uma convenção de nomenclatura consistente com as ondas sísmicas primárias (P) e secundárias (S). A justificativa para o implantação desse tipo de estação é o custo, pois para implantar e manter esse tipo de estação é bem menor que o custo de um sismômetro de fundo oceânico. Essa tríade de hidrofones podem medir a velocidade de fase, direção e coerência das fases acústicas, e ajudam a determinar a localização da fonte sísmica. Devido à natureza coerente da propagação de ondas sonoras no oceano e à permanência de um canal bem definido de velocidade do som oceânico (SOFAR), as tríades de hidrofones proporcionam uma melhoria significativa no limiar de detecção e na precisão da localização de eventos sísmicos, podendo detectar eventos sísmicas a distâncias de até dezesseis mil quilômetros (Prior et al., 2011). Os sinais recebidos do mesmo evento nos três hidrofones são correlacionados para fornecer tempos de atraso entre as chegadas do evento para determinar o azimute no qual o sinal chegou (Gibbons, 2022).
+
+\begin{fancyenum}{\faDatabase}{Banco de Dados}
+	\item Dados para teste no \href{https://www.ctbto.org/our-work/international-monitoring-system}{Sistema de Monitoramento Internacional}: \href{https://ds.iris.edu/gmap/\#network=IM\&planet=earth}{Incorporated Research Institution for Seismology} (\faUnlock);
+\end{fancyenum}
+
+\begin{fancyenum}{\faFutbol}{Objetivos}
+	\item Identificar os pontos ideais de instalação da estação hidroacústica para otimizar a composição da Rede Sismográfica Brasileira no Mar;
+	\item Avaliar a viabilidade de equipamentos e infraestrutura de baixo custo na implantação da estação;
+	\item Avaliar a viabilidade de utilizar o mesmo equipamento para estudos multidisciplinares relacionados à ciências do mar;
+	\item Estender o potencial de cobertura de detecção e localização de eventos pela Rede Sismográfica Brasileira no mar.
+\end{fancyenum}
+
+
+\begin{fancyenum}{\faBrain}{Plano de Implementação}
+	\item Coletar e analisar os dados de outras estações para buscar a melhor configuração de equipamentos e local de instalação;
+	\item Identificar fontes de financiamento adequadas para o projeto, com a possibilidade de inserção em projeto interdisciplinares;
+	\item Definir a área de cobertura desejada e os tipos de eventos a serem detectados;
+	\item Identificar potenciais locais de instalação e levar em conta fatores como profundidade da lâmica d'água, fontes de ruído e segurança das instalações (e.g. rotas de navios) pois estes interferem no custo do projeto;
+	\item Adquirir os hidrofones e equipamentos de baixo custo operacional.
+\end{fancyenum}
+
+\begin{fancyenum}{\faShoppingCart}{Produtos}
+	\item Melhoramento da cobertura azimutal da Rede Sismográfica Brasileira no mar;
+	\item Melhorar a detecção e localização de grandes terremotos locais na Costa Brasileira.
+\end{fancyenum}
+
+\begin{fancyenum}{\faBook}{Bibliografia básica}
+	\item Prior, M. K., Meless, O., Bittner,P. and H. Sugioka, H. 2011. Long-Range Detection and Location of Shallow Underwater Explosions Using Deep-Sound-Channel Hydrophones. IEEE Journal of Oceanic Engineering, vol. 36, no. 4, pp. 703-715, doi: 10.1109/JOE.2011.2154390.
+	\item Gibbons, S.J. 2022. The Hydroacoustic Network of the CTBT International Monitoring System: Access and Exploitation, Journal for Peace and Nuclear Disarmament, 5:2, 452-468, DOI: 10.1080/25751654.2022.2129948.
+\end{fancyenum}
+
+
+\section{Tema: Ilhas Oceânicas}
+
+\subsection{Projeto: Estrutura rasa e profunda abaixo de Ilhas oceânicas (Abrolhos, Trindade e Tristão da Cunha)}
+
+The Earth's surface is dynamic, the result of several moving lithospheric plates overlying a plastically flowing asthenosphere, where these plates can pull apart, collide, or slide one another along faults. Tectonic processes generate several geological features, like mountains, volcanoes, sedimentary basins, lakes, and faults, among others. However, an island or archipelago is a geologically anomalous feature found at ocean basins; and one of the biggest challenges to understand its origin is the mismatch between its orientation/shape and the regional fracture zones trends. Understanding the shallow and deep Earth architecture beneath these emergent land features is a key point for improving our comprehension about ongoing and past geological processes in these areas. Lithospheric-scale processes, such as the origin and evolution of islands, leave behind a trail of footprints on the subsurface that can be retrieved by geophysical methods. Our study area is located at the Brazilian continental margin, which includes several volcanic islands and submerged volcanic seamounts related to post-breakup magmatic episodes. The Abrolhos Archipelago is a group of small islands with a semi-circular shape composed of igneous bodies on the continental shelf at different depth. The Trindade Island corresponds to the easternmost island of the submarine E-W Vitória-Trindade Chain, composed of seamounts, guyots and oceanic islands starting 175 km off the coast of Espírito Santo State and extending for 950 km eastward. The main goal of our study is to compare the shallow and deep structure beneath these emergent land areas and highlight seismic discontinuities, in order to improve our understanding of its architecture and help constrain models for its origin and evolution. Due to the technical difficulties to maintain a permanent station far away from the continent, each island has only one seismic broadband station working, thus we implement robust methodologies for single station measurements, including stochastic methods and deep learning. The dataset has been collected from two permanent broadband stations of the Brazilian Seismographic Network (RSBR) installed at the islands. Regarding the shallow structure, we calculated the Fundamental Frequency (f0) using the horizontal-to-vertical spectral ratio (HVSR) technique, which is normally used to retrieve information about the subsoil seismic properties. In the case of deep structure constraints, the receiver function technique (RF) is one of the most successful methodologies in broadband seismology for imaging of the crust and mantle. We expect to infer details about the architecture of the crust and mantle beneath the islands and contribute towards a better understanding of the role of magmatic processes and the thermal and mechanical properties of the lithosphere
+
+\begin{fancyenum}{\faDatabase}{Banco de Dados}
+	\item Dados para teste no \href{https://www.ctbto.org/our-work/international-monitoring-system}{Sistema de Monitoramento Internacional}: \href{https://ds.iris.edu/gmap/\#network=IM\&planet=earth}{Incorporated Research Institution for Seismology} (\faUnlock);
+\end{fancyenum}
+
+\begin{fancyenum}{\faFutbol}{Objetivos}
+	\item Identificar os pontos ideais de instalação da estação hidroacústica para otimizar a composição da Rede Sismográfica Brasileira no Mar;
+	\item Avaliar a viabilidade de equipamentos e infraestrutura de baixo custo na implantação da estação;
+	\item Avaliar a viabilidade de utilizar o mesmo equipamento para estudos multidisciplinares relacionados à ciências do mar;
+	\item Estender o potencial de cobertura de detecção e localização de eventos pela Rede Sismográfica Brasileira no mar.
+\end{fancyenum}
+
+
+\begin{fancyenum}{\faBrain}{Plano de Implementação}
+	\item Coletar e analisar os dados de outras estações para buscar a melhor configuração de equipamentos e local de instalação;
+	\item Identificar fontes de financiamento adequadas para o projeto, com a possibilidade de inserção em projeto interdisciplinares;
+	\item Definir a área de cobertura desejada e os tipos de eventos a serem detectados;
+	\item Identificar potenciais locais de instalação e levar em conta fatores como profundidade da lâmica d'água, fontes de ruído e segurança das instalações (e.g. rotas de navios) pois estes interferem no custo do projeto;
+	\item Adquirir os hidrofones e equipamentos de baixo custo operacional.
+\end{fancyenum}
+
+\begin{fancyenum}{\faShoppingCart}{Produtos}
+	\item Melhoramento da cobertura azimutal da Rede Sismográfica Brasileira no mar;
+	\item Melhorar a detecção e localização de grandes terremotos locais na Costa Brasileira.
+\end{fancyenum}
+
+\begin{fancyenum}{\faBook}{Bibliografia básica}
+	\item Prior, M. K., Meless, O., Bittner,P. and H. Sugioka, H. 2011. Long-Range Detection and Location of Shallow Underwater Explosions Using Deep-Sound-Channel Hydrophones. IEEE Journal of Oceanic Engineering, vol. 36, no. 4, pp. 703-715, doi: 10.1109/JOE.2011.2154390.
+	\item Gibbons, S.J. 2022. The Hydroacoustic Network of the CTBT International Monitoring System: Access and Exploitation, Journal for Peace and Nuclear Disarmament, 5:2, 452-468, DOI: 10.1080/25751654.2022.2129948.
+\end{fancyenum}
 
 % ==============================================================================
 \chapter{Terra}
@@ -571,78 +671,37 @@ Observar ondas sonoras propagadas pelo ar é uma área crucial em diversos campo
 
 \section{Tema: Monitoramento Infrassônico}
 
-Os sistemas de monitoramento infrassônico representam uma contribuição significativa para a compreensão e detecção de fenômenos sonoros de baixa frequência, dentre os quais temos: Explosões volcânicas, colisão de meteoros, tempestades troposféricas, ondas de gravidade atmosféricas, terremotos, deslocamentos de massa e atividades antrópicas (explosões controladas, testes de armas e atividades de mineração).
+\subsection{Projeto: Instalação de estação de infrassom de baixo custo no Rio de Janeiro}
 
-\bigskip
+O \href{https://www.ctbto.org/our-work/international-monitoring-system}{Sistema de Monitoramento Internacional} da \href{https://funag.gov.br/biblioteca/download/934-Tratado_de_Proibicao_Completa_dos_Testes_Nucleares_CTBT.pdf}{Organização do Tratado de Proibição Completa de Testes Nucleares} e Gibbons (2022) descrevem um bom exemplo de estação hidroacústica para o monitoramento de eventos sísmicos submarinos. O \href{https://www.ctbto.org/our-work/monitoring-technologies/hydroacoustic-monitoring}{array de hidrofones} consiste de uma ou duas redes triangulares de hidrofones submersos diretamente no canal \href{https://pt.wikipedia.org/wiki/Canal_SOFAR}{SOFAR}. Esse tipo de estação é chamado de estação de fase-T, referente a onda Terciária (T), em uma convenção de nomenclatura consistente com as ondas sísmicas primárias (P) e secundárias (S). A justificativa para o implantação desse tipo de estação é o custo, pois para implantar e manter esse tipo de estação é bem menor que o custo de um sismômetro de fundo oceânico. Essa tríade de hidrofones podem medir a velocidade de fase, direção e coerência das fases acústicas, e ajudam a determinar a localização da fonte sísmica. Devido à natureza coerente da propagação de ondas sonoras no oceano e à permanência de um canal bem definido de velocidade do som oceânico (SOFAR), as tríades de hidrofones proporcionam uma melhoria significativa no limiar de detecção e na precisão da localização de eventos sísmicos, podendo detectar eventos sísmicas a distâncias de até dezesseis mil quilômetros (Prior et al., 2011). Os sinais recebidos do mesmo evento nos três hidrofones são correlacionados para fornecer tempos de atraso entre as chegadas do evento para determinar o azimute no qual o sinal chegou (Gibbons, 2022).
 
-\begin{summarybox}[frametitle=\faProjectDiagram{}\quad Panorama do Projeto de Pesquisa]
-	\begin{datelist}
-		\faFile* & \textbf{Título:} 3 \\
-		\faBinoculars & \textbf{Equipamentos:} Sismômetros de fundo oceânico, sismógrafos flutuantes e planadores subaquáticos \\
-		\faCalendar*[regular] & \textbf{Período:} 2020 - atual \\
-		\faMapMarked* & \textbf{Regiões:} Bacia de Campos, Bancia de Santos e ilhas oceânicas. \\
-	\end{datelist}
-\end{summarybox}
-
-\bigskip
-
-Essa linha de pesquisa abrange métodos de monitoramento sismológico terrestre e marinho, visando compreender os eventos sísmicos e acústicos em diversas escalas temporais e espaciais. Isso inclui a detecção e análise de terremotos, atividade vulcânica, movimentos submarinos e até mesmo fenômenos relacionados à ação humana. Esse novo capítulo na minha jornada acadêmica reflete não apenas a evolução dos meus interesses de pesquisa, mas também o compromisso contínuo com a inovação e a busca por desafios científicos que contribuam para o avanço do conhecimento sismológico para a sociedade como um todo.
+\begin{fancyenum}{\faDatabase}{Banco de Dados}
+	\item Dados para teste no \href{https://www.ctbto.org/our-work/international-monitoring-system}{Sistema de Monitoramento Internacional}: \href{https://ds.iris.edu/gmap/\#network=IM\&planet=earth}{Incorporated Research Institution for Seismology} (\faUnlock);
+\end{fancyenum}
 
 \begin{fancyenum}{\faFutbol}{Objetivos}
-  \item Aplicação de métodos avançados eficientes de monitoramento sísmico e hidroacústico;
-  \item Investigar a relação entre atividades sísmicas e fenômenos geodinâmicos;
-  \item Classificação de eventos sísmicos em todo território nacional, principalmente em ambiente submarino.
+	\item Identificar os pontos ideais de instalação da estação hidroacústica para otimizar a composição da Rede Sismográfica Brasileira no Mar;
+	\item Avaliar a viabilidade de equipamentos e infraestrutura de baixo custo na implantação da estação;
+	\item Avaliar a viabilidade de utilizar o mesmo equipamento para estudos multidisciplinares relacionados à ciências do mar;
+	\item Estender o potencial de cobertura de detecção e localização de eventos pela Rede Sismográfica Brasileira no mar.
 \end{fancyenum}
 
-\begin{fancyenum}{\faCogs}{Principais contribuições}
-  \item Desenvolvimento de algoritmos para identificação de eventos sísmicos e acústicos, naturais e antrópicos;
-  \item Implementação de um sistema de monitoramento sísmico/hidroacústico em ambiente submarino;
-  \item Contribuições para a compreensão dos efeitos de atividades humanas nos padrões sísmicos e acústicos da margem Sudeste do Brasil.
+
+\begin{fancyenum}{\faBrain}{Plano de Implementação}
+	\item M;
+	\item Associação destes eventos com as feiçõess batimétricas proeminentes que podem atuar como superfícies refletoras;
+	\item O tempo de viagem entre o refletor e o sensor é previsto usando um modelo de velocidade do som oceânico dependente da estação;
+	\item As chegadas diretas e refletidas são então usadas como entrada para o algoritmo de localização padrão, conforme descrito acima.
 \end{fancyenum}
 
-% ==============================================================================
-
-\chapter{Linhas de Pesquisa}
-\label{cap_pesquisa}
-
-\begin{figure}[h]
-  \HeroFigPad
-  \begin{center}
-    \includegraphics[width=\textwidth]{images/inicio.png}
-  \end{center}
-  \caption{
-    Compilação de resultados obtidos em três linhas de pesquisa distintas.
-  }
-\end{figure}
-
-Neste capítulo, apresento de forma resumida os focos de investigação explorados no desenvolvimento da minha carreira acadêmica. Esta trajetória é marcada pela evolução dos interesses de pesquisa e pela busca contínua por desafios e conhecimento. Inicialmente, fui influenciado por temas intrinsecamente ligados à Geologia, especialmente Geomorfologia e Tectônica. Tal escolha foi guiada não apenas devido a minha formação na área, mas também pela minha fascinação por processos geológicos que moldam a superfície do nosso planeta, assim como a atuação da dinâmica das placas litosféricas e movimentos mantélicos ao longo do tempo geológico. No entanto, ao longo do doutorado, a introdução da programação como uma ferramenta complementar expandiu o meu leque de atuação. Esse novo caminho permitiu um aprendizado mais prático dos métodos e da modelagem computacional, enriquecendo ainda mais minha atuação científica. No estágio pós-doutoral, optei por uma abordagem mais flexível em relação aos temas de pesquisa, incorporando o monitoramento sísmico e hidroacústico. Aproveitando as oportunidades disponíveis, efetuei mudanças significativas de direcionamento, refletidas na expansão das linhas de pesquisa nas quais estou atualmente engajado. 
-
-\section{Instrumentação e Controle de Qualidade de dados na Sismologia}
-\label{sec_inst_qc}
-
-\begin{summarybox}[frametitle=\faProjectDiagram{}\quad Panorama da linha de pesquisa]
-	\begin{datelist}
-		\faFile* & \textbf{Número de projetos:} 4 \\
-		\faBinoculars & \textbf{Equipamentos:} Sismômetros banda barga, sismômetros de fundo oceânico, sismógrafos flutuantes e planadores subaquáticos \\
-		\faCalendar*[regular] & \textbf{Período:} 2017 - atual \\
-		\faMapMarked* & \textbf{Regiões:} Atividades e testes em laboratório \\
-	\end{datelist}
-\end{summarybox}
-
-\bigskip
-
-Esta linha de pesquisa concentra-se na instalação e otimização da instrumentação para coleta de dados, bem como em métodos para garantir a qualidade e integridade dos dados coletados. A estrutura e instrumentação adequada para cada contexto e o controle de qualidade são fundamentais para garantir a precisão e confiabilidade dos resultados, sendo essenciais para a interpretação dos processos geodinâmicos. Ao desenvolver e implementar novas metodologias de instalação e controle de qualidade, podemos melhorar significativamente nossa capacidade de detectar e interpretar eventos sísmicos, naturais ou antrópicos, contribuindo assim para uma compreensão mais profunda dos processos geodinâmicos. Bons exemplos de metodologias utilizadas nessa linha de pesquisa são orientadas pelo \href{https://services.iris.edu/mustang/}{MUSTANG}, um utilitário estatístico que utiliza métricas de qualidade de dados sísmicos e funções de densidade de probabilidade para analisar os dados sísmológicos do \href{https://www.earthscope.org/}{EarthScope} (consórcio dedicado a apoiar pesquisa e educação geofísica global transformadora). É nesse utilitário que eu me baseiei para confeccionar os programas para a análise de qualidade dos dados, como o \href{https://zooxantelapy.readthedocs.io/}{Zooxantelapy} e o \href{https://github.com/dIOGOLOC/codes_escritos/tree/master/LabSis_controle_de_qualidade}{LabSis: Controle de qualidade}.
-
-\begin{fancyenum}{\faFutbol}{Objetivos}
-  \item Desenvolver uma infraestrutura eficiente para a aquisição de dados sísmicos de alta qualidade;
-  \item Estabelecer procedimentos de controle de qualidade robustos para garantir a integridade dos dados coletados;
-  \item Fornecer recursos e ferramentas para análise e validação de dados sísmicos, principalmente para o banco de dados da Rede Sismográfica Brasileira.
+\begin{fancyenum}{\faShoppingCart}{Produtos}
+	\item Melhoramento da cobertura azimutal da Rede Sismográfica Brasileira no mar;
+	\item Melhorar a detecção e localização de grandes terremotos locais na Costa Brasileira.
 \end{fancyenum}
 
-\begin{fancyenum}{\faCogs}{Principais contribuições}
-  \item Desenvolvimento de programas otimizados para o controle de qualidade completo do banco de dados;
-  \item Implementação de sistemas automáticos de controle de qualidade de dados em redes de monitoramento sísmico;
-  \item Contribuições para a padronização de práticas instalação de estações sismográficas em diversos contextos geológicos diferentes.
+\begin{fancyenum}{\faBook}{Bibliografia básica}
+	\item Prior, M. K., Meless, O., Bittner,P. and H. Sugioka, H. 2011. Long-Range Detection and Location of Shallow Underwater Explosions Using Deep-Sound-Channel Hydrophones. IEEE Journal of Oceanic Engineering, vol. 36, no. 4, pp. 703-715, doi: 10.1109/JOE.2011.2154390.
+	\item Gibbons, S.J. 2022. The Hydroacoustic Network of the CTBT International Monitoring System: Access and Exploitation, Journal for Peace and Nuclear Disarmament, 5:2, 452-468, DOI: 10.1080/25751654.2022.2129948.
 \end{fancyenum}
 
 %==============================================================================
