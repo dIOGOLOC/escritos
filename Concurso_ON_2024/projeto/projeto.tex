@@ -705,6 +705,45 @@ v. 3, p. 718, Sep 2010. Disponível em: <https://doi.org/10.1038/ngeo969>.
 	\item Vinnik, L.P. (2019) Receiver function seismology. Physics of the Solid Earth, 2019, Vol. 55, No. 1, pp. 12–21, ISSN 1069-3513, doi: 10.31857/S0002-33372019116-27.
 \end{fancyenum}
 
+
+\section{Tema: Monitoramento de barragens}
+
+\subsection{Projeto: Aperfeiçoamento da disponibilidade de dados de estações sismográficas próximas a barragens}
+
+A compreensão da ocorrência de terremotos em áreas intraplacas é uma tarefa desafiadora, pois apenas 5\% da energia sísmica liberada está associada a terremotos intraplaca e, em muitos casos, a sismicidade em regiões não está relacionada a qualquer falha superficial (Fonsêca et al., 2021). No Brasil, eventos sísmicos são relativamente raros, porém, estamos em uma área de moderada sismicidade. O catálogo de terremotos do Brasil é um esforço colaborativo entre varias instituições, como as universidades de São Paulo, Brasília, Federal do Rio Grande do Norte, Estadual de São Paulo e o Instituto de Pesquisas Tecnológicas em São Paulo-SP (Bianchi et al., 2018). Este catálogo é imporante para a engenharia sísmica, pois ajuda a modelar a localização e os intervalos médios de recorrência de potenciais terremotos. Tendo em mente os diversos desastres ambientais oriundos de rompimento de barragens, principalmente as de rejeito, a norma brasileira \href{https://pdfcoffee.com/download/nbr-13028-pdf-free.html}{NBR 13028:2017} mostra a necessidade de avaliação do potencial de sísmico na área do empreendimento. Com isso, cada empreendimento deverá avaliar o potencial de sismicidade na área de implantação da barragem, com base em bibliografia, incluindo normas existentes e registros. Além disso, recomenda-se, para as etapas iniciais da avaliação, a utilização do critério sugerido pela \href{https://www.knightpiesold.com/sites/en/assets/File/CDA\%202016\%20-\%20Seismic\%20and\%20Structural\%20Stability\%20Analysis\%20for\%20Increased\%20Ground\%20Motions\%20at\%20the\%20Corra\%20Linn\%20Dam.pdf}{Canadian Dam Association (CDA)}, que indica a adoção da aceleração da
+gravidade resultante do Sismo Máximo Provável (MCE – Maximum Credible Earthquake) para análise pseudoestáticas. Devido a isso, uma demanda do setor privado nos dados do \href{https://moho.iag.usp.br/eq/bulletin/}{Catálogo Sísmico Brasileiro}, no entanto, existe um dificuldade no processamento e interpretação desses dados. Este trabalho se propõe a explicitar a metodologia básica do processamento de dados de estaçãos sísmográfica próximas à barragens, fornecendo dados com um nível de pré-processamento, não somente dados brutos, como é feito atualmente. A proposta é disponibilizar não somente as formas de ondas, mas também pequenos informes eletrônicos automáticos, tendo como exemplo o \href{https://www.cismid.uni.edu.pe/wp-content/uploads/2024/03/CISMID_20240328_110115_AGUAYTIA.pdf}{informe} do sismo de Aguaytia, Padre Abad(Ucayali) de 28 de março de 2024 pelo Centro de Observação para la Ingeneria Sísmica (CEIOS). Seguindo a metodologia de Almeida et al. (2019), a minha proposta é fornecer informações básicas sobre a sismicidade brasileira no site da \href{www.rsbr.on.br}{Rede Sismográfica Brasileira}, além metodologias e rotinas computacionais automáticas para a manipulação básica do catálogo sísmico, envolvendo homogeneização de magnitudes e declustering (processo para separar os eventos sísmicos registrados em um catálogo de eventos sísmicos em grupos distintos, eliminando os eventos secundários que podem ser réplicas de terremotos principais). Todo esse processamento é fundamental para uma análise precisa da atividade sísmica e para identificar os terremotos principais. Além de disponibilizar os dados em aceleração, para ser mais fácil a medida da aceleração máxima do solo (\href{https://en.wikipedia.org/wiki/Peak_ground_acceleration}{PGA - Peak Ground Acceleration}), que é um dos parâmetros essenciais na avaliação do risco sísmico de uma área específica, pois fornece informações sobre a intensidade do movimento do solo durante um evento sísmico.
+
+\begin{fancyenum}{\faDatabase}{Banco de Dados}
+	\item Dados na \href{http://rsbr.on.br/}{Rede Sismográfica Brasileira} (\faUnlock).
+\end{fancyenum}
+
+\begin{fancyenum}{\faFutbol}{Objetivos}
+	\item Disponibilizar informações essenciais sobre a sismicidade do Brasil por meio do site da Rede Sismográfica Brasileira, incluindo dados sobre eventos sísmicos registrados, características geológicas e padrões de atividade sísmica.;
+	\item Elaborar e disponibilizar metodologias e rotinas computacionais automáticas para o processamento básico do catálogo sísmico, incluindo a homogeneização de magnitudes e a declusterização dos eventos sísmicos;
+	\item Aprimorar a acessibilidade aos dados sísmicos por meio da disponibilização de informações processadas e pré-processadas;
+	\item Disponibilizar dados em aceleração para facilitar a medida da PGA (aceleração máxima do terreno).
+\end{fancyenum}
+
+\begin{fancyenum}{\faBrain}{Plano de Implementação}
+	\item Coletar e organizar dados, incluindo registros de eventos sísmicos, magnitudes, localizações e outras informações pertinentes;
+	\item Desenvolver e aprimorar metodologias e rotinas computacionais automáticas para o processamento básico do catálogo sísmico;
+	\item Integrar as informações processadas e os produtos desenvolvidos ao site da Rede Sismográfica Brasileira;
+	\item Realizar atividades de divulgação e capacitação para promover o uso eficaz dos recursos disponibilizados.
+\end{fancyenum}
+
+\begin{fancyenum}{\faShoppingCart}{Produtos}
+	\item Informações Básicas sobre a Sismicidade Brasileira;
+	\item Rotinas computacionais automáticas para o processamento básico do catálogo sísmico;	
+	\item Disponibilização de dados pré-processados e produtos processados, incluindo homogeneização de magnitudes, declusterização de eventos sísmicos e informações em aceleração para facilitar a avaliação do risco sísmico;
+	\item Desenvolvimento de material de divulgação e capacitação para promover o uso eficaz dos recursos disponibilizados.
+\end{fancyenum}
+
+\begin{fancyenum}{\faBook}{Bibliografia básica}
+	\item Almeida, A.A.D.; Assumpção, M.; Bommer, J.J.; Drouet, S.; Riccomini, C.; Prates, C.L. (2019) Probabilistic seismic hazard analysis for anuclear power plant site in southeast Brazil. J. Seismol., 23, 1–23;
+	\item Bianchi, M. B. de, Assumpção, M. de S., Rocha, M. P., Carvalho, J. M., Azevedo, P. A., Fontes, S. L., et al. (2018). The Brazilian Seismographic Network (RSBR): Improving Seismic Monitoring in Brazil. Seismological Research Letters, 89( 2A ), 452-457. doi:10.1785/0220170227;
+	\item Fonsêca, J. A. S., Ferreira, J. M., do Nascimento, A. F., Bezerra, F. H. R., Lima Neto, H. C., \& de Menezes, E. A. S. (2021). Intraplate earthquakes in the Potiguar Basin, Brazil: Evidence for superposition of local and regional stresses and implications for moderate-size earthquake occurrence. Journal of South American Earth Sciences, 110, 103370. doi:10.1016/j.jsames.2021.103370. 
+\end{fancyenum}
+
 % ==============================================================================
 
 \chapter{Céu}
@@ -727,22 +766,19 @@ Observar ondas sonoras propagadas pelo ar é uma área crucial em diversos campo
 
 \subsection{Projeto: Instalação de estação de infrassom de baixo custo no Rio de Janeiro}
 
-O \href{https://www.ctbto.org/our-work/international-monitoring-system}{Sistema de Monitoramento Internacional} da \href{https://funag.gov.br/biblioteca/download/934-Tratado_de_Proibicao_Completa_dos_Testes_Nucleares_CTBT.pdf}{Organização do Tratado de Proibição Completa de Testes Nucleares} e Gibbons (2022) descrevem um bom exemplo de estação hidroacústica para o monitoramento de eventos sísmicos submarinos. O \href{https://www.ctbto.org/our-work/monitoring-technologies/hydroacoustic-monitoring}{array de hidrofones} consiste de uma ou duas redes triangulares de hidrofones submersos diretamente no canal \href{https://pt.wikipedia.org/wiki/Canal_SOFAR}{SOFAR}. Esse tipo de estação é chamado de estação de fase-T, referente a onda Terciária (T), em uma convenção de nomenclatura consistente com as ondas sísmicas primárias (P) e secundárias (S). A justificativa para o implantação desse tipo de estação é o custo, pois para implantar e manter esse tipo de estação é bem menor que o custo de um sismômetro de fundo oceânico. Essa tríade de hidrofones podem medir a velocidade de fase, direção e coerência das fases acústicas, e ajudam a determinar a localização da fonte sísmica. Devido à natureza coerente da propagação de ondas sonoras no oceano e à permanência de um canal bem definido de velocidade do som oceânico (SOFAR), as tríades de hidrofones proporcionam uma melhoria significativa no limiar de detecção e na precisão da localização de eventos sísmicos, podendo detectar eventos sísmicas a distâncias de até dezesseis mil quilômetros (Prior et al., 2011). Os sinais recebidos do mesmo evento nos três hidrofones são correlacionados para fornecer tempos de atraso entre as chegadas do evento para determinar o azimute no qual o sinal chegou (Gibbons, 2022).
+Uma variedade de fontes naturais e antropogênicas produzem ondas acústicas de muito baixa frequência (0,033 e 20 Hz), e devido a isso, pouca atenuação. Portanto, podem ser recebidas a centenas ou milhares de quilômetros de distância. Essas ondas acústicas de infrassom são detectados por sensores e redes de microbarômetros terrestres e originárias de fontes naturais e antrópicas (Grimmett et al., 2019). Fontes naturais de infrassom incluem terremotos, meteoros, vulcões, tsunamis, auroras e ondulações oceânicas; e as fontes antropogênicas são explosões nucleares atmosféricas e subterrâneas. O infrassom é uma tecnologia relativamente nova, quando comparada com estações sísmográficas e hidroacústicas, portanto a comunidade científica da área ainda bastante reduzida. No Rio de Janeiro, o \href{https://www.ctbto.org/our-work/international-monitoring-system}{Sistema de Monitoramento Internacional} da \href{https://funag.gov.br/biblioteca/download/934-Tratado_de_Proibicao_Completa_dos_Testes_Nucleares_CTBT.pdf}{Organização do Tratado de Proibição Completa de Testes Nucleares} possui uma estação que detecta e identifica partículas radioativas e gases nobres radioativos liberados na atmosfera provenientes de explosões nucleares no \href{https://www.gov.br/ird/pt-br/assuntos/noticias/noticias-2021/ird-sedia-estacao-de-monitoramento-global-capaz-de-detectar-materiais-radioativos-liberados-na-atmosfera}{Instituto de Radioproteção e Dosimetria}. A ideia deste projeto é inicialmente analisar e processar dados de infrassom, para a familiarização com esse tipo de dados. Posteriormente, este projeto visa a instalação de uma estação de baixo custo (\href{https://shop.raspberryshake.org/product/turnkey-iot-atmospheric-infrasound-monitor-rsboom/?attribute_pa_variation=indoor\&attribute_pa_license=private-use-125-discount}{$< 1000$ USD}), onde a unidade integra um geofone vertical e sensores de pressão omnidirecionais, juntamente com um digitalizador e um computador Raspberry Pi 3 em uma única caixa com dimensões de 135x110x70 mm. A principal motivação deste projeto é aumentar o número de cientistas utilizando estações de infrassom. O trabalho de Lamb et al. (2021) mostra que é possível utilizar esses sensores de baixo custo para recuperar sinais de infrassom com qualidade. Esses sensores de baixo custo são utilizados em vários trabalhos ao redor do globo, tendo utilizações na indústria e na academia, como podemos ver no \href{https://stationview.raspberryshake.org/}{mapa interativo} com as estações. 
 
 \begin{fancyenum}{\faDatabase}{Banco de Dados}
-	\item Dados para teste no \href{https://www.ctbto.org/our-work/international-monitoring-system}{Sistema de Monitoramento Internacional}: \href{https://ds.iris.edu/gmap/\#network=IM\&planet=earth}{Incorporated Research Institution for Seismology} (\faUnlock);
+	\item Dados de infrassom para teste no \href{https://www.ctbto.org/our-work/international-monitoring-system}{Sistema de Monitoramento Internacional}: \href{https://ds.iris.edu/gmap/\#network=IM\&planet=earth}{Incorporated Research Institution for Seismology} (\faUnlock);
 \end{fancyenum}
 
 \begin{fancyenum}{\faFutbol}{Objetivos}
-	\item Identificar os pontos ideais de instalação da estação hidroacústica para otimizar a composição da Rede Sismográfica Brasileira no Mar;
-	\item Avaliar a viabilidade de equipamentos e infraestrutura de baixo custo na implantação da estação;
-	\item Avaliar a viabilidade de utilizar o mesmo equipamento para estudos multidisciplinares relacionados à ciências do mar;
-	\item Estender o potencial de cobertura de detecção e localização de eventos pela Rede Sismográfica Brasileira no mar.
+	\item Analisar e caracterizar as atividades naturais, como terremotos e erupções vulcânicas, e atividades artificiais, como explosões nucleares e industriais, por meio da detecção de infrassons em dados de teste.
+	\item Avaliar a possibilidade de instalação de uma estação de baixo custo no Rio de Janeiro;
+	\item Realizar estudos sobre a Sismologia Urbana integrando dados de sensores de infrassom com estações sísmográficas.
 \end{fancyenum}
 
-
 \begin{fancyenum}{\faBrain}{Plano de Implementação}
-	\item M;
 	\item Associação destes eventos com as feiçõess batimétricas proeminentes que podem atuar como superfícies refletoras;
 	\item O tempo de viagem entre o refletor e o sensor é previsto usando um modelo de velocidade do som oceânico dependente da estação;
 	\item As chegadas diretas e refletidas são então usadas como entrada para o algoritmo de localização padrão, conforme descrito acima.
@@ -754,8 +790,8 @@ O \href{https://www.ctbto.org/our-work/international-monitoring-system}{Sistema 
 \end{fancyenum}
 
 \begin{fancyenum}{\faBook}{Bibliografia básica}
-	\item Prior, M. K., Meless, O., Bittner,P. and H. Sugioka, H. 2011. Long-Range Detection and Location of Shallow Underwater Explosions Using Deep-Sound-Channel Hydrophones. IEEE Journal of Oceanic Engineering, vol. 36, no. 4, pp. 703-715, doi: 10.1109/JOE.2011.2154390.
-	\item Gibbons, S.J. 2022. The Hydroacoustic Network of the CTBT International Monitoring System: Access and Exploitation, Journal for Peace and Nuclear Disarmament, 5:2, 452-468, DOI: 10.1080/25751654.2022.2129948.
+	\item Grimmett, D., Plate, R., Goad, J. (2019). Measuring Infrasound from the Maritime Environment. In: Le Pichon, A., Blanc, E., Hauchecorne, A. (eds) Infrasound Monitoring for Atmospheric Studies. Springer, Cham. https://doi.org/10.1007/978-3-319-75140-5;
+	\item Lamb, O. D., Shore, M. J., Lees, J. M., Lee, S. J., \& Hensman, S. M. (2021). Assessing Raspberry Shake and Boom Sensors for Recording African Elephant Acoustic Vocalizations. Frontiers in Conservation Science, 1. doi:10.3389/fcosc.2020.630967.
 \end{fancyenum}
 
 %==============================================================================
